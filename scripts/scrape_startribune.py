@@ -38,6 +38,15 @@ TRAILING_BOILERPLATE_RE = re.compile(
     r"Extra Space Storage may refuse).*",
     re.IGNORECASE | re.DOTALL,
 )
+# The site's /mn/storage/ URL space is shared with Pets listings (same path
+# prefix, different category). A pet ad's page shows its category breadcrumb
+# as "Category ... Pets ... Pets" (main category, sub-category, both "Pets").
+# NOTE: checking for "Legal Notices" anywhere on the page does NOT work to
+# detect real notices — that text also appears in the site's global nav menu
+# on every page regardless of category, so it's always present. This
+# pattern targets the specific repeated-category breadcrumb instead, which
+# only appears on an actual Pets-category page.
+PET_CATEGORY_RE = re.compile(r"Pets\s*\n\s*Pets")
 
 
 def normalize_address(addr: str) -> str:
@@ -153,12 +162,13 @@ def main():
             text = re.sub(r"\n{2,}", "\n", text)
 
             # The /mn/storage/ URL space is shared with Pet listings on
-            # this site (same path prefix, different category) — real
-            # legal notices show "Category ... Legal Notices ... Storage"
-            # in their page text; pet ads show "Category ... Pets ... Pets".
-            # Skip anything that isn't actually a legal notice.
-            if "Legal Notices" not in text:
-                print(f"  {url}: skipped (not a Legal Notice — likely a Pets listing)", file=sys.stderr)
+            # this site (same path prefix, different category). Checking
+            # for "Legal Notices" text doesn't work here — that text is
+            # also in the site's global nav menu on every page — so this
+            # targets the specific repeated "Pets ... Pets" category
+            # breadcrumb that only appears on an actual pet listing.
+            if PET_CATEGORY_RE.search(text):
+                print(f"  {url}: skipped (Pets listing, not a Legal Notice)", file=sys.stderr)
                 continue
 
             records = parse_notice_text(text, source_url=url)
