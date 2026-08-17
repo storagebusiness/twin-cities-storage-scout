@@ -117,13 +117,27 @@ def main():
     # DEBUG: print what we actually got back, so a zero-notices run tells
     # us why instead of just "0 found". Remove once this is reliably working.
     print(f"DEBUG: response length = {len(resp.text)} chars", file=sys.stderr)
-    print(f"DEBUG: first 500 chars:\n{resp.text[:500]}", file=sys.stderr)
-    print(f"DEBUG: contains 'classifieds.startribune.com/mn/storage/'? "
-          f"{'classifieds.startribune.com/mn/storage/' in resp.text}", file=sys.stderr)
+    raw_count = resp.text.count("/mn/storage/")
+    print(f"DEBUG: raw count of '/mn/storage/' substring = {raw_count}", file=sys.stderr)
+    idx = resp.text.find("/mn/storage/")
+    if idx != -1:
+        print(f"DEBUG: context around first occurrence:\n"
+              f"...{resp.text[max(0,idx-80):idx+120]}...", file=sys.stderr)
 
-    urls = sorted(set(re.findall(
-        r'href="(https://classifieds\.startribune\.com/mn/storage/[^"]+)"', resp.text,
-    )))
+    # Broadened to catch relative hrefs (href="/mn/storage/...") in addition
+    # to absolute ones, and either quote style — the original pattern only
+    # matched a full https:// URL in double quotes, which turned out to be
+    # too strict for the site's actual markup.
+    urls = set()
+    for m in re.finditer(r'href=[\'"](/mn/storage/[^\'"]+|https://classifieds\.startribune\.com/mn/storage/[^\'"]+)[\'"]', resp.text):
+        path = m.group(1)
+        if path.rstrip('/').endswith('/search'):
+            continue  # skip the category index page linking to itself
+        if path.startswith('/'):
+            path = 'https://classifieds.startribune.com' + path
+        urls.add(path)
+    urls = sorted(urls)
+    print(f"DEBUG: sample matched urls: {urls[:3]}", file=sys.stderr)
     print(f"Found {len(urls)} storage notices", file=sys.stderr)
 
     all_records = []
