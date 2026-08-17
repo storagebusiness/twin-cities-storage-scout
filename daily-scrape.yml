@@ -1,0 +1,34 @@
+name: Daily Star Tribune scrape
+
+on:
+  schedule:
+    # 13:00 UTC = 7-8am Central depending on DST. Runs once a day.
+    - cron: '0 13 * * *'
+  workflow_dispatch: {}  # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write  # needed to commit the updated data file back to the repo
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Scrape Star Tribune legal notices
+        run: python3 scripts/scrape_startribune.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "storage-scout-bot"
+          git config user.email "actions@github.com"
+          git add data/names.json
+          git diff --staged --quiet || git commit -m "Daily name data update $(date -u +%Y-%m-%d)"
+          git push
