@@ -142,11 +142,25 @@ def main():
 
     all_records = []
     for url in urls:
+        # Skip pagination/query-string links to the search page itself —
+        # these aren't individual notices.
+        if 'search?' in url:
+            continue
         try:
             r = session.get(url, timeout=20)
             r.raise_for_status()
             text = re.sub(r"<[^>]+>", "\n", r.text)
             text = re.sub(r"\n{2,}", "\n", text)
+
+            # The /mn/storage/ URL space is shared with Pet listings on
+            # this site (same path prefix, different category) — real
+            # legal notices show "Category ... Legal Notices ... Storage"
+            # in their page text; pet ads show "Category ... Pets ... Pets".
+            # Skip anything that isn't actually a legal notice.
+            if "Legal Notices" not in text:
+                print(f"  {url}: skipped (not a Legal Notice — likely a Pets listing)", file=sys.stderr)
+                continue
+
             records = parse_notice_text(text, source_url=url)
             all_records.extend(records)
             print(f"  {url}: {len(records)} records", file=sys.stderr)
