@@ -32,4 +32,5 @@ jobs:
           git add data/names.json
           git diff --staged --quiet || git commit -m "Daily name data update $(date -u +%Y-%m-%d)"
           git pull --rebase origin main
+          git pull --rebase origin main
           git push
