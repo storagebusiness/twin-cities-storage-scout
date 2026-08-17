@@ -101,10 +101,26 @@ def parse_notice_text(text: str, source_url: str = "") -> list[dict]:
 
 def main():
     session = requests.Session()
-    session.headers.update({"User-Agent": "TwinCitiesStorageScout/1.0 (personal use)"})
+    session.headers.update({
+        # A realistic browser UA — some sites serve a leaner page to
+        # non-browser clients even without a hard bot-detection block.
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                       "AppleWebKit/605.1.15 (KHTML, like Gecko) "
+                       "Version/17.0 Safari/605.1.15",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+    })
 
     resp = session.get(CATEGORY_URL, timeout=20)
     resp.raise_for_status()
+
+    # DEBUG: print what we actually got back, so a zero-notices run tells
+    # us why instead of just "0 found". Remove once this is reliably working.
+    print(f"DEBUG: response length = {len(resp.text)} chars", file=sys.stderr)
+    print(f"DEBUG: first 500 chars:\n{resp.text[:500]}", file=sys.stderr)
+    print(f"DEBUG: contains 'classifieds.startribune.com/mn/storage/'? "
+          f"{'classifieds.startribune.com/mn/storage/' in resp.text}", file=sys.stderr)
+
     urls = sorted(set(re.findall(
         r'href="(https://classifieds\.startribune\.com/mn/storage/[^"]+)"', resp.text,
     )))
