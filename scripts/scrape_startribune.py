@@ -158,7 +158,17 @@ def main():
         try:
             r = session.get(url, timeout=20)
             r.raise_for_status()
-            text = re.sub(r"<[^>]+>", "\n", r.text)
+
+            # Strip <script> and <style> blocks ENTIRELY (tag + contents)
+            # before stripping other tags. Otherwise tracking/analytics JS
+            # (e.g. window.dataLayer.push({...'mediaCompany': 'Minnesota
+            # Star Tribune'...})) survives as plain text and gets mistaken
+            # by NAME_CONTENTS_RE for a real "Name, contents" pair — this
+            # is exactly what produced the bogus "Minnesota Star Tribune'"
+            # entries seen in earlier runs.
+            page_source = re.sub(r"<script[\s\S]*?</script>", "", r.text, flags=re.IGNORECASE)
+            page_source = re.sub(r"<style[\s\S]*?</style>", "", page_source, flags=re.IGNORECASE)
+            text = re.sub(r"<[^>]+>", "\n", page_source)
             text = re.sub(r"\n{2,}", "\n", text)
 
             # The /mn/storage/ URL space is shared with Pet listings on
