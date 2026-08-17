@@ -590,21 +590,5 @@
     "facility_address_normalized": "unknown",
     "auction_date": "August 15, 2026",
     "source_url": "https://classifieds.startribune.com/mn/storage/poodle-beautiful-puppies-standard-price-reduced-again/e5264299b8b0495383b4cbbe6468"
-  },
-  {
-    "renter_name": "Minnesota Star Tribune'",
-    "contents_text": "'propertyType': 'Marketplace'\t\t\t\t\t  \n \t\t\t\t}\t\t\n\t\t\t})",
-    "facility_address_raw": "UNKNOWN",
-    "facility_address_normalized": "unknown",
-    "auction_date": "",
-    "source_url": "https://classifieds.startribune.com/mn/storage/search?limit="
-  },
-  {
-    "renter_name": "Obituary Listing'",
-    "contents_text": "'adId': '',\n\t\t\t\t\t 'classifiedCategory': 'Storage'\n \t\t\t\t}\t\t\n\t\t\t})",
-    "facility_address_raw": "UNKNOWN",
-    "facility_address_normalized": "unknown",
-    "auction_date": "",
-    "source_url": "https://classifieds.startribune.com/mn/storage/search?limit="
   }
 ]
