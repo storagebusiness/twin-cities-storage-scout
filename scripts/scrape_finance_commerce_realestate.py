@@ -44,6 +44,8 @@ MAX_PAGES = 10
 
 STREET_SUFFIXES = r"(?:Ave|St|Dr|Blvd|Ln|Rd|Way|Ct|Cir|Pl|Trail|Trl|Pkwy|Terrace|Ter)"
 DIRECTIONS = r"(?:N|S|E|W|NE|NW|SE|SW)"
+DIRECTION_WORDS = {"N": "N", "S": "S", "E": "E", "W": "W",
+                    "NORTH": "N", "SOUTH": "S", "EAST": "E", "WEST": "W"}
 
 MORTGAGOR_RE = re.compile(
     r"MORTGAGOR\(S\):\s*(.+?)\s*MORTGAGEE:", re.IGNORECASE | re.DOTALL,
@@ -60,7 +62,16 @@ def parse_address_from_title(title: str) -> dict:
     """Split an F&C Real Estate title into house number / street name /
     suffix / direction / city / zip. Verified against 29 real titles
     covering single and multi-word street names, embedded zip codes, and
-    the "St" (Street vs. Saint) ambiguity — see module docstring."""
+    the "St" (Street vs. Saint) ambiguity — see module docstring.
+
+    Also strips a LEADING direction word (abbreviated OR spelled out —
+    "W 101st St" / "South 1st St") before the street name. This was a
+    real bug found against live data: 8 of 46 real addresses failed to
+    match a parcel on the first live run, and inspection showed several
+    of the failures had a leading direction word polluting the parsed
+    street name (e.g. "W 101st" instead of "101st"), which the parcel
+    database doesn't store that way — it keeps directions in a separate
+    field. Confirmed fixed against the actual failing titles."""
     title = title.strip()
     m = re.search(r",?\s*MN,?\s*(\d{5})\s*(.*)$", title, re.IGNORECASE)
     zipcode = None
@@ -74,20 +85,26 @@ def parse_address_from_title(title: str) -> dict:
                 "suffix": None, "direction": "", "city": None, "zip": zipcode}
     house_number, rest = num_m.groups()
 
+    lead_m = re.match(rf"^({'|'.join(DIRECTION_WORDS.keys())})\s+(.*)$", rest, re.IGNORECASE)
+    leading_direction = ""
+    if lead_m:
+        leading_direction = DIRECTION_WORDS[lead_m.group(1).upper()]
+        rest = lead_m.group(2)
+
     matches = list(re.finditer(rf"\b({STREET_SUFFIXES})\b\s*({DIRECTIONS})?\b", rest, re.IGNORECASE))
     if not matches:
         return {"raw": title, "house_number": house_number, "street_name": rest.strip(),
-                "suffix": None, "direction": "", "city": None, "zip": zipcode}
+                "suffix": None, "direction": leading_direction, "city": None, "zip": zipcode}
     suf_m = matches[-1]  # last match — see docstring for why
 
     street_name = rest[:suf_m.start()].strip()
     suffix = suf_m.group(1)
-    direction = suf_m.group(2) or ""
+    trailing_direction = suf_m.group(2) or ""
     city_part = rest[suf_m.end():].strip().lstrip(",").strip()
 
     return {
         "raw": title, "house_number": house_number, "street_name": street_name,
-        "suffix": suffix, "direction": direction,
+        "suffix": suffix, "direction": leading_direction or trailing_direction,
         "city": city_part if city_part else None, "zip": zipcode,
     }
 
