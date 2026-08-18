@@ -1184,6 +1184,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4202285",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-192922410021",
       "owner_name": "MONICA H LEE",
@@ -1216,6 +1217,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4202325",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-322922120093",
       "owner_name": "WILLIAM RINEHART",
@@ -1248,6 +1250,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4198749",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-272922310088",
       "owner_name": "KOBE MICHEAL ANDERSON",
@@ -1280,6 +1283,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4199611",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-292922220022",
       "owner_name": "DEREK WILLIAMS",
@@ -1312,6 +1316,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4200021",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-362922110044",
       "owner_name": "BRETT KRAUS",
@@ -1344,6 +1349,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4200028",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-282922320049",
       "owner_name": "THOMAS J GALLOWAY",
@@ -1376,6 +1382,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4200033",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-082822410038",
       "owner_name": "JUAN GABRIEL CABAN",
@@ -1408,6 +1415,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4197440",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-152922410078",
       "owner_name": "SUE VANG VANG",
@@ -1440,6 +1448,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4197579",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-342922220202",
       "owner_name": "JAROME WATSON",
@@ -1472,6 +1481,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4197937",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-043023240077",
       "owner_name": "CARINA CASTILLO",
@@ -1504,6 +1514,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4197950",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-242923440097",
       "owner_name": "PEE KHAY",
@@ -1536,6 +1547,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4195405",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-223023130080",
       "owner_name": "LONNIE TRAP",
@@ -1568,6 +1580,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4193035",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-322922240042",
       "owner_name": "BRYAN KEITH TODD",
@@ -1600,6 +1613,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4193982",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-113023110020",
       "owner_name": "DAVID L GREER",
@@ -1632,6 +1646,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4193986",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-262923330159",
       "owner_name": "COURTNEY VESZI",
@@ -1664,6 +1679,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4189874",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-322922120093",
       "owner_name": "WILLIAM RINEHART",
@@ -1696,6 +1712,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4187741",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-082822410038",
       "owner_name": "JUAN GABRIEL CABAN",
@@ -1714,38 +1731,6 @@
     }
   },
   {
-    "mortgagor_name": "Xavier Turner, A Single Person",
-    "mortgage_amount": 268654.0,
-    "property_address_raw": "911 Conway St Saint Paul",
-    "house_number": "911",
-    "street_name": "Conway",
-    "street_suffix": "St",
-    "street_direction": "",
-    "city": "Saint Paul",
-    "zip": null,
-    "county": "Ramsey",
-    "auction_date": null,
-    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4201418",
-    "source": "stpaul_legal_ledger",
-    "matched_numbered_format": false,
-    "parcel": {
-      "pin": "123-332922230113",
-      "owner_name": "XAVIER TURNER",
-      "emv_land": 25000,
-      "emv_bldg": 225600,
-      "emv_total": 250600,
-      "sale_value": 263000,
-      "sale_date": "2023-05-09",
-      "county": "Ramsey",
-      "lng": -93.0620046596594,
-      "lat": 44.956064256990636
-    },
-    "scoring": {
-      "equity_estimate": -18054.0,
-      "equity_ratio": 0.93
-    }
-  },
-  {
     "mortgagor_name": "Jason J. Vavra and Jan Arford, husband and wife, as joint tenants",
     "mortgage_amount": 417000.0,
     "property_address_raw": "5970 Hobe Ln W White Bear Lake",
@@ -1760,6 +1745,7 @@
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4199621",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "123-023022220031",
       "owner_name": "JASON J VAVRA",
