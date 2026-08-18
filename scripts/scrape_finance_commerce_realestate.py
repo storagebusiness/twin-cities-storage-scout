@@ -28,6 +28,20 @@ types, not just standard mortgage foreclosures:
 This script only pulls the standard mortgage-foreclosure pattern; other
 types are skipped (counted, not silently dropped) so their volume is
 visible in the log rather than invisible.
+
+PAGINATION BUG FIX (found while investigating why only Hennepin County
+properties were showing up on the map, 2026-08-17): the original loop
+stopped paging as soon as a page produced zero *matched* records, using
+that as a proxy for "end of feed." But a page can contain real RSS items
+that are all non-standard notice types (HOA liens, postponements, etc. —
+see above), which legitimately parse to zero matched records without
+being the end of the feed. Because F&C's feed is not evenly mixed across
+counties per page, this let a single all-skipped page truncate the whole
+scrape early and silently drop every county that happened to appear only
+on later pages (in the case that surfaced this, everything past Hennepin).
+Fixed by keying "end of feed" off the raw <item> count instead of the
+filtered record count — an empty page (zero <item> elements) is the only
+thing that means we've run off the end of the feed.
 """
 
 import json
@@ -138,14 +152,19 @@ def parse_item(title: str, description_text: str, source_url: str) -> dict | Non
     }
 
 
-def parse_rss(xml_text: str) -> list[dict]:
+def parse_rss(xml_text: str) -> tuple[list[dict], int]:
+    """Returns (matched_records, raw_item_count). raw_item_count is what
+    pagination should key off of — it's the only reliable signal for
+    "this page was actually empty / we've run off the end of the feed."
+    matched_records can legitimately be empty on a non-empty page (e.g. a
+    page that's all HOA-lien notices) without that meaning end-of-feed."""
     records = []
     skipped_other_type = 0
 
     if len(xml_text.strip()) < 100 or not xml_text.strip().startswith("<?xml"):
         print(f"DEBUG: response doesn't look like real RSS (len={len(xml_text.strip())}), "
               f"treating as end of results", file=sys.stderr)
-        return records
+        return records, 0
 
     root = ET.fromstring(xml_text)
     items = root.findall(".//item")
@@ -165,7 +184,7 @@ def parse_rss(xml_text: str) -> list[dict]:
 
     print(f"  {len(records)} standard mortgage foreclosures extracted, "
           f"{skipped_other_type} other-type notices skipped (not yet supported)", file=sys.stderr)
-    return records
+    return records, len(items)
 
 
 def fetch_page(page_num: int) -> str:
@@ -185,10 +204,15 @@ def main():
     for page in range(1, MAX_PAGES + 1):
         xml_text = fetch_page(page)
         print(f"DEBUG: page {page} response length = {len(xml_text)} chars", file=sys.stderr)
-        records = parse_rss(xml_text)
-        if not records and page > 1:
-            break
+        records, item_count = parse_rss(xml_text)
         all_records.extend(records)
+        # End-of-feed is "this page had no RSS items at all," NOT "this
+        # page had no items matching the standard-mortgage pattern." A
+        # page can be legitimately all HOA-lien/postponement notices
+        # (item_count > 0, records == []) without being the end of the
+        # feed — see module docstring, this was the Hennepin-only bug.
+        if item_count == 0 and page > 1:
+            break
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(all_records, indent=2))
