@@ -1,45 +1,40 @@
 name: Daily Star Tribune scrape
-
 on:
   schedule:
     # 13:00 UTC = 7-8am Central depending on DST. Runs once a day.
     - cron: '0 13 * * *'
   workflow_dispatch: {}  # lets you trigger a run manually from the Actions tab
-
 permissions:
   contents: write  # needed to commit the updated data file back to the repo
-
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
       - name: Install dependencies
         run: pip install requests
-
       - name: Scrape Star Tribune legal notices
         run: python3 scripts/scrape_startribune.py
-
-      - name: Scrape Finance & Commerce legal notices
+      - name: Scrape Finance & Commerce legal notices (Hennepin)
         run: python3 scripts/scrape_finance_commerce.py
-        continue-on-error: true  # don't let one source's failure block the other
-
-      - name: Scrape Finance & Commerce real estate notices
+        continue-on-error: true  # don't let one source's failure block the others
+      - name: Scrape Finance & Commerce real estate notices (Hennepin)
         run: python3 scripts/scrape_finance_commerce_realestate.py
         continue-on-error: true
-
+      - name: Scrape St. Paul Legal Ledger real estate notices (Ramsey)
+        run: python3 scripts/scrape_stpaul_legal_ledger_realestate.py
+        continue-on-error: true
+      - name: Scrape St. Paul Legal Ledger personal property notices (Ramsey)
+        run: python3 scripts/scrape_stpaul_legal_ledger_personalproperty.py
+        continue-on-error: true  # fetches one detail page per notice + a 1s delay between each — slowest step, most likely to time out or hit a snag
       - name: Score real estate parcels (Met Council lookup)
         run: python3 scripts/score_real_estate.py
-        continue-on-error: true  # depends on prior step + makes live API calls per property
-
+        continue-on-error: true  # depends on prior steps + makes live API calls per property
       - name: Merge all sources into names.json
         run: python3 scripts/merge_sources.py
-
       - name: Commit updated data
         run: |
           git config user.name "storage-scout-bot"
@@ -48,6 +43,8 @@ jobs:
           [ -f data/startribune_names.json ] && git add data/startribune_names.json
           [ -f data/finance_commerce_names.json ] && git add data/finance_commerce_names.json
           [ -f data/finance_commerce_realestate.json ] && git add data/finance_commerce_realestate.json
+          [ -f data/stpaul_legal_ledger_realestate.json ] && git add data/stpaul_legal_ledger_realestate.json
+          [ -f data/stpaul_legal_ledger_names.json ] && git add data/stpaul_legal_ledger_names.json
           [ -f data/real_estate_scored.json ] && git add data/real_estate_scored.json
           git diff --staged --quiet || git commit -m "Daily name data update $(date -u +%Y-%m-%d)"
           git pull --rebase origin main
