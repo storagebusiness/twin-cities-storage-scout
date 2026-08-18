@@ -95,6 +95,12 @@ UNIT_INLINE_RE = re.compile(
 UNIT_HASH_RE = re.compile(
     r"#([\d/]+)\s+([A-Z][a-zA-Z'.-]+(?:\s+[A-Z][a-zA-Z'.-]+)+)\s+"
     r"(.+?)\s+CONTENTS:\s*([^#]+?)(?=\s*#[\d/]+\s|\Z)",
+    re.DOTALL,  # address commonly spans a line break in real data — confirmed
+                # on a live run: "956 Meadow Ave\r\nShoreview, MN 55126". The
+                # PDF-rendered text this was originally tested against had no
+                # embedded newline there, so this went unnoticed until a real
+                # HTML fetch surfaced it. Without DOTALL, "." never matches
+                # the newline and the whole regex silently fails to match.
 )
 
 # Facility (or, for format 3, first-matching — usually facility, see
@@ -134,8 +140,13 @@ def looks_like_vehicle_notice(text: str) -> bool:
     real Ramsey sample: an Arden Hills manufactured-home sheriff's sale
     mentioning a VIN, correctly flagged for skipping by this heuristic."""
     vehicle_signals = ["vehicle", "vin", "license plate", "tow", "manufactured home"]
+    # NOTE: bare " storage " deliberately excluded — confirmed on a real
+    # run to false-positive against generic lien-law language unrelated
+    # to a self-storage business, e.g. "...a daily rate of $20.00 for
+    # storage accruing" in a manufactured-home lien notice. Every other
+    # signal here is specific enough to a storage BUSINESS on its own.
     storage_signals = ["storagetreasures.com", "storage unit", "self storage",
-                        " storage ", "mini storage"]
+                        "mini storage"]
     text_lower = text.lower()
     has_vehicle = any(s in text_lower for s in vehicle_signals)
     has_storage = any(s in text_lower for s in storage_signals)
@@ -248,7 +259,7 @@ def parse_unit_listings(notice_text: str, source_url: str, facility_address: str
                 "contents_text": contents.strip(),
                 "facility_address_raw": facility_address,
                 "facility_address_normalized": normalize_address(facility_address),
-                "renter_home_address_raw": renter_addr.strip(),
+                "renter_home_address_raw": re.sub(r"\s+", " ", renter_addr).strip(),
                 "auction_date": auction_date,
                 "source_url": source_url,
                 "source": "stpaul_legal_ledger",
