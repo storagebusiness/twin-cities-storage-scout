@@ -66,6 +66,9 @@ def normalize_address(addr: str) -> str:
     return re.sub(r"\s+", " ", addr).strip()
 
 
+POSTED_DATE_RE = re.compile(r"Posted:\s*(\d{1,2}/\d{1,2}/\d{4})")
+
+
 def extract_field(description_text: str, field_name: str) -> str:
     """Pull 'Section: X' / 'Category: X' / 'Posted: X' out of the
     description, IF that labeled format is present. NOTE: real Personal
@@ -182,7 +185,8 @@ def parse_rss(xml_text: str) -> list[dict]:
 
         section = extract_field(description_text, "Section")
         category = extract_field(description_text, "Category")
-        posted = extract_field(description_text, "Posted")
+        posted_m = POSTED_DATE_RE.search(description_text)
+        posted = posted_m.group(1) if posted_m else ""
         county = extract_county(title)
 
         # Real Personal Property items don't use the labeled Section/
