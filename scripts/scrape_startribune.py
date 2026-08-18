@@ -20,7 +20,7 @@ from pathlib import Path
 import requests
 
 CATEGORY_URL = "https://classifieds.startribune.com/mn/storage/search"
-OUT_PATH = Path(__file__).parent.parent / "data" / "names.json"
+OUT_PATH = Path(__file__).parent.parent / "data" / "startribune_names.json"
 
 FACILITY_BLOCK_RE = re.compile(
     r"Facility\s+(\d+):\s*#?[\w-]*\s*[-–]?\s*"
