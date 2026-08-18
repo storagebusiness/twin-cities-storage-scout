@@ -33,6 +33,9 @@ jobs:
       - name: Score real estate parcels (Met Council lookup)
         run: python3 scripts/score_real_estate.py
         continue-on-error: true  # depends on prior steps + makes live API calls per property
+      - name: Build area-income choropleth (Census)
+        run: python3 scripts/score_area_income.py
+        continue-on-error: true  # new pipeline, don't let a failure block the rest of the run
       - name: Merge all sources into names.json
         run: python3 scripts/merge_sources.py
       - name: Commit updated data
