@@ -117,17 +117,34 @@ def fetch_page(page_num: int) -> str:
 
 def parse_rss(xml_text: str) -> list[dict]:
     all_records = []
+
+    # Some pages return a short/malformed response instead of valid RSS
+    # (observed: 38-char non-XML response on page 2) — treat that as "no
+    # more results" rather than crashing the whole script.
+    if len(xml_text.strip()) < 100 or not xml_text.strip().startswith("<?xml"):
+        print(f"DEBUG: response doesn't look like real RSS "
+              f"(len={len(xml_text.strip())}), treating as end of results", file=sys.stderr)
+        return []
+
     root = ET.fromstring(xml_text)
     items = root.findall(".//item")
     print(f"DEBUG: RSS contains {len(items)} items", file=sys.stderr)
 
-    for item in items:
+    for i, item in enumerate(items):
         title = (item.findtext("title") or "").strip()
         link = (item.findtext("link") or "").strip()
         description_el = item.find("description")
 
         # description contains nested <div> elements; flatten to plain text
         description_text = "".join(description_el.itertext()) if description_el is not None else ""
+
+        # DEBUG: show the raw, unprocessed content for the first couple
+        # items so we can see exactly what the server actually sent,
+        # rather than only what our extraction logic pulled out of it.
+        if i < 2:
+            print(f"DEBUG: item {i} raw title: {title!r}", file=sys.stderr)
+            print(f"DEBUG: item {i} raw description (first 400 chars): "
+                  f"{description_text[:400]!r}", file=sys.stderr)
 
         section = extract_field(description_text, "Section")
         category = extract_field(description_text, "Category")
