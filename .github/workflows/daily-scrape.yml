@@ -25,11 +25,18 @@ jobs:
       - name: Scrape Star Tribune legal notices
         run: python3 scripts/scrape_startribune.py
 
+      - name: Scrape Finance & Commerce legal notices
+        run: python3 scripts/scrape_finance_commerce.py
+        continue-on-error: true  # don't let one source's failure block the other
+
+      - name: Merge all sources into names.json
+        run: python3 scripts/merge_sources.py
+
       - name: Commit updated data
         run: |
           git config user.name "storage-scout-bot"
           git config user.email "actions@github.com"
-          git add data/names.json
+          git add data/names.json data/startribune_names.json data/finance_commerce_names.json
           git diff --staged --quiet || git commit -m "Daily name data update $(date -u +%Y-%m-%d)"
           git pull --rebase origin main
           git push
