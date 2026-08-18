@@ -86,6 +86,19 @@ DIRECTION_WORDS = {"N": "N", "S": "S", "E": "E", "W": "W",
 MORTGAGOR_RE = re.compile(
     r"MORTGAGOR(?:\(S\))?:\s*(.+?)\s*MORTGAGEE:", re.IGNORECASE | re.DOTALL,
 )
+# Fallback for a FOURTH confirmed format: numbered fields instead of
+# labeled ones — "1. Date of Mortgage: X  2. Mortgagors: Y  3. Mortgagees:
+# Z  4. Rec[orded...]" — confirmed against real text for "1374 Searle St
+# Saint Paul" (Dayton's Bluff Neighborhood Housing Services). Tried only
+# if the primary regex doesn't match. NOTE: whether PRINCIPAL_AMOUNT_RE
+# also needs a numbered-format fallback is NOT yet confirmed — we don't
+# have real text showing that field's label in this format. If a record
+# matches this MORTGAGOR fallback but still fails on amount, that'll
+# surface via classify_skip_reason/the retry-failure snippet log rather
+# than being silently swallowed.
+MORTGAGOR_NUMBERED_RE = re.compile(
+    r"\d+\.\s*Mortgagors?:\s*(.+?)\s*\d+\.\s*Mortgagees?:", re.IGNORECASE | re.DOTALL,
+)
 PRINCIPAL_AMOUNT_RE = re.compile(
     r"(?:ORIGINAL|MAXIMUM)\s+PRINCIPAL\s+AMOUNT\s+OF\s+MORTGAGE:\s*\$([\d,]+\.\d{2})",
     re.IGNORECASE,
@@ -175,6 +188,10 @@ def classify_skip_reason(description_text: str) -> str:
 
 def parse_item(title: str, description_text: str, source_url: str) -> dict | None:
     mortgagor_m = MORTGAGOR_RE.search(description_text)
+    used_numbered_format = False
+    if not mortgagor_m:
+        mortgagor_m = MORTGAGOR_NUMBERED_RE.search(description_text)
+        used_numbered_format = mortgagor_m is not None
     amount_m = PRINCIPAL_AMOUNT_RE.search(description_text)
     if not mortgagor_m or not amount_m:
         return None  # not a standard mortgage foreclosure, or truncated before this point — skip, don't guess
@@ -199,6 +216,9 @@ def parse_item(title: str, description_text: str, source_url: str) -> dict | Non
         "auction_date": auction_m.group(1) if auction_m else None,
         "source_url": source_url,
         "source": "stpaul_legal_ledger",
+        # useful for auditing how much of the data depends on the less-
+        # tested numbered-field fallback vs. the primary labeled format
+        "matched_numbered_format": used_numbered_format,
     }
 
 
@@ -267,11 +287,15 @@ def retry_truncated_items(retry_candidates: list[tuple[str, str, str]]) -> list[
         if record is None:
             # still doesn't match even with the full text — genuinely
             # not recoverable, or the notice uses yet another label
-            # variant we haven't seen. Worth a direct look if this shows
-            # up often.
+            # variant we haven't seen. Print a real snippet (not just
+            # length/classification) so the actual structure is visible
+            # in the log without needing another round-trip to diagnose
+            # — same "always use real captured data" rule as everywhere
+            # else in this project.
             still_missing = classify_skip_reason(full_text)
             print(f"  RETRY FAILED (still doesn't parse, now classified {still_missing}) "
-                  f"for {title!r} — full text len={len(full_text)}", file=sys.stderr)
+                  f"for {title!r} — full text len={len(full_text)}\n"
+                  f"    first 500 chars: {full_text[:500]!r}", file=sys.stderr)
             continue
 
         print(f"  RETRY SUCCEEDED for {title!r} (was {reason})", file=sys.stderr)
