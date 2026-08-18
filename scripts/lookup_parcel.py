@@ -30,12 +30,21 @@ PARCEL_QUERY_URL = (
 OUT_FIELDS = "PIN,ST_NAME,ANUMBER,CTU_NAME,ZIP,OWNER_NAME,EMV_LAND,EMV_BLDG,EMV_TOTAL,SALE_VALUE,SALE_DATE,CO_NAME"
 
 
-def build_where_clause(house_number: str, street_name: str, city: str | None = None) -> str:
-    """ANUMBER + ST_NAME is the primary match key. City (CTU_NAME) is
-    added when available to disambiguate — the same street name can
-    exist in multiple metro cities."""
-    street_escaped = street_name.upper().replace("'", "''")  # basic SQL-injection guard
+def build_where_clause(house_number: str, street_name: str, city: str | None = None,
+                        suffix: str | None = None) -> str:
+    """ANUMBER + ST_NAME is the primary match key. Suffix (ST_POS_TYP)
+    and city (CTU_NAME) narrow further when available.
+
+    Suffix was added after live testing showed common street base names
+    ("1st", "12th", "101st", "Washington") return many results (5+, our
+    own page-size limit) without it — these names exist as multiple
+    different streets (Ave/St/Dr/etc.) across the metro, so house+name
+    alone is genuinely under-specified for them."""
+    street_escaped = street_name.upper().replace("'", "''")
     clause = f"ANUMBER={int(house_number)} AND UPPER(ST_NAME)='{street_escaped}'"
+    if suffix:
+        suffix_escaped = suffix.upper().replace("'", "''")
+        clause += f" AND UPPER(ST_POS_TYP)='{suffix_escaped}'"
     if city:
         city_escaped = city.upper().replace("'", "''")
         clause += f" AND UPPER(CTU_NAME)='{city_escaped}'"
@@ -66,39 +75,51 @@ def parse_sale_date(epoch_ms: int | None) -> str | None:
     return datetime.fromtimestamp(epoch_ms / 1000, tz=timezone.utc).strftime("%Y-%m-%d")
 
 
-def lookup_parcel(house_number: str, street_name: str, city: str | None = None) -> dict | None:
+def lookup_parcel(house_number: str, street_name: str, city: str | None = None,
+                   suffix: str | None = None) -> dict | None:
     """Returns the best-matching parcel's assessed value, sale history,
-    and centroid coordinates, or None if no match / ambiguous match with
-    no way to disambiguate.
+    and centroid coordinates, or None if no match / ambiguous with no
+    way to disambiguate.
 
-    Two-tier lookup: tries the city-filtered query first (precise), and
-    if that comes back empty, retries WITHOUT the city filter — but only
-    accepts the result if it's a single unambiguous match. This exists
-    because live testing found the city label in F&C's own notice titles
-    is sometimes wrong: the exact same house number + street successfully
-    matched under one city in one posting and failed under a different
-    (incorrect) city in another posting for what was clearly the same
-    underlying property. Requiring an exact city match was rejecting
-    real matches, not just preventing wrong ones — so city becomes a
-    disambiguator of last resort, not a hard requirement."""
-    result = _query_parcel(house_number, street_name, city)
-    if result is not None:
-        return result
-    if city:
-        # city filter may have been wrong — retry without it, but only
-        # accept if unambiguous
-        return _query_parcel(house_number, street_name, city=None)
+    Tries progressively looser filter combinations until one produces a
+    single unambiguous match:
+      1. house + street + suffix + city   (most precise)
+      2. house + street + suffix          (city label may be wrong —
+                                            confirmed happens in real data)
+      3. house + street + city            (suffix format may not match
+                                            this dataset's convention —
+                                            unverified against live data
+                                            as of this fix)
+      4. house + street only              (last resort; only accepted
+                                            if it happens to be unique)
+    Stops at the first tier that returns exactly one result."""
+    attempts = [
+        (suffix, city),
+        (suffix, None),
+        (None, city),
+        (None, None),
+    ]
+    tried = set()
+    for suf, cty in attempts:
+        key = (suf, cty)
+        if key in tried:
+            continue
+        tried.add(key)
+        result = _query_parcel(house_number, street_name, city=cty, suffix=suf)
+        if result is not None:
+            return result
     return None
 
 
-def _query_parcel(house_number: str, street_name: str, city: str | None) -> dict | None:
-    where = build_where_clause(house_number, street_name, city)
+def _query_parcel(house_number: str, street_name: str, city: str | None,
+                   suffix: str | None = None) -> dict | None:
+    where = build_where_clause(house_number, street_name, city, suffix)
     params = {
         "where": where,
         "outFields": OUT_FIELDS,
         "outSR": "4326",
         "f": "json",
-        "resultRecordCount": 5,
+        "resultRecordCount": 10,  # bumped from 5 so ambiguity logging reflects real counts, not our own cap
     }
     try:
         resp = requests.get(PARCEL_QUERY_URL, params=params, timeout=20)
@@ -112,10 +133,8 @@ def _query_parcel(house_number: str, street_name: str, city: str | None) -> dict
     if not features:
         return None
     if len(features) > 1:
-        # ambiguous — don't guess which one, regardless of whether city
-        # was applied this call
         print(f"  ambiguous match for {house_number} {street_name} "
-              f"(city={city!r}, {len(features)} results)", file=sys.stderr)
+              f"(suffix={suffix!r}, city={city!r}, {len(features)} results)", file=sys.stderr)
         return None
 
     feature = features[0]
