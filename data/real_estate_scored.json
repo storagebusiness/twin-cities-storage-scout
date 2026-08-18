@@ -1,5 +1,37 @@
 [
   {
+    "mortgagor_name": "Juan Jose Gonzalez and Gabriela Gonzalez Husband and Wife",
+    "mortgage_amount": 22196.0,
+    "property_address_raw": "6364 Juneau Ln N Maple Grove",
+    "house_number": "6364",
+    "street_name": "Juneau",
+    "street_suffix": "Ln",
+    "street_direction": "N",
+    "city": "Maple Grove",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "10/23/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204627",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
+    "parcel": {
+      "pin": "053-3311922420014",
+      "owner_name": "JUAN J GONZALEZ",
+      "emv_land": 146000,
+      "emv_bldg": 145100,
+      "emv_total": 291100,
+      "sale_value": 189900,
+      "sale_date": "2004-05-01",
+      "county": "Hennepin",
+      "lng": -93.46683787067491,
+      "lat": 45.07050228742191
+    },
+    "scoring": {
+      "equity_estimate": 268904.0,
+      "equity_ratio": 13.11
+    }
+  },
+  {
     "mortgagor_name": "Jerry Magill, A Single Man",
     "mortgage_amount": 172900.0,
     "property_address_raw": "4010 Colfax Ave N Minneapolis",
