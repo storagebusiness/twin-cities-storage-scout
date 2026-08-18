@@ -106,9 +106,33 @@ UNIT_HASH_RE = re.compile(
     r"(.+?)\s+CONTENTS:\s*([^#]+?)(?=\s*#[\d/]+\s|\Z)",
     re.DOTALL,
 )
+# Format 4 — confirmed on real Hennepin data (Five Star Storage): "NOTICE
+# OF SELF STORAGE SALE... Unless stated otherwise the description of the
+# contents are <shared contents>. <Name1>; <Name2>; <Name3>.... All
+# property is being stored..." — flat semicolon-separated name list, NO
+# per-unit numbers, contents shared across the whole notice rather than
+# per-person. Found on a live run (2026-08-18) after the switch to
+# fetching full detail-page text; two real notices from this exact
+# facility chain were being silently dropped entirely before this fix.
+FLAT_NAME_LIST_RE = re.compile(
+    r"description of the contents (?:are|is)\s+(.+?)\.\s*(.+?)\.\s*All property is being stored",
+    re.IGNORECASE | re.DOTALL,
+)
 TRAILING_NOTICE_BOILERPLATE_RE = re.compile(
     r"Posted:.*$", re.IGNORECASE | re.DOTALL,
 )
+
+# Shared name-validation pattern, used across all four unit formats.
+# NOTE: uses "*" (zero-or-more) not "+" (one-or-more) after each initial
+# capital letter — a "+" version rejects legitimate names with a
+# single-letter middle initial (e.g. "David E Woldt" — the bare "E"
+# fails a "+"-based per-word length requirement). Found as a real bug on
+# a live run (2026-08-18): this silently dropped names with middle
+# initials from the Format 4 semicolon-list notices. Previously each
+# format had its own duplicated copy of a "+"-based version of this
+# regex inline; consolidated here and fixed once rather than separately
+# in each place it was duplicated.
+NAME_RE = re.compile(r"^[A-Z][a-zA-Z'.-]*(\s+[A-Z][a-zA-Z'.-]*)+$")
 
 
 def normalize_address(addr: str) -> str:
@@ -171,17 +195,19 @@ def extract_county(title: str) -> str:
 def parse_personal_property_summary(summary: str, source_url: str, county: str, posted: str) -> list[dict]:
     """Extract (name, contents, address) records from a Personal Property
     notice's summary text. Format 1 (newline-separated 'Unit #\\nName\\n
-    contents') confirmed real from live debug output; formats 2/3 are
-    fallbacks confirmed on Ramsey's feed, tried only if format 1 matches
-    nothing — see module docstring BACKPORT note for why these are
-    included without direct Hennepin confirmation yet. A unit can list
-    multiple people sharing it, joined by '/' — split into one record
-    per person."""
+    contents') confirmed real from live debug output; formats 2/3
+    confirmed on Ramsey's feed; format 4 (flat semicolon-separated name
+    list, no unit numbers) confirmed on real Hennepin data (Five Star
+    Storage) — see module docstring BACKPORT note. Each is tried in turn,
+    only if the previous ones matched nothing. A unit can list multiple
+    people sharing it, joined by '/' — split into one record per person
+    (formats 1/3). Format 4's '/' means something different — see its
+    parsing block below."""
     summary = TRAILING_NOTICE_BOILERPLATE_RE.sub("", summary)
 
     addr_m = re.search(
         r"\d{2,6}\s+[\w\s]+?(?:Ave|St|Dr|Blvd|Ln|Rd|Road|Street|Avenue|Way|Circle|Cir)"
-        r"[\w\s,]*?MN,?\s*\d{5}",  # comma-before-zip fix — see BACKPORT note
+        r"[\w\s,.]*?MN,?\s*\d{5}",  # comma-before-zip AND period-before-comma fixes — see BACKPORT note
         summary, re.IGNORECASE,
     )
     address = addr_m.group(0).strip() if addr_m else f"UNKNOWN ({county} County)"
@@ -193,7 +219,7 @@ def parse_personal_property_summary(summary: str, source_url: str, county: str, 
         name_line, contents_line = m.groups()
         for name in name_line.split("/"):
             name = name.strip()
-            if not name or not re.match(r"^[A-Z][a-zA-Z'\.-]+(\s+[A-Z][a-zA-Z'\.-]+)+$", name):
+            if not name or not NAME_RE.match(name):
                 continue
             records.append({
                 "renter_name": name,
@@ -211,7 +237,7 @@ def parse_personal_property_summary(summary: str, source_url: str, county: str, 
     for m in UNIT_INLINE_RE.finditer(summary):
         _unit_num, name, contents = m.groups()
         name = name.strip()
-        if not re.match(r"^[A-Z][a-zA-Z'\.-]+(\s+[A-Z][a-zA-Z'\.-]+)+$", name):
+        if not NAME_RE.match(name):
             continue
         records.append({
             "renter_name": name,
@@ -229,7 +255,7 @@ def parse_personal_property_summary(summary: str, source_url: str, county: str, 
     for m in UNIT_HASH_RE.finditer(summary):
         unit_nums, name, renter_addr, contents = m.groups()
         name = name.strip()
-        if not re.match(r"^[A-Z][a-zA-Z'\.-]+(\s+[A-Z][a-zA-Z'\.-]+)+$", name):
+        if not NAME_RE.match(name):
             continue
         for _unit_num in unit_nums.split("/"):
             records.append({
@@ -242,6 +268,37 @@ def parse_personal_property_summary(summary: str, source_url: str, county: str, 
                 "source_url": source_url,
                 "matched_unit_format": "hash_inline",
             })
+    if records:
+        return records
+
+    # Format 4: confirmed on real Hennepin data (Five Star Storage) — flat
+    # semicolon-separated name list, no unit numbers, one shared contents
+    # description for the whole notice. A name entry can be
+    # "Full Legal Name / Preferred Name" (two variants of the SAME
+    # person) — different meaning from "/" in formats 1/3, where it
+    # separates DIFFERENT co-renters sharing one unit. Take the first
+    # (fuller) variant only.
+    flat_m = FLAT_NAME_LIST_RE.search(summary)
+    if flat_m:
+        contents, names_blob = flat_m.groups()
+        contents = contents.strip()
+        for entry in names_blob.split(";"):
+            entry = entry.strip()
+            if not entry:
+                continue
+            name = entry.split("/")[0].strip()
+            if not NAME_RE.match(name):
+                continue
+            records.append({
+                "renter_name": name,
+                "contents_text": contents,
+                "facility_address_raw": address,
+                "facility_address_normalized": normalize_address(address),
+                "auction_date": posted,
+                "source_url": source_url,
+                "matched_unit_format": "flat_semicolon_list",
+            })
+
     return records
 
 
