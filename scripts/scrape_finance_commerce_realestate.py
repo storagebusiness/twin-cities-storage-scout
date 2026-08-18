@@ -72,6 +72,7 @@ evidence yet it's needed for this feed specifically.
 import json
 import re
 import sys
+import time
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -80,6 +81,10 @@ import requests
 RSS_BASE = "https://finance-commerce.com/public-notice/export-rss/"
 OUT_PATH = Path(__file__).parent.parent / "data" / "finance_commerce_realestate.json"
 MAX_PAGES = 10
+DETAIL_FETCH_DELAY_SECONDS = 1.0  # be polite — one extra request per truncated item
+
+HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                          "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"}
 
 STREET_SUFFIXES = r"(?:Ave|St|Dr|Blvd|Ln|Rd|Way|Ct|Cir|Pl|Trail|Trl|Pkwy|Terrace|Ter)"
 DIRECTIONS = r"(?:N|S|E|W|NE|NW|SE|SW)"
@@ -260,25 +265,98 @@ def parse_item(title: str, description_text: str, source_url: str) -> dict | Non
     }
 
 
-def parse_rss(xml_text: str) -> tuple[list[dict], int]:
-    """Returns (matched_records, raw_item_count). raw_item_count is what
-    pagination should key off of — it's the only reliable signal for
-    "this page was actually empty / we've run off the end of the feed."
-    matched_records can legitimately be empty on a non-empty page (e.g. a
-    page that's all HOA-lien notices) without that meaning end-of-feed."""
+def extract_full_notice_text(html: str) -> str:
+    """Pull the full, untruncated notice body out of an F&C detail page.
+
+    ⚠️ UNVERIFIED — copied from scrape_stpaul_legal_ledger_realestate.py's
+    version of this function (itself proven correct against live
+    minnlawyer.com HTML), on the assumption F&C shares the same
+    underlying platform. This assumption is plausible (identical RSS URL
+    structure, identical label format) but has NOT been confirmed against
+    real F&C detail-page HTML — this repo has never fetched one. If the
+    retry log below shows "extract_full_notice_text() found nothing" or
+    "RETRY FAILED" for every candidate, that's the first thing to check —
+    F&C's detail pages may use different markup than minnlawyer.com's
+    even if the RSS feeds are twins.
+    """
+    text = re.sub(r"<!--.*?-->", " ", html, flags=re.DOTALL)
+    text = re.sub(r"<script.*?</script>", " ", text, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<style.*?</style>", " ", text, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", "\n", text)
+    text = re.sub(r"&amp;", "&", text)
+    text = re.sub(r"&#x27;|&rsquo;|&rsquo", "'", text)
+    text = re.sub(r"&sect;", "§", text)
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n\s*\n+", "\n", text).strip()
+
+    ad_text_m = re.search(r"Ad Text\s*\n(.+?)(?:Ad #\s*\d+|has abstracted)",
+                           text, re.DOTALL | re.IGNORECASE)
+    if not ad_text_m:
+        return ""
+    body = ad_text_m.group(1)
+    body = re.sub(r"^\s*\w+ \d{1,2}, \d{4}\s*\n", "", body)
+    return body.strip()
+
+
+def fetch_detail_page(url: str) -> str:
+    resp = requests.get(url, headers=HEADERS, timeout=20)
+    resp.raise_for_status()
+    return resp.text
+
+
+def retry_truncated_items(retry_candidates: list[tuple[str, str, str]]) -> list[dict]:
+    """Re-attempt parsing for items that look like real mortgage
+    foreclosures but got cut off by RSS truncation — see
+    classify_skip_reason. Only truncated_before_mortgagee /
+    truncated_before_principal_amount, not not_a_mortgage_notice — no
+    point fetching a detail page for a genuinely different notice type."""
+    recovered = []
+    for title, link, reason in retry_candidates:
+        if not link:
+            continue
+        time.sleep(DETAIL_FETCH_DELAY_SECONDS)
+        try:
+            html = fetch_detail_page(link)
+        except requests.RequestException as e:
+            print(f"  RETRY FAILED (fetch error) for {title!r} ({reason}): {e}", file=sys.stderr)
+            continue
+
+        full_text = extract_full_notice_text(html)
+        if not full_text:
+            print(f"  RETRY FAILED (extract_full_notice_text found nothing) for {title!r} "
+                  f"— see that function's verification caveat", file=sys.stderr)
+            continue
+
+        record = parse_item(title, full_text, link)
+        if record is None:
+            still_missing = classify_skip_reason(full_text)
+            print(f"  RETRY FAILED (still doesn't parse, now classified {still_missing}) "
+                  f"for {title!r} — full text len={len(full_text)}\n"
+                  f"    FULL TEXT: {full_text!r}", file=sys.stderr)
+            continue
+
+        print(f"  RETRY SUCCEEDED for {title!r} (was {reason})", file=sys.stderr)
+        recovered.append(record)
+    return recovered
+
+
+def parse_rss(xml_text: str) -> tuple[list[dict], int, list[tuple[str, str, str]]]:
+    """Returns (matched_records, raw_item_count, retry_candidates).
+    raw_item_count is what pagination should key off of — it's the only
+    reliable signal for "this page was actually empty / we've run off the
+    end of the feed." matched_records can legitimately be empty on a
+    non-empty page (e.g. a page that's all HOA-lien notices) without that
+    meaning end-of-feed. retry_candidates is (title, link, reason) for
+    items that look truncated rather than genuinely non-standard."""
     records = []
     skipped = 0
-    skip_reasons = {}  # reason -> count, for the summary line — see
-                        # classify_skip_reason and MULTI-FORMAT BACKPORT
-                        # note in module docstring for why this matters
-                        # here specifically: this is what will tell us
-                        # whether F&C needs the same detail-page-fetch
-                        # retry mechanism Ramsey needed, or not.
+    skip_reasons = {}
+    retry_candidates = []
 
     if len(xml_text.strip()) < 100 or not xml_text.strip().startswith("<?xml"):
         print(f"DEBUG: response doesn't look like real RSS (len={len(xml_text.strip())}), "
               f"treating as end of results", file=sys.stderr)
-        return records, 0
+        return records, 0, retry_candidates
 
     root = ET.fromstring(xml_text)
     items = root.findall(".//item")
@@ -295,12 +373,14 @@ def parse_rss(xml_text: str) -> tuple[list[dict], int]:
             skipped += 1
             reason = classify_skip_reason(description_text)
             skip_reasons[reason] = skip_reasons.get(reason, 0) + 1
+            if reason in ("truncated_before_mortgagee", "truncated_before_principal_amount"):
+                retry_candidates.append((title, link, reason))
             continue
         records.append(record)
 
     print(f"  {len(records)} standard mortgage foreclosures extracted, "
           f"{skipped} skipped — breakdown: {skip_reasons}", file=sys.stderr)
-    return records, len(items)
+    return records, len(items), retry_candidates
 
 
 def fetch_page(page_num: int) -> str:
@@ -317,11 +397,13 @@ def fetch_page(page_num: int) -> str:
 
 def main():
     all_records = []
+    all_retry_candidates = []
     for page in range(1, MAX_PAGES + 1):
         xml_text = fetch_page(page)
         print(f"DEBUG: page {page} response length = {len(xml_text)} chars", file=sys.stderr)
-        records, item_count = parse_rss(xml_text)
+        records, item_count, retry_candidates = parse_rss(xml_text)
         all_records.extend(records)
+        all_retry_candidates.extend(retry_candidates)
         # End-of-feed is "this page had no RSS items at all," NOT "this
         # page had no items matching the standard-mortgage pattern." A
         # page can be legitimately all HOA-lien/postponement notices
@@ -329,6 +411,19 @@ def main():
         # feed — see module docstring, this was the Hennepin-only bug.
         if item_count == 0 and page > 1:
             break
+
+    if all_retry_candidates:
+        print(f"Retrying {len(all_retry_candidates)} truncated-but-likely-standard "
+              f"notices via detail-page fetch...", file=sys.stderr)
+        recovered = retry_truncated_items(all_retry_candidates)
+        print(f"Recovered {len(recovered)}/{len(all_retry_candidates)} via detail-page fetch", file=sys.stderr)
+        all_records.extend(recovered)
+
+    numbered_count = sum(1 for r in all_records if r.get("matched_numbered_format"))
+    executed_by_count = sum(1 for r in all_records if r.get("matched_executed_by_format"))
+    print(f"Format usage: {numbered_count} via numbered-field fallback, "
+          f"{executed_by_count} via executed-by fallback, "
+          f"{len(all_records) - numbered_count - executed_by_count} via primary format", file=sys.stderr)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(all_records, indent=2))
