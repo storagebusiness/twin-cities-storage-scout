@@ -189,6 +189,66 @@
     "source": "stpaul_legal_ledger"
   },
   {
+    "renter_name": "Kevin Larson",
+    "contents_text": "misc. goods",
+    "facility_address_raw": "483 West County Road E, Shoreview, MN, 55126",
+    "facility_address_normalized": "483 w county rd e shoreview mn 55126",
+    "renter_home_address_raw": "956 Meadow Ave Shoreview, MN 55126",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4195411",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Michael Bartell",
+    "contents_text": "misc. goods",
+    "facility_address_raw": "483 West County Road E, Shoreview, MN, 55126",
+    "facility_address_normalized": "483 w county rd e shoreview mn 55126",
+    "renter_home_address_raw": "4685 Kevin Ln Shoreview, MN 55126",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4195411",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Michael Bartell",
+    "contents_text": "misc. goods",
+    "facility_address_raw": "483 West County Road E, Shoreview, MN, 55126",
+    "facility_address_normalized": "483 w county rd e shoreview mn 55126",
+    "renter_home_address_raw": "4685 Kevin Ln Shoreview, MN 55126",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4195411",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Michael Bartell",
+    "contents_text": "misc. goods",
+    "facility_address_raw": "483 West County Road E, Shoreview, MN, 55126",
+    "facility_address_normalized": "483 w county rd e shoreview mn 55126",
+    "renter_home_address_raw": "4685 Kevin Ln Shoreview, MN 55126",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4195411",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Michael Bartell",
+    "contents_text": "misc. goods",
+    "facility_address_raw": "483 West County Road E, Shoreview, MN, 55126",
+    "facility_address_normalized": "483 w county rd e shoreview mn 55126",
+    "renter_home_address_raw": "4685 Kevin Ln Shoreview, MN 55126",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4195411",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Lisa Ellison",
+    "contents_text": "misc. goods",
+    "facility_address_raw": "483 West County Road E, Shoreview, MN, 55126",
+    "facility_address_normalized": "483 w county rd e shoreview mn 55126",
+    "renter_home_address_raw": "4045 Hodgson Rd Apt 201 Shoreview, MN 55126",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4195411",
+    "source": "stpaul_legal_ledger"
+  },
+  {
     "renter_name": "Cathy Hansen",
     "contents_text": "television vacuum cleaner furniture boxes",
     "facility_address_raw": "UNKNOWN (Ramsey County)",
