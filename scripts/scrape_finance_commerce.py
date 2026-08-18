@@ -38,15 +38,17 @@ EXCLUDED_SECTIONS = {"family", "individual and family"}
 
 MAX_PAGES = 10  # sanity cap
 
-NAME_CONTENTS_RE = re.compile(
-    # Requires a "Unit <id>:" prefix (optionally with a # symbol, e.g.
-    # "Unit # 112:") — the actual structural marker before a real
-    # name/contents pair, confirmed against real Finance & Commerce
-    # content. A loose "capitalized words + comma" pattern with no
-    # Unit-prefix was tried first and matched intro boilerplate as a
-    # fake name; fixed by anchoring to this marker instead.
-    r"Unit\s*#?\s*[\w-]*\d[\w-]*\s*:\s*"
-    r"([A-Z][a-zA-Z'\.-]+(?:\s+[A-Z][a-zA-Z'\.-]+){1,3}),\s*([^.]+?)(?:\.|$)",
+# Real format confirmed from live debug output: units are separated by
+# newlines, not colons/commas — "Unit # 112\nLenora Ware/Curtis
+# Adams\nsports equip. tools luggage furniture boxes\nUnit # 156\n...".
+# A unit can list MULTIPLE people sharing one unit, separated by "/".
+UNIT_BLOCK_RE = re.compile(
+    r"Unit\s*#?\s*[\w-]*\d[\w-]*\s*\n"
+    r"([^\n]+)\n"   # name line (possibly multiple names joined by "/")
+    r"([^\n]+)",    # contents line
+)
+TRAILING_NOTICE_BOILERPLATE_RE = re.compile(
+    r"Posted:.*$", re.IGNORECASE | re.DOTALL,
 )
 
 
@@ -101,11 +103,13 @@ def extract_county(title: str) -> str:
 
 def parse_personal_property_summary(summary: str, source_url: str, county: str, posted: str) -> list[dict]:
     """Extract (name, contents, address) records from a Personal Property
-    notice's summary text. Storage lien notices from major operators
-    (Extra Space, Public Storage etc.) tend to follow a recognizable
-    pattern: an address, then a list of 'Unit N: Name, contents' entries —
-    similar enough to Star Tribune's format that the same core regex
-    approach applies, adjusted for this source's cleaner pre-extracted text."""
+    notice's summary text. Confirmed real format (from live debug output):
+    'Unit # 112\\nLenora Ware/Curtis Adams\\nsports equip. tools luggage
+    furniture boxes\\nUnit # 156\\n...' — newline-separated blocks, not the
+    colon/comma format originally guessed. A unit can list multiple
+    people sharing it, joined by '/' — split into one record per person."""
+    summary = TRAILING_NOTICE_BOILERPLATE_RE.sub("", summary)
+
     addr_m = re.search(
         r"\d{2,6}\s+[\w\s]+?(?:Ave|St|Dr|Blvd|Ln|Rd|Road|Street|Avenue|Way|Circle|Cir)"
         r"[\w\s,]*?MN\s*\d{5}",
@@ -114,16 +118,22 @@ def parse_personal_property_summary(summary: str, source_url: str, county: str, 
     address = addr_m.group(0).strip() if addr_m else f"UNKNOWN ({county} County)"
 
     records = []
-    for m in NAME_CONTENTS_RE.finditer(summary):
-        name, contents = m.groups()
-        records.append({
-            "renter_name": name.strip(),
-            "contents_text": contents.strip(),
-            "facility_address_raw": address,
-            "facility_address_normalized": normalize_address(address),
-            "auction_date": posted,
-            "source_url": source_url,
-        })
+    for m in UNIT_BLOCK_RE.finditer(summary):
+        name_line, contents_line = m.groups()
+        # split multiple co-renters on a shared unit, e.g. "Lenora
+        # Ware/Curtis Adams" -> two separate records, same contents
+        for name in name_line.split("/"):
+            name = name.strip()
+            if not name or not re.match(r"^[A-Z][a-zA-Z'\.-]+(\s+[A-Z][a-zA-Z'\.-]+)+$", name):
+                continue  # skip anything that doesn't look like a real name
+            records.append({
+                "renter_name": name,
+                "contents_text": contents_line.strip(),
+                "facility_address_raw": address,
+                "facility_address_normalized": normalize_address(address),
+                "auction_date": posted,
+                "source_url": source_url,
+            })
     return records
 
 
@@ -172,16 +182,18 @@ def parse_rss(xml_text: str) -> list[dict]:
 
         section = extract_field(description_text, "Section")
         category = extract_field(description_text, "Category")
-        summary = extract_field(description_text, "Summary")
         posted = extract_field(description_text, "Posted")
         county = extract_county(title)
 
         # Real Personal Property items don't use the labeled Section/
-        # Category/Summary/Posted format at all (confirmed via debug
-        # output) — fall back to treating the whole description as the
-        # summary text when the labeled fields are empty.
-        if not summary:
-            summary = description_text.strip()
+        # Category/Summary/Posted format at all — confirmed via live
+        # debug output. Using extract_field("Summary") here was actively
+        # HARMFUL: the raw text happens to contain the literal word
+        # "Summary:" followed by running prose that spans many lines, but
+        # extract_field stops at the first newline — silently truncating
+        # away all the real Unit#/Name/contents content that comes after.
+        # Always use the full raw text instead.
+        summary = description_text.strip()
 
         if looks_like_vehicle_notice(summary):
             print(f"  item {i}: skipped (looks like a vehicle notice, not storage)", file=sys.stderr)
