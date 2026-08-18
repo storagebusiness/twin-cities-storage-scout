@@ -99,12 +99,33 @@ MORTGAGOR_RE = re.compile(
 MORTGAGOR_NUMBERED_RE = re.compile(
     r"\d+\.\s*Mortgagors?:\s*(.+?)\s*\d+\.\s*Mortgagees?:", re.IGNORECASE | re.DOTALL,
 )
+# Fallback for a FIFTH confirmed format: name comes BEFORE the role label,
+# inverted from every other pattern — "...executed by ADS LLC, a
+# Minnesota limited liability company, as Mortgagor(s), to Citizens
+# Community Federal..., as Mortgagee(s)..." Confirmed against real text
+# for 4 separate Ramsey notices (English St N Maplewood, Maryland Ave E,
+# Jessamine Ave E, Charles Ave — all "Citizens Community Federal
+# National Association" as mortgagee, suggesting a batch from one filer
+# using this house style). Tried only if the two above don't match.
+MORTGAGOR_EXECUTED_BY_RE = re.compile(
+    r"executed by\s+(.+?),(?:\s*a\s+.+?,)?\s*as Mortgagor\(s\)", re.IGNORECASE | re.DOTALL,
+)
 PRINCIPAL_AMOUNT_RE = re.compile(
     r"(?:ORIGINAL|MAXIMUM)\s+PRINCIPAL\s+AMOUNT\s+OF\s+MORTGAGE:\s*\$([\d,]+\.\d{2})",
     re.IGNORECASE,
 )
 COUNTY_RE = re.compile(r"([A-Z][a-zA-Z]+)\s+County", re.IGNORECASE)
 AUCTION_DATE_RE = re.compile(r"Auction Date:\s*(\d{1,2}/\d{1,2}/\d{4})")
+# Postponement notices reference an already-published ORIGINAL notice by
+# date rather than restating mortgagor/mortgagee/amount — confirmed
+# against real text ("2073 4th St E Saint Paul": "NOTICE OF POSTPONEMENT
+# OF FORECLOSURE SALE... has been postponed to..."). The word
+# "mortgagor(s)" can still appear in generic redemption-rights prose
+# ("redemption by said mortgagor(s)") without any structured field behind
+# it — a false positive for the truncation heuristics below. These are
+# genuinely NOT recoverable via a detail-page fetch; the real data lives
+# in the original notice, which isn't linked from here.
+POSTPONEMENT_RE = re.compile(r"NOTICE OF POSTPONEMENT", re.IGNORECASE)
 
 
 def parse_address_from_title(title: str) -> dict:
@@ -167,6 +188,9 @@ def classify_skip_reason(description_text: str) -> str:
     # Found as a real bug on a live run — see module docstring.
     stripped = READ_MORE_TAIL_RE.sub("", description_text).rstrip()
 
+    if POSTPONEMENT_RE.search(stripped):
+        return "postponement_notice"  # references an original notice we don't have — not recoverable via retry
+
     upper = stripped.upper()
     has_mortgagor_label = "MORTGAGOR" in upper
     has_mortgagee_label = "MORTGAGEE" in upper
@@ -189,9 +213,13 @@ def classify_skip_reason(description_text: str) -> str:
 def parse_item(title: str, description_text: str, source_url: str) -> dict | None:
     mortgagor_m = MORTGAGOR_RE.search(description_text)
     used_numbered_format = False
+    used_executed_by_format = False
     if not mortgagor_m:
         mortgagor_m = MORTGAGOR_NUMBERED_RE.search(description_text)
         used_numbered_format = mortgagor_m is not None
+    if not mortgagor_m:
+        mortgagor_m = MORTGAGOR_EXECUTED_BY_RE.search(description_text)
+        used_executed_by_format = mortgagor_m is not None
     amount_m = PRINCIPAL_AMOUNT_RE.search(description_text)
     if not mortgagor_m or not amount_m:
         return None  # not a standard mortgage foreclosure, or truncated before this point — skip, don't guess
@@ -217,8 +245,9 @@ def parse_item(title: str, description_text: str, source_url: str) -> dict | Non
         "source_url": source_url,
         "source": "stpaul_legal_ledger",
         # useful for auditing how much of the data depends on the less-
-        # tested numbered-field fallback vs. the primary labeled format
+        # tested fallback formats vs. the primary labeled format
         "matched_numbered_format": used_numbered_format,
+        "matched_executed_by_format": used_executed_by_format,
     }
 
 
@@ -285,17 +314,15 @@ def retry_truncated_items(retry_candidates: list[tuple[str, str, str]]) -> list[
 
         record = parse_item(title, full_text, link)
         if record is None:
-            # still doesn't match even with the full text — genuinely
-            # not recoverable, or the notice uses yet another label
-            # variant we haven't seen. Print a real snippet (not just
-            # length/classification) so the actual structure is visible
-            # in the log without needing another round-trip to diagnose
-            # — same "always use real captured data" rule as everywhere
-            # else in this project.
+            # still doesn't match even with the full text — print the
+            # WHOLE text (not just a snippet) so we can find the real
+            # amount-field phrasing directly, rather than guessing again.
+            # These are short enough (~3-3.5k chars) that this is fine
+            # for a handful of items.
             still_missing = classify_skip_reason(full_text)
             print(f"  RETRY FAILED (still doesn't parse, now classified {still_missing}) "
                   f"for {title!r} — full text len={len(full_text)}\n"
-                  f"    first 500 chars: {full_text[:500]!r}", file=sys.stderr)
+                  f"    FULL TEXT: {full_text!r}", file=sys.stderr)
             continue
 
         print(f"  RETRY SUCCEEDED for {title!r} (was {reason})", file=sys.stderr)
