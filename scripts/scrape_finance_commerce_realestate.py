@@ -42,6 +42,31 @@ on later pages (in the case that surfaced this, everything past Hennepin).
 Fixed by keying "end of feed" off the raw <item> count instead of the
 filtered record count — an empty page (zero <item> elements) is the only
 thing that means we've run off the end of the feed.
+
+MULTI-FORMAT BACKPORT (2026-08-18): while building the Ramsey County
+counterpart to this scraper (scrape_stpaul_legal_ledger_realestate.py,
+sourced from minnlawyer.com), Ramsey's feed turned out to use FIVE
+different mortgagor/amount phrasings, not the single MORTGAGOR(S):/
+MORTGAGEE:/PRINCIPAL AMOUNT OF MORTGAGE: format this script originally
+assumed was universal. Backported the same fallback regexes here on the
+theory that F&C is very likely the same underlying platform (identical
+URL structure — public-notice/export-rss/?feeds=X&pageindex=N — and
+identical Auction Date:/Description: label format strongly suggest the
+same BridgeTower/Dolan backend, just a different newspaper/domain), so
+Hennepin notices may include the same format variety.
+
+IMPORTANT CAVEAT: this has NOT been confirmed against real F&C data the
+way the Ramsey fixes were — this repo has only ever seen F&C's already-
+successfully-parsed JSON output, never its raw RSS XML, so it's unknown
+whether F&C's feed (a) actually contains these alternate formats at all,
+or (b) truncates descriptions the way minnlawyer.com's does. Added
+classify_skip_reason() + a skip_reasons breakdown in the log (same
+diagnostic pattern used to find and fix Ramsey's issues) specifically so
+the NEXT REAL RUN answers this empirically instead of guessing. If the
+breakdown shows meaningful `truncated_before_*` counts, port over the
+detail-page-fetch retry mechanism from scrape_stpaul_legal_ledger_
+realestate.py too — deliberately NOT added here yet, since there's no
+evidence yet it's needed for this feed specifically.
 """
 
 import json
@@ -61,15 +86,42 @@ DIRECTIONS = r"(?:N|S|E|W|NE|NW|SE|SW)"
 DIRECTION_WORDS = {"N": "N", "S": "S", "E": "E", "W": "W",
                     "NORTH": "N", "SOUTH": "S", "EAST": "E", "WEST": "W"}
 
+# RSS boilerplate that may follow "Read More..." links — stripped before
+# truncation-detection in classify_skip_reason, same fix as the Ramsey
+# scraper needed (its trailing "..." was defeating the "does this look
+# complete" check unconditionally). NOT YET CONFIRMED this exact tail
+# appears in F&C's feed specifically — added defensively since it's
+# harmless if absent (the regex just won't match anything).
+READ_MORE_TAIL_RE = re.compile(r"\s*Read More\.\.\.\s*$", re.IGNORECASE)
+
+# "(S)" made optional — see MULTI-FORMAT BACKPORT note in module docstring.
 MORTGAGOR_RE = re.compile(
-    r"MORTGAGOR\(S\):\s*(.+?)\s*MORTGAGEE:", re.IGNORECASE | re.DOTALL,
+    r"MORTGAGOR(?:\(S\))?:\s*(.+?)\s*MORTGAGEE:", re.IGNORECASE | re.DOTALL,
+)
+# Fallback formats confirmed on Ramsey's feed, backported here on the
+# theory F&C is the same underlying platform — NOT yet confirmed against
+# real Hennepin data. See module docstring.
+MORTGAGOR_NUMBERED_RE = re.compile(
+    r"\d+\.\s*Mortgagors?:\s*(.+?)\s*\d+\.\s*Mortgagees?:", re.IGNORECASE | re.DOTALL,
+)
+MORTGAGOR_EXECUTED_BY_RE = re.compile(
+    r"executed by\s+(.+?),(?:\s*a\s+.+?,)?\s*as Mortgagor(?:\(s\))?", re.IGNORECASE | re.DOTALL,
 )
 PRINCIPAL_AMOUNT_RE = re.compile(
     r"(?:ORIGINAL|MAXIMUM)\s+PRINCIPAL\s+AMOUNT\s+OF\s+MORTGAGE:\s*\$([\d,]+\.\d{2})",
     re.IGNORECASE,
 )
+# Fallback amount phrasing confirmed on Ramsey's feed — same caveat as above.
+PRINCIPAL_AMOUNT_SECURED_RE = re.compile(
+    r"principal\s+amount\s+secured\s+by\s+the\s+mortgage\s+was:?\s*(?:[^$]*?)\$([\d,]+\.\d{2})",
+    re.IGNORECASE,
+)
 COUNTY_RE = re.compile(r"([A-Z][a-zA-Z]+)\s+County", re.IGNORECASE)
 AUCTION_DATE_RE = re.compile(r"Auction Date:\s*(\d{1,2}/\d{1,2}/\d{4})")
+# Postponement notices reference an original notice rather than restating
+# mortgagor/mortgagee/amount — see classify_skip_reason. Confirmed on
+# Ramsey's feed; not yet confirmed F&C's has this notice type at all.
+POSTPONEMENT_RE = re.compile(r"NOTICE OF POSTPONEMENT", re.IGNORECASE)
 
 
 def parse_address_from_title(title: str) -> dict:
@@ -123,12 +175,62 @@ def parse_address_from_title(title: str) -> dict:
     }
 
 
+def classify_skip_reason(description_text: str) -> str:
+    """Diagnostic classification — same purpose and logic as the version
+    built for scrape_stpaul_legal_ledger_realestate.py: distinguish
+    "genuinely not a standard mortgage foreclosure" from "probably is
+    one, but something (truncation, an unhandled format) is preventing
+    extraction." See that script + HANDOFF.md for the full story of how
+    this was arrived at and the bugs found in earlier versions of this
+    same logic (the Read More tail and postponement false-positive
+    issues) — both fixes are included here from the start rather than
+    needing to be rediscovered."""
+    stripped = READ_MORE_TAIL_RE.sub("", description_text).rstrip()
+
+    if POSTPONEMENT_RE.search(stripped):
+        return "postponement_notice"
+
+    upper = stripped.upper()
+    has_mortgagor_label = "MORTGAGOR" in upper
+    has_mortgagee_label = "MORTGAGEE" in upper
+    has_principal_label = ("PRINCIPAL AMOUNT OF MORTGAGE" in upper
+                            or "PRINCIPAL AMOUNT SECURED BY THE MORTGAGE" in upper)
+    length = len(stripped)
+    looks_truncated = length >= 380 and not stripped.endswith((".", ")", '"'))
+
+    if not has_mortgagor_label:
+        return "not_a_mortgage_notice"
+    if not has_mortgagee_label:
+        return "truncated_before_mortgagee" if looks_truncated else "malformed_mortgagor_block"
+    if not has_principal_label:
+        return "truncated_before_principal_amount" if looks_truncated else "missing_principal_amount_label"
+    return "has_all_labels_but_regex_still_failed"
+
+
 def parse_item(title: str, description_text: str, source_url: str) -> dict | None:
     """Returns a structured record for a standard mortgage-foreclosure
     notice, or None if this item isn't that pattern (HOA lien,
-    postponement, civil judgment sale, etc. — see module docstring)."""
+    postponement, civil judgment sale, etc. — see module docstring).
+
+    Tries the primary MORTGAGOR(S):/MORTGAGEE: format first, then two
+    fallback formats confirmed on Ramsey's feed (numbered fields;
+    inverted "executed by X ... as Mortgagor(s)") — see MULTI-FORMAT
+    BACKPORT note in module docstring for why these were added here
+    without direct confirmation they occur in Hennepin data."""
     mortgagor_m = MORTGAGOR_RE.search(description_text)
+    used_numbered_format = False
+    used_executed_by_format = False
+    if not mortgagor_m:
+        mortgagor_m = MORTGAGOR_NUMBERED_RE.search(description_text)
+        used_numbered_format = mortgagor_m is not None
+    if not mortgagor_m:
+        mortgagor_m = MORTGAGOR_EXECUTED_BY_RE.search(description_text)
+        used_executed_by_format = mortgagor_m is not None
+
     amount_m = PRINCIPAL_AMOUNT_RE.search(description_text)
+    if not amount_m:
+        amount_m = PRINCIPAL_AMOUNT_SECURED_RE.search(description_text)
+
     if not mortgagor_m or not amount_m:
         return None  # not a standard mortgage foreclosure — skip, don't guess
 
@@ -149,6 +251,12 @@ def parse_item(title: str, description_text: str, source_url: str) -> dict | Non
         "county": county_m.group(1) if county_m else None,
         "auction_date": auction_m.group(1) if auction_m else None,
         "source_url": source_url,
+        # useful for auditing how much data rides on the less-common
+        # fallback formats, and for spotting whether they're firing at
+        # all on this feed (if never True, F&C may just not have these
+        # format variants, which would answer the open question above)
+        "matched_numbered_format": used_numbered_format,
+        "matched_executed_by_format": used_executed_by_format,
     }
 
 
@@ -159,7 +267,13 @@ def parse_rss(xml_text: str) -> tuple[list[dict], int]:
     matched_records can legitimately be empty on a non-empty page (e.g. a
     page that's all HOA-lien notices) without that meaning end-of-feed."""
     records = []
-    skipped_other_type = 0
+    skipped = 0
+    skip_reasons = {}  # reason -> count, for the summary line — see
+                        # classify_skip_reason and MULTI-FORMAT BACKPORT
+                        # note in module docstring for why this matters
+                        # here specifically: this is what will tell us
+                        # whether F&C needs the same detail-page-fetch
+                        # retry mechanism Ramsey needed, or not.
 
     if len(xml_text.strip()) < 100 or not xml_text.strip().startswith("<?xml"):
         print(f"DEBUG: response doesn't look like real RSS (len={len(xml_text.strip())}), "
@@ -178,12 +292,14 @@ def parse_rss(xml_text: str) -> tuple[list[dict], int]:
 
         record = parse_item(title, description_text, link)
         if record is None:
-            skipped_other_type += 1
+            skipped += 1
+            reason = classify_skip_reason(description_text)
+            skip_reasons[reason] = skip_reasons.get(reason, 0) + 1
             continue
         records.append(record)
 
     print(f"  {len(records)} standard mortgage foreclosures extracted, "
-          f"{skipped_other_type} other-type notices skipped (not yet supported)", file=sys.stderr)
+          f"{skipped} skipped — breakdown: {skip_reasons}", file=sys.stderr)
     return records, len(items)
 
 
