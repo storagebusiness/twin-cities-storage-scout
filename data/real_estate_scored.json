@@ -1695,5 +1695,67 @@
       "equity_estimate": 72900.0,
       "equity_ratio": 1.53
     }
+  },
+  {
+    "mortgagor_name": "Xavier Turner, A Single Person",
+    "mortgage_amount": 268654.0,
+    "property_address_raw": "911 Conway St Saint Paul",
+    "house_number": "911",
+    "street_name": "Conway",
+    "street_suffix": "St",
+    "street_direction": "",
+    "city": "Saint Paul",
+    "zip": null,
+    "county": "Ramsey",
+    "auction_date": null,
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4201418",
+    "source": "stpaul_legal_ledger",
+    "parcel": {
+      "pin": "123-332922230113",
+      "owner_name": "XAVIER TURNER",
+      "emv_land": 25000,
+      "emv_bldg": 225600,
+      "emv_total": 250600,
+      "sale_value": 263000,
+      "sale_date": "2023-05-09",
+      "county": "Ramsey",
+      "lng": -93.0620046596594,
+      "lat": 44.956064256990636
+    },
+    "scoring": {
+      "equity_estimate": -18054.0,
+      "equity_ratio": 0.93
+    }
+  },
+  {
+    "mortgagor_name": "Jason J. Vavra and Jan Arford, husband and wife, as joint tenants",
+    "mortgage_amount": 417000.0,
+    "property_address_raw": "5970 Hobe Ln W White Bear Lake",
+    "house_number": "5970",
+    "street_name": "Hobe",
+    "street_suffix": "Ln",
+    "street_direction": "W",
+    "city": "White Bear Lake",
+    "zip": null,
+    "county": "Ramsey",
+    "auction_date": null,
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4199621",
+    "source": "stpaul_legal_ledger",
+    "parcel": {
+      "pin": "123-023022220031",
+      "owner_name": "JASON J VAVRA",
+      "emv_land": 365900,
+      "emv_bldg": 851700,
+      "emv_total": 1217600,
+      "sale_value": 316900,
+      "sale_date": "1998-09-18",
+      "county": "Ramsey",
+      "lng": -93.02291027751225,
+      "lat": 45.123039649090764
+    },
+    "scoring": {
+      "equity_estimate": 800600.0,
+      "equity_ratio": 2.92
+    }
   }
 ]
