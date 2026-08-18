@@ -180,6 +180,36 @@
     }
   },
   {
+    "mortgagor_name": "Thomas R. O`Brien and Sharon L. O`Brien, husband and wife",
+    "mortgage_amount": 225000.0,
+    "property_address_raw": "1304 Flag Ave S Minneapolis",
+    "house_number": "1304",
+    "street_name": "Flag",
+    "street_suffix": "Ave",
+    "street_direction": "S",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "09/11/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4203677",
+    "parcel": {
+      "pin": "053-0611721320115",
+      "owner_name": "THOMAS & SHARON O'BRIEN",
+      "emv_land": 145300,
+      "emv_bldg": 236300,
+      "emv_total": 381600,
+      "sale_value": 0,
+      "sale_date": null,
+      "county": "Hennepin",
+      "lng": -93.39673904909372,
+      "lat": 44.97099559385201
+    },
+    "scoring": {
+      "equity_estimate": 156600.0,
+      "equity_ratio": 1.7
+    }
+  },
+  {
     "mortgagor_name": "Thu-Nhan Thi Nguyen, A single Woman",
     "mortgage_amount": 560000.0,
     "property_address_raw": "4146 Trail Ridge Ln Minnetonka",
@@ -357,36 +387,6 @@
     "scoring": {
       "equity_estimate": 82276.0,
       "equity_ratio": 1.37
-    }
-  },
-  {
-    "mortgagor_name": "Jeffrey R. Auger and Natalie L. Auger, Husband and Wife",
-    "mortgage_amount": 316000.0,
-    "property_address_raw": "801 Washington Ave N Minneapolis",
-    "house_number": "801",
-    "street_name": "Washington",
-    "street_suffix": "Ave",
-    "street_direction": "N",
-    "city": "Minneapolis",
-    "zip": null,
-    "county": null,
-    "auction_date": "10/09/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4200685",
-    "parcel": {
-      "pin": "053-2202924210098",
-      "owner_name": "801 WASHINGTON LOFTS ASSN",
-      "emv_land": 57000,
-      "emv_bldg": 242000,
-      "emv_total": 299000,
-      "sale_value": 0,
-      "sale_date": null,
-      "county": "Hennepin",
-      "lng": -93.27950485917627,
-      "lat": 44.98905767449764
-    },
-    "scoring": {
-      "equity_estimate": -17000.0,
-      "equity_ratio": 0.95
     }
   },
   {
@@ -720,6 +720,36 @@
     }
   },
   {
+    "mortgagor_name": "Lori J Walstrom and Dwayne T Walstrom, spouses married to each other",
+    "mortgage_amount": 190933.0,
+    "property_address_raw": "3872 Hillsboro Ave N, Minneapolis",
+    "house_number": "3872",
+    "street_name": "Hillsboro",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Minneapolis",
+    "zip": "55427",
+    "county": null,
+    "auction_date": "08/31/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197714",
+    "parcel": {
+      "pin": "053-1811821310072",
+      "owner_name": "D T WALSTROM & L J WALSTROM",
+      "emv_land": 114000,
+      "emv_bldg": 201900,
+      "emv_total": 315900,
+      "sale_value": 194500,
+      "sale_date": "2015-11-01",
+      "county": "Hennepin",
+      "lng": -93.3953161245405,
+      "lat": 45.02729460321073
+    },
+    "scoring": {
+      "equity_estimate": 124967.0,
+      "equity_ratio": 1.65
+    }
+  },
+  {
     "mortgagor_name": "Jason Paul Strandberg AKA Jason Strandberg and Dung Strandberg, Married To Each Other",
     "mortgage_amount": 548250.0,
     "property_address_raw": "14604 Woodhaven Rd Minnetonka",
@@ -807,36 +837,6 @@
     "scoring": {
       "equity_estimate": 27600.0,
       "equity_ratio": 1.15
-    }
-  },
-  {
-    "mortgagor_name": "David Anderson a single person",
-    "mortgage_amount": 74625.0,
-    "property_address_raw": "11335 12th Ave N Plymouth",
-    "house_number": "11335",
-    "street_name": "12th",
-    "street_suffix": "Ave",
-    "street_direction": "N",
-    "city": "Plymouth",
-    "zip": null,
-    "county": null,
-    "auction_date": "09/04/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4196367",
-    "parcel": {
-      "pin": "053-3511822110056",
-      "owner_name": "OPK PROPERTIES LLC",
-      "emv_land": 15000,
-      "emv_bldg": 105600,
-      "emv_total": 120600,
-      "sale_value": 88000,
-      "sale_date": "2021-06-01",
-      "county": "Hennepin",
-      "lng": -93.42421810772541,
-      "lat": 44.99196522892156
-    },
-    "scoring": {
-      "equity_estimate": 45975.0,
-      "equity_ratio": 1.62
     }
   },
   {
@@ -960,33 +960,33 @@
     }
   },
   {
-    "mortgagor_name": "Jeffrey R. Auger and Natalie L. Auger, Husband and Wife",
-    "mortgage_amount": 316000.0,
-    "property_address_raw": "801 Washington Ave N Minneapolis",
-    "house_number": "801",
-    "street_name": "Washington",
-    "street_suffix": "Ave",
-    "street_direction": "N",
+    "mortgagor_name": "Lavonte Henderson",
+    "mortgage_amount": 199399.0,
+    "property_address_raw": "1344 Brookdale Dr Minneapolis",
+    "house_number": "1344",
+    "street_name": "Brookdale",
+    "street_suffix": "Dr",
+    "street_direction": "",
     "city": "Minneapolis",
     "zip": null,
     "county": null,
-    "auction_date": "08/10/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4188780",
+    "auction_date": "09/09/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4188817",
     "parcel": {
-      "pin": "053-2202924210098",
-      "owner_name": "801 WASHINGTON LOFTS ASSN",
-      "emv_land": 57000,
-      "emv_bldg": 242000,
-      "emv_total": 299000,
-      "sale_value": 0,
-      "sale_date": null,
+      "pin": "053-2411921330089",
+      "owner_name": "LAVONTE HENDERSON",
+      "emv_land": 120000,
+      "emv_bldg": 129500,
+      "emv_total": 249500,
+      "sale_value": 210000,
+      "sale_date": "2022-03-01",
       "county": "Hennepin",
-      "lng": -93.27950485917627,
-      "lat": 44.98905767449764
+      "lng": -93.29864458768239,
+      "lat": 45.09474677298888
     },
     "scoring": {
-      "equity_estimate": -17000.0,
-      "equity_ratio": 0.95
+      "equity_estimate": 50101.0,
+      "equity_ratio": 1.25
     }
   },
   {
@@ -1077,6 +1077,36 @@
     "scoring": {
       "equity_estimate": 90700.0,
       "equity_ratio": 1.55
+    }
+  },
+  {
+    "mortgagor_name": "John Frederick Mueller, A Single Man",
+    "mortgage_amount": 244440.0,
+    "property_address_raw": "8309 16th Ave S, Minneapolis",
+    "house_number": "8309",
+    "street_name": "16th",
+    "street_suffix": "Ave",
+    "street_direction": "S",
+    "city": "Minneapolis",
+    "zip": "55425",
+    "county": "Hennepin",
+    "auction_date": "08/03/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4188000",
+    "parcel": {
+      "pin": "053-0202724410058",
+      "owner_name": "JOHN FREDERICK MUELLER",
+      "emv_land": 124500,
+      "emv_bldg": 173700,
+      "emv_total": 298200,
+      "sale_value": 291000,
+      "sale_date": "2024-07-01",
+      "county": "Hennepin",
+      "lng": -93.25134559446403,
+      "lat": 44.852898205227895
+    },
+    "scoring": {
+      "equity_estimate": 53760.0,
+      "equity_ratio": 1.22
     }
   },
   {
