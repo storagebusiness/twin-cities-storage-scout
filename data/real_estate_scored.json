@@ -1731,6 +1731,39 @@
     }
   },
   {
+    "mortgagor_name": "Melody Ann Rose",
+    "mortgage_amount": 36000.0,
+    "property_address_raw": "1374 Searle St Saint Paul",
+    "house_number": "1374",
+    "street_name": "Searle",
+    "street_suffix": "St",
+    "street_direction": "",
+    "city": "Saint Paul",
+    "zip": null,
+    "county": "Ramsey",
+    "auction_date": null,
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4204348",
+    "source": "stpaul_legal_ledger",
+    "matched_numbered_format": true,
+    "matched_executed_by_format": false,
+    "parcel": {
+      "pin": "123-202922420083",
+      "owner_name": "MELODY A ROSE",
+      "emv_land": 30000,
+      "emv_bldg": 219200,
+      "emv_total": 249200,
+      "sale_value": 66900,
+      "sale_date": "1994-03-01",
+      "county": "Ramsey",
+      "lng": -93.0744064319611,
+      "lat": 44.982533126640845
+    },
+    "scoring": {
+      "equity_estimate": 213200.0,
+      "equity_ratio": 6.92
+    }
+  },
+  {
     "mortgagor_name": "Jason J. Vavra and Jan Arford, husband and wife, as joint tenants",
     "mortgage_amount": 417000.0,
     "property_address_raw": "5970 Hobe Ln W White Bear Lake",
@@ -1761,6 +1794,138 @@
     "scoring": {
       "equity_estimate": 800600.0,
       "equity_ratio": 2.92
+    }
+  },
+  {
+    "mortgagor_name": "TNT Properties and Investments LLC",
+    "mortgage_amount": 186000.0,
+    "property_address_raw": "2200 English St N Maplewood",
+    "house_number": "2200",
+    "street_name": "English",
+    "street_suffix": "St",
+    "street_direction": "N",
+    "city": "Maplewood",
+    "zip": null,
+    "county": "Ramsey",
+    "auction_date": null,
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4190083",
+    "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true,
+    "parcel": {
+      "pin": "123-102922330143",
+      "owner_name": "TNT PROPERTIES AND INVESTMENTS, LLC",
+      "emv_land": 96600,
+      "emv_bldg": 121100,
+      "emv_total": 217700,
+      "sale_value": 165000,
+      "sale_date": "2025-04-11",
+      "county": "Ramsey",
+      "lng": -93.04536664187286,
+      "lat": 45.00764283849508
+    },
+    "scoring": {
+      "equity_estimate": 31700.0,
+      "equity_ratio": 1.17
+    }
+  },
+  {
+    "mortgagor_name": "ADS LLC",
+    "mortgage_amount": 172500.0,
+    "property_address_raw": "1079 Maryland Ave E Saint Paul",
+    "house_number": "1079",
+    "street_name": "Maryland",
+    "street_suffix": "Ave",
+    "street_direction": "E",
+    "city": "Saint Paul",
+    "zip": null,
+    "county": "Ramsey",
+    "auction_date": null,
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4185795",
+    "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true,
+    "parcel": {
+      "pin": "123-212922430123",
+      "owner_name": "ADS LLC",
+      "emv_land": 25000,
+      "emv_bldg": 206300,
+      "emv_total": 231300,
+      "sale_value": 115000,
+      "sale_date": "2019-10-28",
+      "county": "Ramsey",
+      "lng": -93.05488673274016,
+      "lat": 44.977761824669805
+    },
+    "scoring": {
+      "equity_estimate": 58800.0,
+      "equity_ratio": 1.34
+    }
+  },
+  {
+    "mortgagor_name": "Pacific Investments LTD LLC",
+    "mortgage_amount": 165000.0,
+    "property_address_raw": "339 Jessamine Ave E, Saint Paul",
+    "house_number": "339",
+    "street_name": "Jessamine",
+    "street_suffix": "Ave",
+    "street_direction": "E",
+    "city": "Saint Paul",
+    "zip": "55130",
+    "county": "the",
+    "auction_date": null,
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4185802",
+    "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true,
+    "parcel": {
+      "pin": "123-292922220124",
+      "owner_name": "PACIFIC INVESTMENTS LTD LLC",
+      "emv_land": 25000,
+      "emv_bldg": 187600,
+      "emv_total": 212600,
+      "sale_value": 220000,
+      "sale_date": "2021-12-23",
+      "county": "Ramsey",
+      "lng": -93.08602131046307,
+      "lat": 44.97484765600461
+    },
+    "scoring": {
+      "equity_estimate": 47600.0,
+      "equity_ratio": 1.29
+    }
+  },
+  {
+    "mortgagor_name": "ADS LLC",
+    "mortgage_amount": 191250.0,
+    "property_address_raw": "554 Charles Ave, Saint Paul",
+    "house_number": "554",
+    "street_name": "Charles",
+    "street_suffix": "Ave",
+    "street_direction": "",
+    "city": "Saint Paul",
+    "zip": "55103",
+    "county": "the",
+    "auction_date": null,
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4185808",
+    "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true,
+    "parcel": {
+      "pin": "123-362923230073",
+      "owner_name": "ADS LLC",
+      "emv_land": 20000,
+      "emv_bldg": 190200,
+      "emv_total": 210200,
+      "sale_value": 85000,
+      "sale_date": "2020-11-06",
+      "county": "Ramsey",
+      "lng": -93.12344219831594,
+      "lat": 44.95736904947459
+    },
+    "scoring": {
+      "equity_estimate": 18950.0,
+      "equity_ratio": 1.1
     }
   }
 ]
