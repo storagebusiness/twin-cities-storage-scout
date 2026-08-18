@@ -121,6 +121,18 @@ PRINCIPAL_AMOUNT_SECURED_RE = re.compile(
     r"principal\s+amount\s+secured\s+by\s+the\s+mortgage\s+was:?\s*(?:[^$]*?)\$([\d,]+\.\d{2})",
     re.IGNORECASE,
 )
+# Third amount phrasing — confirmed on real Hennepin data, not seen on
+# Ramsey's feed at all: "...in the original or maximum principal amount
+# of Five Hundred Seventeen Thousand Five Hundred and 00/100
+# ($517,500.00) Dollars..." — spelled-out amount with the numeral in
+# parens, same "skip past spelled-out text to the real $X.XX" strategy
+# as PRINCIPAL_AMOUNT_SECURED_RE above, but a different lead-in phrase.
+# Distinct from PRINCIPAL_AMOUNT_SECURED_RE's "...was $X" — this one has
+# no "was", just "principal amount of X".
+PRINCIPAL_AMOUNT_OF_RE = re.compile(
+    r"principal\s+amount\s+of\s+(?:[^$]*?)\$([\d,]+\.\d{2})",
+    re.IGNORECASE,
+)
 COUNTY_RE = re.compile(r"([A-Z][a-zA-Z]+)\s+County", re.IGNORECASE)
 AUCTION_DATE_RE = re.compile(r"Auction Date:\s*(\d{1,2}/\d{1,2}/\d{4})")
 # Postponement notices reference an original notice rather than restating
@@ -235,6 +247,8 @@ def parse_item(title: str, description_text: str, source_url: str) -> dict | Non
     amount_m = PRINCIPAL_AMOUNT_RE.search(description_text)
     if not amount_m:
         amount_m = PRINCIPAL_AMOUNT_SECURED_RE.search(description_text)
+    if not amount_m:
+        amount_m = PRINCIPAL_AMOUNT_OF_RE.search(description_text)
 
     if not mortgagor_m or not amount_m:
         return None  # not a standard mortgage foreclosure — skip, don't guess
