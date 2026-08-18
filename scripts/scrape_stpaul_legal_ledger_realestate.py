@@ -108,10 +108,20 @@ MORTGAGOR_NUMBERED_RE = re.compile(
 # National Association" as mortgagee, suggesting a batch from one filer
 # using this house style). Tried only if the two above don't match.
 MORTGAGOR_EXECUTED_BY_RE = re.compile(
-    r"executed by\s+(.+?),(?:\s*a\s+.+?,)?\s*as Mortgagor\(s\)", re.IGNORECASE | re.DOTALL,
+    r"executed by\s+(.+?),(?:\s*a\s+.+?,)?\s*as Mortgagor(?:\(s\))?", re.IGNORECASE | re.DOTALL,
 )
 PRINCIPAL_AMOUNT_RE = re.compile(
     r"(?:ORIGINAL|MAXIMUM)\s+PRINCIPAL\s+AMOUNT\s+OF\s+MORTGAGE:\s*\$([\d,]+\.\d{2})",
+    re.IGNORECASE,
+)
+# Fallback amount phrasing — confirmed against 5 real notices, none of
+# which use "PRINCIPAL AMOUNT OF MORTGAGE:" at all: "The original/maximum
+# principal amount secured by the Mortgage was $36,000.00." or "...was:
+# One Hundred Eighty-Six Thousand and No/100 Dollars ($186,000.00)." —
+# the non-greedy [^$]*? skips past any spelled-out amount to the first
+# real $X.XX that follows "was".
+PRINCIPAL_AMOUNT_SECURED_RE = re.compile(
+    r"principal\s+amount\s+secured\s+by\s+the\s+mortgage\s+was:?\s*(?:[^$]*?)\$([\d,]+\.\d{2})",
     re.IGNORECASE,
 )
 COUNTY_RE = re.compile(r"([A-Z][a-zA-Z]+)\s+County", re.IGNORECASE)
@@ -194,7 +204,8 @@ def classify_skip_reason(description_text: str) -> str:
     upper = stripped.upper()
     has_mortgagor_label = "MORTGAGOR" in upper
     has_mortgagee_label = "MORTGAGEE" in upper
-    has_principal_label = "PRINCIPAL AMOUNT OF MORTGAGE" in upper
+    has_principal_label = ("PRINCIPAL AMOUNT OF MORTGAGE" in upper
+                            or "PRINCIPAL AMOUNT SECURED BY THE MORTGAGE" in upper)
     length = len(stripped)
     # RSS descriptions get cut off mid-sentence when truncated — a
     # description near the observed ~400-600 char truncation length that
@@ -221,6 +232,8 @@ def parse_item(title: str, description_text: str, source_url: str) -> dict | Non
         mortgagor_m = MORTGAGOR_EXECUTED_BY_RE.search(description_text)
         used_executed_by_format = mortgagor_m is not None
     amount_m = PRINCIPAL_AMOUNT_RE.search(description_text)
+    if not amount_m:
+        amount_m = PRINCIPAL_AMOUNT_SECURED_RE.search(description_text)
     if not mortgagor_m or not amount_m:
         return None  # not a standard mortgage foreclosure, or truncated before this point — skip, don't guess
 
