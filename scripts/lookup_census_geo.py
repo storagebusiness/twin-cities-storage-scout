@@ -77,17 +77,32 @@ def _census_api_key_param() -> dict:
 
 def geocode_to_block_group(lat: float, lng: float) -> dict | None:
     """Reverse-geocode a point to its Census block group. Returns
-    {"state": "27", "county": "053", "tract": "005400", "block_group": "1",
-    "geoid": "270530054001"} or None if the lookup fails.
+    {"state": "27", "county": "053", "tract": "026723", "block_group": "2",
+    "geoid": "270530267232"} or None if the lookup fails.
 
     NOTE: the Census Geocoder's coordinate-lookup endpoint takes x=lng,
     y=lat (longitude first) — easy to get backwards, double-checked
-    against the documented parameter names before writing this."""
+    against the documented parameter names before writing this.
+
+    NOTE ON THE "layers" PARAMETER (found on a live run, 2026-08-18): the
+    Current_Current benchmark/vintage does NOT expose "Block Groups" as
+    its own top-level geography category, regardless of the "layers"
+    param requested — it's silently ignored, and the response always
+    contains whatever fixed set of categories that benchmark returns
+    (States, Counties, "2020 Census Blocks", Census Tracts, etc., no
+    "Block Groups" key at all). Block-group info is still present,
+    though: every "2020 Census Blocks" record carries STATE/COUNTY/
+    TRACT/BLKGRP fields — the BLKGRP field IS the block group, just
+    attached to the more-granular block record rather than exposed as
+    its own category. So instead of looking for a "Block Groups" key,
+    this searches every returned category for the first record carrying
+    all four of those fields and builds the GEOID from them directly.
+    Dropped the "layers" param since it wasn't actually influencing the
+    response."""
     params = {
         "x": lng, "y": lat,
         "benchmark": "Public_AR_Current",
         "vintage": "Current_Current",
-        "layers": "Block Groups",
         "format": "json",
     }
     try:
@@ -99,21 +114,26 @@ def geocode_to_block_group(lat: float, lng: float) -> dict | None:
         return None
 
     try:
-        block_groups = data["result"]["geographies"]["Block Groups"]
-        if not block_groups:
-            return None
-        bg = block_groups[0]
-        return {
-            "state": bg["STATE"],
-            "county": bg["COUNTY"],
-            "tract": bg["TRACT"],
-            "block_group": bg["BLKGRP"],
-            "geoid": bg["GEOID"],
-        }
-    except (KeyError, IndexError) as e:
+        geographies = data["result"]["geographies"]
+    except KeyError as e:
         print(f"  WARNING: unexpected geocoder response shape for ({lat}, {lng}): {e} "
               f"— raw response: {data!r}", file=sys.stderr)
         return None
+
+    for records in geographies.values():
+        if not records:
+            continue
+        first = records[0]
+        if all(k in first for k in ("STATE", "COUNTY", "TRACT", "BLKGRP")):
+            state, county, tract, bg = first["STATE"], first["COUNTY"], first["TRACT"], first["BLKGRP"]
+            return {
+                "state": state, "county": county, "tract": tract, "block_group": bg,
+                "geoid": f"{state}{county}{tract}{bg}",
+            }
+
+    print(f"  WARNING: no geography category with STATE/COUNTY/TRACT/BLKGRP fields "
+          f"found for ({lat}, {lng}) — categories returned: {list(geographies.keys())}", file=sys.stderr)
+    return None
 
 
 def fetch_state_median_income(state_fips: str) -> float | None:
