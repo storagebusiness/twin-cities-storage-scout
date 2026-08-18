@@ -160,7 +160,15 @@ def extract_full_notice_text(html: str) -> str:
     # Strip tags to get flattened visible text. Deliberately not using a
     # heavier HTML parser dependency for a first pass — revisit if this
     # proves too fragile against the real DOM.
-    text = re.sub(r"<script.*?</script>", " ", html, flags=re.DOTALL | re.IGNORECASE)
+    #
+    # HTML comments stripped FIRST and separately, with DOTALL — the
+    # generic <[^>]+> tag-stripper below can't safely remove a comment
+    # that contains a literal ">" character inside it (common in real
+    # comments, e.g. conditional/template markers), which left a stray
+    # "-->" leaking into extracted text on a real run — see chat history,
+    # 2026-08-18.
+    text = re.sub(r"<!--.*?-->", " ", html, flags=re.DOTALL)
+    text = re.sub(r"<script.*?</script>", " ", text, flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r"<style.*?</style>", " ", text, flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r"<[^>]+>", "\n", text)
     text = re.sub(r"&amp;", "&", text)
@@ -311,8 +319,21 @@ def process_rss_items(xml_text: str) -> tuple[list[dict], int]:
         if records:
             print(f"  {link}: {len(records)} records", file=sys.stderr)
         else:
-            print(f"  {link}: 0 records — none of the 3 known unit formats matched "
-                  f"(first 200 chars: {notice_text[:200]!r})", file=sys.stderr)
+            # Print the FULL text (not just a 200-char preview) so a
+            # genuine format-4/format-5 discovery — or an extraction bug
+            # — is diagnosable from this log alone, same "always use real
+            # captured data" rule as the real estate scraper's retry
+            # logging. Also log the vehicle-heuristic's inputs even
+            # though it didn't trigger here, so a false negative (heuristic
+            # SHOULD have caught this but didn't) is visible directly
+            # rather than requiring a guess.
+            text_lower = notice_text.lower()
+            vehicle_hits = [s for s in ("vehicle", "vin", "license plate", "tow", "manufactured home") if s in text_lower]
+            storage_hits = [s for s in ("storagetreasures.com", "storage unit", "self storage", " storage ", "mini storage") if s in text_lower]
+            print(f"  {link}: 0 records — none of the 3 known unit formats matched\n"
+                  f"    notice_text length={len(notice_text)}\n"
+                  f"    vehicle-heuristic signals found: {vehicle_hits} | storage signals found: {storage_hits}\n"
+                  f"    FULL TEXT: {notice_text!r}", file=sys.stderr)
         all_records.extend(records)
 
     return all_records, len(items)
