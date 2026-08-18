@@ -12,6 +12,8 @@
     "county": "Hennepin",
     "auction_date": "10/23/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204627",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-3311922420014",
       "owner_name": "JUAN J GONZALEZ",
@@ -42,6 +44,8 @@
     "county": null,
     "auction_date": "09/29/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204171",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-0402924140134",
       "owner_name": "JERRY MAGILL",
@@ -72,6 +76,8 @@
     "county": null,
     "auction_date": "09/28/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204177",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-0411821440038",
       "owner_name": "DOUG GATLIN/CURISA EITTREIM",
@@ -102,6 +108,8 @@
     "county": null,
     "auction_date": "09/21/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204181",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-2011921110150",
       "owner_name": "STONYBROOK FOURTH CONDO AOA",
@@ -132,6 +140,8 @@
     "county": null,
     "auction_date": "09/28/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204210",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-0911821310096",
       "owner_name": "ANDREW GRINDLE",
@@ -162,6 +172,8 @@
     "county": "Hennepin",
     "auction_date": "11/10/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4203596",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-0502924440141",
       "owner_name": "JUAN P NIEVES",
@@ -192,6 +204,8 @@
     "county": "Hennepin",
     "auction_date": "09/11/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4203677",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-0611721320115",
       "owner_name": "THOMAS & SHARON O'BRIEN",
@@ -222,6 +236,8 @@
     "county": "Hennepin",
     "auction_date": "10/09/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4203177",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-2011722230016",
       "owner_name": "THU NHAN THI NGUYEN ET AL",
@@ -252,6 +268,8 @@
     "county": null,
     "auction_date": "09/24/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4202806",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-2811921440018",
       "owner_name": "VERA DIXON & MOLIZA R DENNIS",
@@ -282,6 +300,8 @@
     "county": "Hennepin",
     "auction_date": "09/24/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4202813",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-3502924130333",
       "owner_name": "DIANE ARCHIE",
@@ -312,6 +332,8 @@
     "county": "Hennepin",
     "auction_date": "11/09/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4201676",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-0502924440109",
       "owner_name": "ALEXIS APLONIA VIRAY",
@@ -342,6 +364,8 @@
     "county": null,
     "auction_date": "09/18/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4200667",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-1011821430052",
       "owner_name": "PAUL A BOWNIK",
@@ -372,6 +396,8 @@
     "county": null,
     "auction_date": "09/17/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4200677",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-2711921420044",
       "owner_name": "SUE THAO/CHARMIE HLUBCHY VUE",
@@ -402,6 +428,8 @@
     "county": "Hennepin",
     "auction_date": "10/09/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4199818",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-0611823430087",
       "owner_name": "JOHN L POGGIONE",
@@ -432,6 +460,8 @@
     "county": null,
     "auction_date": "10/27/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4199835",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-1211922420080",
       "owner_name": "J PAULSEN & K PAULSEN ZISSOS",
@@ -462,6 +492,8 @@
     "county": "Hennepin",
     "auction_date": "09/02/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4199288",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-0202724410058",
       "owner_name": "JOHN FREDERICK MUELLER",
@@ -492,6 +524,8 @@
     "county": null,
     "auction_date": "09/11/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4198889",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-1011921130052",
       "owner_name": "D M SOGGE & B A LINGASIN",
@@ -522,6 +556,8 @@
     "county": null,
     "auction_date": "09/23/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4198892",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-1102724410081",
       "owner_name": "ANNE T KEGLEY",
@@ -552,6 +588,8 @@
     "county": "Hennepin",
     "auction_date": "10/27/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4198550",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-3511722210045",
       "owner_name": "TROY E HUDSON",
@@ -582,6 +620,8 @@
     "county": "Hennepin",
     "auction_date": "10/02/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4198618",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-2311921410066",
       "owner_name": "BEVERLY A POTZ",
@@ -612,6 +652,8 @@
     "county": null,
     "auction_date": "10/02/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4198620",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-1512023120014",
       "owner_name": "C R & C M KOPPY",
@@ -642,6 +684,8 @@
     "county": "Hennepin",
     "auction_date": "09/08/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197675",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-0502924440109",
       "owner_name": "ALEXIS APLONIA VIRAY",
@@ -672,6 +716,8 @@
     "county": "Hennepin",
     "auction_date": "09/08/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197683",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-1811722440008",
       "owner_name": "T L TOBIN & S A MATSUYAMA",
@@ -702,6 +748,8 @@
     "county": null,
     "auction_date": "08/24/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197706",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-0711622230029",
       "owner_name": "GARY F HANCOCK",
@@ -732,6 +780,8 @@
     "county": null,
     "auction_date": "08/31/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197714",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-1811821310072",
       "owner_name": "D T WALSTROM & L J WALSTROM",
@@ -762,6 +812,8 @@
     "county": null,
     "auction_date": "09/08/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197227",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-2111722110083",
       "owner_name": "J STRANDBERG/D STRANDBERG",
@@ -792,6 +844,8 @@
     "county": "Hennepin",
     "auction_date": "09/03/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4196338",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-2111721320004",
       "owner_name": "COLE CLAFFEY",
@@ -822,6 +876,8 @@
     "county": "Hennepin",
     "auction_date": "09/14/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4196357",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-3502924130269",
       "owner_name": "GABRIELA E GALLEGOS-CAMACHO",
@@ -852,6 +908,8 @@
     "county": null,
     "auction_date": "09/04/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4196374",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-1602924410018",
       "owner_name": "LEMAR GREEN SR",
@@ -882,6 +940,8 @@
     "county": null,
     "auction_date": "08/26/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4193579",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-2102824220084",
       "owner_name": "ROBERTA R BLACKWOOD",
@@ -912,6 +972,8 @@
     "county": "Hennepin",
     "auction_date": "08/24/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4192824",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-3311922420014",
       "owner_name": "JUAN J GONZALEZ",
@@ -942,6 +1004,8 @@
     "county": "Hennepin",
     "auction_date": "08/10/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4188770",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-0611823430087",
       "owner_name": "JOHN L POGGIONE",
@@ -972,6 +1036,8 @@
     "county": null,
     "auction_date": "09/09/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4188817",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-2411921330089",
       "owner_name": "LAVONTE HENDERSON",
@@ -1002,6 +1068,8 @@
     "county": null,
     "auction_date": "08/04/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4188066",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-1902923210075",
       "owner_name": "CHARLES A DEERY",
@@ -1032,6 +1100,8 @@
     "county": "Hennepin",
     "auction_date": "08/03/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4187995",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-2311921410066",
       "owner_name": "BEVERLY A POTZ",
@@ -1062,6 +1132,8 @@
     "county": null,
     "auction_date": "08/03/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4187997",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-0111821310002",
       "owner_name": "TLISSIA CURTIS",
@@ -1092,6 +1164,8 @@
     "county": "Hennepin",
     "auction_date": "08/03/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4188000",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-0202724410058",
       "owner_name": "JOHN FREDERICK MUELLER",
@@ -1122,6 +1196,8 @@
     "county": null,
     "auction_date": "08/03/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4188006",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-1512023120014",
       "owner_name": "C R & C M KOPPY",
@@ -1152,6 +1228,8 @@
     "county": null,
     "auction_date": "07/31/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4186631",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
     "parcel": {
       "pin": "053-1811821310072",
       "owner_name": "D T WALSTROM & L J WALSTROM",
