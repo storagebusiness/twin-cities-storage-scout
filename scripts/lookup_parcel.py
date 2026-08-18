@@ -69,12 +69,34 @@ def parse_sale_date(epoch_ms: int | None) -> str | None:
 def lookup_parcel(house_number: str, street_name: str, city: str | None = None) -> dict | None:
     """Returns the best-matching parcel's assessed value, sale history,
     and centroid coordinates, or None if no match / ambiguous match with
-    no way to disambiguate."""
+    no way to disambiguate.
+
+    Two-tier lookup: tries the city-filtered query first (precise), and
+    if that comes back empty, retries WITHOUT the city filter — but only
+    accepts the result if it's a single unambiguous match. This exists
+    because live testing found the city label in F&C's own notice titles
+    is sometimes wrong: the exact same house number + street successfully
+    matched under one city in one posting and failed under a different
+    (incorrect) city in another posting for what was clearly the same
+    underlying property. Requiring an exact city match was rejecting
+    real matches, not just preventing wrong ones — so city becomes a
+    disambiguator of last resort, not a hard requirement."""
+    result = _query_parcel(house_number, street_name, city)
+    if result is not None:
+        return result
+    if city:
+        # city filter may have been wrong — retry without it, but only
+        # accept if unambiguous
+        return _query_parcel(house_number, street_name, city=None)
+    return None
+
+
+def _query_parcel(house_number: str, street_name: str, city: str | None) -> dict | None:
     where = build_where_clause(house_number, street_name, city)
     params = {
         "where": where,
         "outFields": OUT_FIELDS,
-        "outSR": "4326",  # ask ArcGIS to reproject to lat/lng server-side
+        "outSR": "4326",
         "f": "json",
         "resultRecordCount": 5,
     }
@@ -89,10 +111,11 @@ def lookup_parcel(house_number: str, street_name: str, city: str | None = None) 
     features = data.get("features", [])
     if not features:
         return None
-    if len(features) > 1 and not city:
-        # ambiguous without a city filter — don't guess which one
+    if len(features) > 1:
+        # ambiguous — don't guess which one, regardless of whether city
+        # was applied this call
         print(f"  ambiguous match for {house_number} {street_name} "
-              f"({len(features)} results, no city to disambiguate)", file=sys.stderr)
+              f"(city={city!r}, {len(features)} results)", file=sys.stderr)
         return None
 
     feature = features[0]
