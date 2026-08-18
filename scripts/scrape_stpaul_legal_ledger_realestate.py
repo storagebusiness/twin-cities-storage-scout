@@ -22,14 +22,15 @@ history, not fabricated.
 NOTE ON TRUNCATION: minnlawyer.com's RSS <description> field is truncated
 to roughly 400-600 characters, cutting many notices off mid-sentence
 before reaching the county name or full mortgagor/amount text. Confirmed
-against a real run (2026-08-17): several standard mortgage foreclosures
-were silently dropped because MORTGAGOR/MORTGAGEE/PRINCIPAL AMOUNT text
-got cut off mid-word before the parser reached it — not merely a
-`county`-field gap, actual record loss. Full detail-page fetching was
-considered unnecessary at first (unlike Personal Property) but that
-assumption turned out to be wrong for a meaningful fraction of notices;
-revisit if `real estate real match rate` (see main()'s summary) stays
-low after the fixes below.
+against a real run (2026-08-17): 8 of 38 items (~21%) were genuine
+mortgage foreclosures lost purely to truncation, not different notice
+types. Original assumption that RSS alone was sufficient for real estate
+(unlike Personal Property) was WRONG — fixed by adding the same
+detail-page-fetch retry pattern personal property already used, but
+applied selectively: only to items classified truncated_before_mortgagee
+/ truncated_before_principal_amount by classify_skip_reason, not to every
+skip, since items classified not_a_mortgage_notice genuinely aren't
+standard notices and fetching their detail page would be wasted requests.
 
 NOTE ON COUNTY: do NOT assume every item in this feed is Ramsey County.
 Confirmed against a real run: a Cottage Grove property (Washington
@@ -46,6 +47,7 @@ mislabel out-of-county records as Ramsey rather than honestly showing
 import json
 import re
 import sys
+import time
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -54,6 +56,10 @@ import requests
 RSS_BASE = "https://minnlawyer.com/public-notice/export-rss/"
 OUT_PATH = Path(__file__).parent.parent / "data" / "stpaul_legal_ledger_realestate.json"
 MAX_PAGES = 10
+DETAIL_FETCH_DELAY_SECONDS = 1.0  # be polite — one extra request per truncated item
+
+HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                          "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"}
 # No hardcoded fallback county — this feed is NOT purely Ramsey-scoped
 # (a Cottage Grove/Washington County item was observed in a real run).
 # `county` is left None when COUNTY_RE can't find it, rather than guessing
@@ -196,17 +202,96 @@ def parse_item(title: str, description_text: str, source_url: str) -> dict | Non
     }
 
 
-def parse_rss(xml_text: str) -> tuple[list[dict], int]:
-    """Returns (matched_records, raw_item_count) — see pagination-fix
-    note in scrape_finance_commerce_realestate.py for why raw_item_count
-    is what pagination should key off of, not len(matched_records)."""
+def extract_full_notice_text(html: str) -> str:
+    """Pull the full, untruncated notice body out of a detail page.
+
+    ⚠️ SAME VERIFICATION CAVEAT AS scrape_stpaul_legal_ledger_
+    personalproperty.py's copy of this function: built from the VISIBLE
+    layout of a browser-exported page (an "Ad Text" section starting
+    after a dated line, ending at "Ad #<digits>" or the BridgeTower
+    disclaimer), not confirmed against the real HTML/DOM for a REAL
+    ESTATE detail page specifically — only for a Personal Property one.
+    Both are served by the same platform/template, so this is a
+    reasonable bet, not a confirmed one. If DEBUG output shows this
+    returning empty text on a live run, that's the first thing to check.
+    """
+    text = re.sub(r"<script.*?</script>", " ", html, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<style.*?</style>", " ", text, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", "\n", text)
+    text = re.sub(r"&amp;", "&", text)
+    text = re.sub(r"&#x27;|&rsquo;|&rsquo", "'", text)
+    text = re.sub(r"&sect;", "§", text)
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n\s*\n+", "\n", text).strip()
+
+    ad_text_m = re.search(r"Ad Text\s*\n(.+?)(?:Ad #\s*\d+|St\. Paul Legal Ledger has abstracted)",
+                           text, re.DOTALL | re.IGNORECASE)
+    if not ad_text_m:
+        return ""
+    body = ad_text_m.group(1)
+    body = re.sub(r"^\s*\w+ \d{1,2}, \d{4}\s*\n", "", body)
+    return body.strip()
+
+
+def fetch_detail_page(url: str) -> str:
+    resp = requests.get(url, headers=HEADERS, timeout=20)
+    resp.raise_for_status()
+    return resp.text
+
+
+def retry_truncated_items(retry_candidates: list[tuple[str, str, str]]) -> list[dict]:
+    """Re-attempt parsing for items that looked like real mortgage
+    foreclosures but got cut off by RSS truncation — see
+    classify_skip_reason's truncated_before_mortgagee /
+    truncated_before_principal_amount. Only these, not every skip: items
+    classified not_a_mortgage_notice genuinely aren't standard notices,
+    so fetching their detail page would be wasted requests."""
+    recovered = []
+    for title, link, reason in retry_candidates:
+        if not link:
+            continue
+        time.sleep(DETAIL_FETCH_DELAY_SECONDS)
+        try:
+            html = fetch_detail_page(link)
+        except requests.RequestException as e:
+            print(f"  RETRY FAILED (fetch error) for {title!r} ({reason}): {e}", file=sys.stderr)
+            continue
+
+        full_text = extract_full_notice_text(html)
+        if not full_text:
+            print(f"  RETRY FAILED (extract_full_notice_text found nothing) for {title!r} "
+                  f"— see function's verification caveat", file=sys.stderr)
+            continue
+
+        record = parse_item(title, full_text, link)
+        if record is None:
+            # still doesn't match even with the full text — genuinely
+            # not recoverable, or the notice uses yet another label
+            # variant we haven't seen. Worth a direct look if this shows
+            # up often.
+            still_missing = classify_skip_reason(full_text)
+            print(f"  RETRY FAILED (still doesn't parse, now classified {still_missing}) "
+                  f"for {title!r} — full text len={len(full_text)}", file=sys.stderr)
+            continue
+
+        print(f"  RETRY SUCCEEDED for {title!r} (was {reason})", file=sys.stderr)
+        recovered.append(record)
+    return recovered
+
+
+def parse_rss(xml_text: str) -> tuple[list[dict], int, list[tuple[str, str, str]]]:
+    """Returns (matched_records, raw_item_count, retry_candidates).
+    retry_candidates is (title, link, reason) for items that look
+    truncated rather than genuinely non-standard — see
+    retry_truncated_items."""
     records = []
     skipped = 0
+    retry_candidates = []
 
     if len(xml_text.strip()) < 100 or not xml_text.strip().startswith("<?xml"):
         print(f"DEBUG: response doesn't look like real RSS (len={len(xml_text.strip())}), "
               f"treating as end of results", file=sys.stderr)
-        return records, 0
+        return records, 0, retry_candidates
 
     root = ET.fromstring(xml_text)
     items = root.findall(".//item")
@@ -226,12 +311,14 @@ def parse_rss(xml_text: str) -> tuple[list[dict], int]:
             skip_reasons[reason] = skip_reasons.get(reason, 0) + 1
             print(f"  SKIPPED ({reason}, len={len(description_text)}): {title!r} "
                   f"| ends with: ...{description_text[-60:]!r}", file=sys.stderr)
+            if reason in ("truncated_before_mortgagee", "truncated_before_principal_amount"):
+                retry_candidates.append((title, link, reason))
             continue
         records.append(record)
 
     print(f"  {len(records)} standard mortgage foreclosures extracted, "
           f"{skipped} skipped — breakdown: {skip_reasons}", file=sys.stderr)
-    return records, len(items)
+    return records, len(items), retry_candidates
 
 
 def fetch_page(page_num: int) -> str:
@@ -248,13 +335,22 @@ def fetch_page(page_num: int) -> str:
 
 def main():
     all_records = []
+    all_retry_candidates = []
     for page in range(1, MAX_PAGES + 1):
         xml_text = fetch_page(page)
         print(f"DEBUG: page {page} response length = {len(xml_text)} chars", file=sys.stderr)
-        records, item_count = parse_rss(xml_text)
+        records, item_count, retry_candidates = parse_rss(xml_text)
         all_records.extend(records)
+        all_retry_candidates.extend(retry_candidates)
         if item_count == 0 and page > 1:
             break
+
+    if all_retry_candidates:
+        print(f"Retrying {len(all_retry_candidates)} truncated-but-likely-standard "
+              f"notices via detail-page fetch...", file=sys.stderr)
+        recovered = retry_truncated_items(all_retry_candidates)
+        print(f"Recovered {len(recovered)}/{len(all_retry_candidates)} via detail-page fetch", file=sys.stderr)
+        all_records.extend(recovered)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(all_records, indent=2))
