@@ -1183,6 +1183,7 @@
     "auction_date": "09/23/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4202285",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-192922410021",
       "owner_name": "MONICA H LEE",
@@ -1214,6 +1215,7 @@
     "auction_date": "09/11/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4202325",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-322922120093",
       "owner_name": "WILLIAM RINEHART",
@@ -1245,6 +1247,7 @@
     "auction_date": "08/31/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4198749",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-272922310088",
       "owner_name": "KOBE MICHEAL ANDERSON",
@@ -1276,6 +1279,7 @@
     "auction_date": "09/17/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4199611",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-292922220022",
       "owner_name": "DEREK WILLIAMS",
@@ -1307,6 +1311,7 @@
     "auction_date": "09/16/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4200021",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-362922110044",
       "owner_name": "BRETT KRAUS",
@@ -1338,6 +1343,7 @@
     "auction_date": "09/16/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4200028",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-282922320049",
       "owner_name": "THOMAS J GALLOWAY",
@@ -1369,6 +1375,7 @@
     "auction_date": "09/04/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4200033",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-082822410038",
       "owner_name": "JUAN GABRIEL CABAN",
@@ -1400,6 +1407,7 @@
     "auction_date": "09/09/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4197440",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-152922410078",
       "owner_name": "SUE VANG VANG",
@@ -1431,6 +1439,7 @@
     "auction_date": "09/28/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4197579",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-342922220202",
       "owner_name": "JAROME WATSON",
@@ -1462,6 +1471,7 @@
     "auction_date": "08/13/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4197937",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-043023240077",
       "owner_name": "CARINA CASTILLO",
@@ -1493,6 +1503,7 @@
     "auction_date": "08/24/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4197950",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-242923440097",
       "owner_name": "PEE KHAY",
@@ -1524,6 +1535,7 @@
     "auction_date": "09/02/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4195405",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-223023130080",
       "owner_name": "LONNIE TRAP",
@@ -1555,6 +1567,7 @@
     "auction_date": "08/26/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4193035",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-322922240042",
       "owner_name": "BRYAN KEITH TODD",
@@ -1586,6 +1599,7 @@
     "auction_date": "08/26/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4193982",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-113023110020",
       "owner_name": "DAVID L GREER",
@@ -1617,6 +1631,7 @@
     "auction_date": "08/26/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4193986",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-262923330159",
       "owner_name": "COURTNEY VESZI",
@@ -1648,6 +1663,7 @@
     "auction_date": "08/12/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4189874",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-322922120093",
       "owner_name": "WILLIAM RINEHART",
@@ -1679,6 +1695,7 @@
     "auction_date": "08/05/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4187741",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-082822410038",
       "owner_name": "JUAN GABRIEL CABAN",
@@ -1710,6 +1727,7 @@
     "auction_date": null,
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4201418",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-332922230113",
       "owner_name": "XAVIER TURNER",
@@ -1741,6 +1759,7 @@
     "auction_date": null,
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4199621",
     "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
     "parcel": {
       "pin": "123-023022220031",
       "owner_name": "JASON J VAVRA",
