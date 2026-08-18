@@ -21,22 +21,26 @@ history, not fabricated.
 
 NOTE ON TRUNCATION: minnlawyer.com's RSS <description> field is truncated
 to roughly 400-600 characters, cutting many notices off mid-sentence
-before reaching the county name or full mortgagor/amount text. This is
-usually fine for real estate specifically because MORTGAGOR(S)/MORTGAGEE/
-PRINCIPAL AMOUNT tend to appear early in a standard notice, before the
-truncation point — but COUNTY_RE in particular often lands on "Ramsey
-County Recorder" or "Ramsey County Registrar" text that can come AFTER the
-cutoff, so `county` may be None more often here than on F&C's feed even
-when the record is otherwise well-formed. That's fine: the county is
-Ramsey by construction (this script only ever queries Ramsey's feed via
-this domain), so downstream code should trust the SOURCE (this script),
-not rely on the scraped county field, when tagging county for these
-records. Unlike Personal Property, full detail-page fetching was NOT
-found necessary for real estate — the truncated RSS payload has enough of
-each notice's beginning to extract mortgagor/amount reliably in testing.
-If that changes (a batch of records with mortgagor_name=None), the fix is
-the same pattern as scrape_stpaul_legal_ledger_personalproperty.py: fetch
-source_url per item instead of relying on RSS alone.
+before reaching the county name or full mortgagor/amount text. Confirmed
+against a real run (2026-08-17): several standard mortgage foreclosures
+were silently dropped because MORTGAGOR/MORTGAGEE/PRINCIPAL AMOUNT text
+got cut off mid-word before the parser reached it — not merely a
+`county`-field gap, actual record loss. Full detail-page fetching was
+considered unnecessary at first (unlike Personal Property) but that
+assumption turned out to be wrong for a meaningful fraction of notices;
+revisit if `real estate real match rate` (see main()'s summary) stays
+low after the fixes below.
+
+NOTE ON COUNTY: do NOT assume every item in this feed is Ramsey County.
+Confirmed against a real run: a Cottage Grove property (Washington
+County) appeared in this feed's Real Estate results — this domain/feed
+is not purely Ramsey-scoped the way we originally assumed. It happened to
+be a non-standard notice type that got skipped anyway, but a future
+standard-format notice from another county could slip through. `county`
+is left as None when COUNTY_RE can't find it in the (possibly truncated)
+text — do NOT fall back to a hardcoded "Ramsey", since that would
+mislabel out-of-county records as Ramsey rather than honestly showing
+"unknown."
 """
 
 import json
@@ -50,15 +54,31 @@ import requests
 RSS_BASE = "https://minnlawyer.com/public-notice/export-rss/"
 OUT_PATH = Path(__file__).parent.parent / "data" / "stpaul_legal_ledger_realestate.json"
 MAX_PAGES = 10
-SOURCE_COUNTY = "Ramsey"  # trust the source, not the scraped county field — see module docstring
+# No hardcoded fallback county — this feed is NOT purely Ramsey-scoped
+# (a Cottage Grove/Washington County item was observed in a real run).
+# `county` is left None when COUNTY_RE can't find it, rather than guessing
+# — see module docstring "NOTE ON COUNTY".
+
+# RSS boilerplate appended to every item's description ("Read More...",
+# sometimes wrapped in an <a> tag whose text itertext() picks up) — strip
+# this BEFORE truncation-detection in classify_skip_reason, or every
+# description looks like it "ends in punctuation" (the "..." in "Read
+# More...") regardless of whether the real notice text was cut off.
+# Found as a bug in the diagnostic logging itself on 2026-08-17 — see chat.
+READ_MORE_TAIL_RE = re.compile(r"\s*Read More\.\.\.\s*$", re.IGNORECASE)
 
 STREET_SUFFIXES = r"(?:Ave|St|Dr|Blvd|Ln|Rd|Way|Ct|Cir|Pl|Trail|Trl|Pkwy|Terrace|Ter)"
 DIRECTIONS = r"(?:N|S|E|W|NE|NW|SE|SW)"
 DIRECTION_WORDS = {"N": "N", "S": "S", "E": "E", "W": "W",
                     "NORTH": "N", "SOUTH": "S", "EAST": "E", "WEST": "W"}
 
+# "(S)" made optional — confirmed against a real run: some notices use
+# the singular label "MORTGAGOR:" instead of "MORTGAGOR(S):" (e.g. a
+# White Bear Lake notice: "MORTGAGOR: Jason J. Vavra and Jan Arford,
+# husband and wife..."). The strict "(S)" version silently dropped these
+# as non-matches even though they're standard mortgage foreclosures.
 MORTGAGOR_RE = re.compile(
-    r"MORTGAGOR\(S\):\s*(.+?)\s*MORTGAGEE:", re.IGNORECASE | re.DOTALL,
+    r"MORTGAGOR(?:\(S\))?:\s*(.+?)\s*MORTGAGEE:", re.IGNORECASE | re.DOTALL,
 )
 PRINCIPAL_AMOUNT_RE = re.compile(
     r"(?:ORIGINAL|MAXIMUM)\s+PRINCIPAL\s+AMOUNT\s+OF\s+MORTGAGE:\s*\$([\d,]+\.\d{2})",
@@ -121,15 +141,22 @@ def classify_skip_reason(description_text: str) -> str:
     format at all) and the second is real, recoverable data loss — same
     fix as the personal-property scraper (fetch the detail page) would
     apply here too, if this turns out to be the dominant skip reason."""
-    upper = description_text.upper()
+    # Strip the RSS "Read More..." boilerplate BEFORE checking how the
+    # text ends — every raw description ends with that tail, and its
+    # "..." was previously satisfying the "ends in punctuation" check
+    # unconditionally, making every truncated record look complete.
+    # Found as a real bug on a live run — see module docstring.
+    stripped = READ_MORE_TAIL_RE.sub("", description_text).rstrip()
+
+    upper = stripped.upper()
     has_mortgagor_label = "MORTGAGOR" in upper
     has_mortgagee_label = "MORTGAGEE" in upper
     has_principal_label = "PRINCIPAL AMOUNT OF MORTGAGE" in upper
-    length = len(description_text)
+    length = len(stripped)
     # RSS descriptions get cut off mid-sentence when truncated — a
     # description near the observed ~400-600 char truncation length that
     # doesn't end on a sentence boundary is a strong truncation signal.
-    looks_truncated = length >= 380 and not description_text.rstrip().endswith((".", ")", '"'))
+    looks_truncated = length >= 380 and not stripped.endswith((".", ")", '"'))
 
     if not has_mortgagor_label:
         return "not_a_mortgage_notice"  # HOA lien / postponement / sheriff's sale / etc — expected, not a bug
@@ -160,8 +187,9 @@ def parse_item(title: str, description_text: str, source_url: str) -> dict | Non
         "street_direction": address["direction"],
         "city": address["city"],
         "zip": address["zip"],
-        # trust the source over the (often-truncated-away) scraped field:
-        "county": county_m.group(1) if county_m else SOURCE_COUNTY,
+        # None (not a hardcoded fallback) when not found — see "NOTE ON
+        # COUNTY" in module docstring: this feed isn't purely Ramsey.
+        "county": county_m.group(1) if county_m else None,
         "auction_date": auction_m.group(1) if auction_m else None,
         "source_url": source_url,
         "source": "stpaul_legal_ledger",
