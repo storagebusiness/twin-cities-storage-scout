@@ -34,12 +34,13 @@ def main():
         house_number = record.get("house_number")
         street_name = record.get("street_name")
         city = record.get("city")
+        suffix = record.get("street_suffix")  # was extracted but never passed through — bug fix
 
         if not house_number or not street_name:
             unmatched += 1
             continue
 
-        parcel = lookup_parcel(house_number, street_name, city)
+        parcel = lookup_parcel(house_number, street_name, city, suffix)
         if parcel is None:
             unmatched += 1
             print(f"  no parcel match: {record.get('property_address_raw')}", file=sys.stderr)
