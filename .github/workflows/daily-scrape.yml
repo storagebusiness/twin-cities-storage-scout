@@ -49,6 +49,7 @@ jobs:
           [ -f data/stpaul_legal_ledger_realestate.json ] && git add data/stpaul_legal_ledger_realestate.json
           [ -f data/stpaul_legal_ledger_names.json ] && git add data/stpaul_legal_ledger_names.json
           [ -f data/real_estate_scored.json ] && git add data/real_estate_scored.json
+          [ -f data/area_income_blockgroups.json ] && git add data/area_income_blockgroups.json
           git diff --staged --quiet || git commit -m "Daily name data update $(date -u +%Y-%m-%d)"
           git pull --rebase origin main
           git push
