@@ -1248,6 +1248,38 @@
     }
   },
   {
+    "mortgagor_name": "Michael J. Hadler, spouse of Stacey Renee Hey and Stacey Renee Hey, spouse of Michael J. Hadler",
+    "mortgage_amount": 517500.0,
+    "property_address_raw": "1509 Linner Rd Minnetonka",
+    "house_number": "1509",
+    "street_name": "Linner",
+    "street_suffix": "Rd",
+    "street_direction": "",
+    "city": "Minnetonka",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204941",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true,
+    "parcel": {
+      "pin": "053-0411722420024",
+      "owner_name": "STACEY HEY & MIKE J HADLER",
+      "emv_land": 385000,
+      "emv_bldg": 610800,
+      "emv_total": 995800,
+      "sale_value": 518619,
+      "sale_date": "2016-07-01",
+      "county": "Hennepin",
+      "lng": -93.46770254096151,
+      "lat": 44.969259983852616
+    },
+    "scoring": {
+      "equity_estimate": 478300.0,
+      "equity_ratio": 1.92
+    }
+  },
+  {
     "mortgagor_name": "Whetstone Colwell, LLC\n3.",
     "mortgage_amount": 20850000.0,
     "property_address_raw": "123 3rd St N Minneapolis",
@@ -1344,6 +1376,38 @@
     }
   },
   {
+    "mortgagor_name": "Stieg Strand",
+    "mortgage_amount": 250000.0,
+    "property_address_raw": "13277 Melody Ct Eden Prairie",
+    "house_number": "13277",
+    "street_name": "Melody",
+    "street_suffix": "Ct",
+    "street_direction": "",
+    "city": "Eden Prairie",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4193207",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true,
+    "parcel": {
+      "pin": "053-1011622120047",
+      "owner_name": "STIEG STRAND",
+      "emv_land": 206200,
+      "emv_bldg": 357300,
+      "emv_total": 563500,
+      "sale_value": 439000,
+      "sale_date": "2004-11-01",
+      "county": "Hennepin",
+      "lng": -93.44531560851782,
+      "lat": 44.87427995799611
+    },
+    "scoring": {
+      "equity_estimate": 313500.0,
+      "equity_ratio": 2.25
+    }
+  },
+  {
     "mortgagor_name": "Schaefco Development, LLC",
     "mortgage_amount": 600000.0,
     "property_address_raw": "25300 Park Ln Shorewood",
@@ -1437,6 +1501,38 @@
     "scoring": {
       "equity_estimate": -130000.0,
       "equity_ratio": 0.74
+    }
+  },
+  {
+    "mortgagor_name": "Cynthia Frances",
+    "mortgage_amount": 35000.0,
+    "property_address_raw": "5410 Sanibel Dr Minnetonka",
+    "house_number": "5410",
+    "street_name": "Sanibel",
+    "street_suffix": "Dr",
+    "street_direction": "",
+    "city": "Minnetonka",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4187638",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true,
+    "parcel": {
+      "pin": "053-3511722110264",
+      "owner_name": "CYNTHIA FRANCES",
+      "emv_land": 44000,
+      "emv_bldg": 265600,
+      "emv_total": 309600,
+      "sale_value": 148950,
+      "sale_date": "2011-11-01",
+      "county": "Hennepin",
+      "lng": -93.4259726828913,
+      "lat": 44.90597688599027
+    },
+    "scoring": {
+      "equity_estimate": 274600.0,
+      "equity_ratio": 8.85
     }
   },
   {

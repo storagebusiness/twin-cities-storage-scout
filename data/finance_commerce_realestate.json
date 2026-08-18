@@ -736,6 +736,22 @@
     "matched_executed_by_format": false
   },
   {
+    "mortgagor_name": "Michael J. Hadler, spouse of Stacey Renee Hey and Stacey Renee Hey, spouse of Michael J. Hadler",
+    "mortgage_amount": 517500.0,
+    "property_address_raw": "1509 Linner Rd Minnetonka",
+    "house_number": "1509",
+    "street_name": "Linner",
+    "street_suffix": "Rd",
+    "street_direction": "",
+    "city": "Minnetonka",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204941",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true
+  },
+  {
     "mortgagor_name": "Whetstone Colwell, LLC\n3.",
     "mortgage_amount": 20850000.0,
     "property_address_raw": "123 3rd St N Minneapolis",
@@ -816,6 +832,22 @@
     "matched_executed_by_format": false
   },
   {
+    "mortgagor_name": "Stieg Strand",
+    "mortgage_amount": 250000.0,
+    "property_address_raw": "13277 Melody Ct Eden Prairie",
+    "house_number": "13277",
+    "street_name": "Melody",
+    "street_suffix": "Ct",
+    "street_direction": "",
+    "city": "Eden Prairie",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4193207",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true
+  },
+  {
     "mortgagor_name": "Schaefco Development, LLC",
     "mortgage_amount": 600000.0,
     "property_address_raw": "25300 Park Ln Shorewood",
@@ -860,6 +892,22 @@
     "county": "Hennepin",
     "auction_date": null,
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4188433",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true
+  },
+  {
+    "mortgagor_name": "Cynthia Frances",
+    "mortgage_amount": 35000.0,
+    "property_address_raw": "5410 Sanibel Dr Minnetonka",
+    "house_number": "5410",
+    "street_name": "Sanibel",
+    "street_suffix": "Dr",
+    "street_direction": "",
+    "city": "Minnetonka",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4187638",
     "matched_numbered_format": false,
     "matched_executed_by_format": true
   }
