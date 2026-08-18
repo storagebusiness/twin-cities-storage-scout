@@ -112,6 +112,34 @@ def parse_address_from_title(title: str) -> dict:
     }
 
 
+def classify_skip_reason(description_text: str) -> str:
+    """Distinguish "genuinely not a standard mortgage foreclosure notice"
+    from "probably IS one, but minnlawyer.com's RSS truncation (~400-600
+    chars, see module docstring) cut it off before we could tell." This
+    matters because the first is expected/fine (HOA liens, postponements,
+    sheriff's sales don't use the MORTGAGOR(S)/MORTGAGEE/PRINCIPAL AMOUNT
+    format at all) and the second is real, recoverable data loss — same
+    fix as the personal-property scraper (fetch the detail page) would
+    apply here too, if this turns out to be the dominant skip reason."""
+    upper = description_text.upper()
+    has_mortgagor_label = "MORTGAGOR" in upper
+    has_mortgagee_label = "MORTGAGEE" in upper
+    has_principal_label = "PRINCIPAL AMOUNT OF MORTGAGE" in upper
+    length = len(description_text)
+    # RSS descriptions get cut off mid-sentence when truncated — a
+    # description near the observed ~400-600 char truncation length that
+    # doesn't end on a sentence boundary is a strong truncation signal.
+    looks_truncated = length >= 380 and not description_text.rstrip().endswith((".", ")", '"'))
+
+    if not has_mortgagor_label:
+        return "not_a_mortgage_notice"  # HOA lien / postponement / sheriff's sale / etc — expected, not a bug
+    if not has_mortgagee_label:
+        return "truncated_before_mortgagee" if looks_truncated else "malformed_mortgagor_block"
+    if not has_principal_label:
+        return "truncated_before_principal_amount" if looks_truncated else "missing_principal_amount_label"
+    return "has_all_labels_but_regex_still_failed"  # worth investigating directly if this ever shows up
+
+
 def parse_item(title: str, description_text: str, source_url: str) -> dict | None:
     mortgagor_m = MORTGAGOR_RE.search(description_text)
     amount_m = PRINCIPAL_AMOUNT_RE.search(description_text)
@@ -156,6 +184,7 @@ def parse_rss(xml_text: str) -> tuple[list[dict], int]:
     items = root.findall(".//item")
     print(f"DEBUG: RSS contains {len(items)} items", file=sys.stderr)
 
+    skip_reasons = {}  # reason -> count, for the summary line
     for item in items:
         title = (item.findtext("title") or "").strip()
         link = (item.findtext("link") or "").strip()
@@ -165,11 +194,15 @@ def parse_rss(xml_text: str) -> tuple[list[dict], int]:
         record = parse_item(title, description_text, link)
         if record is None:
             skipped += 1
+            reason = classify_skip_reason(description_text)
+            skip_reasons[reason] = skip_reasons.get(reason, 0) + 1
+            print(f"  SKIPPED ({reason}, len={len(description_text)}): {title!r} "
+                  f"| ends with: ...{description_text[-60:]!r}", file=sys.stderr)
             continue
         records.append(record)
 
     print(f"  {len(records)} standard mortgage foreclosures extracted, "
-          f"{skipped} other-type or truncated-past-usefulness notices skipped", file=sys.stderr)
+          f"{skipped} skipped — breakdown: {skip_reasons}", file=sys.stderr)
     return records, len(items)
 
 
