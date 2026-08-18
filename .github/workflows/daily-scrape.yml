@@ -36,6 +36,11 @@ jobs:
       - name: Build area-income choropleth (Census)
         run: python3 scripts/score_area_income.py
         continue-on-error: true  # new pipeline, don't let a failure block the rest of the run
+        env:       - name: Build area-income choropleth (Census)
+        run: python3 scripts/score_area_income.py
+        env:
+          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+        continue-on-error: true
       - name: Merge all sources into names.json
         run: python3 scripts/merge_sources.py
       - name: Commit updated data
