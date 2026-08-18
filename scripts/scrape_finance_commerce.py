@@ -39,12 +39,13 @@ EXCLUDED_SECTIONS = {"family", "individual and family"}
 MAX_PAGES = 10  # sanity cap
 
 NAME_CONTENTS_RE = re.compile(
-    # Requires a "Unit <id>:" prefix — the actual structural marker before
-    # a real name/contents pair. A loose "capitalized words + comma"
-    # pattern (no Unit-prefix requirement) was tested first and produced a
-    # false positive matching intro boilerplate text as a fake "name" —
-    # fixed by anchoring to this more specific, reliable marker instead.
-    r"Unit\s+[\w-]*\d[\w-]*\s*:\s*"
+    # Requires a "Unit <id>:" prefix (optionally with a # symbol, e.g.
+    # "Unit # 112:") — the actual structural marker before a real
+    # name/contents pair, confirmed against real Finance & Commerce
+    # content. A loose "capitalized words + comma" pattern with no
+    # Unit-prefix was tried first and matched intro boilerplate as a
+    # fake name; fixed by anchoring to this marker instead.
+    r"Unit\s*#?\s*[\w-]*\d[\w-]*\s*:\s*"
     r"([A-Z][a-zA-Z'\.-]+(?:\s+[A-Z][a-zA-Z'\.-]+){1,3}),\s*([^.]+?)(?:\.|$)",
 )
 
@@ -64,10 +65,33 @@ def normalize_address(addr: str) -> str:
 
 
 def extract_field(description_text: str, field_name: str) -> str:
-    """Pull 'Section: X' / 'Category: X' / 'Summary: X' / 'Posted: X' out of
-    the description block's div contents."""
+    """Pull 'Section: X' / 'Category: X' / 'Posted: X' out of the
+    description, IF that labeled format is present. NOTE: real Personal
+    Property items were found to NOT use this labeled format at all —
+    they're raw notice text starting directly with 'Sale: [date]
+    Summary: [text]', unlike Business/Family items on the 'all' feed
+    which did have Section:/Category:/Posted: labels. This function is
+    kept for sources/categories that do use labels; Personal Property
+    items fall through to parse_personal_property_summary() operating on
+    the whole raw description text instead."""
     m = re.search(rf"{field_name}:\s*(.+?)(?=\n|$)", description_text, re.IGNORECASE)
     return m.group(1).strip() if m else ""
+
+
+def looks_like_vehicle_notice(text: str) -> bool:
+    """Personal Property notices from this source mix storage-unit lien
+    sales with abandoned-VEHICLE lien sales (tow yards etc.) — a genuinely
+    different notice type we don't want in the storage data. Vehicles
+    show VIN-like alphanumeric codes and phrases like 'the vehicles
+    listed above'; storage notices reference storagetreasures.com or a
+    storage company name. This is a heuristic, not exact."""
+    vehicle_signals = ["vehicle", "vin", "license plate", "tow"]
+    storage_signals = ["storagetreasures.com", "storage unit", "self storage",
+                        " storage ", "mini storage"]
+    text_lower = text.lower()
+    has_vehicle = any(s in text_lower for s in vehicle_signals)
+    has_storage = any(s in text_lower for s in storage_signals)
+    return has_vehicle and not has_storage
 
 
 def extract_county(title: str) -> str:
@@ -143,14 +167,25 @@ def parse_rss(xml_text: str) -> list[dict]:
         # rather than only what our extraction logic pulled out of it.
         if i < 2:
             print(f"DEBUG: item {i} raw title: {title!r}", file=sys.stderr)
-            print(f"DEBUG: item {i} raw description (first 400 chars): "
-                  f"{description_text[:400]!r}", file=sys.stderr)
+            print(f"DEBUG: item {i} raw description (first 1500 chars): "
+                  f"{description_text[:1500]!r}", file=sys.stderr)
 
         section = extract_field(description_text, "Section")
         category = extract_field(description_text, "Category")
         summary = extract_field(description_text, "Summary")
         posted = extract_field(description_text, "Posted")
         county = extract_county(title)
+
+        # Real Personal Property items don't use the labeled Section/
+        # Category/Summary/Posted format at all (confirmed via debug
+        # output) — fall back to treating the whole description as the
+        # summary text when the labeled fields are empty.
+        if not summary:
+            summary = description_text.strip()
+
+        if looks_like_vehicle_notice(summary):
+            print(f"  item {i}: skipped (looks like a vehicle notice, not storage)", file=sys.stderr)
+            continue
 
         if section.lower() in EXCLUDED_SECTIONS:
             print(f"  SKIPPED (excluded section '{section}'): {title}", file=sys.stderr)
