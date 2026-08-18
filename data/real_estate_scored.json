@@ -1,0 +1,1142 @@
+[
+  {
+    "mortgagor_name": "Juan Jose Gonzalez and Gabriela Gonzalez Husband and Wife",
+    "mortgage_amount": 22196.0,
+    "property_address_raw": "6364 Juneau Ln N Maple Grove",
+    "house_number": "6364",
+    "street_name": "Juneau",
+    "street_suffix": "Ln",
+    "street_direction": "N",
+    "city": "Maple Grove",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "10/23/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204627",
+    "parcel": {
+      "pin": "053-3311922420014",
+      "owner_name": "JUAN J GONZALEZ",
+      "emv_land": 146000,
+      "emv_bldg": 145100,
+      "emv_total": 291100,
+      "sale_value": 189900,
+      "sale_date": "2004-05-01",
+      "county": "Hennepin",
+      "lng": -93.46683787067491,
+      "lat": 45.07050228742191
+    },
+    "scoring": {
+      "equity_estimate": 268904.0,
+      "equity_ratio": 13.11
+    }
+  },
+  {
+    "mortgagor_name": "Jerry Magill, A Single Man",
+    "mortgage_amount": 172900.0,
+    "property_address_raw": "4010 Colfax Ave N Minneapolis",
+    "house_number": "4010",
+    "street_name": "Colfax",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/29/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204171",
+    "parcel": {
+      "pin": "053-0402924140134",
+      "owner_name": "JERRY MAGILL",
+      "emv_land": 26000,
+      "emv_bldg": 137500,
+      "emv_total": 163500,
+      "sale_value": 182000,
+      "sale_date": "2024-05-01",
+      "county": "Hennepin",
+      "lng": -93.29151305800659,
+      "lat": 45.028033187793724
+    },
+    "scoring": {
+      "equity_estimate": -9400.0,
+      "equity_ratio": 0.95
+    }
+  },
+  {
+    "mortgagor_name": "Curisa Rae Eittreim, a single person, and Doug Gatlin, a single person",
+    "mortgage_amount": 265010.0,
+    "property_address_raw": "5001 Wilshire Blvd Crystal",
+    "house_number": "5001",
+    "street_name": "Wilshire",
+    "street_suffix": "Blvd",
+    "street_direction": "",
+    "city": "Crystal",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/28/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204177",
+    "parcel": {
+      "pin": "053-0411821440038",
+      "owner_name": "DOUG GATLIN/CURISA EITTREIM",
+      "emv_land": 83000,
+      "emv_bldg": 265700,
+      "emv_total": 348700,
+      "sale_value": 269900,
+      "sale_date": "2019-09-01",
+      "county": "Hennepin",
+      "lng": -93.34401583464485,
+      "lat": 45.05172155136372
+    },
+    "scoring": {
+      "equity_estimate": 83690.0,
+      "equity_ratio": 1.32
+    }
+  },
+  {
+    "mortgagor_name": "Kelvin Herbin, a single man",
+    "mortgage_amount": 202020.0,
+    "property_address_raw": "6301 83rd Ct N Brooklyn Park",
+    "house_number": "6301",
+    "street_name": "83rd",
+    "street_suffix": "Ct",
+    "street_direction": "N",
+    "city": "Brooklyn Park",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/21/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204181",
+    "parcel": {
+      "pin": "053-2011921110150",
+      "owner_name": "STONYBROOK FOURTH CONDO AOA",
+      "emv_land": 25000,
+      "emv_bldg": 149900,
+      "emv_total": 174900,
+      "sale_value": 195000,
+      "sale_date": "2021-05-01",
+      "county": "Hennepin",
+      "lng": -93.3630884247991,
+      "lat": 45.10571241715179
+    },
+    "scoring": {
+      "equity_estimate": -27120.0,
+      "equity_ratio": 0.87
+    }
+  },
+  {
+    "mortgagor_name": "Andrew Grindle, an unmarried man",
+    "mortgage_amount": 211612.0,
+    "property_address_raw": "4731 Xenia Ave N Crystal",
+    "house_number": "4731",
+    "street_name": "Xenia",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Crystal",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/28/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204210",
+    "parcel": {
+      "pin": "053-0911821310096",
+      "owner_name": "ANDREW GRINDLE",
+      "emv_land": 82700,
+      "emv_bldg": 177000,
+      "emv_total": 259700,
+      "sale_value": 289000,
+      "sale_date": "2025-01-01",
+      "county": "Hennepin",
+      "lng": -93.3531127487986,
+      "lat": 45.04102237439741
+    },
+    "scoring": {
+      "equity_estimate": 48088.0,
+      "equity_ratio": 1.23
+    }
+  },
+  {
+    "mortgagor_name": "Juan P Nieves, an unmarried man",
+    "mortgage_amount": 180713.0,
+    "property_address_raw": "3743 Queen Ave N,  Minneapolis",
+    "house_number": "3743",
+    "street_name": "Queen",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "11/10/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4203596",
+    "parcel": {
+      "pin": "053-0502924440141",
+      "owner_name": "JUAN P NIEVES",
+      "emv_land": 34000,
+      "emv_bldg": 174000,
+      "emv_total": 208000,
+      "sale_value": 224900,
+      "sale_date": "2024-12-01",
+      "county": "Hennepin",
+      "lng": -93.30992317265009,
+      "lat": 45.023525689411656
+    },
+    "scoring": {
+      "equity_estimate": 27287.0,
+      "equity_ratio": 1.15
+    }
+  },
+  {
+    "mortgagor_name": "Thu-Nhan Thi Nguyen, A single Woman",
+    "mortgage_amount": 560000.0,
+    "property_address_raw": "4146 Trail Ridge Ln Minnetonka",
+    "house_number": "4146",
+    "street_name": "Trail Ridge",
+    "street_suffix": "Ln",
+    "street_direction": "",
+    "city": "Minnetonka",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "10/09/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4203177",
+    "parcel": {
+      "pin": "053-2011722230016",
+      "owner_name": "THU NHAN THI NGUYEN ET AL",
+      "emv_land": 202900,
+      "emv_bldg": 534000,
+      "emv_total": 736900,
+      "sale_value": 700000,
+      "sale_date": "2006-10-01",
+      "county": "Hennepin",
+      "lng": -93.5022752846195,
+      "lat": 44.92860337260635
+    },
+    "scoring": {
+      "equity_estimate": 176900.0,
+      "equity_ratio": 1.32
+    }
+  },
+  {
+    "mortgagor_name": "Moliza R Dennis, a single person, and Vera Dixon, a married woman",
+    "mortgage_amount": 209142.0,
+    "property_address_raw": "7037 Perry Ave N Brooklyn Center",
+    "house_number": "7037",
+    "street_name": "Perry",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Brooklyn Center",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/24/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4202806",
+    "parcel": {
+      "pin": "053-2811921440018",
+      "owner_name": "VERA DIXON & MOLIZA R DENNIS",
+      "emv_land": 100000,
+      "emv_bldg": 206500,
+      "emv_total": 306500,
+      "sale_value": 213000,
+      "sale_date": "2018-05-01",
+      "county": "Hennepin",
+      "lng": -93.34389611467115,
+      "lat": 45.082934417312075
+    },
+    "scoring": {
+      "equity_estimate": 97358.0,
+      "equity_ratio": 1.47
+    }
+  },
+  {
+    "mortgagor_name": "Diane J. Archie, a single person",
+    "mortgage_amount": 95000.0,
+    "property_address_raw": "2519 14th Ave S Minneapolis",
+    "house_number": "2519",
+    "street_name": "14th",
+    "street_suffix": "Ave",
+    "street_direction": "S",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "09/24/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4202813",
+    "parcel": {
+      "pin": "053-3502924130333",
+      "owner_name": "DIANE ARCHIE",
+      "emv_land": 55000,
+      "emv_bldg": 209200,
+      "emv_total": 264200,
+      "sale_value": 41035,
+      "sale_date": "2012-11-01",
+      "county": "Hennepin",
+      "lng": -93.25458215874635,
+      "lat": 44.95661627826689
+    },
+    "scoring": {
+      "equity_estimate": 169200.0,
+      "equity_ratio": 2.78
+    }
+  },
+  {
+    "mortgagor_name": "Alexis Aplonia Viray, an unmarried woman",
+    "mortgage_amount": 135800.0,
+    "property_address_raw": "3751 Penn Ave N, Minneapolis",
+    "house_number": "3751",
+    "street_name": "Penn",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Minneapolis",
+    "zip": "55412",
+    "county": "Hennepin",
+    "auction_date": "11/09/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4201676",
+    "parcel": {
+      "pin": "053-0502924440109",
+      "owner_name": "ALEXIS APLONIA VIRAY",
+      "emv_land": 29000,
+      "emv_bldg": 201000,
+      "emv_total": 230000,
+      "sale_value": 140000,
+      "sale_date": "2018-07-01",
+      "county": "Hennepin",
+      "lng": -93.30866436749535,
+      "lat": 45.02374347784067
+    },
+    "scoring": {
+      "equity_estimate": 94200.0,
+      "equity_ratio": 1.69
+    }
+  },
+  {
+    "mortgagor_name": "Paul A. Bownik, A unmarried man",
+    "mortgage_amount": 236000.0,
+    "property_address_raw": "4543 Drew Ave N Robbinsdale",
+    "house_number": "4543",
+    "street_name": "Drew",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Robbinsdale",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/18/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4200667",
+    "parcel": {
+      "pin": "053-1011821430052",
+      "owner_name": "PAUL A BOWNIK",
+      "emv_land": 101000,
+      "emv_bldg": 189400,
+      "emv_total": 290400,
+      "sale_value": 178900,
+      "sale_date": "2008-12-01",
+      "county": "Hennepin",
+      "lng": -93.32678963287302,
+      "lat": 45.03815139879011
+    },
+    "scoring": {
+      "equity_estimate": 54400.0,
+      "equity_ratio": 1.23
+    }
+  },
+  {
+    "mortgagor_name": "Sue Thao, a single person, and Charmie Hlubchy Vue, a single person",
+    "mortgage_amount": 220924.0,
+    "property_address_raw": "3812 Woodbine Ln N Brooklyn Center",
+    "house_number": "3812",
+    "street_name": "Woodbine",
+    "street_suffix": "Ln",
+    "street_direction": "N",
+    "city": "Brooklyn Center",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/17/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4200677",
+    "parcel": {
+      "pin": "053-2711921420044",
+      "owner_name": "SUE THAO/CHARMIE HLUBCHY VUE",
+      "emv_land": 86500,
+      "emv_bldg": 216700,
+      "emv_total": 303200,
+      "sale_value": 225000,
+      "sale_date": "2018-04-01",
+      "county": "Hennepin",
+      "lng": -93.33043304898203,
+      "lat": 45.0869980180511
+    },
+    "scoring": {
+      "equity_estimate": 82276.0,
+      "equity_ratio": 1.37
+    }
+  },
+  {
+    "mortgagor_name": "Jeffrey R. Auger and Natalie L. Auger, Husband and Wife",
+    "mortgage_amount": 316000.0,
+    "property_address_raw": "801 Washington Ave N Minneapolis",
+    "house_number": "801",
+    "street_name": "Washington",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": null,
+    "auction_date": "10/09/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4200685",
+    "parcel": {
+      "pin": "053-2202924210098",
+      "owner_name": "801 WASHINGTON LOFTS ASSN",
+      "emv_land": 57000,
+      "emv_bldg": 242000,
+      "emv_total": 299000,
+      "sale_value": 0,
+      "sale_date": null,
+      "county": "Hennepin",
+      "lng": -93.27950485917627,
+      "lat": 44.98905767449764
+    },
+    "scoring": {
+      "equity_estimate": -17000.0,
+      "equity_ratio": 0.95
+    }
+  },
+  {
+    "mortgagor_name": "John L Poggione, a married person",
+    "mortgage_amount": 245410.0,
+    "property_address_raw": "185 Meadow Dr Loretto",
+    "house_number": "185",
+    "street_name": "Meadow",
+    "street_suffix": "Dr",
+    "street_direction": "",
+    "city": "Loretto",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "10/09/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4199818",
+    "parcel": {
+      "pin": "053-0611823430087",
+      "owner_name": "JOHN L POGGIONE",
+      "emv_land": 80000,
+      "emv_bldg": 282900,
+      "emv_total": 362900,
+      "sale_value": 253000,
+      "sale_date": "2018-03-01",
+      "county": "Hennepin",
+      "lng": -93.63117414917069,
+      "lat": 45.05253761088259
+    },
+    "scoring": {
+      "equity_estimate": 117490.0,
+      "equity_ratio": 1.48
+    }
+  },
+  {
+    "mortgagor_name": "Katherine M Paulsen-Zissos and Jeffrey Paulsen, Wife and Husband, as Joint Tenants",
+    "mortgage_amount": 249945.0,
+    "property_address_raw": "9911 96th Pl N Maple Grove",
+    "house_number": "9911",
+    "street_name": "96th",
+    "street_suffix": "Pl",
+    "street_direction": "N",
+    "city": "Maple Grove",
+    "zip": null,
+    "county": null,
+    "auction_date": "10/27/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4199835",
+    "parcel": {
+      "pin": "053-1211922420080",
+      "owner_name": "J PAULSEN & K PAULSEN ZISSOS",
+      "emv_land": 103500,
+      "emv_bldg": 242800,
+      "emv_total": 346300,
+      "sale_value": 263100,
+      "sale_date": "2018-08-01",
+      "county": "Hennepin",
+      "lng": -93.40764898632872,
+      "lat": 45.129416048689386
+    },
+    "scoring": {
+      "equity_estimate": 96355.0,
+      "equity_ratio": 1.39
+    }
+  },
+  {
+    "mortgagor_name": "John Frederick Mueller, A Single Man",
+    "mortgage_amount": 244440.0,
+    "property_address_raw": "8309 16th Ave S Bloomington",
+    "house_number": "8309",
+    "street_name": "16th",
+    "street_suffix": "Ave",
+    "street_direction": "S",
+    "city": "Bloomington",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "09/02/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4199288",
+    "parcel": {
+      "pin": "053-0202724410058",
+      "owner_name": "JOHN FREDERICK MUELLER",
+      "emv_land": 124500,
+      "emv_bldg": 173700,
+      "emv_total": 298200,
+      "sale_value": 291000,
+      "sale_date": "2024-07-01",
+      "county": "Hennepin",
+      "lng": -93.25134559446403,
+      "lat": 44.852898205227895
+    },
+    "scoring": {
+      "equity_estimate": 53760.0,
+      "equity_ratio": 1.22
+    }
+  },
+  {
+    "mortgagor_name": "Darin M. Sogge and Brittney A. Sogge, Husband and Wife as Joint Tenants",
+    "mortgage_amount": 296300.0,
+    "property_address_raw": "3817 Marigold Ct N Brooklyn Park",
+    "house_number": "3817",
+    "street_name": "Marigold",
+    "street_suffix": "Ct",
+    "street_direction": "N",
+    "city": "Brooklyn Park",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/11/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4198889",
+    "parcel": {
+      "pin": "053-1011921130052",
+      "owner_name": "D M SOGGE & B A LINGASIN",
+      "emv_land": 133500,
+      "emv_bldg": 337900,
+      "emv_total": 471400,
+      "sale_value": 330000,
+      "sale_date": "2017-08-01",
+      "county": "Hennepin",
+      "lng": -93.3301157459064,
+      "lat": 45.133028286194055
+    },
+    "scoring": {
+      "equity_estimate": 175100.0,
+      "equity_ratio": 1.59
+    }
+  },
+  {
+    "mortgagor_name": "Anne T. Kegley, an unmarried person",
+    "mortgage_amount": 141024.0,
+    "property_address_raw": "9016 Old Cedar Ave S Bloomington",
+    "house_number": "9016",
+    "street_name": "Old Cedar",
+    "street_suffix": "Ave",
+    "street_direction": "S",
+    "city": "Bloomington",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/23/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4198892",
+    "parcel": {
+      "pin": "053-1102724410081",
+      "owner_name": "ANNE T KEGLEY",
+      "emv_land": 19700,
+      "emv_bldg": 145200,
+      "emv_total": 164900,
+      "sale_value": 143038,
+      "sale_date": "2004-04-01",
+      "county": "Hennepin",
+      "lng": -93.24826345689252,
+      "lat": 44.839827789659424
+    },
+    "scoring": {
+      "equity_estimate": 23876.0,
+      "equity_ratio": 1.17
+    }
+  },
+  {
+    "mortgagor_name": "Troy E Hudson (Unmarried)",
+    "mortgage_amount": 876000.0,
+    "property_address_raw": "5595 Bristol Ln Minnetonka",
+    "house_number": "5595",
+    "street_name": "Bristol",
+    "street_suffix": "Ln",
+    "street_direction": "",
+    "city": "Minnetonka",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "10/27/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4198550",
+    "parcel": {
+      "pin": "053-3511722210045",
+      "owner_name": "TROY E HUDSON",
+      "emv_land": 213400,
+      "emv_bldg": 790600,
+      "emv_total": 1004000,
+      "sale_value": 950000,
+      "sale_date": "2002-11-01",
+      "county": "Hennepin",
+      "lng": -93.43517841500153,
+      "lat": 44.90321555158401
+    },
+    "scoring": {
+      "equity_estimate": 128000.0,
+      "equity_ratio": 1.15
+    }
+  },
+  {
+    "mortgagor_name": "Beverly A Potz fka Beverly Potz, Unmarried",
+    "mortgage_amount": 190000.0,
+    "property_address_raw": "7916 Irving Ave N Brooklyn Park",
+    "house_number": "7916",
+    "street_name": "Irving",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Brooklyn Park",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "10/02/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4198618",
+    "parcel": {
+      "pin": "053-2311921410066",
+      "owner_name": "BEVERLY A POTZ",
+      "emv_land": 120000,
+      "emv_bldg": 157000,
+      "emv_total": 277000,
+      "sale_value": 165000,
+      "sale_date": "2010-06-01",
+      "county": "Hennepin",
+      "lng": -93.30206376935736,
+      "lat": 45.09883558334439
+    },
+    "scoring": {
+      "equity_estimate": 87000.0,
+      "equity_ratio": 1.46
+    }
+  },
+  {
+    "mortgagor_name": "Charles R. Koppy and Christine M. Koppy, husband and wife, as joint tenants",
+    "mortgage_amount": 245000.0,
+    "property_address_raw": "22860 Marie Ave, Rogers",
+    "house_number": "22860",
+    "street_name": "Marie",
+    "street_suffix": "Ave",
+    "street_direction": "",
+    "city": "Rogers",
+    "zip": "55374",
+    "county": null,
+    "auction_date": "10/02/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4198620",
+    "parcel": {
+      "pin": "053-1512023120014",
+      "owner_name": "C R & C M KOPPY",
+      "emv_land": 65000,
+      "emv_bldg": 352600,
+      "emv_total": 417600,
+      "sale_value": 196833,
+      "sale_date": "1999-09-01",
+      "county": "Hennepin",
+      "lng": -93.57057987645774,
+      "lat": 45.20690666876837
+    },
+    "scoring": {
+      "equity_estimate": 172600.0,
+      "equity_ratio": 1.7
+    }
+  },
+  {
+    "mortgagor_name": "Alexis Aplonia Viray, an unmarried woman",
+    "mortgage_amount": 135800.0,
+    "property_address_raw": "3751 Penn Ave N Minneapolis",
+    "house_number": "3751",
+    "street_name": "Penn",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "09/08/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197675",
+    "parcel": {
+      "pin": "053-0502924440109",
+      "owner_name": "ALEXIS APLONIA VIRAY",
+      "emv_land": 29000,
+      "emv_bldg": 201000,
+      "emv_total": 230000,
+      "sale_value": 140000,
+      "sale_date": "2018-07-01",
+      "county": "Hennepin",
+      "lng": -93.30866436749535,
+      "lat": 45.02374347784067
+    },
+    "scoring": {
+      "equity_estimate": 94200.0,
+      "equity_ratio": 1.69
+    }
+  },
+  {
+    "mortgagor_name": "Thomas L. Tobin and Sara A. Tobin, F.K.A. Sara A. Matsuvama, husband and wife",
+    "mortgage_amount": 10000.0,
+    "property_address_raw": "17703 Susan Ln Minnetonka",
+    "house_number": "17703",
+    "street_name": "Susan",
+    "street_suffix": "Ln",
+    "street_direction": "",
+    "city": "Minnetonka",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "09/08/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197683",
+    "parcel": {
+      "pin": "053-1811722440008",
+      "owner_name": "T L TOBIN & S A MATSUYAMA",
+      "emv_land": 213400,
+      "emv_bldg": 194700,
+      "emv_total": 408100,
+      "sale_value": 123500,
+      "sale_date": "1992-06-01",
+      "county": "Hennepin",
+      "lng": -93.50403695334998,
+      "lat": 44.93509516166007
+    },
+    "scoring": {
+      "equity_estimate": 398100.0,
+      "equity_ratio": 40.81
+    }
+  },
+  {
+    "mortgagor_name": "Gary Hancock and Pamela Anne Hancock, Husband and Wife",
+    "mortgage_amount": 251250.0,
+    "property_address_raw": "19025 Pheasant Cir Eden Prairie",
+    "house_number": "19025",
+    "street_name": "Pheasant",
+    "street_suffix": "Cir",
+    "street_direction": "",
+    "city": "Eden Prairie",
+    "zip": null,
+    "county": null,
+    "auction_date": "08/24/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197706",
+    "parcel": {
+      "pin": "053-0711622230029",
+      "owner_name": "GARY F HANCOCK",
+      "emv_land": 164800,
+      "emv_bldg": 269400,
+      "emv_total": 434200,
+      "sale_value": 297900,
+      "sale_date": "2007-04-01",
+      "county": "Hennepin",
+      "lng": -93.51859003059404,
+      "lat": 44.87098364267078
+    },
+    "scoring": {
+      "equity_estimate": 182950.0,
+      "equity_ratio": 1.73
+    }
+  },
+  {
+    "mortgagor_name": "Jason Paul Strandberg AKA Jason Strandberg and Dung Strandberg, Married To Each Other",
+    "mortgage_amount": 548250.0,
+    "property_address_raw": "14604 Woodhaven Rd Minnetonka",
+    "house_number": "14604",
+    "street_name": "Woodhaven",
+    "street_suffix": "Rd",
+    "street_direction": "",
+    "city": "Minnetonka",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/08/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197227",
+    "parcel": {
+      "pin": "053-2111722110083",
+      "owner_name": "J STRANDBERG/D STRANDBERG",
+      "emv_land": 225500,
+      "emv_bldg": 674600,
+      "emv_total": 900100,
+      "sale_value": 0,
+      "sale_date": null,
+      "county": "Hennepin",
+      "lng": -93.46492164976912,
+      "lat": 44.932739854094784
+    },
+    "scoring": {
+      "equity_estimate": 351850.0,
+      "equity_ratio": 1.64
+    }
+  },
+  {
+    "mortgagor_name": "Cole Claffey, single man",
+    "mortgage_amount": 824684.0,
+    "property_address_raw": "4052 Alabama Ave S Saint Louis Park",
+    "house_number": "4052",
+    "street_name": "Alabama",
+    "street_suffix": "Ave",
+    "street_direction": "S",
+    "city": "Saint Louis Park",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "09/03/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4196338",
+    "parcel": {
+      "pin": "053-2111721320004",
+      "owner_name": "COLE CLAFFEY",
+      "emv_land": 149900,
+      "emv_bldg": 636800,
+      "emv_total": 786700,
+      "sale_value": 868089,
+      "sale_date": "2022-08-01",
+      "county": "Hennepin",
+      "lng": -93.35700905836651,
+      "lat": 44.92749253886815
+    },
+    "scoring": {
+      "equity_estimate": -37984.0,
+      "equity_ratio": 0.95
+    }
+  },
+  {
+    "mortgagor_name": "Gabriela E Gallegos Camacho, An Unmarried Woman",
+    "mortgage_amount": 182000.0,
+    "property_address_raw": "2524 Bloomington Ave Minneapolis",
+    "house_number": "2524",
+    "street_name": "Bloomington",
+    "street_suffix": "Ave",
+    "street_direction": "",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "09/14/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4196357",
+    "parcel": {
+      "pin": "053-3502924130269",
+      "owner_name": "GABRIELA E GALLEGOS-CAMACHO",
+      "emv_land": 56000,
+      "emv_bldg": 153600,
+      "emv_total": 209600,
+      "sale_value": 155000,
+      "sale_date": "2002-10-01",
+      "county": "Hennepin",
+      "lng": -93.25275369919208,
+      "lat": 44.95635919317257
+    },
+    "scoring": {
+      "equity_estimate": 27600.0,
+      "equity_ratio": 1.15
+    }
+  },
+  {
+    "mortgagor_name": "David Anderson a single person",
+    "mortgage_amount": 74625.0,
+    "property_address_raw": "11335 12th Ave N Plymouth",
+    "house_number": "11335",
+    "street_name": "12th",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Plymouth",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/04/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4196367",
+    "parcel": {
+      "pin": "053-3511822110056",
+      "owner_name": "OPK PROPERTIES LLC",
+      "emv_land": 15000,
+      "emv_bldg": 105600,
+      "emv_total": 120600,
+      "sale_value": 88000,
+      "sale_date": "2021-06-01",
+      "county": "Hennepin",
+      "lng": -93.42421810772541,
+      "lat": 44.99196522892156
+    },
+    "scoring": {
+      "equity_estimate": 45975.0,
+      "equity_ratio": 1.62
+    }
+  },
+  {
+    "mortgagor_name": "LeMar Green Sr, A Single Man",
+    "mortgage_amount": 305263.0,
+    "property_address_raw": "1819 Bryant Ave N Minneapolis",
+    "house_number": "1819",
+    "street_name": "Bryant",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/04/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4196374",
+    "parcel": {
+      "pin": "053-1602924410018",
+      "owner_name": "LEMAR GREEN SR",
+      "emv_land": 27000,
+      "emv_bldg": 218700,
+      "emv_total": 245700,
+      "sale_value": 340000,
+      "sale_date": "2023-11-01",
+      "county": "Hennepin",
+      "lng": -93.29142634385394,
+      "lat": 44.99806009323517
+    },
+    "scoring": {
+      "equity_estimate": -59563.0,
+      "equity_ratio": 0.8
+    }
+  },
+  {
+    "mortgagor_name": "Roberta R. Blackwood, A Single Person",
+    "mortgage_amount": 273000.0,
+    "property_address_raw": "5444 Oliver Ave S Minneapolis",
+    "house_number": "5444",
+    "street_name": "Oliver",
+    "street_suffix": "Ave",
+    "street_direction": "S",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": null,
+    "auction_date": "08/26/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4193579",
+    "parcel": {
+      "pin": "053-2102824220084",
+      "owner_name": "ROBERTA R BLACKWOOD",
+      "emv_land": 198000,
+      "emv_bldg": 193200,
+      "emv_total": 391200,
+      "sale_value": 249900,
+      "sale_date": "2001-11-01",
+      "county": "Hennepin",
+      "lng": -93.30769078376431,
+      "lat": 44.90349240298922
+    },
+    "scoring": {
+      "equity_estimate": 118200.0,
+      "equity_ratio": 1.43
+    }
+  },
+  {
+    "mortgagor_name": "Juan Jose Gonzalez and Gabriela Gonzalez Husband and Wife",
+    "mortgage_amount": 22196.0,
+    "property_address_raw": "6364 Juneau Ln N Maple Grove",
+    "house_number": "6364",
+    "street_name": "Juneau",
+    "street_suffix": "Ln",
+    "street_direction": "N",
+    "city": "Maple Grove",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "08/24/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4192824",
+    "parcel": {
+      "pin": "053-3311922420014",
+      "owner_name": "JUAN J GONZALEZ",
+      "emv_land": 146000,
+      "emv_bldg": 145100,
+      "emv_total": 291100,
+      "sale_value": 189900,
+      "sale_date": "2004-05-01",
+      "county": "Hennepin",
+      "lng": -93.46683787067491,
+      "lat": 45.07050228742191
+    },
+    "scoring": {
+      "equity_estimate": 268904.0,
+      "equity_ratio": 13.11
+    }
+  },
+  {
+    "mortgagor_name": "John L Poggione, a married person",
+    "mortgage_amount": 245410.0,
+    "property_address_raw": "185 Meadow Dr Loretto",
+    "house_number": "185",
+    "street_name": "Meadow",
+    "street_suffix": "Dr",
+    "street_direction": "",
+    "city": "Loretto",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "08/10/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4188770",
+    "parcel": {
+      "pin": "053-0611823430087",
+      "owner_name": "JOHN L POGGIONE",
+      "emv_land": 80000,
+      "emv_bldg": 282900,
+      "emv_total": 362900,
+      "sale_value": 253000,
+      "sale_date": "2018-03-01",
+      "county": "Hennepin",
+      "lng": -93.63117414917069,
+      "lat": 45.05253761088259
+    },
+    "scoring": {
+      "equity_estimate": 117490.0,
+      "equity_ratio": 1.48
+    }
+  },
+  {
+    "mortgagor_name": "Jeffrey R. Auger and Natalie L. Auger, Husband and Wife",
+    "mortgage_amount": 316000.0,
+    "property_address_raw": "801 Washington Ave N Minneapolis",
+    "house_number": "801",
+    "street_name": "Washington",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": null,
+    "auction_date": "08/10/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4188780",
+    "parcel": {
+      "pin": "053-2202924210098",
+      "owner_name": "801 WASHINGTON LOFTS ASSN",
+      "emv_land": 57000,
+      "emv_bldg": 242000,
+      "emv_total": 299000,
+      "sale_value": 0,
+      "sale_date": null,
+      "county": "Hennepin",
+      "lng": -93.27950485917627,
+      "lat": 44.98905767449764
+    },
+    "scoring": {
+      "equity_estimate": -17000.0,
+      "equity_ratio": 0.95
+    }
+  },
+  {
+    "mortgagor_name": "Charles A. Deery, married",
+    "mortgage_amount": 229410.0,
+    "property_address_raw": "1068 23rd Ave SE Minneapolis",
+    "house_number": "1068",
+    "street_name": "23rd",
+    "street_suffix": "Ave",
+    "street_direction": "SE",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": null,
+    "auction_date": "08/04/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4188066",
+    "parcel": {
+      "pin": "053-1902923210075",
+      "owner_name": "CHARLES A DEERY",
+      "emv_land": 79000,
+      "emv_bldg": 141900,
+      "emv_total": 220900,
+      "sale_value": 254900,
+      "sale_date": "2007-05-01",
+      "county": "Hennepin",
+      "lng": -93.2198564090119,
+      "lat": 44.990172666452864
+    },
+    "scoring": {
+      "equity_estimate": -8510.0,
+      "equity_ratio": 0.96
+    }
+  },
+  {
+    "mortgagor_name": "Beverly A Potz fka Beverly Potz, Unmarried",
+    "mortgage_amount": 190000.0,
+    "property_address_raw": "7916 Irving Ave N Brooklyn Park",
+    "house_number": "7916",
+    "street_name": "Irving",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Brooklyn Park",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "08/03/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4187995",
+    "parcel": {
+      "pin": "053-2311921410066",
+      "owner_name": "BEVERLY A POTZ",
+      "emv_land": 120000,
+      "emv_bldg": 157000,
+      "emv_total": 277000,
+      "sale_value": 165000,
+      "sale_date": "2010-06-01",
+      "county": "Hennepin",
+      "lng": -93.30206376935736,
+      "lat": 45.09883558334439
+    },
+    "scoring": {
+      "equity_estimate": 87000.0,
+      "equity_ratio": 1.46
+    }
+  },
+  {
+    "mortgagor_name": "Tlissia Curtis and Lemon Curtis husband and wife",
+    "mortgage_amount": 164900.0,
+    "property_address_raw": "5631 Camden Ave N Brooklyn Center",
+    "house_number": "5631",
+    "street_name": "Camden",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Brooklyn Center",
+    "zip": null,
+    "county": null,
+    "auction_date": "08/03/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4187997",
+    "parcel": {
+      "pin": "053-0111821310002",
+      "owner_name": "TLISSIA CURTIS",
+      "emv_land": 63000,
+      "emv_bldg": 192600,
+      "emv_total": 255600,
+      "sale_value": 170000,
+      "sale_date": "2016-12-01",
+      "county": "Hennepin",
+      "lng": -93.28904965076963,
+      "lat": 45.05781208644219
+    },
+    "scoring": {
+      "equity_estimate": 90700.0,
+      "equity_ratio": 1.55
+    }
+  },
+  {
+    "mortgagor_name": "Charles R. Koppy and Christine M. Koppy, husband and wife, as joint tenants",
+    "mortgage_amount": 245000.0,
+    "property_address_raw": "22860 Marie Ave, Rogers",
+    "house_number": "22860",
+    "street_name": "Marie",
+    "street_suffix": "Ave",
+    "street_direction": "",
+    "city": "Rogers",
+    "zip": "55374",
+    "county": null,
+    "auction_date": "08/03/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4188006",
+    "parcel": {
+      "pin": "053-1512023120014",
+      "owner_name": "C R & C M KOPPY",
+      "emv_land": 65000,
+      "emv_bldg": 352600,
+      "emv_total": 417600,
+      "sale_value": 196833,
+      "sale_date": "1999-09-01",
+      "county": "Hennepin",
+      "lng": -93.57057987645774,
+      "lat": 45.20690666876837
+    },
+    "scoring": {
+      "equity_estimate": 172600.0,
+      "equity_ratio": 1.7
+    }
+  },
+  {
+    "mortgagor_name": "Lori J Walstrom and Dwayne T Walstrom, spouses married to each other",
+    "mortgage_amount": 190933.0,
+    "property_address_raw": "3872 Hillsboro Ave N New Hope",
+    "house_number": "3872",
+    "street_name": "Hillsboro",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "New Hope",
+    "zip": null,
+    "county": null,
+    "auction_date": "07/31/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4186631",
+    "parcel": {
+      "pin": "053-1811821310072",
+      "owner_name": "D T WALSTROM & L J WALSTROM",
+      "emv_land": 114000,
+      "emv_bldg": 201900,
+      "emv_total": 315900,
+      "sale_value": 194500,
+      "sale_date": "2015-11-01",
+      "county": "Hennepin",
+      "lng": -93.3953161245405,
+      "lat": 45.02729460321073
+    },
+    "scoring": {
+      "equity_estimate": 124967.0,
+      "equity_ratio": 1.65
+    }
+  }
+]
