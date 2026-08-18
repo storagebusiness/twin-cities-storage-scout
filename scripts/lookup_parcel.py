@@ -30,21 +30,50 @@ PARCEL_QUERY_URL = (
 OUT_FIELDS = "PIN,ST_NAME,ANUMBER,CTU_NAME,ZIP,OWNER_NAME,EMV_LAND,EMV_BLDG,EMV_TOTAL,SALE_VALUE,SALE_DATE,CO_NAME"
 
 
+# USPS standard suffix abbreviation -> full word. A simple "is the
+# abbreviation a prefix of the full word" trick (tried first) only works
+# for some suffixes (Ave/Avenue, St/Street, Dr/Drive) and silently
+# breaks for others (Blvd/Boulevard, Ln/Lane, Rd/Road, Ct/Court,
+# Trl/Trail, Pkwy/Parkway) — confirmed by checking all 12 suffixes this
+# scraper recognizes. Matching against both known forms explicitly is
+# more robust than any prefix heuristic.
+SUFFIX_FULL_FORMS = {
+    "AVE": "AVENUE", "ST": "STREET", "DR": "DRIVE", "BLVD": "BOULEVARD",
+    "LN": "LANE", "RD": "ROAD", "WAY": "WAY", "CT": "COURT",
+    "CIR": "CIRCLE", "PL": "PLACE", "TRAIL": "TRAIL", "TRL": "TRAIL",
+    "PKWY": "PARKWAY", "TERRACE": "TERRACE", "TER": "TERRACE",
+}
+
+
 def build_where_clause(house_number: str, street_name: str, city: str | None = None,
                         suffix: str | None = None) -> str:
     """ANUMBER + ST_NAME is the primary match key. Suffix (ST_POS_TYP)
     and city (CTU_NAME) narrow further when available.
 
-    Suffix was added after live testing showed common street base names
-    ("1st", "12th", "101st", "Washington") return many results (5+, our
-    own page-size limit) without it — these names exist as multiple
-    different streets (Ave/St/Dr/etc.) across the metro, so house+name
-    alone is genuinely under-specified for them."""
+    Suffix matches against BOTH the abbreviated form we extract from
+    notice titles ("Ave") AND its full-word equivalent ("Avenue"), since
+    live testing confirmed the parcel dataset stores at least some
+    suffixes spelled out in full — and there's no guarantee it's
+    consistent across all suffix types, so matching either form is safer
+    than assuming one convention."""
     street_escaped = street_name.upper().replace("'", "''")
     clause = f"ANUMBER={int(house_number)} AND UPPER(ST_NAME)='{street_escaped}'"
     if suffix:
-        suffix_escaped = suffix.upper().replace("'", "''")
-        clause += f" AND UPPER(ST_POS_TYP)='{suffix_escaped}'"
+        suffix_upper = suffix.upper().replace("'", "''")
+        full_form = SUFFIX_FULL_FORMS.get(suffix_upper, suffix_upper)
+        # Match multiple real-world variants: the bare abbreviation
+        # ("AVE"), the abbreviation with a trailing period ("AVE." —
+        # plausible since this dataset compiles records from 7 different
+        # counties' own source systems, which may not format
+        # consistently even though the one live-confirmed example used
+        # the full spelled-out form), and the full word ("AVENUE"). A
+        # trailing period on the full word isn't a realistic convention,
+        # so that combination is skipped.
+        candidates = {suffix_upper, f"{suffix_upper}."}
+        if full_form != suffix_upper:
+            candidates.add(full_form)
+        or_clause = " OR ".join(f"UPPER(ST_POS_TYP)='{c}'" for c in sorted(candidates))
+        clause += f" AND ({or_clause})"
     if city:
         city_escaped = city.upper().replace("'", "''")
         clause += f" AND UPPER(CTU_NAME)='{city_escaped}'"
