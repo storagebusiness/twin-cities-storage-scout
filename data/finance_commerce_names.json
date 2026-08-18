@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "renter_name": "Lenora Ware",
+    "contents_text": "sports equip. tools luggage furniture boxes",
+    "facility_address_raw": "UNKNOWN ( County)",
+    "facility_address_normalized": "unknown ( county)",
+    "auction_date": "08/14/2026 Read More...",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4204279"
+  },
+  {
+    "renter_name": "Curtis Adams",
+    "contents_text": "sports equip. tools luggage furniture boxes",
+    "facility_address_raw": "UNKNOWN ( County)",
+    "facility_address_normalized": "unknown ( county)",
+    "auction_date": "08/14/2026 Read More...",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4204279"
+  },
+  {
+    "renter_name": "Shannon Gibson",
+    "contents_text": "luggage furniture boxes",
+    "facility_address_raw": "UNKNOWN ( County)",
+    "facility_address_normalized": "unknown ( county)",
+    "auction_date": "08/14/2026 Read More...",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4204281"
+  },
+  {
+    "renter_name": "Malaika Allen",
+    "contents_text": "camping equip. luggag",
+    "facility_address_raw": "UNKNOWN ( County)",
+    "facility_address_normalized": "unknown ( county)",
+    "auction_date": "08/14/2026 Read More...",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4204281"
+  },
+  {
+    "renter_name": "Sandra Bartell",
+    "contents_text": "television furniture boxes",
+    "facility_address_raw": "UNKNOWN ( County)",
+    "facility_address_normalized": "unknown ( county)",
+    "auction_date": "07/16/2026 Read More...",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4195223"
+  },
+  {
+    "renter_name": "Michael Goodwin",
+    "contents_text": "television furniture boxes",
+    "facility_address_raw": "UNKNOWN ( County)",
+    "facility_address_normalized": "unknown ( county)",
+    "auction_date": "07/16/2026 Read More...",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4195223"
+  },
+  {
+    "renter_name": "Obadiyah Abrams",
+    "contents_text": "bi",
+    "facility_address_raw": "UNKNOWN ( County)",
+    "facility_address_normalized": "unknown ( county)",
+    "auction_date": "07/16/2026 Read More...",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4195223"
+  },
+  {
+    "renter_name": "Tara Golden",
+    "contents_text": "tool box luggage electic keyboard furniture boxes",
+    "facility_address_raw": "UNKNOWN ( County)",
+    "facility_address_normalized": "unknown ( county)",
+    "auction_date": "07/16/2026 Read More...",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4195229"
+  },
+  {
+    "renter_name": "Marci Golden",
+    "contents_text": "tool box luggage electic keyboard furniture boxes",
+    "facility_address_raw": "UNKNOWN ( County)",
+    "facility_address_normalized": "unknown ( county)",
+    "auction_date": "07/16/2026 Read More...",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4195229"
+  }
+]
