@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests beautifulsoup4
       - name: Scrape Star Tribune legal notices
         run: python3 scripts/scrape_startribune.py
         continue-on-error: true  # don't let one source's failure block the others — see HANDOFF-2.md known-issue note (403, as of 2026-08-19)
@@ -39,6 +39,10 @@ jobs:
         env:
           CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
         continue-on-error: true  # new pipeline, don't let a failure block the rest of the run
+      - name: Scrape Public Surplus tax-forfeited land (MN, GA, SC)
+        run: python3 scripts/scrape_public_surplus.py
+        continue-on-error: true  # Piece 3, new and unverified against the live site — must not block the rest of the run
+        timeout-minutes: 15  # hard ceiling: worst case per request is ~90s (see script), so even a fully-stuck run should not exceed this
       - name: Merge all sources into names.json
         run: python3 scripts/merge_sources.py
       - name: Commit updated data
@@ -53,6 +57,7 @@ jobs:
           [ -f data/stpaul_legal_ledger_names.json ] && git add data/stpaul_legal_ledger_names.json
           [ -f data/real_estate_scored.json ] && git add data/real_estate_scored.json
           [ -f data/area_income_blockgroups.json ] && git add data/area_income_blockgroups.json
+          [ -f data/public_surplus_taxforfeited.json ] && git add data/public_surplus_taxforfeited.json
           git diff --staged --quiet || git commit -m "Daily name data update $(date -u +%Y-%m-%d)"
           git pull --rebase origin main
           git push
