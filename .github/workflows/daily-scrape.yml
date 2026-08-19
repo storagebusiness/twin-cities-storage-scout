@@ -18,6 +18,7 @@ jobs:
         run: pip install requests
       - name: Scrape Star Tribune legal notices
         run: python3 scripts/scrape_startribune.py
+        continue-on-error: true  # don't let one source's failure block the others — see HANDOFF-2.md known-issue note (403, as of 2026-08-19)
       - name: Scrape Finance & Commerce legal notices (Hennepin)
         run: python3 scripts/scrape_finance_commerce.py
         continue-on-error: true  # don't let one source's failure block the others
