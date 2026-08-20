@@ -92,13 +92,28 @@ def parse_county(title: str) -> str | None:
 
 def parse_parcel_id(title: str) -> str | None:
     """Best-effort PID/Parcel extraction from the title. Formats seen in
-    real captured data: 'PID 55-070-01000', 'Parcel 36.036.0300'."""
+    real captured data: 'PID 55-070-01000', 'Parcel 36.036.0300',
+    'Parcel 36-0032-000' (Sibley — hyphenated, unlike the dot-separated
+    Goodhue format). Must allow both hyphens and periods or hyphenated
+    parcel numbers get truncated at the first hyphen."""
     match = re.search(r"PID\s+([\d\-]+)", title)
     if match:
         return match.group(1)
-    match = re.search(r"Parcel\s+([\d.]+)", title)
+    match = re.search(r"Parcel\s+([\d.\-]+)", title)
     if match:
         return match.group(1)
+    return None
+
+
+def parse_county_from_description(description_text: str) -> str | None:
+    """Fallback county extraction from the description text, for listings
+    whose title doesn't contain a county name (common — e.g. bare street
+    addresses, or 'Sale NNNN: Tax Forfeited Land - Township, Parcel X').
+    Confirmed real phrasing: 'MANAGED BY GOODHUE COUNTY', 'MANAGED BY
+    COTTONWOOD COUNTY', 'MANAGED BY SIBLEY COUNTY'."""
+    match = re.search(r"MANAGED BY\s+([A-Za-z\s]+?)\s+COUNTY", description_text, re.IGNORECASE)
+    if match:
+        return match.group(1).strip().title()
     return None
 
 
@@ -216,19 +231,50 @@ def parse_listings(html: str, state: str) -> list[dict]:
     return listings
 
 
-def parse_minimum_bid_price(description_text: str) -> float | None:
-    """Extracts the county's statutory minimum bid price from the listing
-    description — NOT the same as the '#minBid_{id}' field on the bid form,
-    which is just the next required bid increment above the current price
-    once bidding has started. Confirmed real phrasing: 'Minimum bid price:
-    $809.57'."""
-    match = re.search(r"Minimum bid price:\s*\$?([\d,]+\.\d\d)", description_text, re.IGNORECASE)
-    if match:
-        try:
-            return float(match.group(1).replace(",", ""))
-        except ValueError:
-            return None
-    return None
+def parse_minimum_bid_price(description_text: str) -> tuple[float | None, float | None]:
+    """Extracts price info from the listing description. Returns
+    (tier1_emv_or_appraised, tier2_minimum_bid) — either may be None.
+
+    Confirmed real formats across different counties on Public Surplus
+    (counties clearly do NOT share one convention — same lesson as
+    Finance & Commerce's per-feed format differences in Piece 1):
+      - Koochiching/Goodhue: "Minimum bid price: $809.57" — single tier,
+        returned as tier2 (this IS the statutory minimum, no separate EMV
+        shown).
+      - Cottonwood: "1st Auction Min. $17,700.00 (Appraised Value)" /
+        "2nd Auction Min. $2,826.60 (Sum of Taxes, Penalties & Costs)" —
+        genuine dual-tier, same EMV/minimum-bid structure the handoff
+        described for MNBid specifically; Public Surplus has it too for
+        at least this county.
+      - Sibley: "Estimated Market Value: $6,500.00" — single tier,
+        returned as tier1 (this is the EMV, not a minimum bid).
+      - Morrison: no price info in the description at all — both return
+        None; the real number isn't present on this page for this county.
+    """
+    tier1 = None
+    tier2 = None
+
+    # Cottonwood-style dual tier
+    first_match = re.search(r"1st Auction Min\.?\s*\$?([\d,]+\.\d\d)", description_text, re.IGNORECASE)
+    second_match = re.search(r"2nd Auction Min\.?\s*\$?([\d,]+\.\d\d)", description_text, re.IGNORECASE)
+    if first_match:
+        tier1 = float(first_match.group(1).replace(",", ""))
+    if second_match:
+        tier2 = float(second_match.group(1).replace(",", ""))
+    if tier1 is not None or tier2 is not None:
+        return tier1, tier2
+
+    # Koochiching/Goodhue-style single "Minimum bid price"
+    min_bid_match = re.search(r"Minimum bid price:\s*\$?([\d,]+\.\d\d)", description_text, re.IGNORECASE)
+    if min_bid_match:
+        return None, float(min_bid_match.group(1).replace(",", ""))
+
+    # Sibley-style "Estimated Market Value"
+    emv_match = re.search(r"Estimated Market Value:\s*\$?([\d,]+\.\d\d)", description_text, re.IGNORECASE)
+    if emv_match:
+        return float(emv_match.group(1).replace(",", "")), None
+
+    return None, None
 
 
 def parse_auction_dates(html: str) -> tuple[str | None, str | None]:
@@ -289,9 +335,10 @@ def parse_detail_page(html: str, auction_id: str) -> dict:
     description_section = soup.select_one("section.description")
     description_text = description_section.get_text(separator=" ", strip=True) if description_section else ""
 
-    minimum_bid = parse_minimum_bid_price(description_text)
+    minimum_bid_tier1, minimum_bid_tier2 = parse_minimum_bid_price(description_text)
     date_listed, date_closes = parse_auction_dates(html)
     buildable, buildability_notes = check_buildability(description_text)
+    county_from_description = parse_county_from_description(description_text)
 
     # Current price on the detail page uses id="val_{auction_id}" (no
     # "catList"/"catGrid" suffix — that's the category-page id pattern).
@@ -306,11 +353,13 @@ def parse_detail_page(html: str, auction_id: str) -> dict:
 
     return {
         "current_bid": current_bid,
-        "minimum_bid": minimum_bid,
+        "tier1_price": minimum_bid_tier1,
+        "tier2_minimum_bid": minimum_bid_tier2,
         "date_listed": date_listed,
         "date_closes": date_closes,
         "buildable": buildable,
         "buildability_notes": buildability_notes,
+        "county": county_from_description,
         "description_text": description_text[:2000],  # cap length for raw storage
     }
 
@@ -353,11 +402,28 @@ def enrich_with_detail(listing: dict, state: str) -> dict:
     detail = parse_detail_page(html, auction_id)
 
     listing["price"]["current_bid"] = detail["current_bid"] if detail["current_bid"] is not None else listing["price"]["current_bid"]
-    listing["price"]["minimum_bid"] = detail["minimum_bid"]
+    listing["price"]["tier1_emv_price"] = detail["tier1_price"]
+    listing["price"]["tier2_minimum_price"] = detail["tier2_minimum_bid"]
+    # "minimum_bid" mirrors tier2 when present (that's the actual floor
+    # price to compare against assessed value); left null for Sibley-style
+    # listings that only give an EMV with no separate minimum.
+    listing["price"]["minimum_bid"] = detail["tier2_minimum_bid"]
+    listing["price"]["price_basis"] = (
+        "self_contained_dual_tier"
+        if detail["tier1_price"] is not None and detail["tier2_minimum_bid"] is not None
+        else "minimum_bid_only"
+    )
+
     listing["date_listed"] = detail["date_listed"]
     listing["date_closes"] = detail["date_closes"]
     listing["buildable"] = detail["buildable"]
     listing["buildability_notes"] = detail["buildability_notes"]
+
+    # Fall back to description-derived county if the title-based parse
+    # (done at category-page scrape time) came up empty.
+    if listing["county"] is None and detail["county"] is not None:
+        listing["county"] = detail["county"]
+
     listing["raw_source_data"]["description_text"] = detail["description_text"]
 
     return listing
