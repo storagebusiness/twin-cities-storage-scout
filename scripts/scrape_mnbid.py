@@ -285,7 +285,7 @@ def build_listing(record: dict) -> dict:
     }
 
 
-def fetch_page(page: int) -> dict | None:
+def fetch_page(page: int, session: requests.Session) -> dict | None:
     payload = json.loads(json.dumps(BASE_PAYLOAD))  # cheap deep copy
     payload["page"] = page
     payload["prev_page"] = page
@@ -293,7 +293,7 @@ def fetch_page(page: int) -> dict | None:
     for attempt in range(1, MAX_RETRIES_PER_REQUEST + 2):
         try:
             print(f"  page {page}: requesting (attempt {attempt})...", file=sys.stderr, flush=True)
-            resp = requests.post(
+            resp = session.post(
                 BASE_URL,
                 json=payload,
                 headers=HEADERS,
@@ -311,12 +311,36 @@ def fetch_page(page: int) -> dict | None:
     return None
 
 
+def prime_session() -> requests.Session:
+    """Many domain-gated APIs also expect a session cookie set when a
+    browser first loads the site — the Origin/Referer header fix alone
+    got past the explicit 'Front Domain Mismatch' error, but a real
+    request returned totalRecords: 0 for a query confirmed to return 9
+    real records when captured from an actual browser session. This does
+    a plain GET to establish any cookies the site sets, then reuses them
+    on the POST — standard practice for replicating normal browser
+    request flow, not a bypass of any protection."""
+    session = requests.Session()
+    try:
+        print("  priming session (GET https://mnbid.mn.gov/)...", file=sys.stderr, flush=True)
+        resp = session.get(
+            "https://mnbid.mn.gov/",
+            headers={"User-Agent": HEADERS["User-Agent"]},
+            timeout=(CONNECT_TIMEOUT_SECONDS, READ_TIMEOUT_SECONDS),
+        )
+        print(f"  priming GET: HTTP {resp.status_code}, cookies received: {list(session.cookies.keys())}", file=sys.stderr, flush=True)
+    except requests.exceptions.RequestException as e:
+        print(f"  priming GET failed — {e} (continuing without a primed session)", file=sys.stderr, flush=True)
+    return session
+
+
 def main():
     all_listings = []
     total_records = None
+    session = prime_session()
 
     for page in range(1, MAX_PAGES + 1):
-        response = fetch_page(page)
+        response = fetch_page(page, session)
         if response is None:
             print(f"  page {page}: giving up after retries, stopping pagination", file=sys.stderr, flush=True)
             break
@@ -333,6 +357,9 @@ def main():
 
         if page == 1:
             print(f"  total records reported: {total_records}", file=sys.stderr, flush=True)
+            if total_records == 0:
+                print(f"  page {page}: full response for diagnosis (totalRecords is 0):", file=sys.stderr, flush=True)
+                print(f"  {json.dumps(response)[:3000]}", file=sys.stderr, flush=True)
 
         if not records:
             break  # no more pages
