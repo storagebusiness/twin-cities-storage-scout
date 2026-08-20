@@ -291,6 +291,7 @@ def fetch_page(page: int) -> dict | None:
                 headers=HEADERS,
                 timeout=(CONNECT_TIMEOUT_SECONDS, READ_TIMEOUT_SECONDS),
             )
+            print(f"  page {page}: HTTP {resp.status_code}", file=sys.stderr, flush=True)
             resp.raise_for_status()
             return resp.json()
         except requests.exceptions.RequestException as e:
@@ -318,6 +319,8 @@ def main():
             total_records = response_data.get("totalRecords")
         except (KeyError, TypeError) as e:
             print(f"  page {page}: unexpected response shape ({e}), stopping", file=sys.stderr, flush=True)
+            print(f"  page {page}: raw response for diagnosis:", file=sys.stderr, flush=True)
+            print(f"  {json.dumps(response)[:3000]}", file=sys.stderr, flush=True)
             break
 
         if page == 1:
