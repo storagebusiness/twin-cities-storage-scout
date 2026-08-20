@@ -258,13 +258,27 @@ def _resolve_generalized_block_groups_layer() -> dict | None:
       - Layer index: confirmed NOT stable across ACS vintages
         (ACS2015/ACS2021 have Block Groups at layer 2; ACS2024 shifted it
         to layer 3 after adding an extra 'Tracts 5M' layer).
-      - Field names: the first live run of the fix that assumed
-        STATE/COUNTY/GEOID (matching the full-resolution layer's schema)
-        failed with a 400 'Failed to execute query' error on EVERY
-        single county (292/292) — the classic ArcGIS REST signature for
-        a WHERE clause referencing a field that doesn't exist on the
-        layer. The generalized layer almost certainly has a reduced
-        field set compared to the full-resolution one.
+      - Field names: the first live fix assumed STATE/COUNTY/GEOID
+        (matching the full-resolution layer) and failed with a 400 error
+        on EVERY county (292/292).
+      - NAME MATCHING ALONE IS ALSO INSUFFICIENT: the second live fix
+        switched to name-matching ("Block Groups" in layer.name) plus
+        dynamic field discovery, and it DID resolve a layer — but that
+        layer's fields turned out to be just ['OBJECTID', 'BASENAME'],
+        which matches a Labels/annotation sub-layer's field set, not a
+        real polygon feature layer's. TIGERweb services commonly carry a
+        separate label layer alongside the real data layer, and both can
+        have "Block Groups" somewhere in their name — a plain substring
+        match on name isn't enough to tell them apart.
+
+    THIS VERSION: checks EVERY layer whose name contains "Block Groups",
+    fetches each one's actual field list, and picks the first candidate
+    that has genuine identifying fields (GEOID, or STATE+COUNTY) — a
+    Labels/annotation layer with only OBJECTID/BASENAME gets skipped
+    rather than blindly accepted as "the" match. If a live run's DEBUG
+    output shows which candidate was accepted (and what was skipped),
+    that's the real confirmation — treat it as authoritative over this
+    docstring's reasoning.
 
     Returns {"layer_id": int, "fields": [field_name, ...]} or None on
     failure. Cached since this only needs to run once per pipeline run.
@@ -281,35 +295,45 @@ def _resolve_generalized_block_groups_layer() -> dict | None:
         print(f"  WARNING: layer metadata response was not JSON: {e}", file=sys.stderr)
         return None
 
-    layer_id = None
-    for layer in data.get("layers", []):
-        if "Block Groups" in layer.get("name", ""):
-            layer_id = layer.get("id")
-            break
-
-    if layer_id is None:
+    candidates = [
+        layer for layer in data.get("layers", [])
+        if "Block Groups" in layer.get("name", "")
+    ]
+    if not candidates:
         print(f"  WARNING: no layer with 'Block Groups' in its name found — "
               f"available layers: {[l.get('name') for l in data.get('layers', [])]}", file=sys.stderr)
         return None
 
-    # Now fetch that specific layer's own field list — this is the piece
-    # that was missing before and caused the universal 400 errors.
-    layer_detail_url = f"{GENERALIZED_TRACTS_BLOCKS_BASE.format(year=ACS_YEAR)}/{layer_id}"
-    try:
-        resp = requests.get(layer_detail_url, params={"f": "json"}, headers=HEADERS, timeout=20)
-        resp.raise_for_status()
-        layer_data = resp.json()
-    except requests.RequestException as e:
-        print(f"  WARNING: failed to fetch field list for layer {layer_id}: {e}", file=sys.stderr)
-        return None
-    except ValueError as e:
-        print(f"  WARNING: layer field-list response was not JSON: {e}", file=sys.stderr)
-        return None
+    for candidate in candidates:
+        candidate_id = candidate.get("id")
+        candidate_name = candidate.get("name")
+        layer_detail_url = f"{GENERALIZED_TRACTS_BLOCKS_BASE.format(year=ACS_YEAR)}/{candidate_id}"
+        try:
+            resp = requests.get(layer_detail_url, params={"f": "json"}, headers=HEADERS, timeout=20)
+            resp.raise_for_status()
+            layer_data = resp.json()
+        except (requests.RequestException, ValueError) as e:
+            print(f"  candidate layer id={candidate_id} name={candidate_name!r}: "
+                  f"failed to fetch field list ({e}), trying next candidate", file=sys.stderr)
+            continue
 
-    fields = [f.get("name") for f in layer_data.get("fields", [])]
-    print(f"  resolved Generalized Block Groups layer: id={layer_id}, "
-          f"fields={fields}", file=sys.stderr)
-    return {"layer_id": layer_id, "fields": fields}
+        fields = [f.get("name") for f in layer_data.get("fields", [])]
+        has_geoid = "GEOID" in fields
+        has_state_county = "STATE" in fields and "COUNTY" in fields
+
+        if has_geoid or has_state_county:
+            print(f"  resolved Generalized Block Groups layer: id={candidate_id}, "
+                  f"name={candidate_name!r}, fields={fields}", file=sys.stderr)
+            return {"layer_id": candidate_id, "fields": fields}
+        else:
+            print(f"  candidate layer id={candidate_id} name={candidate_name!r} "
+                  f"has fields={fields} — no GEOID or STATE+COUNTY, looks like a "
+                  f"Labels/annotation layer, not the real data layer; trying next candidate",
+                  file=sys.stderr)
+
+    print(f"  WARNING: none of the {len(candidates)} 'Block Groups'-named candidate "
+          f"layers had usable identifier fields — cannot proceed", file=sys.stderr)
+    return None
 
 
 def fetch_county_block_group_boundaries(state_fips: str, county_fips: str) -> dict:
