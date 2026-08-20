@@ -364,59 +364,5 @@
     "auction_date": "",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4195812",
     "source": "stpaul_legal_ledger"
-  },
-  {
-    "renter_name": "Michell Martin",
-    "contents_text": "Appliance frame, bags, and miscellaneous household goods",
-    "facility_address_raw": "2060 7th St W, St Paul MN, 55116",
-    "facility_address_normalized": "2060 7th st w st paul mn 55116",
-    "auction_date": "",
-    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4193881",
-    "source": "stpaul_legal_ledger"
-  },
-  {
-    "renter_name": "Tesfamichael Tesfamariam",
-    "contents_text": "Mirror, shoes, furniture, clothing, and miscellaneous household goods",
-    "facility_address_raw": "2060 7th St W, St Paul MN, 55116",
-    "facility_address_normalized": "2060 7th st w st paul mn 55116",
-    "auction_date": "",
-    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4193881",
-    "source": "stpaul_legal_ledger"
-  },
-  {
-    "renter_name": "Brian Shanley",
-    "contents_text": "Cabinet, small furniture, boxes, and miscellaneous household goods",
-    "facility_address_raw": "2060 7th St W, St Paul MN, 55116",
-    "facility_address_normalized": "2060 7th st w st paul mn 55116",
-    "auction_date": "",
-    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4193881",
-    "source": "stpaul_legal_ledger"
-  },
-  {
-    "renter_name": "Jasmine Conley",
-    "contents_text": "Boxes, small appliances, furniture, and miscellaneous household goods",
-    "facility_address_raw": "2060 7th St W, St Paul MN, 55116",
-    "facility_address_normalized": "2060 7th st w st paul mn 55116",
-    "auction_date": "",
-    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4193881",
-    "source": "stpaul_legal_ledger"
-  },
-  {
-    "renter_name": "Edward Lief",
-    "contents_text": "Boxes, bags, newspapers, CRT television, bottles, and miscellaneous household goods",
-    "facility_address_raw": "2060 7th St W, St Paul MN, 55116",
-    "facility_address_normalized": "2060 7th st w st paul mn 55116",
-    "auction_date": "",
-    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4193881",
-    "source": "stpaul_legal_ledger"
-  },
-  {
-    "renter_name": "Malvin Tousant",
-    "contents_text": "Boxes and miscellaneous household goods",
-    "facility_address_raw": "2060 7th St W, St Paul MN, 55116",
-    "facility_address_normalized": "2060 7th st w st paul mn 55116",
-    "auction_date": "",
-    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4193881",
-    "source": "stpaul_legal_ledger"
   }
 ]

@@ -14,12 +14,12 @@
     "parcel_id": "55-070-01000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4045302",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Jul 20, 2026 07:00 AM MDT",
+    "date_closes": "Aug 20, 2026 09:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 3350.0,
-      "minimum_bid": null,
+      "minimum_bid": 809.57,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
       "price_basis": "minimum_bid_only"
@@ -29,14 +29,21 @@
       "source": "mn_pending",
       "lookup_status": "not_yet_attempted"
     },
-    "buildable": true,
-    "buildability_notes": [],
+    "buildable": false,
+    "buildability_notes": [
+      {
+        "phrase": "no developed land access",
+        "category": "no_land_access",
+        "matched_from": "listing_description"
+      }
+    ],
     "area_wealth": {
       "census_acs_median_income": null,
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Koochiching County Tax-Forfeiture Tract 2 (PID 55-070-01000)"
+      "title": "Koochiching County Tax-Forfeiture Tract 2 (PID 55-070-01000)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description Government Lot 10 of Section 30, Township 158 North, Range 26 West (There is no developed land access to this tract) Parcel Number: 55-070-01000 Minimum bid price: $809.57 The minimum bid auction will open on July 20, 2026 and close on August 20, 2026 at 10:00 AM on Public Surplus. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase.\u00a0 Any municipality or other public authority is authorized to make a reassessment or a new assessment to a parcel in an "
     }
   },
   {
@@ -54,12 +61,12 @@
     "parcel_id": "92-007-60080",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4045305",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Jul 20, 2026 07:00 AM MDT",
+    "date_closes": "Aug 20, 2026 09:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 2240.66,
-      "minimum_bid": null,
+      "minimum_bid": 2240.66,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
       "price_basis": "minimum_bid_only"
@@ -76,7 +83,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Koochiching County Tax-Forfeiture Tract 3 (PID 92-007-60080)"
+      "title": "Koochiching County Tax-Forfeiture Tract 3 (PID 92-007-60080)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description Plat of International Falls East 1/2 Lot 8 and West 18 3/4 feet of Lot 9; Block 60 (407 6th Street) Parcel Number: 92-007-60080 Minimum bid price: $2,240.66 The minimum bid auction will open on July 20, 2026 and close on August 20, 2026 at 10:00 AM on Public Surplus. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase.\u00a0 Any municipality or other public authority is authorized to make a reassessment or a new assessment to a parcel in an amount equal to"
     }
   },
   {
@@ -94,12 +102,12 @@
     "parcel_id": "92-007-74130",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4045306",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Jul 20, 2026 07:00 AM MDT",
+    "date_closes": "Aug 20, 2026 09:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 5600.0,
-      "minimum_bid": null,
+      "minimum_bid": 5079.64,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
       "price_basis": "minimum_bid_only"
@@ -116,7 +124,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Koochiching County Tax-Forfeiture Tract 4 (PID 92-007-74130)"
+      "title": "Koochiching County Tax-Forfeiture Tract 4 (PID 92-007-74130)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description Plat of International Falls The North 71 feet of Lot 13; Block 74 (804 6th Avenue) Parcel Number: 92-007-74130 Minimum bid price: $5,079.64 The minimum bid auction will open on July 20, 2026 and close on August 20, 2026 at 10:00 AM on Public Surplus. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase.\u00a0 Any municipality or other public authority is authorized to make a reassessment or a new assessment to a parcel in an amount equal to the remaining un"
     }
   },
   {
@@ -134,12 +143,12 @@
     "parcel_id": "92-007-99190",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4045307",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Jul 20, 2026 07:00 AM MDT",
+    "date_closes": "Aug 20, 2026 09:00 AM MDT",
     "status": "open",
     "price": {
-      "current_bid": 24600.0,
-      "minimum_bid": null,
+      "current_bid": 30299.0,
+      "minimum_bid": 6317.83,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
       "price_basis": "minimum_bid_only"
@@ -156,7 +165,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Koochiching County Tax-Forfeiture Tract 5 (PID 92-007-99190)"
+      "title": "Koochiching County Tax-Forfeiture Tract 5 (PID 92-007-99190)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description Plat of International Falls Lot 19 and East 1/2 Lot 20; Block 99 (1320 10th Street) Parcel Number: 92-007-99190 Minimum bid price: $6,317.83 The minimum bid auction will open on July 20, 2026 and close on August 20, 2026 at 10:00 AM on Public Surplus. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase.\u00a0 Any municipality or other public authority is authorized to make a reassessment or a new assessment to a parcel in an amount equal to the remaining u"
     }
   },
   {
@@ -174,12 +184,12 @@
     "parcel_id": "92-110-03010",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4045310",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Jul 20, 2026 07:00 AM MDT",
+    "date_closes": "Aug 20, 2026 09:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 4323.57,
-      "minimum_bid": null,
+      "minimum_bid": 4323.57,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
       "price_basis": "minimum_bid_only"
@@ -196,7 +206,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Koochiching County Tax-Forfeiture Tract 6 (PID 92-110-03010)"
+      "title": "Koochiching County Tax-Forfeiture Tract 6 (PID 92-110-03010)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description Plat of First Division of International Falls Lots 1, 2, 3, and 4; Block 3 (1732 3rd Avenue West) Parcel Number: 92-110-03010 Minimum bid price: $4,323.57 The minimum bid auction will open on July 20, 2026 and close on August 20, 2026 at 10:00 AM on Public Surplus. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase.\u00a0 Any municipality or other public authority is authorized to make a reassessment or a new assessment to a parcel in an amount equal to t"
     }
   },
   {
@@ -214,12 +225,12 @@
     "parcel_id": "98-005-03061",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4045311",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Jul 20, 2026 07:00 AM MDT",
+    "date_closes": "Aug 20, 2026 09:00 AM MDT",
     "status": "open",
     "price": {
-      "current_bid": 10600.0,
-      "minimum_bid": null,
+      "current_bid": 11100.0,
+      "minimum_bid": 4588.1,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
       "price_basis": "minimum_bid_only"
@@ -236,7 +247,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Koochiching County Tax-Forfeiture Tract 7 (PID 98-005-03061)"
+      "title": "Koochiching County Tax-Forfeiture Tract 7 (PID 98-005-03061)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description Plat of Riverside Park South 180 feet of Lot 6 and South 180 feet of East 95 feet of Lot 7; Block 3 (3505 Town Road 113, Ranier) Parcel Number: 98-005-03061 Minimum bid price: $4,588.10 The minimum bid auction will open on July 20, 2026 and close on August 20, 2026 at 10:00 AM on Public Surplus. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase.\u00a0 Any municipality or other public authority is authorized to make a reassessment or a new assessment to a"
     }
   },
   {
@@ -254,8 +266,8 @@
     "parcel_id": "36.036.0300",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4067255",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 17, 2026 10:10 AM MDT",
+    "date_closes": "Sep 16, 2026 10:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 2700.0,
@@ -276,7 +288,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Sale 2601: Tax Forfeited Land - Kenyon Township, Parcel 36.036.0300"
+      "title": "Sale 2601: Tax Forfeited Land - Kenyon Township, Parcel 36.036.0300",
+      "description_text": "Description Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY GOODHUE COUNTY This property is being sold \"AS IS\" . It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Remember: Your bid is the same as a contract - Please only bid on property you are serious about buying. A winning bid constitutes a legally binding contract. Goodhue County reserves the right to block/ban bidders who refuse to pay for land purchased. GENERAL\u00a0DESCRIPTION: Location: Kenyon Township Parcel: 36.036.0300 Legal: That part of the Northeast quarter (NE1/4) of the Northwest Quarter (NW1/4) of Section 36, Township 109, North, Range 18 West, described as follows: Beginning at a monument placed at the Southeast corner of Block Two (2) in Skyberg, according to the recorded plat thereof; running thence West 80 feet; thence South 185 feet, thence East 155 feet, more or less to the Western boundary of the right of way of the Chicago Great Western Railway Company, now the western boundary of trunk Highway No. 56, thence northerly along the westerly boundary of said right of way to the place of beginning; except the south 60 feet thereof. Comments: Parcel in Kenyon Township. See Kenyon Township and Goodhue County Land Use Management for building questions.\u00a0Refer to the document \"Notice of Public Sale - Publication\" for special assessments at the time of forfeiture. Payment: At the time of this auction's closing, each bidder will be presumed to have inspected the site and to have read and to be thoroughly familiar with any and all plans and documents attached to this auction listing. Costs Subject to Bid Up - The following fees will be visible during the bidding process and added automatically to the total bid price: Buy"
     }
   },
   {
@@ -294,8 +307,8 @@
     "parcel_id": "45.006.0702",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4067256",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 17, 2026 10:11 AM MDT",
+    "date_closes": "Sep 16, 2026 10:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 101400.0,
@@ -316,7 +329,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Sale 2602: Tax Forfeited Land - Warsaw Township, Parcel 45.006.0702"
+      "title": "Sale 2602: Tax Forfeited Land - Warsaw Township, Parcel 45.006.0702",
+      "description_text": "Description Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY GOODHUE COUNTY This property is being sold \"AS IS\" . It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Remember: Your bid is the same as a contract - Please only bid on property you are serious about buying. A winning bid constitutes a legally binding contract. Goodhue County reserves the right to block/ban bidders who refuse to pay for land purchased. GENERAL\u00a0DESCRIPTION: Location: Warsaw Township Parcel: 45.006.0702 Legal: That part of the SW 1/4 of Section 6, Township 111, Range 18, Goodhue County, Minnesota, lying westerly of the following described lines: Beginning at the southeast corner of the west 650 feet of said SW 1/4; thence North parallel with the west line of said SW 1/4, a distance of 1725 feet; thence East, a distance of 17 feet; thence N 18 degrees 09 minutes E, a distance of 965 feet, more or less, to the North line of said SW 1/4, and there terminating. EXCEPT: The North 650 feet of that part of the West Half of the Southwest Quarter of Section 6, township 111 North, Range 18 West, Goodhue County, Minnesota, lying westerly of the centerline of Prairie Creek; Also, that part of the South 300 feet of the North 950 feet of said West Half of the Southwest Quarter lying westerly of a line drawn from a point on the South line of said South 300 feet, distant 350 feet East of the West line of said Southwest Quarter, to a point on the North line of said South 300 feet, distant 500 feet East of the West line of said Southwest Quarter. ALSO EXCEPT That part of the Southwest Quarter of Section 6 Township 111 North, Range 18 West, Goodhue County, Minnesota, described as follows: Beginning at the southwest corner of"
     }
   },
   {
@@ -334,8 +348,8 @@
     "parcel_id": null,
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=3920839",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 17, 2026 10:55 AM MDT",
+    "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 202.5,
@@ -356,7 +370,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "14 24th ST, WINDOM"
+      "title": "14 24th ST, WINDOM",
+      "description_text": "Description Condition: SEE DESCRIPTION GENERAL DESCRIPTION Address 14 24th ST, WINDOM Parcel ID 25-833-0010 Legal Description The W 1/2 of Lot One (1) of Corrected Plat of Warren's Subdivision No. Two (2), of part of Govenment Lots One (1) and Two (2) in the E 1/2 of SE 1/4 of Section 24, Township 105 North, Range 36 West of the 5th P.M. as shown on \"Corrected Plat of Warren Beach, Plat No. 135, Warren's Subdivision, Plat No. 155, and of Warren's Subdivision No. 2, Plat No. 158\u201d; described by metes and bounds as: Beginning on the south line of said Lot 1 a distance of 80 feet westerly of the most South and East comer of said Lot 1, thence westerly along the said south line of said Lot 1 a distance of 80 feet to the West line of said Lot 1, thence northerly along the said West line of said Lot 1 a distance of 118.2 feet to the North line of said Lot 1, thence Easterly along North line of said Lot 1 a distance of 80 feet; thence Southerly and parallel to the West line of said Lot 1 to the point of beginning; AND All that part of Lot One (1) of the Corrected Plat of Warren's Subdivision No. 2, of part of Govenment Lots 1 & 2 in the East Half of the Southeast Quarter of Section Twenty-four (24), Township One Hundred Five (I 05) North, Range Thirty-six (36), West of the Fifth Principal Meridian as shown on \"Corrected Plat of Warren Beach, plat No. 135, Warren's Subdivision plat No. 155, in Warren's Subdivision No. 2, plat 158\u201d described as follows, to-wit: Beginning at a point on the South line of said Lot One (1) a distance of 80 feet Westerly of the most South and East comer of said Lot 1, thence Northerly to a point on the northerly line of said Lot 1 a distance of 80 feet East of the most Northerly and Westerly comer of said Lot 1, thence East on said North line a distance of 11 feet more or less to a point on said North line 69 feet West of the most North and East Comer of said Lot I, thence in a Southerly direction to the point of beginning. Land Type Residential L"
     }
   },
   {
@@ -374,8 +389,8 @@
     "parcel_id": null,
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4020921",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 17, 2026 10:55 AM MDT",
+    "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 6700.0,
@@ -396,7 +411,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "118 WHITED ST W, JEFFERS"
+      "title": "118 WHITED ST W, JEFFERS",
+      "description_text": "Description Condition: SEE DESCRIPTION GENERAL DESCRIPTION Address 118 WHITED ST W, JEFFERS Parcel ID 21-414-1010 Legal Description The east sixteen (16) feet of lot nine (9) and the west seven (7) inches of lot ten (10), all in block fourteen (14) In the City of Jeffers Land Type Commercial Lot Size Approx 17' x 143' 1st Auction Min. $6,700.00 (Appraised Value) 2nd Auction Min. $2,731.62 (Sum of Taxes, Penalties & Costs) Notes West 1/3 of Brick Building (PID 21-414-1020 also for sale) Possible Re-assessment(s) STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY COTTONWOOD COUNTY This property is being sold \"AS IS\". It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Cottonwood County does not warrant the condition of title or provide a survey of the property. Transfer of property title shall be in the form of a State Deed, as prescribed by law, to the highest bidder. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have inspected the site and to have read and to be thoroughly familiar with any and all plans, documents (including any addenda), and documents attached to the auction listing. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Your bid is the same as a contract - Please only bid on property you are serious about buying. If you are interested in purchasing tax forfeited property on public auction, you must pay any/all of your delinquent taxes prior to purchasing or bidding. A winning bid constitutes a legally binding contract. Cottonwood County reserves the right to block/ban bidders who refuse to pay for land purchased. ACCEPTANCE OF"
     }
   },
   {
@@ -414,8 +430,8 @@
     "parcel_id": null,
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4020970",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 17, 2026 10:55 AM MDT",
+    "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 9500.0,
@@ -436,7 +452,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "116 WHITED ST W, JEFFERS"
+      "title": "116 WHITED ST W, JEFFERS",
+      "description_text": "Description Condition: SEE DESCRIPTION GENERAL DESCRIPTION Address 116 WHITED ST W, JEFFERS Parcel ID 21-414-1020 Legal Description Lot 10 except the west 7 inches thereof in Block 14 of the Original Townsite of the Village (now City) of Jeffers in Cottonwood County, Minnesota; Land Type Commercial Lot Size Approx 24' x 143' 1st Auction Min. $9,500.00 (Appraised Value) 2nd Auction Min. $2,987.96 (Sum of Taxes, Penalties & Costs) Notes East 2/3 of Brick Building (PID 21-414-1010 also for sale) STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY COTTONWOOD COUNTY This property is being sold \"AS IS\". It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Cottonwood County does not warrant the condition of title or provide a survey of the property. Transfer of property title shall be in the form of a State Deed, as prescribed by law, to the highest bidder. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have inspected the site and to have read and to be thoroughly familiar with any and all plans, documents (including any addenda), and documents attached to the auction listing. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Your bid is the same as a contract - Please only bid on property you are serious about buying. If you are interested in purchasing tax forfeited property on public auction, you must pay any/all of your delinquent taxes prior to purchasing or bidding. A winning bid constitutes a legally binding contract. Cottonwood County reserves the right to block/ban bidders who refuse to pay for land purchased. ACCEPTANCE OF TERMS AND CONDITIO"
     }
   },
   {
@@ -454,8 +471,8 @@
     "parcel_id": null,
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4021048",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 17, 2026 10:55 AM MDT",
+    "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 3700.0,
@@ -476,7 +493,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "407 BEST AVE N, JEFFERS"
+      "title": "407 BEST AVE N, JEFFERS",
+      "description_text": "Description Condition: SEE DESCRIPTION GENERAL DESCRIPTION Address 407 BEST AVE N, JEFFERS Parcel ID 21-417-0240 Legal Description The North 50' of Lot 1,2, and 3 in Block 26 and Lots 4 and 5, Block 26, in the First Addition to the City of Jeffers in Cottonwood County, Minnesota. Land Type Residential Lot Size Approx 0.5 acre 1st Auction Min. $3,700.00 (Appraised Value) 2nd Auction Min. $1,158.58 (Sum of Taxes, Penalties & Costs) Notes Irregular Bare/Wooded Lot Possible Re-assessment(s) STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY COTTONWOOD COUNTY This property is being sold \"AS IS\". It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Cottonwood County does not warrant the condition of title or provide a survey of the property. Transfer of property title shall be in the form of a State Deed, as prescribed by law, to the highest bidder. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have inspected the site and to have read and to be thoroughly familiar with any and all plans, documents (including any addenda), and documents attached to the auction listing. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Your bid is the same as a contract - Please only bid on property you are serious about buying. If you are interested in purchasing tax forfeited property on public auction, you must pay any/all of your delinquent taxes prior to purchasing or bidding. A winning bid constitutes a legally binding contract. Cottonwood County reserves the right to block/ban bidders who refuse to pay for land purchased. ACCEPTANCE OF TERMS AND CONDITIONS By "
     }
   },
   {
@@ -494,8 +512,8 @@
     "parcel_id": null,
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4021452",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 17, 2026 10:55 AM MDT",
+    "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 2400.0,
@@ -516,7 +534,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "1003 BOXELDER ST, MOUNTAIN LAKE"
+      "title": "1003 BOXELDER ST, MOUNTAIN LAKE",
+      "description_text": "Description Condition: SEE DESCRIPTION GENERAL DESCRIPTION Address 1003 BOXELDER ST, MOUNTAIN LAKE Parcel ID 22-350-0030 Legal Description All that part of Lot 2, Block 1, Hiebert's Addition to Mountain Lake, Cottonwood County, Minnesota. Described as follows: Commencing at the Northwest corner of Lot 2, Block 1, Hieberts Addition to Mountain Lake: thence Southerly on the West Boundary line of said lot to the Southwest corner thereof; thence East along the South boundary line 198.2 feet thence Northwesterly, parallel with west boundary line, 93 feet; thence Southwesterly, parallel with the North boundary line of said lot, 104 feet; thence Northwesterly, parallel with the West boundary line 36 feet; thence in a straight line Northwesterly to a point on the North line of said lot 2 a distance of 60 feet Easterly of the Northwest corner of said lot; thence Westerly to the Northwest corner thereof, being the point of commencement, except, however, those parts thereof described as follows: 1. The most Easterly part of the above described tract which has a 65 foot frontage on Boxelder Street and the Easterly and Westerly boundary lines of which tract are parallel with the West boundary line of lot 2, block 1, of said addition; 2. Commencing at the Northwest of lot 2, block I, Hiebert's Addition to Mountain Lake, thence Southerly on the West boundary line of said lot to the Southwest corner thereof; thence East along the the South boundary line 133.2 feet, this being the place of beginning; thence Northwesterly parallel with the West boundary line of said lot and along the West boundary line of the tract conveyed by deed dated March 15. 1951 recorded in book 83 of deeds, page 424, a distance of 75 feet: thence Southerly a distance of 71.5 feet to a point on the South boundary line of said lot 22 feet West of the point of beginning; thence East along the South boundary line of said lot a distance of 22 feet to the point of beginning. Land Type Residential Lot Size Approx 0."
     }
   },
   {
@@ -534,8 +553,8 @@
     "parcel_id": null,
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4021536",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 17, 2026 10:55 AM MDT",
+    "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 5400.0,
@@ -556,7 +575,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "826 10TH ST N, MOUNTAIN LAKE"
+      "title": "826 10TH ST N, MOUNTAIN LAKE",
+      "description_text": "Description Condition: SEE DESCRIPTION GENERAL DESCRIPTION Address 826 10TH ST N, MOUNTAIN LAKE Parcel ID 22-443-0140 Legal Description The West Two-hundred (200) feet of the North Seventy-nine (79) feet of Lot Five (5), Klassens Re-Arrangement in the Village of Mountain Lake, Cottonwood County, Minnesota. Land Type Residential Lot Size Approx 200' x 80' 1st Auction Min. $5,400.00 (Appraised Value) 2nd Auction Min. $5,961.68 (Sum of Taxes, Penalties & Costs) Notes Bare Lot Possible Re-assessment(s) (Utilties, Street Repair, Infrastructure) STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY COTTONWOOD COUNTY This property is being sold \"AS IS\". It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Cottonwood County does not warrant the condition of title or provide a survey of the property. Transfer of property title shall be in the form of a State Deed, as prescribed by law, to the highest bidder. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have inspected the site and to have read and to be thoroughly familiar with any and all plans, documents (including any addenda), and documents attached to the auction listing. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Your bid is the same as a contract - Please only bid on property you are serious about buying. If you are interested in purchasing tax forfeited property on public auction, you must pay any/all of your delinquent taxes prior to purchasing or bidding. A winning bid constitutes a legally binding contract. Cottonwood County reserves the right to block/ban bidders who refuse to pay for "
     }
   },
   {
@@ -574,8 +594,8 @@
     "parcel_id": null,
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4022080",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 17, 2026 10:55 AM MDT",
+    "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 1500.0,
@@ -596,7 +616,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "701 7TH ST, MOUNTAIN LAKE"
+      "title": "701 7TH ST, MOUNTAIN LAKE",
+      "description_text": "Description Condition: SEE DESCRIPTION GENERAL DESCRIPTION Address 701 7TH ST, MOUNTAIN LAKE Parcel ID 22-445-0050 Legal Description Lot 6 of Klassen's Subdivision City of Mountain Lake, County of Cottonwood, State of Minnesota. Land Type Residential Lot Size Approx 125' x 50' 1st Auction Min. $1,500.00 (Appraised Value) 2nd Auction Min. $2,184.43 (Sum of Taxes, Penalties & Costs) Notes Bare Lot Possible Re-assessment(s) (Street & Utilities) STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY COTTONWOOD COUNTY This property is being sold \"AS IS\". It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Cottonwood County does not warrant the condition of title or provide a survey of the property. Transfer of property title shall be in the form of a State Deed, as prescribed by law, to the highest bidder. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have inspected the site and to have read and to be thoroughly familiar with any and all plans, documents (including any addenda), and documents attached to the auction listing. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Your bid is the same as a contract - Please only bid on property you are serious about buying. If you are interested in purchasing tax forfeited property on public auction, you must pay any/all of your delinquent taxes prior to purchasing or bidding. A winning bid constitutes a legally binding contract. Cottonwood County reserves the right to block/ban bidders who refuse to pay for land purchased. ACCEPTANCE OF TERMS AND CONDITIONS By submitting a bid, the bidder agrees that the b"
     }
   },
   {
@@ -614,8 +635,8 @@
     "parcel_id": null,
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4022120",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 17, 2026 10:55 AM MDT",
+    "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 2700.0,
@@ -636,7 +657,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "800 1ST AVE S, MOUNTAIN LAKE"
+      "title": "800 1ST AVE S, MOUNTAIN LAKE",
+      "description_text": "Description Condition: SEE DESCRIPTION GENERAL DESCRIPTION Address 800 1ST AVE S, MOUNTAIN LAKE Parcel ID 22-445-0060 Legal Description Lot 7 of Klassen's Subdivision City of Mountain Lake, County of Cottonwood, State of Minnesota. Land Type Residential Lot Size Approx .3 acre 1st Auction Min. $2,700.00 (Appraised Value) 2nd Auction Min. $4,491,65 (Sum of Taxes, Penalties & Costs) Notes Irregular Bare Lot Possible Re-assessment(s) (Street & Utilities, Street Repair) STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY COTTONWOOD COUNTY This property is being sold \"AS IS\". It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Cottonwood County does not warrant the condition of title or provide a survey of the property. Transfer of property title shall be in the form of a State Deed, as prescribed by law, to the highest bidder. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have inspected the site and to have read and to be thoroughly familiar with any and all plans, documents (including any addenda), and documents attached to the auction listing. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Your bid is the same as a contract - Please only bid on property you are serious about buying. If you are interested in purchasing tax forfeited property on public auction, you must pay any/all of your delinquent taxes prior to purchasing or bidding. A winning bid constitutes a legally binding contract. Cottonwood County reserves the right to block/ban bidders who refuse to pay for land purchased. ACCEPTANCE OF TERMS AND CONDITIONS By submitting a bid, the"
     }
   },
   {
@@ -654,8 +676,8 @@
     "parcel_id": null,
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4022145",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 17, 2026 10:55 AM MDT",
+    "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 900.0,
@@ -676,7 +698,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "UNADDRESSED, MOUNTAIN LAKE"
+      "title": "UNADDRESSED, MOUNTAIN LAKE",
+      "description_text": "Description Condition: SEE DESCRIPTION GENERAL DESCRIPTION Address UNADDRESSED, MOUNTAIN LAKE Parcel ID 22-611-0390 Legal Description The South 70' of the East 100' of Lot 9. in Block 1, Prince's Second Addition. in the Village (now City) of Mountain Lake, in the State of Minnesota. Land Type Residential Lot Size Approx 100' x 70' 1st Auction Min. $900.00 (Appraised Value) 2nd Auction Min. $445.76 (Sum of Taxes, Penalties & Costs) Notes Bare/wooded lot , Lot to the east also available! STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY COTTONWOOD COUNTY This property is being sold \"AS IS\". It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Cottonwood County does not warrant the condition of title or provide a survey of the property. Transfer of property title shall be in the form of a State Deed, as prescribed by law, to the highest bidder. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have inspected the site and to have read and to be thoroughly familiar with any and all plans, documents (including any addenda), and documents attached to the auction listing. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Your bid is the same as a contract - Please only bid on property you are serious about buying. If you are interested in purchasing tax forfeited property on public auction, you must pay any/all of your delinquent taxes prior to purchasing or bidding. A winning bid constitutes a legally binding contract. Cottonwood County reserves the right to block/ban bidders who refuse to pay for land purchased. ACCEPTANCE OF TERMS AND CONDITIONS By s"
     }
   },
   {
@@ -694,8 +717,8 @@
     "parcel_id": null,
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4022152",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 17, 2026 10:55 AM MDT",
+    "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 600.0,
@@ -716,7 +739,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "UNADDRESSED, MOUNTAIN LAKE"
+      "title": "UNADDRESSED, MOUNTAIN LAKE",
+      "description_text": "Description Condition: SEE DESCRIPTION GENERAL DESCRIPTION Address UNADDRESSED, MOUNTAIN LAKE Parcel ID 22-611-0391 Legal Description The South 70' of the West 70' of Lot 10. in Block 1, Prince's Second Addition. in the Village (now City) of Mountain Lake, in the State of Minnesota. Land Type Residential Lot Size Approx 70' x 70' 1st Auction Min. $600.00 (Appraised Value) 2nd Auction Min. $413.41 (Sum of Taxes, Penalties & Costs) Notes Bare/wooded lot, Lot to the west also available! STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY COTTONWOOD COUNTY This property is being sold \"AS IS\". It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Cottonwood County does not warrant the condition of title or provide a survey of the property. Transfer of property title shall be in the form of a State Deed, as prescribed by law, to the highest bidder. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have inspected the site and to have read and to be thoroughly familiar with any and all plans, documents (including any addenda), and documents attached to the auction listing. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Your bid is the same as a contract - Please only bid on property you are serious about buying. If you are interested in purchasing tax forfeited property on public auction, you must pay any/all of your delinquent taxes prior to purchasing or bidding. A winning bid constitutes a legally binding contract. Cottonwood County reserves the right to block/ban bidders who refuse to pay for land purchased. ACCEPTANCE OF TERMS AND CONDITIONS By sub"
     }
   },
   {
@@ -734,8 +758,8 @@
     "parcel_id": null,
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4022173",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 17, 2026 10:55 AM MDT",
+    "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 17700.0,
@@ -756,7 +780,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "854 CEDAR AVE, WESTBROOK"
+      "title": "854 CEDAR AVE, WESTBROOK",
+      "description_text": "Description Condition: SEE DESCRIPTION GENERAL DESCRIPTION Address 854 CEDAR AVE, WESTBROOK Parcel ID 24-827-0330 Legal Description Lot Seven (7), Block Twenty-five (25), Second Addition to the Village of Westbrook Land Type Residential Lot Size Approx 140' x 50' 1st Auction Min. $17,700.00 (Appraised Value) 2nd Auction Min. $2,826.60 (Sum of Taxes, Penalties & Costs) Notes Small House Possible Re-assessment(s) STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY COTTONWOOD COUNTY This property is being sold \"AS IS\". It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Cottonwood County does not warrant the condition of title or provide a survey of the property. Transfer of property title shall be in the form of a State Deed, as prescribed by law, to the highest bidder. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have inspected the site and to have read and to be thoroughly familiar with any and all plans, documents (including any addenda), and documents attached to the auction listing. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Your bid is the same as a contract - Please only bid on property you are serious about buying. If you are interested in purchasing tax forfeited property on public auction, you must pay any/all of your delinquent taxes prior to purchasing or bidding. A winning bid constitutes a legally binding contract. Cottonwood County reserves the right to block/ban bidders who refuse to pay for land purchased. ACCEPTANCE OF TERMS AND CONDITIONS By submitting a bid, the bidder agrees that the bidder has read, fully understoo"
     }
   },
   {
@@ -774,8 +799,8 @@
     "parcel_id": null,
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4022268",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 17, 2026 10:55 AM MDT",
+    "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 76700.0,
@@ -796,7 +821,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "858 10TH ST, WESTBROOK"
+      "title": "858 10TH ST, WESTBROOK",
+      "description_text": "Description Condition: SEE DESCRIPTION GENERAL DESCRIPTION Address 858 10TH ST, WESTBROOK Parcel ID 24-790-0030 Legal Description The West Fifty Feet (W50') of Lot One (1), Villa's Subdivision of part of the Southwest Quarter of the Northwest Quarter (SW\u00bc NW\u00bc) of Section Twenty-nine (29), Township One Hundred Seven (107), Range Thirty-eight (38), in the City of Westbrook, Cottonwood County, Minnesota. Land Type Residential Lot Size Approx 50' x 135' 1st Auction Min. $76,700.00 (Appraised Value) 2nd Auction Min. $6,099.09 (Sum of Taxes, Penalties & Costs) Notes 1-1/2 Story Home w/ Garage Possible Re-assessment(s) STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY COTTONWOOD COUNTY This property is being sold \"AS IS\". It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Cottonwood County does not warrant the condition of title or provide a survey of the property. Transfer of property title shall be in the form of a State Deed, as prescribed by law, to the highest bidder. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have inspected the site and to have read and to be thoroughly familiar with any and all plans, documents (including any addenda), and documents attached to the auction listing. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Your bid is the same as a contract - Please only bid on property you are serious about buying. If you are interested in purchasing tax forfeited property on public auction, you must pay any/all of your delinquent taxes prior to purchasing or bidding. A winning bid constitutes a legally binding contract. Cotton"
     }
   },
   {
@@ -814,8 +840,8 @@
     "parcel_id": "06.0396.000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4051569",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:00 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 5500.0,
@@ -836,7 +862,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 06.0396.000"
+      "title": "Morrison County Tax Forfeiture Parcel 06.0396.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 06.0396.000 Location :\u00a0Town of Cushing - Enchanted Lakes 1st Addition Legal : LOT 019 BLOCK 012 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -854,8 +881,8 @@
     "parcel_id": "08.0537.000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4051585",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:00 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 4500.0,
@@ -876,7 +903,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 08.0537.000"
+      "title": "Morrison County Tax Forfeiture Parcel 08.0537.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 08.0537.000 Location :\u00a0Town of Cushing - Enchanted Lakes Golf Course Addition Legal : LOT 030 BLOCK 002 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -894,8 +922,8 @@
     "parcel_id": "06.0439.000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4051593",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:00 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 5700.0,
@@ -916,7 +944,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 06.0439.000"
+      "title": "Morrison County Tax Forfeiture Parcel 06.0439.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 06.0396.000 Location :\u00a0Town of Cushing - Enchanted Lakes 1st Addition Legal : LOT 012 BLOCK 014 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -934,8 +963,8 @@
     "parcel_id": "29.2095.000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052371",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:14 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 105100.0,
@@ -956,7 +985,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2095.000"
+      "title": "Morrison County Tax Forfeiture Parcel 29.2095.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 29.2095.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 10th Addition Legal : LOT 133 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -974,8 +1004,8 @@
     "parcel_id": "29.2096.000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052378",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:16 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 10700.0,
@@ -996,7 +1026,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2096.000"
+      "title": "Morrison County Tax Forfeiture Parcel 29.2096.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 29.2096.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 10th Addition Legal : LOT 134 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -1014,8 +1045,8 @@
     "parcel_id": "29.2470.000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052381",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:19 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 200.0,
@@ -1036,7 +1067,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2470.000"
+      "title": "Morrison County Tax Forfeiture Parcel 29.2470.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 29.2470.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 11th Addition Legal : LOT 002 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -1054,8 +1086,8 @@
     "parcel_id": "29.2472.000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052383",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:20 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 200.0,
@@ -1076,7 +1108,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2472.000"
+      "title": "Morrison County Tax Forfeiture Parcel 29.2472.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 29.2472.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 11th Addition Legal : LOT 004 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -1094,8 +1127,8 @@
     "parcel_id": "29.2474.000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052388",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:22 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 200.0,
@@ -1116,7 +1149,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2474.000"
+      "title": "Morrison County Tax Forfeiture Parcel 29.2474.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 29.2474.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 11th Addition Legal : LOT 006 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -1134,8 +1168,8 @@
     "parcel_id": "29.2480.000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052390",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:24 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 200.0,
@@ -1156,7 +1190,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2480.000"
+      "title": "Morrison County Tax Forfeiture Parcel 29.2480.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 24.2480.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 11th Addition Legal : LOT 012 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -1174,8 +1209,8 @@
     "parcel_id": "29.2481.000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052391",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:25 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 200.0,
@@ -1196,7 +1231,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2481.000"
+      "title": "Morrison County Tax Forfeiture Parcel 29.2481.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 24.2481.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 11th Addition Legal : LOT 013 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -1214,8 +1250,8 @@
     "parcel_id": "29.2482.000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052392",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:26 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 200.0,
@@ -1236,7 +1272,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2482.000"
+      "title": "Morrison County Tax Forfeiture Parcel 29.2482.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 24.2482.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 11th Addition Legal : LOT 014 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -1254,8 +1291,8 @@
     "parcel_id": "48.1850.000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052398",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:29 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 76500.0,
@@ -1276,7 +1313,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 48.1850.000"
+      "title": "Morrison County Tax Forfeiture Parcel 48.1850.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 48.1850.000 Location :\u00a0City of Little Falls - Berg's Addition Legal :\u00a0Lot 001 and 002 Block 011 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -1294,8 +1332,8 @@
     "parcel_id": "48.1851.000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052400",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:31 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 10100.0,
@@ -1316,7 +1354,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 48.1851.000"
+      "title": "Morrison County Tax Forfeiture Parcel 48.1851.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 48.1851.000 Location :\u00a0City of Little Falls - Berg's Addition Legal :\u00a0Lot 003 Block 011 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -1334,8 +1373,8 @@
     "parcel_id": "48.2902.000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052404",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:32 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 25900.0,
@@ -1356,7 +1395,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 48.2902.000"
+      "title": "Morrison County Tax Forfeiture Parcel 48.2902.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 48.2902.000 Location :\u00a0City of Little Falls - North Bluff Addition Legal :\u00a0Lot 009 Block 003 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -1374,8 +1414,8 @@
     "parcel_id": "26.0411.003",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4054908",
-    "date_listed": null,
-    "date_closes": null,
+    "date_listed": "Aug 19, 2026 07:00 AM MDT",
+    "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
       "current_bid": 10000.0,
@@ -1396,7 +1436,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 26.0411.003"
+      "title": "Morrison County Tax Forfeiture Parcel 26.0411.003",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 26.0411.003 Location :\u00a0Town of Richardson Legal :\u00a0Section 28 Township 042 Range 028, E 200 FT OF N 1089 FT OF W1/2 OF SE1/4 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. *THIS PARCEL IS TORENS AND ADDITIONAL RECORDING FEES MAY APPLY \u2013 CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE WITH ANY QUESTIONS 320-632-0146. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -1415,7 +1456,7 @@
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4049480",
     "date_listed": null,
-    "date_closes": null,
+    "date_closes": "Oct 1, 2026 09:00 AM MDT",
     "status": "open",
     "price": {
       "current_bid": 6500.0,
@@ -1436,7 +1477,8 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Sibley County Tax Forfeiture Parcel 36-0032-000"
+      "title": "Sibley County Tax Forfeiture Parcel 36-0032-000",
+      "description_text": "Description Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY SIBLEY COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND. SIBLEY COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENT(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Sibley County Online Land Sales: Standard Disclaimer and Sibley County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. General Description Location: City of New Auburn Parcel: 36-0032-000 Legal: Lot 7, Block 9, Original City of New Auburn Size: 66' Feet x 123' Feet Estimated Market Value: $6,500.00 Special Assessments After Forfeiture: $0.00 Special Assessments Before Forfeiture: $1,491.65 PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Deed: State Deed will be given after full payment is made. A state deed is a quitclaim deed which has the characteristics of a patent from the State of Minnesota. Full Payment: Full Payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: Any lands offered for sale may be subject to unpaid assessments against the property. Before purchasing, any prospective buyer should consult the city or township clerk and county, in respect to any unpaid assessments "
     }
   }
 ]
