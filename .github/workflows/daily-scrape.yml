@@ -43,6 +43,10 @@ jobs:
         run: python3 scripts/scrape_public_surplus.py
         continue-on-error: true  # Piece 3, new and unverified against the live site — must not block the rest of the run
         timeout-minutes: 15  # hard ceiling: worst case per request is ~90s (see script), so even a fully-stuck run should not exceed this
+      - name: Scrape MNBid tax-forfeited real estate (MN)
+        run: python3 scripts/scrape_mnbid.py
+        continue-on-error: true  # Piece 3, new and unverified against the live site — must not block the rest of the run
+        timeout-minutes: 15  # same reasoning as the Public Surplus step above
       - name: Merge all sources into names.json
         run: python3 scripts/merge_sources.py
       - name: Commit updated data
@@ -58,6 +62,7 @@ jobs:
           [ -f data/real_estate_scored.json ] && git add data/real_estate_scored.json
           [ -f data/area_income_blockgroups.json ] && git add data/area_income_blockgroups.json
           [ -f data/public_surplus_taxforfeited.json ] && git add data/public_surplus_taxforfeited.json
+          [ -f data/mnbid_taxforfeited.json ] && git add data/mnbid_taxforfeited.json
           git diff --staged --quiet || git commit -m "Daily name data update $(date -u +%Y-%m-%d)"
           git pull --rebase origin main
           git push
