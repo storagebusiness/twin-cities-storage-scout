@@ -47,15 +47,22 @@ endpoint at runtime and finds whichever layer's name contains "Block
 Groups" — self-correcting across vintages instead of assuming a fixed
 index.
 
-REMAINING UNVERIFIED ASSUMPTION: the generalized layer's field names
-(STATE, COUNTY, GEOID, etc.) are assumed to match the full-resolution
-layer's (both are standard Census TIGER/geography services, which
-typically share these identifier field names) — but this has NOT been
-directly confirmed for the generalized block-groups layer specifically.
-If the WHERE clause below returns zero features against a live layer
-that Step 1 successfully resolved, mismatched field names are the first
-thing to check — the DEBUG output will show the attempted query and the
-raw (likely error or empty) response.
+SECOND FIX (2026-08-19, same day) — FIELD NAMES ALSO NOT WHAT WAS
+ASSUMED: the first version of this fix assumed the generalized layer
+shared the full-resolution layer's field names (STATE, COUNTY, GEOID).
+The first live run confirmed this assumption was wrong: EVERY single
+county (292/292) returned a 400 "Failed to execute query" error — the
+classic ArcGIS REST signature for a WHERE clause referencing a
+nonexistent field. Rather than guess at a second replacement field name
+and risk a THIRD failed run, this now queries the resolved layer's own
+field-list metadata at runtime (same self-verifying pattern as the
+layer-ID resolution above) and builds the WHERE clause from whatever
+fields actually exist: STATE+COUNTY equality if both are present
+(matching the full-resolution convention), otherwise a GEOID prefix
+match (GEOID is a near-universal identifier field across Census
+geography services). If a live run's DEBUG output shows the actual
+resolved field list, that's the real confirmation of which path was
+taken — treat it as authoritative over this docstring's reasoning.
 
 APIs used (all free, no signup required for light use):
   - Census Geocoder (geographies/coordinates endpoint) — reverse geocode
@@ -242,39 +249,67 @@ def fetch_county_block_group_incomes(state_fips: str, county_fips: str) -> dict[
 
 
 @lru_cache(maxsize=1)
-def _resolve_generalized_block_groups_layer_id() -> int | None:
-    """Finds the Block Groups layer's ID within the Generalized
-    Tracts_Blocks service by querying the service's own /layers
-    metadata endpoint, rather than hardcoding an index — confirmed via
-    live search (2026-08-19) that this index is NOT stable across ACS
-    vintages (ACS2015/ACS2021 have it at layer 2; ACS2024 shifted it to
-    layer 3 after adding an extra 'Tracts 5M' layer). Cached with
-    lru_cache since this only needs to be resolved once per run, not
-    once per county — the service's layer structure doesn't change
-    mid-run.
+def _resolve_generalized_block_groups_layer() -> dict | None:
+    """Finds the Block Groups layer within the Generalized Tracts_Blocks
+    service AND its actual field list, by querying the service's own
+    metadata endpoints — rather than hardcoding either the layer index
+    OR the field names, since BOTH have been confirmed unreliable to
+    assume:
+      - Layer index: confirmed NOT stable across ACS vintages
+        (ACS2015/ACS2021 have Block Groups at layer 2; ACS2024 shifted it
+        to layer 3 after adding an extra 'Tracts 5M' layer).
+      - Field names: the first live run of the fix that assumed
+        STATE/COUNTY/GEOID (matching the full-resolution layer's schema)
+        failed with a 400 'Failed to execute query' error on EVERY
+        single county (292/292) — the classic ArcGIS REST signature for
+        a WHERE clause referencing a field that doesn't exist on the
+        layer. The generalized layer almost certainly has a reduced
+        field set compared to the full-resolution one.
+
+    Returns {"layer_id": int, "fields": [field_name, ...]} or None on
+    failure. Cached since this only needs to run once per pipeline run.
     """
-    url = f"{GENERALIZED_TRACTS_BLOCKS_BASE.format(year=ACS_YEAR)}/layers"
+    layers_url = f"{GENERALIZED_TRACTS_BLOCKS_BASE.format(year=ACS_YEAR)}/layers"
     try:
-        resp = requests.get(url, params={"f": "json"}, headers=HEADERS, timeout=20)
+        resp = requests.get(layers_url, params={"f": "json"}, headers=HEADERS, timeout=20)
         resp.raise_for_status()
         data = resp.json()
     except requests.RequestException as e:
-        print(f"  WARNING: failed to resolve Block Groups layer ID: {e}", file=sys.stderr)
+        print(f"  WARNING: failed to resolve Block Groups layer: {e}", file=sys.stderr)
         return None
     except ValueError as e:
         print(f"  WARNING: layer metadata response was not JSON: {e}", file=sys.stderr)
         return None
 
+    layer_id = None
     for layer in data.get("layers", []):
-        name = layer.get("name", "")
-        if "Block Groups" in name:
+        if "Block Groups" in layer.get("name", ""):
             layer_id = layer.get("id")
-            print(f"  resolved Generalized Block Groups layer: id={layer_id}, name={name!r}", file=sys.stderr)
-            return layer_id
+            break
 
-    print(f"  WARNING: no layer with 'Block Groups' in its name found — "
-          f"available layers: {[l.get('name') for l in data.get('layers', [])]}", file=sys.stderr)
-    return None
+    if layer_id is None:
+        print(f"  WARNING: no layer with 'Block Groups' in its name found — "
+              f"available layers: {[l.get('name') for l in data.get('layers', [])]}", file=sys.stderr)
+        return None
+
+    # Now fetch that specific layer's own field list — this is the piece
+    # that was missing before and caused the universal 400 errors.
+    layer_detail_url = f"{GENERALIZED_TRACTS_BLOCKS_BASE.format(year=ACS_YEAR)}/{layer_id}"
+    try:
+        resp = requests.get(layer_detail_url, params={"f": "json"}, headers=HEADERS, timeout=20)
+        resp.raise_for_status()
+        layer_data = resp.json()
+    except requests.RequestException as e:
+        print(f"  WARNING: failed to fetch field list for layer {layer_id}: {e}", file=sys.stderr)
+        return None
+    except ValueError as e:
+        print(f"  WARNING: layer field-list response was not JSON: {e}", file=sys.stderr)
+        return None
+
+    fields = [f.get("name") for f in layer_data.get("fields", [])]
+    print(f"  resolved Generalized Block Groups layer: id={layer_id}, "
+          f"fields={fields}", file=sys.stderr)
+    return {"layer_id": layer_id, "fields": fields}
 
 
 def fetch_county_block_group_boundaries(state_fips: str, county_fips: str) -> dict:
@@ -282,17 +317,42 @@ def fetch_county_block_group_boundaries(state_fips: str, county_fips: str) -> di
     polygons for one county, via TIGERweb's GENERALIZED ArcGIS REST
     service (Generalized_ACS{year}/Tracts_Blocks) — deliberately NOT the
     full-resolution TIGERweb/Tracts_Blocks service, which produced a
-    202MB output file at statewide (MN+GA+SC) scale. See module
-    docstring's 2026-08-19 fix note for the full story."""
-    layer_id = _resolve_generalized_block_groups_layer_id()
-    if layer_id is None:
-        print(f"  SKIPPING {state_fips}/{county_fips}: could not resolve Block Groups layer ID", file=sys.stderr)
+    202MB output file at statewide (MN+GA+SC) scale.
+
+    WHERE-clause field choice is resolved dynamically from the layer's
+    own field list rather than assumed: prefers STATE+COUNTY equality if
+    both fields exist (matches the full-resolution layer's convention),
+    falls back to a GEOID prefix match if not (GEOID is a near-universal
+    identifier field on Census geography services, confirmed present on
+    at least one other Generalized-family layer's metadata during
+    research for this fix) — this self-corrects instead of repeating the
+    same kind of hardcoded-assumption failure that broke the first
+    version of this fix."""
+    resolved = _resolve_generalized_block_groups_layer()
+    if resolved is None:
+        print(f"  SKIPPING {state_fips}/{county_fips}: could not resolve Block Groups layer", file=sys.stderr)
         return {"type": "FeatureCollection", "features": []}
 
+    layer_id = resolved["layer_id"]
+    fields = resolved["fields"]
     query_url = f"{GENERALIZED_TRACTS_BLOCKS_BASE.format(year=ACS_YEAR)}/{layer_id}/query"
+
+    if "STATE" in fields and "COUNTY" in fields:
+        where = f"STATE='{state_fips}' AND COUNTY='{county_fips}'"
+    elif "GEOID" in fields:
+        where = f"GEOID LIKE '{state_fips}{county_fips}%'"
+    else:
+        print(f"  WARNING: layer has neither STATE/COUNTY nor GEOID fields — "
+              f"cannot build a county filter. Available fields: {fields}", file=sys.stderr)
+        return {"type": "FeatureCollection", "features": []}
+
+    out_fields = [f for f in ("GEOID", "STATE", "COUNTY", "TRACT", "BLKGRP", "BASENAME") if f in fields]
+    if not out_fields:
+        out_fields = ["*"]
+
     params = {
-        "where": f"STATE='{state_fips}' AND COUNTY='{county_fips}'",
-        "outFields": "GEOID,STATE,COUNTY,TRACT,BLKGRP,BASENAME",
+        "where": where,
+        "outFields": ",".join(out_fields),
         "f": "geojson",
     }
     try:
@@ -306,16 +366,10 @@ def fetch_county_block_group_boundaries(state_fips: str, county_fips: str) -> di
         print(f"  WARNING: generalized boundary service returned non-JSON for {state_fips}/{county_fips}: {e}", file=sys.stderr)
         return {"type": "FeatureCollection", "features": []}
 
-    # If the field names assumed above (STATE/COUNTY/GEOID) don't
-    # actually exist on this layer, the WHERE clause will typically
-    # error rather than silently return zero rows — surface that clearly
-    # rather than let it look like "this county just has no block
-    # groups," which would be a confusing false conclusion.
     if "error" in result:
         print(f"  WARNING: generalized boundary query returned an error for {state_fips}/{county_fips}: "
-              f"{result['error']!r} — the assumed field names (STATE/COUNTY/GEOID) may not match this "
-              f"layer's actual schema; this is the remaining unverified assumption flagged in the module "
-              f"docstring", file=sys.stderr)
+              f"{result['error']!r} — WHERE clause used: {where!r}, fields resolved from layer metadata: {fields}",
+              file=sys.stderr)
         return {"type": "FeatureCollection", "features": []}
 
     return result
