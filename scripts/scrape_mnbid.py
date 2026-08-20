@@ -56,6 +56,14 @@ HEADERS = {
         "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     ),
     "Content-Type": "application/json",
+    # The API explicitly rejects requests without these — confirmed real
+    # error from a live run: {"status":"error","data":{"responseType":203,
+    # "message":"API disabled by admin","additionalMessage":"Front Domain
+    # Mismatch: Contact Admin"}}. This is a standard Origin/Referer check,
+    # not a security bypass — same category as the User-Agent header
+    # already used for Public Surplus.
+    "Origin": "https://mnbid.mn.gov",
+    "Referer": "https://mnbid.mn.gov/",
 }
 
 CONNECT_TIMEOUT_SECONDS = 10
