@@ -15,14 +15,47 @@ in any state, not just Minnesota.
 
 ⚠️ VERIFICATION STATUS: built from documented API patterns (Census
 Geocoder docs, Census Data API docs, TIGERweb's own REST service
-metadata — confirmed via web search that layer 1 of TIGERweb/
-Tracts_Blocks/MapServer is "Census Block Groups" and supports geoJSON
-output), but NOT yet run against live data — this sandbox's network is
-blocked from these endpoints, same limitation as every other API this
-project talks to. Same practice as everywhere else in this project:
-treat this as a solid first pass, not a proven-correct one, until a real
-run's DEBUG output confirms the actual response shapes match what's
-assumed below.
+metadata), but NOT yet run against live data — this sandbox's network is
+blocked from these endpoints. Same practice as everywhere else in this
+project: treat this as a solid first pass, not a proven-correct one,
+until a real run's DEBUG output confirms the actual response shapes
+match what's assumed below.
+
+FIX (2026-08-19) — SWITCHED FROM FULL-RESOLUTION TO GENERALIZED
+BOUNDARIES: the first live run of the statewide (MN+GA+SC, ~292 county)
+version of this pipeline produced a 202MB output file, well over
+GitHub's 100MB push limit. Root cause: fetch_county_block_group_boundaries
+was querying TIGERweb/Tracts_Blocks/MapServer/1 — full-resolution
+TIGER/Line geometry (survey-grade precision, every legal/water boundary
+vertex included), never a problem at the old scale (a handful of
+counties) but completely impractical at 292 counties statewide.
+
+Census publishes a SEPARATE, purpose-built "Generalized" REST service
+family specifically for thematic maps like this one — confirmed via live
+search of the service's own metadata (2026-08-19):
+  https://tigerweb.geo.census.gov/arcgis/rest/services/Generalized_ACS{year}/Tracts_Blocks/MapServer
+"500K" = simplified to 1:500,000 scale — dramatically fewer vertices per
+polygon than the full-resolution TIGER/Line source, while remaining
+visually accurate at any zoom level reasonable for a thematic web map.
+
+IMPORTANT — the Block Groups layer's ID WITHIN that service is NOT
+stable across vintages: ACS2015/ACS2021 have it at layer 2, but ACS2024
+added an extra "Census Tracts 5M" layer that shifts Block Groups to
+layer 3. Rather than hardcode either number and risk breaking again on
+the next Census vintage bump, this queries the service's own `/layers`
+endpoint at runtime and finds whichever layer's name contains "Block
+Groups" — self-correcting across vintages instead of assuming a fixed
+index.
+
+REMAINING UNVERIFIED ASSUMPTION: the generalized layer's field names
+(STATE, COUNTY, GEOID, etc.) are assumed to match the full-resolution
+layer's (both are standard Census TIGER/geography services, which
+typically share these identifier field names) — but this has NOT been
+directly confirmed for the generalized block-groups layer specifically.
+If the WHERE clause below returns zero features against a live layer
+that Step 1 successfully resolved, mismatched field names are the first
+thing to check — the DEBUG output will show the attempted query and the
+raw (likely error or empty) response.
 
 APIs used (all free, no signup required for light use):
   - Census Geocoder (geographies/coordinates endpoint) — reverse geocode
@@ -30,19 +63,18 @@ APIs used (all free, no signup required for light use):
   - Census Data API (ACS 5-year Detailed Tables) — median household
     income (B19013_001E), available down to block group.
     https://api.census.gov/data
-  - TIGERweb ArcGIS REST (Tracts_Blocks/MapServer, layer 1 = Census
-    Block Groups) — block group boundary polygons, GeoJSON output.
-    https://tigerweb.geo.census.gov/arcgis/rest/services
+  - TIGERweb ArcGIS REST, Generalized_ACS{year}/Tracts_Blocks — block
+    group boundary polygons, generalized for thematic mapping, GeoJSON
+    output. https://tigerweb.geo.census.gov/arcgis/rest/services
 
 RATE LIMITS: the Census Data API allows some unauthenticated use but
 recommends a free API key for anything beyond light/occasional use — see
 https://api.census.gov/data/key_signup.html. This module reads an
 optional CENSUS_API_KEY environment variable and appends it to requests
-if present; works without one at the volume this project currently
-needs (one state, ~7 counties), but get a key before expanding to many
-states — see module docstring in score_area_income.py.
+if present. Now that score_area_income.py fetches statewide (MN+GA+SC,
+~292 counties) rather than just a handful, getting a real key is a much
+higher priority than it was at the original small scale.
 """
-
 import os
 import sys
 import time
@@ -52,14 +84,13 @@ import requests
 
 GEOCODER_BASE = "https://geocoding.geo.census.gov/geocoder/geographies/coordinates"
 ACS_BASE = "https://api.census.gov/data/{year}/acs/acs5"
-TIGERWEB_BLOCKGROUPS_URL = (
-    "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Tracts_Blocks/MapServer/1/query"
-)
+GENERALIZED_TRACTS_BLOCKS_BASE = "https://tigerweb.geo.census.gov/arcgis/rest/services/Generalized_ACS{year}/Tracts_Blocks/MapServer"
 
 # ACS 5-year vintage to use. Bump this as newer vintages become
 # available (Census typically releases a new 5-year vintage each
 # December) — not verified live against what's currently published, see
-# module docstring.
+# module docstring. The Generalized boundary service uses the SAME
+# {year} in its URL, so bumping this one constant keeps both in sync.
 ACS_YEAR = 2023
 
 MEDIAN_HOUSEHOLD_INCOME_VAR = "B19013_001E"
@@ -210,26 +241,81 @@ def fetch_county_block_group_incomes(state_fips: str, county_fips: str) -> dict[
     return result
 
 
+@lru_cache(maxsize=1)
+def _resolve_generalized_block_groups_layer_id() -> int | None:
+    """Finds the Block Groups layer's ID within the Generalized
+    Tracts_Blocks service by querying the service's own /layers
+    metadata endpoint, rather than hardcoding an index — confirmed via
+    live search (2026-08-19) that this index is NOT stable across ACS
+    vintages (ACS2015/ACS2021 have it at layer 2; ACS2024 shifted it to
+    layer 3 after adding an extra 'Tracts 5M' layer). Cached with
+    lru_cache since this only needs to be resolved once per run, not
+    once per county — the service's layer structure doesn't change
+    mid-run.
+    """
+    url = f"{GENERALIZED_TRACTS_BLOCKS_BASE.format(year=ACS_YEAR)}/layers"
+    try:
+        resp = requests.get(url, params={"f": "json"}, headers=HEADERS, timeout=20)
+        resp.raise_for_status()
+        data = resp.json()
+    except requests.RequestException as e:
+        print(f"  WARNING: failed to resolve Block Groups layer ID: {e}", file=sys.stderr)
+        return None
+    except ValueError as e:
+        print(f"  WARNING: layer metadata response was not JSON: {e}", file=sys.stderr)
+        return None
+
+    for layer in data.get("layers", []):
+        name = layer.get("name", "")
+        if "Block Groups" in name:
+            layer_id = layer.get("id")
+            print(f"  resolved Generalized Block Groups layer: id={layer_id}, name={name!r}", file=sys.stderr)
+            return layer_id
+
+    print(f"  WARNING: no layer with 'Block Groups' in its name found — "
+          f"available layers: {[l.get('name') for l in data.get('layers', [])]}", file=sys.stderr)
+    return None
+
+
 def fetch_county_block_group_boundaries(state_fips: str, county_fips: str) -> dict:
     """Returns a GeoJSON FeatureCollection of block group boundary
-    polygons for one county, via TIGERweb's ArcGIS REST service — same
-    query pattern already proven in lookup_parcel.py for Met Council's
-    ArcGIS endpoint, just a different service and a different WHERE
-    clause. STATE/COUNTY are the field names TIGERweb uses (confirmed
-    via the service's own field metadata during research for this
-    script — not yet confirmed against a live query response)."""
+    polygons for one county, via TIGERweb's GENERALIZED ArcGIS REST
+    service (Generalized_ACS{year}/Tracts_Blocks) — deliberately NOT the
+    full-resolution TIGERweb/Tracts_Blocks service, which produced a
+    202MB output file at statewide (MN+GA+SC) scale. See module
+    docstring's 2026-08-19 fix note for the full story."""
+    layer_id = _resolve_generalized_block_groups_layer_id()
+    if layer_id is None:
+        print(f"  SKIPPING {state_fips}/{county_fips}: could not resolve Block Groups layer ID", file=sys.stderr)
+        return {"type": "FeatureCollection", "features": []}
+
+    query_url = f"{GENERALIZED_TRACTS_BLOCKS_BASE.format(year=ACS_YEAR)}/{layer_id}/query"
     params = {
         "where": f"STATE='{state_fips}' AND COUNTY='{county_fips}'",
         "outFields": "GEOID,STATE,COUNTY,TRACT,BLKGRP,BASENAME",
         "f": "geojson",
     }
     try:
-        resp = requests.get(TIGERWEB_BLOCKGROUPS_URL, params=params, headers=HEADERS, timeout=30)
+        resp = requests.get(query_url, params=params, headers=HEADERS, timeout=30)
         resp.raise_for_status()
-        return resp.json()
+        result = resp.json()
     except requests.RequestException as e:
-        print(f"  WARNING: TIGERweb boundary fetch failed for {state_fips}/{county_fips}: {e}", file=sys.stderr)
+        print(f"  WARNING: generalized boundary fetch failed for {state_fips}/{county_fips}: {e}", file=sys.stderr)
         return {"type": "FeatureCollection", "features": []}
     except ValueError as e:  # JSON decode failure
-        print(f"  WARNING: TIGERweb returned non-JSON for {state_fips}/{county_fips}: {e}", file=sys.stderr)
+        print(f"  WARNING: generalized boundary service returned non-JSON for {state_fips}/{county_fips}: {e}", file=sys.stderr)
         return {"type": "FeatureCollection", "features": []}
+
+    # If the field names assumed above (STATE/COUNTY/GEOID) don't
+    # actually exist on this layer, the WHERE clause will typically
+    # error rather than silently return zero rows — surface that clearly
+    # rather than let it look like "this county just has no block
+    # groups," which would be a confusing false conclusion.
+    if "error" in result:
+        print(f"  WARNING: generalized boundary query returned an error for {state_fips}/{county_fips}: "
+              f"{result['error']!r} — the assumed field names (STATE/COUNTY/GEOID) may not match this "
+              f"layer's actual schema; this is the remaining unverified assumption flagged in the module "
+              f"docstring", file=sys.stderr)
+        return {"type": "FeatureCollection", "features": []}
+
+    return result
