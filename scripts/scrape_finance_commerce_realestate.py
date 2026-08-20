@@ -55,6 +55,21 @@ identical Auction Date:/Description: label format strongly suggest the
 same BridgeTower/Dolan backend, just a different newspaper/domain), so
 Hennepin notices may include the same format variety.
 
+RATE-LIMIT FIX (2026-08-20): a live run crashed on page 5 with an
+unhandled `429 Too Many Requests` — `fetch_page()` had no error handling
+at all, and the pagination loop fetched pages back-to-back with zero
+delay between them, which very likely helped trigger the rate limit in
+the first place. Pages 1-4 had already successfully extracted 55 real
+records before the crash, all of which were being thrown away since the
+script died before ever reaching `OUT_PATH.write_text(...)`. Fixed with
+two changes: (1) a small delay between page requests, and (2) retry-
+with-backoff specifically for 429/5xx responses (respecting a
+`Retry-After` header if the server sends one), and if retries are
+exhausted, pagination stops gracefully (same as hitting a genuine
+end-of-feed) rather than crashing — whatever was already collected still
+gets written out. See `fetch_page_with_retry()` and the updated `main()`
+loop below.
+
 IMPORTANT CAVEAT: this has NOT been confirmed against real F&C data the
 way the Ramsey fixes were — this repo has only ever seen F&C's already-
 successfully-parsed JSON output, never its raw RSS XML, so it's unknown
@@ -82,6 +97,11 @@ RSS_BASE = "https://finance-commerce.com/public-notice/export-rss/"
 OUT_PATH = Path(__file__).parent.parent / "data" / "finance_commerce_realestate.json"
 MAX_PAGES = 10
 DETAIL_FETCH_DELAY_SECONDS = 1.0  # be polite — one extra request per truncated item
+
+# RATE-LIMIT FIX additions — see module docstring.
+PAGE_REQUEST_DELAY_SECONDS = 1.5  # delay BETWEEN page requests, not just before detail fetches
+MAX_PAGE_FETCH_RETRIES = 3
+DEFAULT_RETRY_AFTER_SECONDS = 5  # used when the server sends a 429 with no Retry-After header
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                           "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"}
@@ -397,23 +417,77 @@ def parse_rss(xml_text: str) -> tuple[list[dict], int, list[tuple[str, str, str]
     return records, len(items), retry_candidates
 
 
-def fetch_page(page_num: int) -> str:
-    resp = requests.get(
-        RSS_BASE,
-        params={"feeds": "real_estate", "pageindex": page_num},
-        headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                                "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"},
-        timeout=20,
-    )
-    resp.raise_for_status()
-    return resp.text
+def fetch_page_with_retry(page_num: int) -> str | None:
+    """Fetches one RSS page, retrying on transient failures (429 rate
+    limit, 5xx server errors) rather than crashing the whole script —
+    see the RATE-LIMIT FIX note in the module docstring for why this
+    exists. Respects a `Retry-After` header if the server sends one
+    (common on 429s); falls back to DEFAULT_RETRY_AFTER_SECONDS if not.
+
+    Returns the response text, or None if every retry was exhausted —
+    the caller treats None the same as a genuine end-of-feed signal
+    (stop paginating gracefully) rather than crashing."""
+    for attempt in range(1, MAX_PAGE_FETCH_RETRIES + 1):
+        try:
+            resp = requests.get(
+                RSS_BASE,
+                params={"feeds": "real_estate", "pageindex": page_num},
+                headers=HEADERS,
+                timeout=20,
+            )
+            resp.raise_for_status()
+            return resp.text
+        except requests.exceptions.HTTPError as e:
+            status = e.response.status_code if e.response is not None else None
+            if status == 429 or (status is not None and 500 <= status < 600):
+                retry_after = DEFAULT_RETRY_AFTER_SECONDS
+                if e.response is not None and "Retry-After" in e.response.headers:
+                    try:
+                        retry_after = int(e.response.headers["Retry-After"])
+                    except ValueError:
+                        pass  # non-numeric Retry-After (an HTTP-date) — just use the default
+                print(f"  page {page_num}: got HTTP {status} (attempt {attempt}/{MAX_PAGE_FETCH_RETRIES}), "
+                      f"waiting {retry_after}s before retry", file=sys.stderr)
+                if attempt < MAX_PAGE_FETCH_RETRIES:
+                    time.sleep(retry_after)
+                    continue
+                print(f"  page {page_num}: giving up after {MAX_PAGE_FETCH_RETRIES} attempts "
+                      f"(still {status}) — stopping pagination here, NOT crashing", file=sys.stderr)
+                return None
+            else:
+                # Non-retryable HTTP error (404, etc.) — no point retrying
+                print(f"  page {page_num}: non-retryable HTTP error {status}: {e} "
+                      f"— stopping pagination here, NOT crashing", file=sys.stderr)
+                return None
+        except requests.exceptions.RequestException as e:
+            print(f"  page {page_num}: request failed (attempt {attempt}/{MAX_PAGE_FETCH_RETRIES}): {e}",
+                  file=sys.stderr)
+            if attempt < MAX_PAGE_FETCH_RETRIES:
+                time.sleep(2)
+                continue
+            print(f"  page {page_num}: giving up after {MAX_PAGE_FETCH_RETRIES} attempts "
+                  f"— stopping pagination here, NOT crashing", file=sys.stderr)
+            return None
+    return None
 
 
 def main():
     all_records = []
     all_retry_candidates = []
     for page in range(1, MAX_PAGES + 1):
-        xml_text = fetch_page(page)
+        xml_text = fetch_page_with_retry(page)
+        if xml_text is None:
+            # Retries exhausted (rate limit or other persistent error).
+            # Same handling as a genuine end-of-feed: stop paginating,
+            # but still write out everything already collected — see
+            # RATE-LIMIT FIX note in module docstring. This is the whole
+            # point of the fix: pages 1-4's worth of real data should
+            # never be thrown away because page 5 hit a rate limit.
+            print(f"DEBUG: stopping pagination at page {page} due to persistent fetch failure "
+                  f"(not a crash — proceeding with {len(all_records)} records already collected)",
+                  file=sys.stderr)
+            break
+
         print(f"DEBUG: page {page} response length = {len(xml_text)} chars", file=sys.stderr)
         records, item_count, retry_candidates = parse_rss(xml_text)
         all_records.extend(records)
@@ -425,6 +499,13 @@ def main():
         # feed — see module docstring, this was the Hennepin-only bug.
         if item_count == 0 and page > 1:
             break
+
+        # RATE-LIMIT FIX: delay between page requests, not just before
+        # detail-page fetches — likely a contributor to the 429 that
+        # crashed the original version of this script. Skipped after the
+        # last iteration since there's nothing left to fetch.
+        if page < MAX_PAGES:
+            time.sleep(PAGE_REQUEST_DELAY_SECONDS)
 
     if all_retry_candidates:
         print(f"Retrying {len(all_retry_candidates)} truncated-but-likely-standard "
