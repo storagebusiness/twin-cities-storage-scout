@@ -1632,6 +1632,40 @@
     }
   },
   {
+    "mortgagor_name": "Whetstone Colwell, LLC\n3.",
+    "mortgage_amount": 20850000.0,
+    "property_address_raw": "123 3rd St N Minneapolis",
+    "house_number": "123",
+    "street_name": "3rd",
+    "street_suffix": "St",
+    "street_direction": "N",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4202138",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
+    "state": "MN",
+    "listing_category": "mortgage_foreclosure",
+    "parcel": {
+      "pin": "053-2202924410085",
+      "owner_name": "WHETSTONE COLWELL LLC",
+      "emv_land": 1603800,
+      "emv_bldg": 4486200,
+      "emv_total": 6090000,
+      "sale_value": 9100000,
+      "sale_date": "2006-01-01",
+      "county": "Hennepin",
+      "lng": -93.27253172336927,
+      "lat": 44.98244668629282
+    },
+    "scoring": {
+      "equity_estimate": -14760000.0,
+      "equity_ratio": 0.29
+    }
+  },
+  {
     "mortgagor_name": "W K Brown, L.L.C., a Minnesota limited liability company",
     "mortgage_amount": 3100000.0,
     "property_address_raw": "2590 Freeway Blvd Brooklyn Center",
@@ -1663,6 +1697,74 @@
     "scoring": {
       "equity_estimate": 900000.0,
       "equity_ratio": 1.29
+    }
+  },
+  {
+    "mortgagor_name": "George W. Klus and Anne L. Klus",
+    "mortgage_amount": 200000.0,
+    "property_address_raw": "5233 Lochloy Dr Edina",
+    "house_number": "5233",
+    "street_name": "Lochloy",
+    "street_suffix": "Dr",
+    "street_direction": "",
+    "city": "Edina",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197286",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true,
+    "state": "MN",
+    "listing_category": "mortgage_foreclosure",
+    "parcel": {
+      "pin": "053-2911721440052",
+      "owner_name": "G W KLUS & A L KLUS",
+      "emv_land": 425000,
+      "emv_bldg": 276300,
+      "emv_total": 701300,
+      "sale_value": 162500,
+      "sale_date": "1991-06-01",
+      "county": "Hennepin",
+      "lng": -93.3656308441898,
+      "lat": 44.90833258865931
+    },
+    "scoring": {
+      "equity_estimate": 501300.0,
+      "equity_ratio": 3.51
+    }
+  },
+  {
+    "mortgagor_name": "Stieg Strand",
+    "mortgage_amount": 250000.0,
+    "property_address_raw": "13277 Melody Ct Eden Prairie",
+    "house_number": "13277",
+    "street_name": "Melody",
+    "street_suffix": "Ct",
+    "street_direction": "",
+    "city": "Eden Prairie",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4193207",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true,
+    "state": "MN",
+    "listing_category": "mortgage_foreclosure",
+    "parcel": {
+      "pin": "053-1011622120047",
+      "owner_name": "STIEG STRAND",
+      "emv_land": 206200,
+      "emv_bldg": 357300,
+      "emv_total": 563500,
+      "sale_value": 439000,
+      "sale_date": "2004-11-01",
+      "county": "Hennepin",
+      "lng": -93.44531560851782,
+      "lat": 44.87427995799611
+    },
+    "scoring": {
+      "equity_estimate": 313500.0,
+      "equity_ratio": 2.25
     }
   },
   {
