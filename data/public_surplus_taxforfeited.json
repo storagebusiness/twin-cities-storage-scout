@@ -21,7 +21,7 @@
       "current_bid": 3350.0,
       "minimum_bid": 809.57,
       "tier1_emv_price": null,
-      "tier2_minimum_price": null,
+      "tier2_minimum_price": 809.57,
       "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
@@ -68,7 +68,7 @@
       "current_bid": 2240.66,
       "minimum_bid": 2240.66,
       "tier1_emv_price": null,
-      "tier2_minimum_price": null,
+      "tier2_minimum_price": 2240.66,
       "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
@@ -109,7 +109,7 @@
       "current_bid": 5600.0,
       "minimum_bid": 5079.64,
       "tier1_emv_price": null,
-      "tier2_minimum_price": null,
+      "tier2_minimum_price": 5079.64,
       "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
@@ -150,7 +150,7 @@
       "current_bid": 30299.0,
       "minimum_bid": 6317.83,
       "tier1_emv_price": null,
-      "tier2_minimum_price": null,
+      "tier2_minimum_price": 6317.83,
       "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
@@ -191,7 +191,7 @@
       "current_bid": 4323.57,
       "minimum_bid": 4323.57,
       "tier1_emv_price": null,
-      "tier2_minimum_price": null,
+      "tier2_minimum_price": 4323.57,
       "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
@@ -232,7 +232,7 @@
       "current_bid": 11100.0,
       "minimum_bid": 4588.1,
       "tier1_emv_price": null,
-      "tier2_minimum_price": null,
+      "tier2_minimum_price": 4588.1,
       "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
@@ -255,7 +255,7 @@
     "id": "publicsurplus-4067255",
     "source": "public_surplus",
     "state": "MN",
-    "county": null,
+    "county": "Goodhue",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -296,7 +296,7 @@
     "id": "publicsurplus-4067256",
     "source": "public_surplus",
     "state": "MN",
-    "county": null,
+    "county": "Goodhue",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -337,7 +337,7 @@
     "id": "publicsurplus-3920839",
     "source": "public_surplus",
     "state": "MN",
-    "county": null,
+    "county": "Cottonwood",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -378,7 +378,7 @@
     "id": "publicsurplus-4020921",
     "source": "public_surplus",
     "state": "MN",
-    "county": null,
+    "county": "Cottonwood",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -394,10 +394,10 @@
     "status": "open",
     "price": {
       "current_bid": 6700.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "minimum_bid": 2731.62,
+      "tier1_emv_price": 6700.0,
+      "tier2_minimum_price": 2731.62,
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
       "emv_total": null,
@@ -419,7 +419,7 @@
     "id": "publicsurplus-4020970",
     "source": "public_surplus",
     "state": "MN",
-    "county": null,
+    "county": "Cottonwood",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -435,10 +435,10 @@
     "status": "open",
     "price": {
       "current_bid": 9500.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "minimum_bid": 2987.96,
+      "tier1_emv_price": 9500.0,
+      "tier2_minimum_price": 2987.96,
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
       "emv_total": null,
@@ -460,7 +460,7 @@
     "id": "publicsurplus-4021048",
     "source": "public_surplus",
     "state": "MN",
-    "county": null,
+    "county": "Cottonwood",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -476,10 +476,10 @@
     "status": "open",
     "price": {
       "current_bid": 3700.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "minimum_bid": 1158.58,
+      "tier1_emv_price": 3700.0,
+      "tier2_minimum_price": 1158.58,
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
       "emv_total": null,
@@ -501,7 +501,7 @@
     "id": "publicsurplus-4021452",
     "source": "public_surplus",
     "state": "MN",
-    "county": null,
+    "county": "Cottonwood",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -517,10 +517,10 @@
     "status": "open",
     "price": {
       "current_bid": 2400.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "minimum_bid": 7758.67,
+      "tier1_emv_price": 2400.0,
+      "tier2_minimum_price": 7758.67,
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
       "emv_total": null,
@@ -542,7 +542,7 @@
     "id": "publicsurplus-4021536",
     "source": "public_surplus",
     "state": "MN",
-    "county": null,
+    "county": "Cottonwood",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -558,10 +558,10 @@
     "status": "open",
     "price": {
       "current_bid": 5400.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "minimum_bid": 5961.68,
+      "tier1_emv_price": 5400.0,
+      "tier2_minimum_price": 5961.68,
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
       "emv_total": null,
@@ -583,7 +583,7 @@
     "id": "publicsurplus-4022080",
     "source": "public_surplus",
     "state": "MN",
-    "county": null,
+    "county": "Cottonwood",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -599,10 +599,10 @@
     "status": "open",
     "price": {
       "current_bid": 1500.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "minimum_bid": 2184.43,
+      "tier1_emv_price": 1500.0,
+      "tier2_minimum_price": 2184.43,
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
       "emv_total": null,
@@ -624,7 +624,7 @@
     "id": "publicsurplus-4022120",
     "source": "public_surplus",
     "state": "MN",
-    "county": null,
+    "county": "Cottonwood",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -641,7 +641,7 @@
     "price": {
       "current_bid": 2700.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 2700.0,
       "tier2_minimum_price": null,
       "price_basis": "minimum_bid_only"
     },
@@ -665,7 +665,7 @@
     "id": "publicsurplus-4022145",
     "source": "public_surplus",
     "state": "MN",
-    "county": null,
+    "county": "Cottonwood",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -681,10 +681,10 @@
     "status": "open",
     "price": {
       "current_bid": 900.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "minimum_bid": 445.76,
+      "tier1_emv_price": 900.0,
+      "tier2_minimum_price": 445.76,
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
       "emv_total": null,
@@ -706,7 +706,7 @@
     "id": "publicsurplus-4022152",
     "source": "public_surplus",
     "state": "MN",
-    "county": null,
+    "county": "Cottonwood",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -722,10 +722,10 @@
     "status": "open",
     "price": {
       "current_bid": 600.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "minimum_bid": 413.41,
+      "tier1_emv_price": 600.0,
+      "tier2_minimum_price": 413.41,
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
       "emv_total": null,
@@ -747,7 +747,7 @@
     "id": "publicsurplus-4022173",
     "source": "public_surplus",
     "state": "MN",
-    "county": null,
+    "county": "Cottonwood",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -763,10 +763,10 @@
     "status": "open",
     "price": {
       "current_bid": 17700.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "minimum_bid": 2826.6,
+      "tier1_emv_price": 17700.0,
+      "tier2_minimum_price": 2826.6,
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
       "emv_total": null,
@@ -788,7 +788,7 @@
     "id": "publicsurplus-4022268",
     "source": "public_surplus",
     "state": "MN",
-    "county": null,
+    "county": "Cottonwood",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -804,10 +804,10 @@
     "status": "open",
     "price": {
       "current_bid": 76700.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "minimum_bid": 6099.09,
+      "tier1_emv_price": 76700.0,
+      "tier2_minimum_price": 6099.09,
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
       "emv_total": null,
@@ -1452,7 +1452,7 @@
       "notes": "Phase not extractable from category listing page."
     },
     "address": null,
-    "parcel_id": "36",
+    "parcel_id": "36-0032-000",
     "coordinates": null,
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4049480",
     "date_listed": null,
@@ -1461,7 +1461,7 @@
     "price": {
       "current_bid": 6500.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 6500.0,
       "tier2_minimum_price": null,
       "price_basis": "minimum_bid_only"
     },
