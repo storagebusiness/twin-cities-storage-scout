@@ -12,7 +12,11 @@
     },
     "address": null,
     "parcel_id": "55-070-01000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4045302",
     "date_listed": "Jul 20, 2026 07:00 AM MDT",
     "date_closes": "Aug 20, 2026 09:00 AM MDT",
@@ -59,7 +63,11 @@
     },
     "address": null,
     "parcel_id": "92-007-60080",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4045305",
     "date_listed": "Jul 20, 2026 07:00 AM MDT",
     "date_closes": "Aug 20, 2026 09:00 AM MDT",
@@ -100,7 +108,11 @@
     },
     "address": null,
     "parcel_id": "92-007-74130",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4045306",
     "date_listed": "Jul 20, 2026 07:00 AM MDT",
     "date_closes": "Aug 20, 2026 09:00 AM MDT",
@@ -141,7 +153,11 @@
     },
     "address": null,
     "parcel_id": "92-007-99190",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4045307",
     "date_listed": "Jul 20, 2026 07:00 AM MDT",
     "date_closes": "Aug 20, 2026 09:00 AM MDT",
@@ -182,7 +198,11 @@
     },
     "address": null,
     "parcel_id": "92-110-03010",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4045310",
     "date_listed": "Jul 20, 2026 07:00 AM MDT",
     "date_closes": "Aug 20, 2026 09:00 AM MDT",
@@ -223,7 +243,11 @@
     },
     "address": null,
     "parcel_id": "98-005-03061",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4045311",
     "date_listed": "Jul 20, 2026 07:00 AM MDT",
     "date_closes": "Aug 20, 2026 09:00 AM MDT",
@@ -264,7 +288,11 @@
     },
     "address": null,
     "parcel_id": "36.036.0300",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 44.406178,
+      "lng": -92.716,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4067255",
     "date_listed": "Aug 17, 2026 10:10 AM MDT",
     "date_closes": "Sep 16, 2026 10:00 AM MDT",
@@ -305,7 +333,11 @@
     },
     "address": null,
     "parcel_id": "45.006.0702",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 44.406178,
+      "lng": -92.716,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4067256",
     "date_listed": "Aug 17, 2026 10:11 AM MDT",
     "date_closes": "Sep 16, 2026 10:00 AM MDT",
@@ -698,7 +730,11 @@
     },
     "address": null,
     "parcel_id": null,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 44.010639,
+      "lng": -95.183152,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4022145",
     "date_listed": "Aug 17, 2026 10:55 AM MDT",
     "date_closes": "Sep 16, 2026 11:00 AM MDT",
@@ -739,7 +775,11 @@
     },
     "address": null,
     "parcel_id": null,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 44.010639,
+      "lng": -95.183152,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4022152",
     "date_listed": "Aug 17, 2026 10:55 AM MDT",
     "date_closes": "Sep 16, 2026 11:00 AM MDT",
@@ -868,7 +908,11 @@
     },
     "address": null,
     "parcel_id": "06.0396.000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4051569",
     "date_listed": "Aug 19, 2026 07:00 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -909,7 +953,11 @@
     },
     "address": null,
     "parcel_id": "08.0537.000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4051585",
     "date_listed": "Aug 19, 2026 07:00 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -950,7 +998,11 @@
     },
     "address": null,
     "parcel_id": "06.0439.000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4051593",
     "date_listed": "Aug 19, 2026 07:00 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -991,7 +1043,11 @@
     },
     "address": null,
     "parcel_id": "29.2095.000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052371",
     "date_listed": "Aug 19, 2026 07:14 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -1032,7 +1088,11 @@
     },
     "address": null,
     "parcel_id": "29.2096.000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052378",
     "date_listed": "Aug 19, 2026 07:16 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -1073,7 +1133,11 @@
     },
     "address": null,
     "parcel_id": "29.2470.000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052381",
     "date_listed": "Aug 19, 2026 07:19 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -1114,7 +1178,11 @@
     },
     "address": null,
     "parcel_id": "29.2472.000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052383",
     "date_listed": "Aug 19, 2026 07:20 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -1155,7 +1223,11 @@
     },
     "address": null,
     "parcel_id": "29.2474.000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052388",
     "date_listed": "Aug 19, 2026 07:22 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -1196,7 +1268,11 @@
     },
     "address": null,
     "parcel_id": "29.2480.000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052390",
     "date_listed": "Aug 19, 2026 07:24 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -1237,7 +1313,11 @@
     },
     "address": null,
     "parcel_id": "29.2481.000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052391",
     "date_listed": "Aug 19, 2026 07:25 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -1278,7 +1358,11 @@
     },
     "address": null,
     "parcel_id": "29.2482.000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052392",
     "date_listed": "Aug 19, 2026 07:26 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -1319,7 +1403,11 @@
     },
     "address": null,
     "parcel_id": "48.1850.000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052398",
     "date_listed": "Aug 19, 2026 07:29 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -1360,7 +1448,11 @@
     },
     "address": null,
     "parcel_id": "48.1851.000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052400",
     "date_listed": "Aug 19, 2026 07:31 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -1401,7 +1493,11 @@
     },
     "address": null,
     "parcel_id": "48.2902.000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052404",
     "date_listed": "Aug 19, 2026 07:32 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -1442,7 +1538,11 @@
     },
     "address": null,
     "parcel_id": "26.0411.003",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4054908",
     "date_listed": "Aug 19, 2026 07:00 AM MDT",
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
@@ -1483,7 +1583,11 @@
     },
     "address": null,
     "parcel_id": "36-0032-000",
-    "coordinates": null,
+    "coordinates": {
+      "lat": 44.575734,
+      "lng": -94.230123,
+      "precision": "county_centroid"
+    },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4049480",
     "date_listed": null,
     "date_closes": "Oct 1, 2026 09:00 AM MDT",
