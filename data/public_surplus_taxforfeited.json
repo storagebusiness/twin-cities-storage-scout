@@ -253,7 +253,7 @@
     "date_closes": "Aug 20, 2026 09:00 AM MDT",
     "status": "open",
     "price": {
-      "current_bid": 13100.0,
+      "current_bid": 17100.0,
       "minimum_bid": 4588.1,
       "tier1_emv_price": null,
       "tier2_minimum_price": 4588.1,
