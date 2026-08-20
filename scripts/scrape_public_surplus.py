@@ -53,6 +53,29 @@ HEADERS = {
 
 REQUEST_DELAY_SECONDS = 1  # be polite; same convention as scrape_stpaul_legal_ledger_personalproperty.py
 MAX_PAGES_PER_STATE = 20  # safety cap so a bug can't loop forever
+CONNECT_TIMEOUT_SECONDS = 10  # separate connect vs read timeout — a single float can let DNS/connect hangs slip past it
+READ_TIMEOUT_SECONDS = 20
+MAX_RETRIES_PER_REQUEST = 2  # fail fast rather than hang; total worst case per request ~= (10+20)*(1+2) = 90s
+FETCH_DETAIL_PAGES = True  # fetch each listing's detail page for minimum-bid price + buildability text
+
+# Confirmed real phrases, each tagged with why it's an exclusion category.
+# Kept as an exact-match list per the rule against guessing at phrasing
+# blind — expand only from real examples or explicit user direction, never
+# invented ones.
+# "no_land_access" confirmed via Koochiching County auc=4045302.
+# "water_access_only", "floodplain", and "wetlands" confirmed via a St.
+# Louis County listing (Ash River frontage, RES-5 zoning) — note these are
+# DISTINCT exclusion reasons even though a single listing can hit more
+# than one. "not_buildable" phrases added at the user's explicit direction
+# (generic terms, not yet tied to one specific captured listing).
+BUILDABILITY_PHRASES = [
+    {"phrase": "no developed land access", "category": "no_land_access"},
+    {"phrase": "water access only", "category": "water_access_only"},
+    {"phrase": "floodplain", "category": "floodplain"},
+    {"phrase": "wetlands", "category": "wetlands"},
+    {"phrase": "not buildable", "category": "not_buildable"},
+    {"phrase": "unbuildable", "category": "not_buildable"},
+]
 
 
 def parse_county(title: str) -> str | None:
@@ -89,13 +112,27 @@ def looks_like_address(title: str) -> bool:
 def fetch_page(state: str, page: int) -> str | None:
     url = f"{BASE_URL}/sms/all,{state}/browse/cataucs"
     params = {"catid": CATID, "page": page, "slth": "y", "sortBy": "timeLeft", "sortDesc": "N"}
-    try:
-        resp = requests.get(url, params=params, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        return resp.text
-    except requests.exceptions.RequestException as e:
-        print(f"  {state.upper()} page {page}: request failed — {e}", file=sys.stderr)
-        return None
+
+    for attempt in range(1, MAX_RETRIES_PER_REQUEST + 2):  # +1 for the initial try
+        try:
+            print(f"  {state.upper()} page {page}: requesting (attempt {attempt})...", file=sys.stderr, flush=True)
+            resp = requests.get(
+                url,
+                params=params,
+                headers=HEADERS,
+                timeout=(CONNECT_TIMEOUT_SECONDS, READ_TIMEOUT_SECONDS),  # (connect, read) — bounds hangs at both stages
+            )
+            resp.raise_for_status()
+            return resp.text
+        except requests.exceptions.RequestException as e:
+            print(f"  {state.upper()} page {page}: attempt {attempt} failed — {e}", file=sys.stderr, flush=True)
+            if attempt <= MAX_RETRIES_PER_REQUEST:
+                time.sleep(2)
+            else:
+                print(f"  {state.upper()} page {page}: giving up after {attempt} attempts", file=sys.stderr, flush=True)
+                return None
+
+    return None
 
 
 def parse_listings(html: str, state: str) -> list[dict]:
@@ -179,9 +216,151 @@ def parse_listings(html: str, state: str) -> list[dict]:
     return listings
 
 
+def parse_minimum_bid_price(description_text: str) -> float | None:
+    """Extracts the county's statutory minimum bid price from the listing
+    description — NOT the same as the '#minBid_{id}' field on the bid form,
+    which is just the next required bid increment above the current price
+    once bidding has started. Confirmed real phrasing: 'Minimum bid price:
+    $809.57'."""
+    match = re.search(r"Minimum bid price:\s*\$?([\d,]+\.\d\d)", description_text, re.IGNORECASE)
+    if match:
+        try:
+            return float(match.group(1).replace(",", ""))
+        except ValueError:
+            return None
+    return None
+
+
+def parse_auction_dates(html: str) -> tuple[str | None, str | None]:
+    """Best-effort extraction of the 'Auction Started' / 'Auction Ends'
+    date strings. Kept as raw strings (not parsed to datetime) since the
+    format includes a timezone abbreviation (e.g. 'MDT') that varies."""
+    started = None
+    ends = None
+    started_match = re.search(
+        r"Auction Started\s*</div>\s*<div[^>]*>\s*([A-Za-z]+ \d{1,2}, \d{4} [\d:]+ [AP]M \w+)",
+        html,
+    )
+    if started_match:
+        started = started_match.group(1).strip()
+    ends_match = re.search(
+        r"Auction Ends\s*</div>\s*<div>\s*([A-Za-z]+ \d{1,2}, \d{4} [\d:]+ [AP]M \w+)",
+        html,
+    )
+    if ends_match:
+        ends = ends_match.group(1).strip()
+    return started, ends
+
+
+def check_buildability(description_text: str) -> tuple[bool, list[dict]]:
+    """Returns (buildable, notes). Defaults to buildable=True; only flips
+    to False on an exact match against BUILDABILITY_PHRASES, per the rule
+    against guessing — under-flagging is safer than over-flagging. A
+    single listing can match more than one category (e.g. both floodplain
+    and water-access-only) — all matches are recorded, not just the first.
+
+    KNOWN LIMITATION: plain substring matching has no negation awareness.
+    A listing phrased as "no known floodplain issues" would still match
+    "floodplain" and get incorrectly excluded. No real listing with this
+    phrasing has been seen yet — if one turns up, that's the concrete
+    case to build negation-handling around, rather than guessing at it
+    now."""
+    notes = []
+    text_lower = description_text.lower()
+    for entry in BUILDABILITY_PHRASES:
+        if entry["phrase"] in text_lower:
+            notes.append({
+                "phrase": entry["phrase"],
+                "category": entry["category"],
+                "matched_from": "listing_description",
+            })
+    return (len(notes) == 0), notes
+
+
+def parse_detail_page(html: str, auction_id: str) -> dict:
+    """Parses a single listing's detail page. Returns a dict of fields to
+    merge into the category-page record. Detail-page HTML is much larger
+    and messier than the category page, so this sticks to targeted regex
+    extraction rather than trying to fully model the DOM."""
+    soup = BeautifulSoup(html, "html.parser")
+
+    # The description lives in <section class="description">; pull all
+    # its text for both parsing and raw storage.
+    description_section = soup.select_one("section.description")
+    description_text = description_section.get_text(separator=" ", strip=True) if description_section else ""
+
+    minimum_bid = parse_minimum_bid_price(description_text)
+    date_listed, date_closes = parse_auction_dates(html)
+    buildable, buildability_notes = check_buildability(description_text)
+
+    # Current price on the detail page uses id="val_{auction_id}" (no
+    # "catList"/"catGrid" suffix — that's the category-page id pattern).
+    current_bid = None
+    price_el = soup.select_one(f"#val_{auction_id}")
+    if price_el:
+        price_text = price_el.get_text(strip=True).replace("$", "").replace(",", "")
+        try:
+            current_bid = float(price_text)
+        except ValueError:
+            pass
+
+    return {
+        "current_bid": current_bid,
+        "minimum_bid": minimum_bid,
+        "date_listed": date_listed,
+        "date_closes": date_closes,
+        "buildable": buildable,
+        "buildability_notes": buildability_notes,
+        "description_text": description_text[:2000],  # cap length for raw storage
+    }
+
+
+def fetch_detail_page(state: str, auction_id: str) -> str | None:
+    url = f"{BASE_URL}/sms/all,{state}/auction/view"
+    params = {"auc": auction_id}
+
+    for attempt in range(1, MAX_RETRIES_PER_REQUEST + 2):
+        try:
+            print(f"    detail {auction_id}: requesting (attempt {attempt})...", file=sys.stderr, flush=True)
+            resp = requests.get(
+                url,
+                params=params,
+                headers=HEADERS,
+                timeout=(CONNECT_TIMEOUT_SECONDS, READ_TIMEOUT_SECONDS),
+            )
+            resp.raise_for_status()
+            return resp.text
+        except requests.exceptions.RequestException as e:
+            print(f"    detail {auction_id}: attempt {attempt} failed — {e}", file=sys.stderr, flush=True)
+            if attempt <= MAX_RETRIES_PER_REQUEST:
+                time.sleep(2)
+            else:
+                return None
+    return None
+
+
 def get_total_count(html: str) -> int | None:
     match = re.search(r'id="totalCategoryAuctionsValue">(\d+)<', html)
     return int(match.group(1)) if match else None
+
+
+def enrich_with_detail(listing: dict, state: str) -> dict:
+    auction_id = listing["id"].replace("publicsurplus-", "")
+    html = fetch_detail_page(state, auction_id)
+    if html is None:
+        return listing  # keep category-page data; detail fetch failed
+
+    detail = parse_detail_page(html, auction_id)
+
+    listing["price"]["current_bid"] = detail["current_bid"] if detail["current_bid"] is not None else listing["price"]["current_bid"]
+    listing["price"]["minimum_bid"] = detail["minimum_bid"]
+    listing["date_listed"] = detail["date_listed"]
+    listing["date_closes"] = detail["date_closes"]
+    listing["buildable"] = detail["buildable"]
+    listing["buildability_notes"] = detail["buildability_notes"]
+    listing["raw_source_data"]["description_text"] = detail["description_text"]
+
+    return listing
 
 
 def scrape_state(state: str) -> list[dict]:
@@ -195,7 +374,7 @@ def scrape_state(state: str) -> list[dict]:
 
         if page == 0:
             total = get_total_count(html)
-            print(f"  {state.upper()}: {total if total is not None else 'unknown'} total auctions reported", file=sys.stderr)
+            print(f"  {state.upper()}: {total if total is not None else 'unknown'} total auctions reported", file=sys.stderr, flush=True)
 
         page_listings = parse_listings(html, state)
         new_listings = [l for l in page_listings if l["id"] not in seen_ids]
@@ -209,6 +388,12 @@ def scrape_state(state: str) -> list[dict]:
 
         time.sleep(REQUEST_DELAY_SECONDS)
 
+    if FETCH_DETAIL_PAGES:
+        print(f"  {state.upper()}: fetching {len(all_listings)} detail pages for minimum-bid price + buildability text", file=sys.stderr, flush=True)
+        for i, listing in enumerate(all_listings):
+            all_listings[i] = enrich_with_detail(listing, state)
+            time.sleep(REQUEST_DELAY_SECONDS)
+
     return all_listings
 
 
@@ -216,17 +401,17 @@ def main():
     all_listings = []
 
     for state in STATES:
-        print(f"Scraping Public Surplus tax sale listings: {state.upper()}", file=sys.stderr)
+        print(f"Scraping Public Surplus tax sale listings: {state.upper()}", file=sys.stderr, flush=True)
         state_listings = scrape_state(state)
-        print(f"  {state.upper()}: {len(state_listings)} listings parsed", file=sys.stderr)
+        print(f"  {state.upper()}: {len(state_listings)} listings parsed", file=sys.stderr, flush=True)
         all_listings.extend(state_listings)
         time.sleep(REQUEST_DELAY_SECONDS)
 
-    print(f"Total: {len(all_listings)} listings across {len(STATES)} states", file=sys.stderr)
+    print(f"Total: {len(all_listings)} listings across {len(STATES)} states", file=sys.stderr, flush=True)
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(all_listings, indent=2))
-    print(f"Wrote {len(all_listings)} records to {OUT_PATH}", file=sys.stderr)
+    print(f"Wrote {len(all_listings)} records to {OUT_PATH}", file=sys.stderr, flush=True)
 
 
 if __name__ == "__main__":
