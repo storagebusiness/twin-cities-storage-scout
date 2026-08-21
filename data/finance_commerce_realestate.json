@@ -1,5 +1,21 @@
 [
   {
+    "mortgagor_name": "Frangena A. Johnson-Nnamani and Mike Nnamani, Wife and Husband and Alberta Johnson, Single, as joint tenants",
+    "mortgage_amount": 293250.0,
+    "property_address_raw": "3200 Columbus Ave S Minneapolis",
+    "house_number": "3200",
+    "street_name": "Columbus",
+    "street_suffix": "Ave",
+    "street_direction": "S",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "10/05/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4206272",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "Ishaka Mawanda and Antoinette Bennaars, married to each other",
     "mortgage_amount": 94000.0,
     "property_address_raw": "3710 Cardinal Rd Minnetonka",

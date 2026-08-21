@@ -867,7 +867,7 @@
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 200.0,
+      "current_bid": 202.5,
       "minimum_bid": null,
       "tier1_emv_price": 200,
       "tier2_minimum_price": null,
@@ -1292,6 +1292,618 @@
     "raw_source_data": {
       "title": "Morrison County Tax Forfeiture Parcel 26.0411.003",
       "description_text": "Description Condition: UNKNOWN Parcel Number : 26.0411.003 Location :\u00a0Town of Richardson Legal :\u00a0Section 28 Township 042 Range 028, E 200 FT OF N 1089 FT OF W1/2 OF SE1/4 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. *THIS PARCEL IS TORENS AND ADDITIONAL RECORDING FEES MAY APPLY \u2013 CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE WITH ANY QUESTIONS 320-632-0146. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
+    }
+  },
+  {
+    "id": "publicsurplus-4064459",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Wright",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 45.174921,
+      "lng": -93.966482,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4064459",
+    "date_listed": null,
+    "date_closes": "Sep 27, 2026 08:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 5400.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": false,
+    "buildability_notes": [
+      {
+        "phrase": "wetlands",
+        "category": "wetlands",
+        "matched_from": "listing_description"
+      }
+    ],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Wright County Tax Forfeiture Auction - #101-150-023103 City of Albertville",
+      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number: 101-150-023103 Property Type: Land Only Acres: 0.12 Acres Condition: UNKNOWN General Description: SECT-02 TWP-120 RANGE-024 UNPLATTED LAND ALBERTVILLE1 NE1/4 OF SW1/4 & TR DES BEG NW COR OF\u00a0SW1/4 OF SE1/4 TH S 43RDS TH NELY FOL CRS OF CTY DITCH TO N LN TH W TO POB EX TR DES IN BK292-\u00a0663(023403) ALSO TH PRT OF E1/2 OF SE1/4 OF SW1/4 LY NELY OF CTY RD 118 (BK292-664) EX TR DES IN BK 314-\u00a0999(023101) EX TR DES IN BK325-357(MEADOWVIEW) EX TR DES ON DOC630092(023100) CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidde"
+    }
+  },
+  {
+    "id": "publicsurplus-4064479",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Wright",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 45.174921,
+      "lng": -93.966482,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4064479",
+    "date_listed": null,
+    "date_closes": "Sep 27, 2026 08:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 115000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": false,
+    "buildability_notes": [
+      {
+        "phrase": "wetlands",
+        "category": "wetlands",
+        "matched_from": "listing_description"
+      }
+    ],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Wright County Tax Forfeiture Auction - #102-077-001400 City of Annandale",
+      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number: 102-077-001400 Property Type: NON-COMM CONDO STORAGE Acres: 0.04 Acres Condition: UNKNOWN General Description:\u00a0SECT-29 TWP-121 RANGE-027 ANNANDALE STORAGE CONDO CIC130 UNIT 140 CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidder, if said person or entity is delinquent on real or personal property taxes in Wright County. If you are interested in purchasing tax forfeited property on public auction, you must pay all of your delinquent taxes prior to purchasing or bidding. DISCLAIMERS Withdrawal The right to withdraw"
+    }
+  },
+  {
+    "id": "publicsurplus-4065424",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Wright",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 45.174921,
+      "lng": -93.966482,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4065424",
+    "date_listed": null,
+    "date_closes": "Sep 27, 2026 08:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 400.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": false,
+    "buildability_notes": [
+      {
+        "phrase": "wetlands",
+        "category": "wetlands",
+        "matched_from": "listing_description"
+      }
+    ],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Wright County Tax Forfeiture Auction - #109-500-041443 City of Howard Lake",
+      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number: 109-500-041443 Property Type: LAND ONLY Acres: 0.03 Condition: UNKNOWN General Description: SECT-04 TWP-118 RANGE-027 UNPLATTED LAND HOWARD LK1 BEG AT PT183FT W OF SE COR OF SE1/4OF NE\u00a01/4TH N112FT TH W10FT TH N60FT TH E10FT TH N116FT TH W220FT TH S288FT TH E220FT TO POB EX TR DES\u00a0IN BK140-590(041411)EX TR DES IN BK143-376(041434)EX TR DES IN BK143-492(041410)EX TR DES IN BK143-575(041409) EX TR DES IN BK145-429(041408) CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidder, if said person or entity is delinquent on"
+    }
+  },
+  {
+    "id": "publicsurplus-4065441",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Wright",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 45.174921,
+      "lng": -93.966482,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4065441",
+    "date_listed": null,
+    "date_closes": "Sep 27, 2026 08:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 131100.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": false,
+    "buildability_notes": [
+      {
+        "phrase": "wetlands",
+        "category": "wetlands",
+        "matched_from": "listing_description"
+      }
+    ],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Wright County Tax Forfeiture Auction - #112-012-003080 City of Montrose",
+      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number:\u00a0112-012-003080 Property Type:\u00a0RESIDENTIAL SINGLE UNIT Acres: 0.19 Condition: UNKNOWN General Description:\u00a0SECT-35 TWP-119 RANGE-026 HAVEN & WRIGHT'S ADDN LOT-008 BLOCK-00C E1/2 OF N1/2 OF LT8 BLK C CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidder, if said person or entity is delinquent on real or personal property taxes in Wright County. If you are interested in purchasing tax forfeited property on public auction, you must pay all of your delinquent taxes prior to purchasing or bidding. DISCLAIMERS Withdrawal "
+    }
+  },
+  {
+    "id": "publicsurplus-4065445",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Wright",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 45.174921,
+      "lng": -93.966482,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4065445",
+    "date_listed": null,
+    "date_closes": "Sep 27, 2026 08:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 10800.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": false,
+    "buildability_notes": [
+      {
+        "phrase": "wetlands",
+        "category": "wetlands",
+        "matched_from": "listing_description"
+      }
+    ],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Wright County Tax Forfeiture Auction - #113-027-000010 City of Rockford",
+      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number: 113-027-000010 Property Type: LAND ONLY Acres: 0.54 Condition: UNKNOWN General Description:\u00a0SECT-29 TWP-119 RANGE-024 HILLSIDE ESTATES OUTLOT A CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidder, if said person or entity is delinquent on real or personal property taxes in Wright County. If you are interested in purchasing tax forfeited property on public auction, you must pay all of your delinquent taxes prior to purchasing or bidding. DISCLAIMERS Withdrawal The right to withdraw or add any parcels to this list "
+    }
+  },
+  {
+    "id": "publicsurplus-4065446",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Wright",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 45.174921,
+      "lng": -93.966482,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4065446",
+    "date_listed": null,
+    "date_closes": "Sep 27, 2026 08:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 5800.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": false,
+    "buildability_notes": [
+      {
+        "phrase": "wetlands",
+        "category": "wetlands",
+        "matched_from": "listing_description"
+      }
+    ],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Wright County Tax Forfeiture Auction - #113-043-000010 City of Rockford",
+      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number: 113-043-000010 Property Type: LAND ONLY Acres: 2.30 Condition: UNKNOWN General Description:\u00a0SECT-19 TWP-119 RANGE-024 MARSH RUN OUTLOT A CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidder, if said person or entity is delinquent on real or personal property taxes in Wright County. If you are interested in purchasing tax forfeited property on public auction, you must pay all of your delinquent taxes prior to purchasing or bidding. DISCLAIMERS Withdrawal The right to withdraw or add any parcels to this list is here"
+    }
+  },
+  {
+    "id": "publicsurplus-4065451",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Wright",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 45.174921,
+      "lng": -93.966482,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4065451",
+    "date_listed": null,
+    "date_closes": "Sep 27, 2026 08:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 500.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": false,
+    "buildability_notes": [
+      {
+        "phrase": "wetlands",
+        "category": "wetlands",
+        "matched_from": "listing_description"
+      }
+    ],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Wright County Tax Forfeiture Auction - #116-025-000050 City of Waverly",
+      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number:\u00a0116-025-000050 Property Type: LAND ONLY Acres: 0.04 Condition: UNKNOWN General Description:\u00a0SECT-04 TWP-118 RANGE-026 CARRIGAN MEADOWS OUTLOT E CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidder, if said person or entity is delinquent on real or personal property taxes in Wright County. If you are interested in purchasing tax forfeited property on public auction, you must pay all of your delinquent taxes prior to purchasing or bidding. DISCLAIMERS Withdrawal The right to withdraw or add any parcels to this list "
+    }
+  },
+  {
+    "id": "publicsurplus-4065459",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Wright",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 45.174921,
+      "lng": -93.966482,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4065459",
+    "date_listed": null,
+    "date_closes": "Sep 27, 2026 08:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 100.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": false,
+    "buildability_notes": [
+      {
+        "phrase": "wetlands",
+        "category": "wetlands",
+        "matched_from": "listing_description"
+      }
+    ],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Wright County Tax Forfeiture Auction - #204-100-121404 Township of Clearwater",
+      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number: 204-100-121404 Property Type: LAND ONLY Acres: 0.08 Condition: UNKNOWN General Description:\u00a0SECT-12 TWP-122 RANGE-027 UNPLATTED LAND CLEARWATER TWP2 THAT PART OF THE SOUTHEAST QUARTER\u00a0OF THE NORTHEAST QUARTER, SECTION 12, TOWNSHIP 122, RANGE 27, WRIGHT COUNTY MINNESOTA, LYING\u00a0SOUTHWESTERLY OF THE CENTERLINE OF COUNTY ROAD NO. 75. EXCEPT THAT PART OF THE SOUTH ONEHALF\u00a0OF THE NORTHEAST QUARTER OF SECTION TWELVE (12), IN TOWNSHIP ONE HUNDRED TWENTY-TWO\u00a0(122) NORTH, OF RANGE TWENTY- SEVEN (27) WEST, IN WRIGHT COUNTY, MINNESOTA, DESCRIBED AS\u00a0FOLLOWS, TO-WIT: COMMENCING AT THE SOUTHEAST CORNER OF SAID S1/2 OF THE NE1/4; THENCE WEST\u00a0(ASSUMED BEARING OF DUE WEST), ALONG THE SOUTH LINE OF SAID S1/2 OF THE NE1/4 FOR 642.33 FEET TO\u00a0THE POINT OF BEGINNING OF THE LAND TO BE DESCRIBED; THENCE NORTH 30 DEGREES 02 MINUTES 36\u00a0SECONDS WEST FOR 614.86 FEET; THENCE DEFLECT TO THE LEFT ALONG A TANGENTIAL CURVE, HAVING A\u00a0RADIUS OF 3,819.71 FEET AND A CENTRAL ANGLE OF 06 DEGREES 28 MINUTES 54 SECONDS FOR 432.11 FEET;\u00a0THENCE NORTH 36 DEGREES 31 MINUTES 30 SECONDS WEST FOR 172.35 FEET; THENCE SOUTH 43 DEGREES 35\u00a0MINUTES 06 SECONDS WEST FOR 554.23 FEET TO THE NORTHEASTERLY RIGHT-OF-WAY LINE OF INTERSTATE\u00a0HIGHWAY NUMBERED 94; THENCE SOUTH 53 DEGREES 17 MINUTES 59 SECONDS EAST ALONG SAID RIGHT-OFWAY\u00a0LINE FOR 1,054.73 FEET TO THE SOUTH LINE OF SAID S1/2 OF THE NE1/4; THENCE EAST FOR 183.88 FEET\u00a0TO THE POINT OF BEGINNING, ACCORDING TO THE RECORDED PLAT THEREOF, WRIGHT COUNTY, MINNESOTA. CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEIT"
+    }
+  },
+  {
+    "id": "publicsurplus-4065503",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Wright",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 45.174921,
+      "lng": -93.966482,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4065503",
+    "date_listed": null,
+    "date_closes": "Sep 27, 2026 08:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 17000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": false,
+    "buildability_notes": [
+      {
+        "phrase": "wetlands",
+        "category": "wetlands",
+        "matched_from": "listing_description"
+      }
+    ],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Wright County Tax Forfeiture Auction - #206-066-000580 Township of Corinna",
+      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number: 206-066-000580 Property Type: LAND ONLY Acres: 0.10 Condition: UNKNOWN General Description:\u00a0SECT-02 TWP-121 RANGE-027 RUTLEDGE'S SUGAR LAKE PARK LOT-058 TH PRT OF LOT 58 &SELY 1/2 OF VAC\u00a0GARDENSIDE AV LY SWLY OF LN A. LN A DES AS FOL: BEG AT PT ON SELY LN OF SD LT58 25.01 FT NELY OF SELY\u00a0COR OF SD LT58 TH NWLY TO PT ON NWLY LN OF LT 58 14.79FT SWLY OF NWLY COR OF SD LT TH CONT NWLY\u00a0ON EXT OF LAST DES LN TO CTRLN OF SD VAC GARDENSIDE AV&TERM CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidder, if said person or en"
+    }
+  },
+  {
+    "id": "publicsurplus-4065504",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Wright",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 45.174921,
+      "lng": -93.966482,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4065504",
+    "date_listed": null,
+    "date_closes": "Sep 27, 2026 08:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 100.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": false,
+    "buildability_notes": [
+      {
+        "phrase": "wetlands",
+        "category": "wetlands",
+        "matched_from": "listing_description"
+      }
+    ],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Wright County Tax Forfeiture Auction - #217-000-082104 Township of Southside",
+      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number: 217-000-082104 Property Type: LAND ONLY Acres: 0.04 Condition: UNKNOWN General Description:\u00a0SECT-08 TWP-121 RANGE-028 UNPLATTED LAND SOUTHSIDE TWP .04 AC PT OF NW1/4 COM AT W1/4 COR OF SEC8 TH N5D13'17\"W ALG SEC LN 883.52FT TO SWLY COR OF LT1 ROLLING HILLS LAKE SHORE 1ST ADD TH ELY ALG SLY LN OF LT1 50FT TH S4D01'E35FT TH S84D43'W TO W LN OF NW1/4OF SEC8 TH N TO POB CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidder, if said person or entity is delinquent on real or personal property taxes in Wright County. If y"
+    }
+  },
+  {
+    "id": "publicsurplus-4065506",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Wright",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 45.174921,
+      "lng": -93.966482,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4065506",
+    "date_listed": null,
+    "date_closes": "Sep 27, 2026 08:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 7400.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": false,
+    "buildability_notes": [
+      {
+        "phrase": "wetlands",
+        "category": "wetlands",
+        "matched_from": "listing_description"
+      }
+    ],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Wright County Tax Forfeiture Auction - #217-044-010050 Township of Southside",
+      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number: 217-044-010050 Property Type: LAND ONLY Acres: 0.16 Condition: UNKNOWN General Description:\u00a0SECT-09 TWP-121 RANGE-028 SCENIC SHORES LOT-005 BLOCK-010 CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidder, if said person or entity is delinquent on real or personal property taxes in Wright County. If you are interested in purchasing tax forfeited property on public auction, you must pay all of your delinquent taxes prior to purchasing or bidding. DISCLAIMERS Withdrawal The right to withdraw or add any parcels to this"
+    }
+  },
+  {
+    "id": "publicsurplus-4065507",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Wright",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 45.174921,
+      "lng": -93.966482,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4065507",
+    "date_listed": null,
+    "date_closes": "Sep 27, 2026 08:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 29400.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": false,
+    "buildability_notes": [
+      {
+        "phrase": "wetlands",
+        "category": "wetlands",
+        "matched_from": "listing_description"
+      }
+    ],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Wright County Tax Forfeiture Auction - #217-065-000010 Township of Southside",
+      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number: 217-065-000010 Property Type: LAND ONLY Acres: 6.25 Condition: UNKNOWN General Description:\u00a0SECT-04 TWP-121 RANGE-028 BARTLETT'S MILLPOND NORTH VLGS OUTLOT A CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidder, if said person or entity is delinquent on real or personal property taxes in Wright County. If you are interested in purchasing tax forfeited property on public auction, you must pay all of your delinquent taxes prior to purchasing or bidding. DISCLAIMERS Withdrawal The right to withdraw or add any parcels"
     }
   },
   {
