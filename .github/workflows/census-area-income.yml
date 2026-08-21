@@ -1,0 +1,44 @@
+name: Semi-annual Census area-income refresh
+on:
+  schedule:
+    # 6:00 UTC on Jan 1 and Jul 1 — twice a year. ACS 5-year median
+    # household income updates at most once a year (each December) and
+    # county boundaries essentially never change, so this is already far
+    # more frequent than the underlying data actually changes. This was
+    # previously run as part of the daily scrape workflow, which wasted
+    # ~9 minutes and repeatedly hit the same rate-limit-prone Census/
+    # TIGERweb endpoints every single day for no benefit — see
+    # daily-scrape.yml's note at the top.
+    - cron: '0 6 1 1,7 *'
+  workflow_dispatch: {}  # lets you trigger a refresh manually from the Actions tab, e.g. right after adding a new state
+permissions:
+  contents: write  # needed to commit the updated data file back to the repo
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Build area-income choropleth (Census)
+        run: python3 scripts/score_area_income.py
+        env:
+          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+        timeout-minutes: 30  # fetches ~292 counties (MN+GA+SC, statewide as of 2026-08-19) — genuinely slow, not just possibly stuck; 30min gives real headroom before assuming a hang
+      - name: Commit updated data
+        run: |
+          git config user.name "storage-scout-bot"
+          git config user.email "actions@github.com"
+          git add data/area_income_blockgroups.json
+          git diff --staged --quiet || git commit -m "Semi-annual Census area-income refresh $(date -u +%Y-%m-%d)"
+          # -X theirs: same reasoning as daily-scrape.yml's commit step —
+          # if the daily workflow pushed to main while this one was
+          # running, prefer THIS run's freshly-fetched data on any
+          # conflict, since this file is 100% machine-generated. See that
+          # workflow's comment for the full explanation of the reversed
+          # ours/theirs meaning during a rebase specifically.
+          git pull --rebase -X theirs origin main
+          git push
