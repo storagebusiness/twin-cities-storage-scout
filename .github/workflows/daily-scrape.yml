@@ -4,6 +4,14 @@ on:
     # 13:00 UTC = 7-8am Central depending on DST. Runs once a day.
     - cron: '0 13 * * *'
   workflow_dispatch: {}  # lets you trigger a run manually from the Actions tab
+# NOTE: this workflow deliberately does NOT include the Census
+# area-income choropleth step. That data (ACS 5-year median household
+# income + county boundaries) changes at most once a year, not daily —
+# re-fetching it on every run wasted ~9 minutes and repeatedly hit the
+# same rate-limit-prone Census/TIGERweb endpoints for no benefit. It now
+# runs on its own much-less-frequent schedule — see
+# census-area-income.yml. This workflow just uses whatever
+# data/area_income_blockgroups.json that workflow last committed.
 permissions:
   contents: write  # needed to commit the updated data file back to the repo
 jobs:
@@ -34,12 +42,6 @@ jobs:
       - name: Score real estate parcels (Met Council lookup)
         run: python3 scripts/score_real_estate.py
         continue-on-error: true  # depends on prior steps + makes live API calls per property
-      - name: Build area-income choropleth (Census)
-        run: python3 scripts/score_area_income.py
-        env:
-          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
-        continue-on-error: true  # new pipeline, don't let a failure block the rest of the run
-        timeout-minutes: 30  # now fetches ~292 counties (MN+GA+SC, statewide as of 2026-08-19) — genuinely slower than the old handful-of-counties version, not just possibly stuck; 30min gives real headroom before assuming a hang
       - name: Scrape Public Surplus tax-forfeited land (MN, GA, SC)
         run: python3 scripts/scrape_public_surplus.py
         continue-on-error: true  # Piece 3, new and unverified against the live site — must not block the rest of the run
