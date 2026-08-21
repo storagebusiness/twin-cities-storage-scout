@@ -54,6 +54,10 @@ jobs:
         run: python3 scripts/geocode_county_centroid.py
         continue-on-error: true  # fallback for listings with a county but no street address — new, unverified against the live Census gazetteer download — must not block the rest of the run
         timeout-minutes: 15  # same reasoning as the steps above
+      - name: Score MN tax-forfeited listings against MnGeo statewide parcel data
+        run: python3 scripts/score_taxforfeited_assessed_value.py
+        continue-on-error: true  # new, field schema confirmed real but parcel_id-to-county_pin matching format is not yet confirmed against live data — must not block the rest of the run
+        timeout-minutes: 15  # same reasoning as the steps above
       - name: Merge all sources into names.json
         run: python3 scripts/merge_sources.py
       - name: Commit updated data
