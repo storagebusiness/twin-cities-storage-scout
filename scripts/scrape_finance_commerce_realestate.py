@@ -70,6 +70,19 @@ end-of-feed) rather than crashing — whatever was already collected still
 gets written out. See `fetch_page_with_retry()` and the updated `main()`
 loop below.
 
+RATE-LIMIT FIX PART 2 (2026-08-20, same day): the first fix above
+resolved the crash, but the NEXT live run revealed the exact same
+exposure exists on a second, separate endpoint: `retry_truncated_items()`
+fetches individual detail pages (for notices that got cut off by RSS
+truncation) via `fetch_detail_page()`, which had the identical
+no-error-handling bare-request problem. That run's log showed 4/11
+detail-page retries failing with 429s on
+`/public-notice/search-detail/` URLs — same underlying F&C rate limiter,
+a different endpoint on it, hit only because the FIRST fix succeeded and
+let the pipeline actually reach this step. Fixed the same way:
+`fetch_detail_page_with_retry()` mirrors `fetch_page_with_retry()`'s
+retry-with-backoff logic exactly.
+
 IMPORTANT CAVEAT: this has NOT been confirmed against real F&C data the
 way the Ramsey fixes were — this repo has only ever seen F&C's already-
 successfully-parsed JSON output, never its raw RSS XML, so it's unknown
@@ -332,10 +345,47 @@ def extract_full_notice_text(html: str) -> str:
     return body.strip()
 
 
-def fetch_detail_page(url: str) -> str:
-    resp = requests.get(url, headers=HEADERS, timeout=20)
-    resp.raise_for_status()
-    return resp.text
+def fetch_detail_page_with_retry(url: str) -> str | None:
+    """Same retry-with-backoff logic as fetch_page_with_retry (429/5xx
+    retry, respects Retry-After) — added 2026-08-20 after a live run
+    showed the detail-page fetch has the exact same rate-limit exposure
+    as the listing-page fetch, just hit later in the pipeline: 4/11
+    truncated-notice retries failed with 429s here, on
+    /public-notice/search-detail/ URLs specifically, even though the
+    listing-page pagination itself succeeded cleanly that run. Same
+    underlying F&C rate limiter, a different endpoint on it. Returns
+    None (not a raised exception) if every retry is exhausted, so the
+    caller can log a clean failure and move to the next candidate rather
+    than let one exception path differ from the other."""
+    for attempt in range(1, MAX_PAGE_FETCH_RETRIES + 1):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=20)
+            resp.raise_for_status()
+            return resp.text
+        except requests.exceptions.HTTPError as e:
+            status = e.response.status_code if e.response is not None else None
+            if status == 429 or (status is not None and 500 <= status < 600):
+                retry_after = DEFAULT_RETRY_AFTER_SECONDS
+                if e.response is not None and "Retry-After" in e.response.headers:
+                    try:
+                        retry_after = int(e.response.headers["Retry-After"])
+                    except ValueError:
+                        pass
+                print(f"    detail fetch {url}: got HTTP {status} "
+                      f"(attempt {attempt}/{MAX_PAGE_FETCH_RETRIES}), waiting {retry_after}s before retry",
+                      file=sys.stderr)
+                if attempt < MAX_PAGE_FETCH_RETRIES:
+                    time.sleep(retry_after)
+                    continue
+                return None
+            else:
+                return None  # non-retryable HTTP error
+        except requests.exceptions.RequestException:
+            if attempt < MAX_PAGE_FETCH_RETRIES:
+                time.sleep(2)
+                continue
+            return None
+    return None
 
 
 def retry_truncated_items(retry_candidates: list[tuple[str, str, str]]) -> list[dict]:
@@ -349,10 +399,10 @@ def retry_truncated_items(retry_candidates: list[tuple[str, str, str]]) -> list[
         if not link:
             continue
         time.sleep(DETAIL_FETCH_DELAY_SECONDS)
-        try:
-            html = fetch_detail_page(link)
-        except requests.RequestException as e:
-            print(f"  RETRY FAILED (fetch error) for {title!r} ({reason}): {e}", file=sys.stderr)
+        html = fetch_detail_page_with_retry(link)
+        if html is None:
+            print(f"  RETRY FAILED (fetch error, retries exhausted) for {title!r} ({reason})",
+                  file=sys.stderr)
             continue
 
         full_text = extract_full_notice_text(html)
