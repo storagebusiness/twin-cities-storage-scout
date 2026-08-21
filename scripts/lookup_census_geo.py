@@ -107,6 +107,22 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
 
 REQUEST_DELAY_SECONDS = 0.5  # be polite to free government APIs
 
+# Retry-with-backoff for all three fetch functions in this module
+# (2026-08-20) — a live statewide run showed one transient
+# ConnectionResetError on county 13/025 that just silently dropped that
+# county's polygon data, since fetch_county_block_group_boundaries
+# previously made only a single attempt with no retry loop at all.
+# Applied the same fix to fetch_state_median_income and
+# fetch_county_block_group_incomes for consistency, once inspecting the
+# code directly showed they had the identical single-attempt gap — not
+# because either had a confirmed live failure of their own, just to
+# avoid leaving the module inconsistently hardened. Same connect/read
+# timeout split + bounded-retry pattern used throughout the rest of this
+# project (e.g. scrape_public_surplus.py's fetch_page).
+CONNECT_TIMEOUT_SECONDS = 10
+READ_TIMEOUT_SECONDS = 30  # boundary responses are larger than the income/median-income endpoints
+MAX_RETRIES_PER_REQUEST = 2
+
 
 def _census_api_key_param() -> dict:
     key = os.environ.get("CENSUS_API_KEY", "").strip()
@@ -174,20 +190,50 @@ def geocode_to_block_group(lat: float, lng: float) -> dict | None:
     return None
 
 
+def _fetch_acs_rows(params: dict, context: str) -> list | None:
+    """Shared retry-with-backoff request logic for both ACS Data API
+    functions below (fetch_state_median_income,
+    fetch_county_block_group_incomes) — same endpoint family
+    (ACS_BASE), same [[header,...],[values,...]] response shape, same
+    failure handling. Extracted 2026-08-20 alongside adding retry logic
+    to fetch_county_block_group_boundaries, for consistency across all
+    three fetch functions in this module rather than leaving two of
+    them on the old single-attempt pattern. Returns the parsed rows
+    list, or None if every retry was exhausted."""
+    url = ACS_BASE.format(year=ACS_YEAR)
+    for attempt in range(1, MAX_RETRIES_PER_REQUEST + 2):
+        try:
+            resp = requests.get(
+                url,
+                params=params,
+                headers=HEADERS,
+                timeout=(CONNECT_TIMEOUT_SECONDS, READ_TIMEOUT_SECONDS),
+            )
+            resp.raise_for_status()
+            return resp.json()
+        except requests.exceptions.RequestException as e:
+            print(f"  {context} attempt {attempt} failed: {e}", file=sys.stderr)
+            if attempt <= MAX_RETRIES_PER_REQUEST:
+                time.sleep(2)
+            else:
+                print(f"  {context}: giving up after {MAX_RETRIES_PER_REQUEST + 1} attempts",
+                      file=sys.stderr)
+                return None
+        except ValueError as e:  # JSON decode failure — not retryable
+            print(f"  {context}: response was not JSON: {e}", file=sys.stderr)
+            return None
+    return None
+
+
 def fetch_state_median_income(state_fips: str) -> float | None:
     """One value per state — the reference point every block group in
     that state gets compared against. Cached by the caller (see
     score_area_income.py) since this only needs to be fetched once per
     state, not once per property."""
-    url = ACS_BASE.format(year=ACS_YEAR)
     params = {"get": MEDIAN_HOUSEHOLD_INCOME_VAR, "for": f"state:{state_fips}",
                **_census_api_key_param()}
-    try:
-        resp = requests.get(url, params=params, headers=HEADERS, timeout=20)
-        resp.raise_for_status()
-        rows = resp.json()
-    except requests.RequestException as e:
-        print(f"  WARNING: state median income fetch failed for state {state_fips}: {e}", file=sys.stderr)
+    rows = _fetch_acs_rows(params, f"state median income fetch for state {state_fips}")
+    if rows is None:
         return None
 
     # ACS API returns [[header, ...], [value, ...]] — a 2-row table, not
@@ -205,19 +251,14 @@ def fetch_state_median_income(state_fips: str) -> float | None:
 def fetch_county_block_group_incomes(state_fips: str, county_fips: str) -> dict[str, float]:
     """One API call covers every block group in the county — far more
     efficient than one call per block group. Returns {geoid: income}."""
-    url = ACS_BASE.format(year=ACS_YEAR)
     params = {
         "get": MEDIAN_HOUSEHOLD_INCOME_VAR,
         "for": "block group:*",
         "in": f"state:{state_fips} county:{county_fips}",
         **_census_api_key_param(),
     }
-    try:
-        resp = requests.get(url, params=params, headers=HEADERS, timeout=20)
-        resp.raise_for_status()
-        rows = resp.json()
-    except requests.RequestException as e:
-        print(f"  WARNING: block group income fetch failed for {state_fips}/{county_fips}: {e}", file=sys.stderr)
+    rows = _fetch_acs_rows(params, f"block group income fetch for {state_fips}/{county_fips}")
+    if rows is None:
         return {}
 
     if len(rows) < 2:
@@ -379,16 +420,32 @@ def fetch_county_block_group_boundaries(state_fips: str, county_fips: str) -> di
         "outFields": ",".join(out_fields),
         "f": "geojson",
     }
-    try:
-        resp = requests.get(query_url, params=params, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        result = resp.json()
-    except requests.RequestException as e:
-        print(f"  WARNING: generalized boundary fetch failed for {state_fips}/{county_fips}: {e}", file=sys.stderr)
-        return {"type": "FeatureCollection", "features": []}
-    except ValueError as e:  # JSON decode failure
-        print(f"  WARNING: generalized boundary service returned non-JSON for {state_fips}/{county_fips}: {e}", file=sys.stderr)
-        return {"type": "FeatureCollection", "features": []}
+
+    result = None
+    for attempt in range(1, MAX_RETRIES_PER_REQUEST + 2):
+        try:
+            resp = requests.get(
+                query_url,
+                params=params,
+                headers=HEADERS,
+                timeout=(CONNECT_TIMEOUT_SECONDS, READ_TIMEOUT_SECONDS),
+            )
+            resp.raise_for_status()
+            result = resp.json()
+            break
+        except requests.exceptions.RequestException as e:
+            print(f"  generalized boundary fetch attempt {attempt} failed for "
+                  f"{state_fips}/{county_fips}: {e}", file=sys.stderr)
+            if attempt <= MAX_RETRIES_PER_REQUEST:
+                time.sleep(2)
+            else:
+                print(f"  {state_fips}/{county_fips}: giving up after {MAX_RETRIES_PER_REQUEST + 1} "
+                      f"attempts — this county's boundaries will be missing from the output, "
+                      f"not a crash", file=sys.stderr)
+                return {"type": "FeatureCollection", "features": []}
+        except ValueError as e:  # JSON decode failure — not retryable, a malformed response won't fix itself
+            print(f"  WARNING: generalized boundary service returned non-JSON for {state_fips}/{county_fips}: {e}", file=sys.stderr)
+            return {"type": "FeatureCollection", "features": []}
 
     if "error" in result:
         print(f"  WARNING: generalized boundary query returned an error for {state_fips}/{county_fips}: "
