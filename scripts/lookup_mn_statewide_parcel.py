@@ -90,27 +90,36 @@ def is_covered(county: str) -> bool:
     return normalized in COVERED_COUNTIES
 
 
-def lookup_parcel_by_pin(county: str, parcel_id: str) -> dict | None:
-    """Looks up a parcel by county name + parcel/PIN string. Returns
-    {"emv_land": ..., "emv_bldg": ..., "emv_total": ..., "tax_year": ...,
-    "mkt_year": ..., "co_name": ...} or None if no exact match.
+def normalize_parcel_id(parcel_id: str) -> str:
+    """Strips all non-digit characters from a parcel ID. Confirmed
+    necessary via real data (2026-08-20 live run): our scraped parcel_id
+    values preserve the human-readable punctuation Public Surplus
+    displays (e.g. Morrison's 'Parcel 06.0396.000'), but MnGeo's
+    county_pin field stores a flat digit string with none — a live run's
+    diagnostic sample fetch showed real Morrison county_pin values like
+    '420029000', '490895002' (9 digits, no punctuation), and our target
+    parcel '06.0396.000' has exactly 9 digits underneath its dots
+    (06+0396+000) — a direct structural match, not a guess. Different
+    counties use different PID formats/lengths (Koochiching's hyphenated
+    '55-070-01000' has 10 digits, a different structure from Morrison's),
+    which is expected and fine — this normalization is applied uniformly
+    and should work for any county's format as long as MnGeo stores it
+    the same flat-digit way, which the Morrison evidence supports as a
+    reasonable general assumption."""
+    return "".join(c for c in parcel_id if c.isdigit())
 
-    On a failed match, fetches a small sample of real county_pin values
-    from the SAME county and logs them — this is the concrete diagnostic
-    for the exact-format uncertainty flagged in the module docstring. If
-    our parcel_id format doesn't match this dataset's stored format
-    (e.g. missing/extra hyphens, different padding), the sample values
-    will show that immediately on the first live run instead of just
-    silently returning "no match" with no way to tell why."""
-    if not is_covered(county):
-        return None  # don't bother querying counties we know aren't in this dataset
 
+def _query_single_pin(county: str, pin_value: str) -> dict | None:
+    """One query attempt for a specific PIN string value. Returns the
+    matched attributes dict, or None on no-match/error. Split out from
+    lookup_parcel_by_pin so multiple candidate formats (normalized, then
+    raw) can be tried in sequence without duplicating the request logic."""
     for attempt in range(1, MAX_RETRIES_PER_REQUEST + 2):
         try:
             resp = requests.get(
                 PARCELS_QUERY_URL,
                 params={
-                    "where": f"UPPER(co_name) LIKE UPPER('%{county}%') AND county_pin = '{parcel_id}'",
+                    "where": f"UPPER(co_name) LIKE UPPER('%{county}%') AND county_pin = '{pin_value}'",
                     "outFields": "emv_land,emv_bldg,emv_total,tax_year,mkt_year,co_name,county_pin",
                     "f": "json",
                     "resultRecordCount": 1,
@@ -123,31 +132,69 @@ def lookup_parcel_by_pin(county: str, parcel_id: str) -> dict | None:
             break
         except requests.exceptions.RequestException as e:
             print(f"    MnGeo parcel lookup attempt {attempt} failed for "
-                  f"{county}/{parcel_id!r}: {e}", file=sys.stderr, flush=True)
+                  f"{county}/{pin_value!r}: {e}", file=sys.stderr, flush=True)
             if attempt > MAX_RETRIES_PER_REQUEST:
                 return None
         except ValueError as e:
             print(f"    MnGeo parcel lookup returned non-JSON for "
-                  f"{county}/{parcel_id!r}: {e}", file=sys.stderr, flush=True)
+                  f"{county}/{pin_value!r}: {e}", file=sys.stderr, flush=True)
             return None
     else:
         return None
 
     if "error" in data:
-        print(f"    MnGeo parcel query error for {county}/{parcel_id!r}: {data['error']!r}",
+        print(f"    MnGeo parcel query error for {county}/{pin_value!r}: {data['error']!r}",
               file=sys.stderr, flush=True)
         return None
 
     features = data.get("features", [])
     if features:
-        attrs = features[0]["attributes"]
-        return attrs
+        return features[0]["attributes"]
+    return None
 
-    # No match — pull a small sample of real county_pin values from the
-    # same county so a format mismatch is immediately visible in the log,
-    # rather than a bare "no match" that gives no clue why.
-    print(f"    no MnGeo match for {county}/{parcel_id!r} — fetching sample "
-          f"county_pin values from {county} for comparison...", file=sys.stderr, flush=True)
+
+def lookup_parcel_by_pin(county: str, parcel_id: str) -> dict | None:
+    """Looks up a parcel by county name + parcel/PIN string. Returns
+    {"emv_land": ..., "emv_bldg": ..., "emv_total": ..., "tax_year": ...,
+    "mkt_year": ..., "co_name": ...} or None if no match under either
+    candidate format.
+
+    Tries the NORMALIZED (digits-only) form of parcel_id first — confirmed
+    necessary via a live run's diagnostic (see normalize_parcel_id's
+    docstring): our scraped parcel_id preserves display punctuation
+    ('06.0396.000') but MnGeo's county_pin field stores a flat digit
+    string ('420029000'-style). Falls back to the raw, unmodified
+    parcel_id if the normalized form doesn't match, in case some county
+    genuinely stores it differently — defensive, not yet needed by any
+    confirmed evidence, but cheap insurance.
+
+    On a failed match under BOTH forms, fetches a small sample of real
+    county_pin values from the SAME county and logs them — the concrete
+    diagnostic that found the normalization issue in the first place;
+    kept in place in case a NEW format mismatch shows up for a different
+    county later."""
+    if not is_covered(county):
+        return None  # don't bother querying counties we know aren't in this dataset
+
+    normalized = normalize_parcel_id(parcel_id)
+    result = _query_single_pin(county, normalized)
+    if result is not None:
+        return result
+
+    if normalized != parcel_id:
+        result = _query_single_pin(county, parcel_id)
+        if result is not None:
+            print(f"    NOTE: {county}/{parcel_id!r} matched on RAW form, not normalized "
+                  f"({normalized!r}) — this county may store PINs with punctuation, unlike "
+                  f"the Morrison evidence normalize_parcel_id was based on", file=sys.stderr, flush=True)
+            return result
+
+    # No match under either form — pull a small sample of real county_pin
+    # values from the same county so a NEW format mismatch is immediately
+    # visible in the log, rather than a bare "no match" that gives no clue why.
+    print(f"    no MnGeo match for {county}/{parcel_id!r} (tried normalized "
+          f"{normalized!r} and raw) — fetching sample county_pin values from "
+          f"{county} for comparison...", file=sys.stderr, flush=True)
     try:
         sample_resp = requests.get(
             PARCELS_QUERY_URL,
@@ -164,7 +211,8 @@ def lookup_parcel_by_pin(county: str, parcel_id: str) -> dict | None:
         sample_data = sample_resp.json()
         sample_pins = [f["attributes"].get("county_pin") for f in sample_data.get("features", [])]
         print(f"    sample county_pin values actually in {county}: {sample_pins} "
-              f"— compare against our parsed parcel_id {parcel_id!r}", file=sys.stderr, flush=True)
+              f"— compare against our parsed parcel_id {parcel_id!r} (normalized: {normalized!r})",
+              file=sys.stderr, flush=True)
     except (requests.exceptions.RequestException, ValueError) as e:
         print(f"    (sample fetch also failed: {e})", file=sys.stderr, flush=True)
 
