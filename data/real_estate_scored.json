@@ -1122,108 +1122,6 @@
     }
   },
   {
-    "mortgagor_name": "Cole Claffey, single man",
-    "mortgage_amount": 824684.0,
-    "property_address_raw": "4052 Alabama Ave S Saint Louis Park",
-    "house_number": "4052",
-    "street_name": "Alabama",
-    "street_suffix": "Ave",
-    "street_direction": "S",
-    "city": "Saint Louis Park",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "09/03/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4196338",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false,
-    "state": "MN",
-    "listing_category": "mortgage_foreclosure",
-    "parcel": {
-      "pin": "053-2111721320004",
-      "owner_name": "COLE CLAFFEY",
-      "emv_land": 149900,
-      "emv_bldg": 636800,
-      "emv_total": 786700,
-      "sale_value": 868089,
-      "sale_date": "2022-08-01",
-      "county": "Hennepin",
-      "lng": -93.35700905836651,
-      "lat": 44.92749253886815
-    },
-    "scoring": {
-      "equity_estimate": -37984.0,
-      "equity_ratio": 0.95
-    }
-  },
-  {
-    "mortgagor_name": "Gabriela E Gallegos Camacho, An Unmarried Woman",
-    "mortgage_amount": 182000.0,
-    "property_address_raw": "2524 Bloomington Ave Minneapolis",
-    "house_number": "2524",
-    "street_name": "Bloomington",
-    "street_suffix": "Ave",
-    "street_direction": "",
-    "city": "Minneapolis",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "09/14/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4196357",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false,
-    "state": "MN",
-    "listing_category": "mortgage_foreclosure",
-    "parcel": {
-      "pin": "053-3502924130269",
-      "owner_name": "GABRIELA E GALLEGOS-CAMACHO",
-      "emv_land": 56000,
-      "emv_bldg": 153600,
-      "emv_total": 209600,
-      "sale_value": 155000,
-      "sale_date": "2002-10-01",
-      "county": "Hennepin",
-      "lng": -93.25275369919208,
-      "lat": 44.95635919317257
-    },
-    "scoring": {
-      "equity_estimate": 27600.0,
-      "equity_ratio": 1.15
-    }
-  },
-  {
-    "mortgagor_name": "LeMar Green Sr, A Single Man",
-    "mortgage_amount": 305263.0,
-    "property_address_raw": "1819 Bryant Ave N Minneapolis",
-    "house_number": "1819",
-    "street_name": "Bryant",
-    "street_suffix": "Ave",
-    "street_direction": "N",
-    "city": "Minneapolis",
-    "zip": null,
-    "county": null,
-    "auction_date": "09/04/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4196374",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false,
-    "state": "MN",
-    "listing_category": "mortgage_foreclosure",
-    "parcel": {
-      "pin": "053-1602924410018",
-      "owner_name": "LEMAR GREEN SR",
-      "emv_land": 27000,
-      "emv_bldg": 218700,
-      "emv_total": 245700,
-      "sale_value": 340000,
-      "sale_date": "2023-11-01",
-      "county": "Hennepin",
-      "lng": -93.29142634385394,
-      "lat": 44.99806009323517
-    },
-    "scoring": {
-      "equity_estimate": -59563.0,
-      "equity_ratio": 0.8
-    }
-  },
-  {
     "mortgagor_name": "Jason M Brenna, a single person",
     "mortgage_amount": 90000.0,
     "property_address_raw": "8617 22nd Ave S Bloomington",
@@ -1564,40 +1462,6 @@
     }
   },
   {
-    "mortgagor_name": "Lori J Walstrom and Dwayne T Walstrom, spouses married to each other",
-    "mortgage_amount": 190933.0,
-    "property_address_raw": "3872 Hillsboro Ave N New Hope",
-    "house_number": "3872",
-    "street_name": "Hillsboro",
-    "street_suffix": "Ave",
-    "street_direction": "N",
-    "city": "New Hope",
-    "zip": null,
-    "county": null,
-    "auction_date": "07/31/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4186631",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false,
-    "state": "MN",
-    "listing_category": "mortgage_foreclosure",
-    "parcel": {
-      "pin": "053-1811821310072",
-      "owner_name": "D T WALSTROM & L J WALSTROM",
-      "emv_land": 114000,
-      "emv_bldg": 201900,
-      "emv_total": 315900,
-      "sale_value": 194500,
-      "sale_date": "2015-11-01",
-      "county": "Hennepin",
-      "lng": -93.3953161245405,
-      "lat": 45.02729460321073
-    },
-    "scoring": {
-      "equity_estimate": 124967.0,
-      "equity_ratio": 1.65
-    }
-  },
-  {
     "mortgagor_name": "Michael J. Hadler, spouse of Stacey Renee Hey and Stacey Renee Hey, spouse of Michael J. Hadler",
     "mortgage_amount": 517500.0,
     "property_address_raw": "1509 Linner Rd Minnetonka",
@@ -1765,6 +1629,142 @@
     "scoring": {
       "equity_estimate": 313500.0,
       "equity_ratio": 2.25
+    }
+  },
+  {
+    "mortgagor_name": "Schaefco Development, LLC",
+    "mortgage_amount": 600000.0,
+    "property_address_raw": "25300 Park Ln Shorewood",
+    "house_number": "25300",
+    "street_name": "Park",
+    "street_suffix": "Ln",
+    "street_direction": "",
+    "city": "Shorewood",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4193224",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true,
+    "state": "MN",
+    "listing_category": "mortgage_foreclosure",
+    "parcel": {
+      "pin": "053-3311723330069",
+      "owner_name": "SCHAEFCO DEVELOPMENT LLC",
+      "emv_land": 280000,
+      "emv_bldg": 430600,
+      "emv_total": 710600,
+      "sale_value": 272500,
+      "sale_date": "2023-05-01",
+      "county": "Hennepin",
+      "lng": -93.60103682295194,
+      "lat": 44.89336213817162
+    },
+    "scoring": {
+      "equity_estimate": 110600.0,
+      "equity_ratio": 1.18
+    }
+  },
+  {
+    "mortgagor_name": "Day Block Holdings, LLC",
+    "mortgage_amount": 2679558.6,
+    "property_address_raw": "1101 Washington Ave S Minneapolis",
+    "house_number": "1101",
+    "street_name": "Washington",
+    "street_suffix": "Ave",
+    "street_direction": "S",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4192449",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true,
+    "state": "MN",
+    "listing_category": "mortgage_foreclosure",
+    "parcel": {
+      "pin": "053-2602924120065",
+      "owner_name": "DAY BLOCK HOLDINGS LLC",
+      "emv_land": 653400,
+      "emv_bldg": 1250100,
+      "emv_total": 1903500,
+      "sale_value": 1480000,
+      "sale_date": "2005-07-01",
+      "county": "Hennepin",
+      "lng": -93.2531570906762,
+      "lat": 44.974968827595404
+    },
+    "scoring": {
+      "equity_estimate": -776058.6,
+      "equity_ratio": 0.71
+    }
+  },
+  {
+    "mortgagor_name": "AV Builders LLC",
+    "mortgage_amount": 504000.0,
+    "property_address_raw": "5705 Dupont Ave S, Minneapolis",
+    "house_number": "5705",
+    "street_name": "Dupont",
+    "street_suffix": "Ave",
+    "street_direction": "S",
+    "city": "Minneapolis",
+    "zip": "55419",
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4188433",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true,
+    "state": "MN",
+    "listing_category": "mortgage_foreclosure",
+    "parcel": {
+      "pin": "053-2102824140035",
+      "owner_name": "AV BUILDERS LLC",
+      "emv_land": 209000,
+      "emv_bldg": 165000,
+      "emv_total": 374000,
+      "sale_value": 385000,
+      "sale_date": "2025-02-01",
+      "county": "Hennepin",
+      "lng": -93.29298660378016,
+      "lat": 44.899361013666564
+    },
+    "scoring": {
+      "equity_estimate": -130000.0,
+      "equity_ratio": 0.74
+    }
+  },
+  {
+    "mortgagor_name": "Cynthia Frances",
+    "mortgage_amount": 35000.0,
+    "property_address_raw": "5410 Sanibel Dr Minnetonka",
+    "house_number": "5410",
+    "street_name": "Sanibel",
+    "street_suffix": "Dr",
+    "street_direction": "",
+    "city": "Minnetonka",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4187638",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true,
+    "state": "MN",
+    "listing_category": "mortgage_foreclosure",
+    "parcel": {
+      "pin": "053-3511722110264",
+      "owner_name": "CYNTHIA FRANCES",
+      "emv_land": 44000,
+      "emv_bldg": 265600,
+      "emv_total": 309600,
+      "sale_value": 148950,
+      "sale_date": "2011-11-01",
+      "county": "Hennepin",
+      "lng": -93.4259726828913,
+      "lat": 44.90597688599027
+    },
+    "scoring": {
+      "equity_estimate": 274600.0,
+      "equity_ratio": 8.85
     }
   },
   {
