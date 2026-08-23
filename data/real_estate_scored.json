@@ -34,40 +34,6 @@
     }
   },
   {
-    "mortgagor_name": "Ishaka Mawanda and Antoinette Bennaars, married to each other",
-    "mortgage_amount": 94000.0,
-    "property_address_raw": "3710 Cardinal Rd Minnetonka",
-    "house_number": "3710",
-    "street_name": "Cardinal",
-    "street_suffix": "Rd",
-    "street_direction": "",
-    "city": "Minnetonka",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "10/02/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4205292",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false,
-    "state": "MN",
-    "listing_category": "mortgage_foreclosure",
-    "parcel": {
-      "pin": "053-1511722330048",
-      "owner_name": "ISHAKA MAWANDA",
-      "emv_land": 225500,
-      "emv_bldg": 279600,
-      "emv_total": 505100,
-      "sale_value": 350000,
-      "sale_date": "2019-07-01",
-      "county": "Hennepin",
-      "lng": -93.46088754712368,
-      "lat": 44.935165642473706
-    },
-    "scoring": {
-      "equity_estimate": 411100.0,
-      "equity_ratio": 5.37
-    }
-  },
-  {
     "mortgagor_name": "Jerome Ralph Olson and Hedda M. Olson, married",
     "mortgage_amount": 141000.0,
     "property_address_raw": "4328 28th Ave S Minneapolis",
@@ -272,6 +238,40 @@
     }
   },
   {
+    "mortgagor_name": "Ishaka Mawanda and Antoinette Bennaars, married to each other",
+    "mortgage_amount": 94000.0,
+    "property_address_raw": "3710 Cardinal Rd Minnetonka",
+    "house_number": "3710",
+    "street_name": "Cardinal",
+    "street_suffix": "Rd",
+    "street_direction": "",
+    "city": "Minnetonka",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "10/02/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4205292",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
+    "state": "MN",
+    "listing_category": "mortgage_foreclosure",
+    "parcel": {
+      "pin": "053-1511722330048",
+      "owner_name": "ISHAKA MAWANDA",
+      "emv_land": 225500,
+      "emv_bldg": 279600,
+      "emv_total": 505100,
+      "sale_value": 350000,
+      "sale_date": "2019-07-01",
+      "county": "Hennepin",
+      "lng": -93.46088754712368,
+      "lat": 44.935165642473706
+    },
+    "scoring": {
+      "equity_estimate": 411100.0,
+      "equity_ratio": 5.37
+    }
+  },
+  {
     "mortgagor_name": "Juan Jose Gonzalez and Gabriela Gonzalez Husband and Wife",
     "mortgage_amount": 22196.0,
     "property_address_raw": "6364 Juneau Ln N Maple Grove",
@@ -303,6 +303,40 @@
     "scoring": {
       "equity_estimate": 268904.0,
       "equity_ratio": 13.11
+    }
+  },
+  {
+    "mortgagor_name": "Andrew Grindle, an unmarried man",
+    "mortgage_amount": 211612.0,
+    "property_address_raw": "4731 Xenia Ave N Crystal",
+    "house_number": "4731",
+    "street_name": "Xenia",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Crystal",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/28/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204210",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
+    "state": "MN",
+    "listing_category": "mortgage_foreclosure",
+    "parcel": {
+      "pin": "053-0911821310096",
+      "owner_name": "ANDREW GRINDLE",
+      "emv_land": 82700,
+      "emv_bldg": 177000,
+      "emv_total": 259700,
+      "sale_value": 289000,
+      "sale_date": "2025-01-01",
+      "county": "Hennepin",
+      "lng": -93.3531127487986,
+      "lat": 45.04102237439741
+    },
+    "scoring": {
+      "equity_estimate": 48088.0,
+      "equity_ratio": 1.23
     }
   },
   {
@@ -405,40 +439,6 @@
     "scoring": {
       "equity_estimate": -27120.0,
       "equity_ratio": 0.87
-    }
-  },
-  {
-    "mortgagor_name": "Andrew Grindle, an unmarried man",
-    "mortgage_amount": 211612.0,
-    "property_address_raw": "4731 Xenia Ave N Crystal",
-    "house_number": "4731",
-    "street_name": "Xenia",
-    "street_suffix": "Ave",
-    "street_direction": "N",
-    "city": "Crystal",
-    "zip": null,
-    "county": null,
-    "auction_date": "09/28/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204210",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false,
-    "state": "MN",
-    "listing_category": "mortgage_foreclosure",
-    "parcel": {
-      "pin": "053-0911821310096",
-      "owner_name": "ANDREW GRINDLE",
-      "emv_land": 82700,
-      "emv_bldg": 177000,
-      "emv_total": 259700,
-      "sale_value": 289000,
-      "sale_date": "2025-01-01",
-      "county": "Hennepin",
-      "lng": -93.3531127487986,
-      "lat": 45.04102237439741
-    },
-    "scoring": {
-      "equity_estimate": 48088.0,
-      "equity_ratio": 1.23
     }
   },
   {
@@ -646,40 +646,6 @@
     }
   },
   {
-    "mortgagor_name": "Paul A. Bownik, A unmarried man",
-    "mortgage_amount": 236000.0,
-    "property_address_raw": "4543 Drew Ave N Robbinsdale",
-    "house_number": "4543",
-    "street_name": "Drew",
-    "street_suffix": "Ave",
-    "street_direction": "N",
-    "city": "Robbinsdale",
-    "zip": null,
-    "county": null,
-    "auction_date": "09/18/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4200667",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false,
-    "state": "MN",
-    "listing_category": "mortgage_foreclosure",
-    "parcel": {
-      "pin": "053-1011821430052",
-      "owner_name": "PAUL A BOWNIK",
-      "emv_land": 101000,
-      "emv_bldg": 189400,
-      "emv_total": 290400,
-      "sale_value": 178900,
-      "sale_date": "2008-12-01",
-      "county": "Hennepin",
-      "lng": -93.32678963287302,
-      "lat": 45.03815139879011
-    },
-    "scoring": {
-      "equity_estimate": 54400.0,
-      "equity_ratio": 1.23
-    }
-  },
-  {
     "mortgagor_name": "Sue Thao, a single person, and Charmie Hlubchy Vue, a single person",
     "mortgage_amount": 220924.0,
     "property_address_raw": "3812 Woodbine Ln N Brooklyn Center",
@@ -714,37 +680,37 @@
     }
   },
   {
-    "mortgagor_name": "John L Poggione, a married person",
-    "mortgage_amount": 245410.0,
-    "property_address_raw": "185 Meadow Dr Loretto",
-    "house_number": "185",
-    "street_name": "Meadow",
-    "street_suffix": "Dr",
-    "street_direction": "",
-    "city": "Loretto",
+    "mortgagor_name": "Paul A. Bownik, A unmarried man",
+    "mortgage_amount": 236000.0,
+    "property_address_raw": "4543 Drew Ave N Robbinsdale",
+    "house_number": "4543",
+    "street_name": "Drew",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Robbinsdale",
     "zip": null,
-    "county": "Hennepin",
-    "auction_date": "10/09/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4199818",
+    "county": null,
+    "auction_date": "09/18/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4200667",
     "matched_numbered_format": false,
     "matched_executed_by_format": false,
     "state": "MN",
     "listing_category": "mortgage_foreclosure",
     "parcel": {
-      "pin": "053-0611823430087",
-      "owner_name": "JOHN L POGGIONE",
-      "emv_land": 80000,
-      "emv_bldg": 282900,
-      "emv_total": 362900,
-      "sale_value": 253000,
-      "sale_date": "2018-03-01",
+      "pin": "053-1011821430052",
+      "owner_name": "PAUL A BOWNIK",
+      "emv_land": 101000,
+      "emv_bldg": 189400,
+      "emv_total": 290400,
+      "sale_value": 178900,
+      "sale_date": "2008-12-01",
       "county": "Hennepin",
-      "lng": -93.63117414917069,
-      "lat": 45.05253761088259
+      "lng": -93.32678963287302,
+      "lat": 45.03815139879011
     },
     "scoring": {
-      "equity_estimate": 117490.0,
-      "equity_ratio": 1.48
+      "equity_estimate": 54400.0,
+      "equity_ratio": 1.23
     }
   },
   {
@@ -779,6 +745,40 @@
     "scoring": {
       "equity_estimate": 96355.0,
       "equity_ratio": 1.39
+    }
+  },
+  {
+    "mortgagor_name": "John L Poggione, a married person",
+    "mortgage_amount": 245410.0,
+    "property_address_raw": "185 Meadow Dr Loretto",
+    "house_number": "185",
+    "street_name": "Meadow",
+    "street_suffix": "Dr",
+    "street_direction": "",
+    "city": "Loretto",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "10/09/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4199818",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
+    "state": "MN",
+    "listing_category": "mortgage_foreclosure",
+    "parcel": {
+      "pin": "053-0611823430087",
+      "owner_name": "JOHN L POGGIONE",
+      "emv_land": 80000,
+      "emv_bldg": 282900,
+      "emv_total": 362900,
+      "sale_value": 253000,
+      "sale_date": "2018-03-01",
+      "county": "Hennepin",
+      "lng": -93.63117414917069,
+      "lat": 45.05253761088259
+    },
+    "scoring": {
+      "equity_estimate": 117490.0,
+      "equity_ratio": 1.48
     }
   },
   {
@@ -1119,40 +1119,6 @@
     "scoring": {
       "equity_estimate": 124967.0,
       "equity_ratio": 1.65
-    }
-  },
-  {
-    "mortgagor_name": "Jason Paul Strandberg AKA Jason Strandberg and Dung Strandberg, Married To Each Other",
-    "mortgage_amount": 548250.0,
-    "property_address_raw": "14604 Woodhaven Rd Minnetonka",
-    "house_number": "14604",
-    "street_name": "Woodhaven",
-    "street_suffix": "Rd",
-    "street_direction": "",
-    "city": "Minnetonka",
-    "zip": null,
-    "county": null,
-    "auction_date": "09/08/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197227",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false,
-    "state": "MN",
-    "listing_category": "mortgage_foreclosure",
-    "parcel": {
-      "pin": "053-2111722110083",
-      "owner_name": "J STRANDBERG/D STRANDBERG",
-      "emv_land": 225500,
-      "emv_bldg": 674600,
-      "emv_total": 900100,
-      "sale_value": 0,
-      "sale_date": null,
-      "county": "Hennepin",
-      "lng": -93.46492164976912,
-      "lat": 44.932739854094784
-    },
-    "scoring": {
-      "equity_estimate": 351850.0,
-      "equity_ratio": 1.64
     }
   },
   {
@@ -1598,40 +1564,6 @@
     }
   },
   {
-    "mortgagor_name": "George W. Klus and Anne L. Klus",
-    "mortgage_amount": 200000.0,
-    "property_address_raw": "5233 Lochloy Dr Edina",
-    "house_number": "5233",
-    "street_name": "Lochloy",
-    "street_suffix": "Dr",
-    "street_direction": "",
-    "city": "Edina",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197286",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": true,
-    "state": "MN",
-    "listing_category": "mortgage_foreclosure",
-    "parcel": {
-      "pin": "053-2911721440052",
-      "owner_name": "G W KLUS & A L KLUS",
-      "emv_land": 425000,
-      "emv_bldg": 276300,
-      "emv_total": 701300,
-      "sale_value": 162500,
-      "sale_date": "1991-06-01",
-      "county": "Hennepin",
-      "lng": -93.3656308441898,
-      "lat": 44.90833258865931
-    },
-    "scoring": {
-      "equity_estimate": 501300.0,
-      "equity_ratio": 3.51
-    }
-  },
-  {
     "mortgagor_name": "Stieg Strand",
     "mortgage_amount": 250000.0,
     "property_address_raw": "13277 Melody Ct Eden Prairie",
@@ -1768,75 +1700,6 @@
     }
   },
   {
-    "mortgagor_name": "Cynthia Frances",
-    "mortgage_amount": 35000.0,
-    "property_address_raw": "5410 Sanibel Dr Minnetonka",
-    "house_number": "5410",
-    "street_name": "Sanibel",
-    "street_suffix": "Dr",
-    "street_direction": "",
-    "city": "Minnetonka",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4187638",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": true,
-    "state": "MN",
-    "listing_category": "mortgage_foreclosure",
-    "parcel": {
-      "pin": "053-3511722110264",
-      "owner_name": "CYNTHIA FRANCES",
-      "emv_land": 44000,
-      "emv_bldg": 265600,
-      "emv_total": 309600,
-      "sale_value": 148950,
-      "sale_date": "2011-11-01",
-      "county": "Hennepin",
-      "lng": -93.4259726828913,
-      "lat": 44.90597688599027
-    },
-    "scoring": {
-      "equity_estimate": 274600.0,
-      "equity_ratio": 8.85
-    }
-  },
-  {
-    "mortgagor_name": "Monica H. Lee, a single person",
-    "mortgage_amount": 144000.0,
-    "property_address_raw": "330 Arlington Ave E Saint Paul",
-    "house_number": "330",
-    "street_name": "Arlington",
-    "street_suffix": "Ave",
-    "street_direction": "E",
-    "city": "Saint Paul",
-    "zip": null,
-    "county": "Ramsey",
-    "auction_date": "09/23/2026",
-    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4202285",
-    "source": "stpaul_legal_ledger",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false,
-    "state": "MN",
-    "listing_category": "mortgage_foreclosure",
-    "parcel": {
-      "pin": "123-192922410021",
-      "owner_name": "MONICA H LEE",
-      "emv_land": 25000,
-      "emv_bldg": 224100,
-      "emv_total": 249100,
-      "sale_value": 142000,
-      "sale_date": "2017-06-21",
-      "county": "Ramsey",
-      "lng": -93.08666960114603,
-      "lat": 44.9842323966227
-    },
-    "scoring": {
-      "equity_estimate": 105100.0,
-      "equity_ratio": 1.73
-    }
-  },
-  {
     "mortgagor_name": "William Rinehart, married man",
     "mortgage_amount": 271977.0,
     "property_address_raw": "608 Beaumont St, Saint Paul",
@@ -1872,73 +1735,38 @@
     }
   },
   {
-    "mortgagor_name": "Kobe Micheal Anderson, a single person",
-    "mortgage_amount": 218177.0,
-    "property_address_raw": "1453 7th St E Saint Paul",
-    "house_number": "1453",
-    "street_name": "7th",
-    "street_suffix": "St",
-    "street_direction": "E",
-    "city": "Saint Paul",
-    "zip": null,
-    "county": "Ramsey",
-    "auction_date": "08/31/2026",
-    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4198749",
-    "source": "stpaul_legal_ledger",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false,
-    "state": "MN",
-    "listing_category": "mortgage_foreclosure",
-    "parcel": {
-      "pin": "123-272922310088",
-      "owner_name": "KOBE MICHEAL ANDERSON",
-      "emv_land": 25000,
-      "emv_bldg": 224800,
-      "emv_total": 249800,
-      "sale_value": 224000,
-      "sale_date": "2025-05-28",
-      "county": "Ramsey",
-      "lng": -93.0390383812789,
-      "lat": 44.96703197728751
-    },
-    "scoring": {
-      "equity_estimate": 31623.0,
-      "equity_ratio": 1.14
-    }
-  },
-  {
-    "mortgagor_name": "Derek Williams and Anna Olejnicak, Husband And Wife",
-    "mortgage_amount": 203700.0,
-    "property_address_raw": "425 Rose Ave E Saint Paul",
-    "house_number": "425",
-    "street_name": "Rose",
+    "mortgagor_name": "Monica H. Lee, a single person",
+    "mortgage_amount": 144000.0,
+    "property_address_raw": "330 Arlington Ave E Saint Paul",
+    "house_number": "330",
+    "street_name": "Arlington",
     "street_suffix": "Ave",
     "street_direction": "E",
     "city": "Saint Paul",
     "zip": null,
-    "county": null,
-    "auction_date": "09/17/2026",
-    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4199611",
+    "county": "Ramsey",
+    "auction_date": "09/23/2026",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4202285",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
     "matched_executed_by_format": false,
     "state": "MN",
     "listing_category": "mortgage_foreclosure",
     "parcel": {
-      "pin": "123-292922220022",
-      "owner_name": "DEREK WILLIAMS",
+      "pin": "123-192922410021",
+      "owner_name": "MONICA H LEE",
       "emv_land": 25000,
-      "emv_bldg": 223000,
-      "emv_total": 248000,
-      "sale_value": 210000,
-      "sale_date": "2022-07-27",
+      "emv_bldg": 224100,
+      "emv_total": 249100,
+      "sale_value": 142000,
+      "sale_date": "2017-06-21",
       "county": "Ramsey",
-      "lng": -93.0826060750118,
-      "lat": 44.97668827776001
+      "lng": -93.08666960114603,
+      "lat": 44.9842323966227
     },
     "scoring": {
-      "equity_estimate": 44300.0,
-      "equity_ratio": 1.22
+      "equity_estimate": 105100.0,
+      "equity_ratio": 1.73
     }
   },
   {
@@ -2047,6 +1875,146 @@
     }
   },
   {
+    "mortgagor_name": "Derek Williams and Anna Olejnicak, Husband And Wife",
+    "mortgage_amount": 203700.0,
+    "property_address_raw": "425 Rose Ave E Saint Paul",
+    "house_number": "425",
+    "street_name": "Rose",
+    "street_suffix": "Ave",
+    "street_direction": "E",
+    "city": "Saint Paul",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/17/2026",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4199611",
+    "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
+    "state": "MN",
+    "listing_category": "mortgage_foreclosure",
+    "parcel": {
+      "pin": "123-292922220022",
+      "owner_name": "DEREK WILLIAMS",
+      "emv_land": 25000,
+      "emv_bldg": 223000,
+      "emv_total": 248000,
+      "sale_value": 210000,
+      "sale_date": "2022-07-27",
+      "county": "Ramsey",
+      "lng": -93.0826060750118,
+      "lat": 44.97668827776001
+    },
+    "scoring": {
+      "equity_estimate": 44300.0,
+      "equity_ratio": 1.22
+    }
+  },
+  {
+    "mortgagor_name": "Kobe Micheal Anderson, a single person",
+    "mortgage_amount": 218177.0,
+    "property_address_raw": "1453 7th St E Saint Paul",
+    "house_number": "1453",
+    "street_name": "7th",
+    "street_suffix": "St",
+    "street_direction": "E",
+    "city": "Saint Paul",
+    "zip": null,
+    "county": "Ramsey",
+    "auction_date": "08/31/2026",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4198749",
+    "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
+    "state": "MN",
+    "listing_category": "mortgage_foreclosure",
+    "parcel": {
+      "pin": "123-272922310088",
+      "owner_name": "KOBE MICHEAL ANDERSON",
+      "emv_land": 25000,
+      "emv_bldg": 224800,
+      "emv_total": 249800,
+      "sale_value": 224000,
+      "sale_date": "2025-05-28",
+      "county": "Ramsey",
+      "lng": -93.0390383812789,
+      "lat": 44.96703197728751
+    },
+    "scoring": {
+      "equity_estimate": 31623.0,
+      "equity_ratio": 1.14
+    }
+  },
+  {
+    "mortgagor_name": "Pee Khay, a married person",
+    "mortgage_amount": 165850.0,
+    "property_address_raw": "1292 Galtier St Saint Paul",
+    "house_number": "1292",
+    "street_name": "Galtier",
+    "street_suffix": "St",
+    "street_direction": "",
+    "city": "Saint Paul",
+    "zip": null,
+    "county": "Ramsey",
+    "auction_date": "08/24/2026",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4197950",
+    "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
+    "state": "MN",
+    "listing_category": "mortgage_foreclosure",
+    "parcel": {
+      "pin": "123-242923440097",
+      "owner_name": "PEE KHAY",
+      "emv_land": 25000,
+      "emv_bldg": 202200,
+      "emv_total": 227200,
+      "sale_value": 210000,
+      "sale_date": "2024-10-31",
+      "county": "Ramsey",
+      "lng": -93.11072346099661,
+      "lat": 44.98008362332313
+    },
+    "scoring": {
+      "equity_estimate": 61350.0,
+      "equity_ratio": 1.37
+    }
+  },
+  {
+    "mortgagor_name": "Carina Castillo and Erwin Castillo, spouses married to each other",
+    "mortgage_amount": 194970.0,
+    "property_address_raw": "1874 Bluestem Ln Shoreview",
+    "house_number": "1874",
+    "street_name": "Bluestem",
+    "street_suffix": "Ln",
+    "street_direction": "",
+    "city": "Shoreview",
+    "zip": null,
+    "county": null,
+    "auction_date": "08/13/2026",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4197937",
+    "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false,
+    "state": "MN",
+    "listing_category": "mortgage_foreclosure",
+    "parcel": {
+      "pin": "123-043023240077",
+      "owner_name": "CARINA CASTILLO",
+      "emv_land": 50000,
+      "emv_bldg": 217600,
+      "emv_total": 267600,
+      "sale_value": 201000,
+      "sale_date": "2018-06-22",
+      "county": "Ramsey",
+      "lng": -93.18287669229761,
+      "lat": 45.11717758579969
+    },
+    "scoring": {
+      "equity_estimate": 72630.0,
+      "equity_ratio": 1.37
+    }
+  },
+  {
     "mortgagor_name": "Sue Vang and Ga Chue Yang, Wife and Husband, as Joint Tenants",
     "mortgage_amount": 228950.0,
     "property_address_raw": "1684 Frost Ave Maplewood",
@@ -2114,76 +2082,6 @@
     "scoring": {
       "equity_estimate": 67939.0,
       "equity_ratio": 1.31
-    }
-  },
-  {
-    "mortgagor_name": "Carina Castillo and Erwin Castillo, spouses married to each other",
-    "mortgage_amount": 194970.0,
-    "property_address_raw": "1874 Bluestem Ln Shoreview",
-    "house_number": "1874",
-    "street_name": "Bluestem",
-    "street_suffix": "Ln",
-    "street_direction": "",
-    "city": "Shoreview",
-    "zip": null,
-    "county": null,
-    "auction_date": "08/13/2026",
-    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4197937",
-    "source": "stpaul_legal_ledger",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false,
-    "state": "MN",
-    "listing_category": "mortgage_foreclosure",
-    "parcel": {
-      "pin": "123-043023240077",
-      "owner_name": "CARINA CASTILLO",
-      "emv_land": 50000,
-      "emv_bldg": 217600,
-      "emv_total": 267600,
-      "sale_value": 201000,
-      "sale_date": "2018-06-22",
-      "county": "Ramsey",
-      "lng": -93.18287669229761,
-      "lat": 45.11717758579969
-    },
-    "scoring": {
-      "equity_estimate": 72630.0,
-      "equity_ratio": 1.37
-    }
-  },
-  {
-    "mortgagor_name": "Pee Khay, a married person",
-    "mortgage_amount": 165850.0,
-    "property_address_raw": "1292 Galtier St Saint Paul",
-    "house_number": "1292",
-    "street_name": "Galtier",
-    "street_suffix": "St",
-    "street_direction": "",
-    "city": "Saint Paul",
-    "zip": null,
-    "county": "Ramsey",
-    "auction_date": "08/24/2026",
-    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4197950",
-    "source": "stpaul_legal_ledger",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false,
-    "state": "MN",
-    "listing_category": "mortgage_foreclosure",
-    "parcel": {
-      "pin": "123-242923440097",
-      "owner_name": "PEE KHAY",
-      "emv_land": 25000,
-      "emv_bldg": 202200,
-      "emv_total": 227200,
-      "sale_value": 210000,
-      "sale_date": "2024-10-31",
-      "county": "Ramsey",
-      "lng": -93.11072346099661,
-      "lat": 44.98008362332313
-    },
-    "scoring": {
-      "equity_estimate": 61350.0,
-      "equity_ratio": 1.37
     }
   },
   {
