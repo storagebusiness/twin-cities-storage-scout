@@ -159,6 +159,13 @@ def lookup_parcel(house_number: str, street_name: str, city: str | None = None,
         result = _query_parcel(house_number, street_name, city=cty, suffix=suf)
         if result is not None:
             return result
+    # All fallback tiers exhausted with no match. Each individual
+    # attempt already logged its own failure reason (zero matches vs.
+    # ambiguous) inside _query_parcel — this closing line makes it clear
+    # in the log that this address was fully given up on, rather than
+    # leaving several unlabeled per-attempt failure lines with no
+    # explicit "and therefore this address has no parcel" signal.
+    print(f"  GAVE UP on {house_number} {street_name} after {len(tried)} attempts — no parcel match", file=sys.stderr)
     return None
 
 
@@ -182,6 +189,15 @@ def _query_parcel(house_number: str, street_name: str, city: str | None,
 
     features = data.get("features", [])
     if not features:
+        # Previously silent — this was the gap that made it impossible
+        # to tell "genuinely zero parcels at this address" (a real data
+        # gap, or a query construction bug) apart from "found multiple,
+        # too ambiguous to pick one" (a different problem with a
+        # different fix — see HANDOFF.md's condo-building note). Logging
+        # both cases explicitly is what lets a live run's log answer
+        # which failure mode a given unmatched address actually hit.
+        print(f"  zero matches for {house_number} {street_name} "
+              f"(suffix={suffix!r}, city={city!r}) — where clause: {where}", file=sys.stderr)
         return None
     if len(features) > 1:
         print(f"  ambiguous match for {house_number} {street_name} "
