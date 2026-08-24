@@ -193,6 +193,28 @@ def _query_parcel(house_number: str, street_name: str, city: str | None,
     geometry = feature.get("geometry", {})
     centroid = compute_centroid(geometry.get("rings", []))
 
+    # Building-detail sentinel handling (found on a live run, 2026-08-18
+    # — see module docstring "BUILDING DETAIL FIELDS"): Hennepin doesn't
+    # populate these fields in this dataset at all, but rather than
+    # returning null, it fills them with per-type placeholder "no data"
+    # values — 0 for the numeric fields, "" for HOME_STYLE/DWELL_TYPE,
+    # "Unknown" for GARAGE — that look like real data if taken at face
+    # value ("0 finished sq ft" is misleading; the truth is "not
+    # reported"). Confirmed empirically: every Hennepin record in a live
+    # run showed this exact combination; every Ramsey record had real,
+    # varied values instead — including cases where Ramsey legitimately
+    # returns "Unknown" for BASEMENT or null for HEATING/COOLING on an
+    # otherwise fully-populated record, so this check is deliberately
+    # narrow (only the 4 fields that are NEVER legitimately 0/blank for
+    # an occupied residential parcel) rather than blanket-nulling
+    # anything that looks empty.
+    unpopulated = (
+        attrs.get("FIN_SQ_FT") == 0
+        and (attrs.get("HOME_STYLE") or "") == ""
+        and (attrs.get("DWELL_TYPE") or "") == ""
+        and attrs.get("NUM_UNITS") == 0
+    )
+
     return {
         "pin": attrs.get("PIN"),
         "owner_name": attrs.get("OWNER_NAME"),
@@ -208,24 +230,40 @@ def _query_parcel(house_number: str, street_name: str, city: str | None,
         # FIELDS" note. acres_poly is GIS-measured from the parcel
         # boundary; acres_deed is the legally recorded deed acreage —
         # they can differ (surveying, easements, rounding); expose both
-        # rather than picking one.
+        # rather than picking one. Neither needs sentinel handling —
+        # acres_poly is populated for every county observed so far;
+        # acres_deed is a genuine null (not a sentinel) when absent.
         "acres_poly": attrs.get("ACRES_POLY"),
         "acres_deed": attrs.get("ACRES_DEED"),
-        "fin_sq_ft": attrs.get("FIN_SQ_FT"),
+        # year_built is NOT gated — confirmed independently populated
+        # for Hennepin even when everything else is blank, so it needs
+        # no sentinel translation.
         "year_built": attrs.get("YEAR_BUILT"),
-        "home_style": attrs.get("HOME_STYLE"),
-        "dwell_type": attrs.get("DWELL_TYPE"),
-        "garage": attrs.get("GARAGE"),
-        "garage_sqft": attrs.get("GARAGESQFT"),
-        "basement": attrs.get("BASEMENT"),
-        "heating": attrs.get("HEATING"),
-        "cooling": attrs.get("COOLING"),
+        # basement/heating/cooling ARE gated by `unpopulated`, same as
+        # the fields below — correction from an earlier version of this
+        # fix: Hennepin's basement="Unknown"/heating=""/cooling="" ARE
+        # part of the same blanket sentinel pattern as HOME_STYLE etc.
+        # (confirmed: real Hennepin data shows this exact combination).
+        # The wrinkle: "Unknown" for basement can ALSO be a genuine
+        # answer on an otherwise fully-populated Ramsey record (real
+        # example found: Castillo, fin_sq_ft/home_style real,
+        # basement="Unknown") — gating by the record's own `unpopulated`
+        # status (not the field's own value) correctly keeps that case
+        # as real data while still nulling Hennepin's blanket sentinel.
+        "basement": None if unpopulated else attrs.get("BASEMENT"),
+        "heating": None if unpopulated else (attrs.get("HEATING") or None),
+        "cooling": None if unpopulated else (attrs.get("COOLING") or None),
+        "fin_sq_ft": None if unpopulated else attrs.get("FIN_SQ_FT"),
+        "home_style": None if unpopulated else (attrs.get("HOME_STYLE") or None),
+        "dwell_type": None if unpopulated else (attrs.get("DWELL_TYPE") or None),
+        "garage": None if unpopulated else attrs.get("GARAGE"),
+        "garage_sqft": None if unpopulated else attrs.get("GARAGESQFT"),
         # Number of units on the parcel — potentially useful signal for
         # the known multi-unit-condo-building match limitation (see
         # HANDOFF.md "801 Washington Lofts" note): a high NUM_UNITS on an
         # otherwise-ambiguous match might explain WHY it's ambiguous,
         # even though this doesn't change the matching logic itself.
-        "num_units": attrs.get("NUM_UNITS"),
+        "num_units": None if unpopulated else attrs.get("NUM_UNITS"),
     }
 
 
