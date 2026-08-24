@@ -16,6 +16,22 @@ The layer does NOT support server-side centroids (confirmed in its own
 schema: "Supports Returning Geometry Centroid: false"), so this computes
 a simple vertex-average centroid client-side — a reasonable approximation
 for placing a single map pin per parcel, not a survey-grade centroid.
+
+BUILDING DETAIL FIELDS (added 2026-08-18): confirmed via the layer's own
+schema (fetched directly by the user, since this sandbox's network is
+blocked from arcgis.metc.state.mn.us) that bedrooms/bathrooms do NOT
+exist anywhere in this dataset — not a per-county gap, genuinely absent
+from the schema. This is a *tax parcel* dataset, not a residential
+listing dataset. What IS present and now pulled: lot size (both
+GIS-measured and deed-recorded acreage), finished square footage, year
+built, home style/dwelling type, garage, basement, heating/cooling, and
+unit count. ⚠️ UNVERIFIED: the schema confirms these FIELDS exist, but
+this project has not yet seen a real query response with them
+POPULATED — MetroGIS's own documentation warns "not all attributes are
+populated for all counties," so expect some of these to come back null
+for a given property, same as EMV_TOTAL/SALE_VALUE already sometimes do.
+Treat the first live run pulling these as the actual verification step,
+same practice as everywhere else in this project.
 """
 
 import sys
@@ -27,7 +43,13 @@ PARCEL_QUERY_URL = (
     "https://arcgis.metc.state.mn.us/arcgis/rest/services/"
     "BaseLayer/Parcels/MapServer/0/query"
 )
-OUT_FIELDS = "PIN,ST_NAME,ANUMBER,CTU_NAME,ZIP,OWNER_NAME,EMV_LAND,EMV_BLDG,EMV_TOTAL,SALE_VALUE,SALE_DATE,CO_NAME"
+# Building-detail fields added 2026-08-18 — see module docstring for the
+# "confirmed absent" bed/bath finding and the "unverified populated"
+# caveat on everything below ACRES_POLY.
+OUT_FIELDS = ("PIN,ST_NAME,ANUMBER,CTU_NAME,ZIP,OWNER_NAME,EMV_LAND,EMV_BLDG,EMV_TOTAL,"
+              "SALE_VALUE,SALE_DATE,CO_NAME,"
+              "ACRES_POLY,ACRES_DEED,FIN_SQ_FT,YEAR_BUILT,HOME_STYLE,DWELL_TYPE,"
+              "GARAGE,GARAGESQFT,BASEMENT,HEATING,COOLING,NUM_UNITS")
 
 
 # USPS standard suffix abbreviation -> full word. A simple "is the
@@ -107,8 +129,8 @@ def parse_sale_date(epoch_ms: int | None) -> str | None:
 def lookup_parcel(house_number: str, street_name: str, city: str | None = None,
                    suffix: str | None = None) -> dict | None:
     """Returns the best-matching parcel's assessed value, sale history,
-    and centroid coordinates, or None if no match / ambiguous with no
-    way to disambiguate.
+    building details, and centroid coordinates, or None if no match /
+    ambiguous with no way to disambiguate.
 
     Tries progressively looser filter combinations until one produces a
     single unambiguous match:
@@ -182,6 +204,28 @@ def _query_parcel(house_number: str, street_name: str, city: str | None,
         "county": attrs.get("CO_NAME"),
         "lng": centroid[0] if centroid else None,
         "lat": centroid[1] if centroid else None,
+        # Building details — see module docstring "BUILDING DETAIL
+        # FIELDS" note. acres_poly is GIS-measured from the parcel
+        # boundary; acres_deed is the legally recorded deed acreage —
+        # they can differ (surveying, easements, rounding); expose both
+        # rather than picking one.
+        "acres_poly": attrs.get("ACRES_POLY"),
+        "acres_deed": attrs.get("ACRES_DEED"),
+        "fin_sq_ft": attrs.get("FIN_SQ_FT"),
+        "year_built": attrs.get("YEAR_BUILT"),
+        "home_style": attrs.get("HOME_STYLE"),
+        "dwell_type": attrs.get("DWELL_TYPE"),
+        "garage": attrs.get("GARAGE"),
+        "garage_sqft": attrs.get("GARAGESQFT"),
+        "basement": attrs.get("BASEMENT"),
+        "heating": attrs.get("HEATING"),
+        "cooling": attrs.get("COOLING"),
+        # Number of units on the parcel — potentially useful signal for
+        # the known multi-unit-condo-building match limitation (see
+        # HANDOFF.md "801 Washington Lofts" note): a high NUM_UNITS on an
+        # otherwise-ambiguous match might explain WHY it's ambiguous,
+        # even though this doesn't change the matching logic itself.
+        "num_units": attrs.get("NUM_UNITS"),
     }
 
 
