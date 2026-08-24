@@ -736,6 +736,22 @@
     "matched_executed_by_format": false
   },
   {
+    "mortgagor_name": "Metro Pointe 400 BH LLC",
+    "mortgage_amount": 26600000.0,
+    "property_address_raw": "400 Highway 169 S Saint Louis Park",
+    "house_number": "400",
+    "street_name": "Highway 169 S Saint Louis Park",
+    "street_suffix": null,
+    "street_direction": "",
+    "city": null,
+    "zip": null,
+    "county": "the",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4194115",
+    "matched_numbered_format": true,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "Metro Pointe 300 BH LLC",
     "mortgage_amount": 19425000.0,
     "property_address_raw": "300 Highway 169 S Saint Louis Park",
