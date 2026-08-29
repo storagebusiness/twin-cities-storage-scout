@@ -103,9 +103,8 @@
     "address": "14 24th ST, WINDOM",
     "parcel_id": null,
     "coordinates": {
-      "lat": 44.010639,
-      "lng": -95.183152,
-      "precision": "county_centroid"
+      "lat": 43.880434451638,
+      "lng": -95.103572495243
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=3920839",
     "date_listed": "Aug 17, 2026 10:55 AM MDT",
@@ -148,9 +147,8 @@
     "address": "118 WHITED ST W, JEFFERS",
     "parcel_id": null,
     "coordinates": {
-      "lat": 44.010639,
-      "lng": -95.183152,
-      "precision": "county_centroid"
+      "lat": 44.056021831273,
+      "lng": -95.196854936807
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4020921",
     "date_listed": "Aug 17, 2026 10:55 AM MDT",
@@ -193,9 +191,8 @@
     "address": "116 WHITED ST W, JEFFERS",
     "parcel_id": null,
     "coordinates": {
-      "lat": 44.010639,
-      "lng": -95.183152,
-      "precision": "county_centroid"
+      "lat": 44.056021571713,
+      "lng": -95.196829580193
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4020970",
     "date_listed": "Aug 17, 2026 10:55 AM MDT",
@@ -238,9 +235,8 @@
     "address": "407 BEST AVE N, JEFFERS",
     "parcel_id": null,
     "coordinates": {
-      "lat": 44.010639,
-      "lng": -95.183152,
-      "precision": "county_centroid"
+      "lat": 44.059264827868,
+      "lng": -95.198020575127
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4021048",
     "date_listed": "Aug 17, 2026 10:55 AM MDT",
@@ -283,9 +279,8 @@
     "address": "1003 BOXELDER ST, MOUNTAIN LAKE",
     "parcel_id": null,
     "coordinates": {
-      "lat": 44.010639,
-      "lng": -95.183152,
-      "precision": "county_centroid"
+      "lat": 43.936609695133,
+      "lng": -94.926495212693
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4021452",
     "date_listed": "Aug 17, 2026 10:55 AM MDT",
@@ -328,9 +323,8 @@
     "address": "826 10TH ST N, MOUNTAIN LAKE",
     "parcel_id": null,
     "coordinates": {
-      "lat": 44.010639,
-      "lng": -95.183152,
-      "precision": "county_centroid"
+      "lat": 43.944896960698,
+      "lng": -94.932865873875
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4021536",
     "date_listed": "Aug 17, 2026 10:55 AM MDT",
@@ -373,9 +367,8 @@
     "address": "701 7TH ST, MOUNTAIN LAKE",
     "parcel_id": null,
     "coordinates": {
-      "lat": 44.010639,
-      "lng": -95.183152,
-      "precision": "county_centroid"
+      "lat": 43.941812485217,
+      "lng": -94.936211138495
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4022080",
     "date_listed": "Aug 17, 2026 10:55 AM MDT",
@@ -418,9 +411,8 @@
     "address": "800 1ST AVE S, MOUNTAIN LAKE",
     "parcel_id": null,
     "coordinates": {
-      "lat": 44.010639,
-      "lng": -95.183152,
-      "precision": "county_centroid"
+      "lat": 43.935837573579,
+      "lng": -94.932727363121
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4022120",
     "date_listed": "Aug 17, 2026 10:55 AM MDT",
@@ -553,9 +545,8 @@
     "address": "854 CEDAR AVE, WESTBROOK",
     "parcel_id": null,
     "coordinates": {
-      "lat": 44.010639,
-      "lng": -95.183152,
-      "precision": "county_centroid"
+      "lat": 44.044635503332,
+      "lng": -95.431871331063
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4022173",
     "date_listed": "Aug 17, 2026 10:55 AM MDT",
@@ -598,9 +589,8 @@
     "address": "858 10TH ST, WESTBROOK",
     "parcel_id": null,
     "coordinates": {
-      "lat": 44.010639,
-      "lng": -95.183152,
-      "precision": "county_centroid"
+      "lat": 44.04588759011,
+      "lng": -95.437383554908
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4022268",
     "date_listed": "Aug 17, 2026 10:55 AM MDT",
@@ -654,14 +644,14 @@
     "price": {
       "current_bid": 5500.0,
       "minimum_bid": null,
-      "tier1_emv_price": 5500,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 5500,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -699,14 +689,14 @@
     "price": {
       "current_bid": 4500.0,
       "minimum_bid": null,
-      "tier1_emv_price": 4500,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 4500,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -744,14 +734,14 @@
     "price": {
       "current_bid": 5700.0,
       "minimum_bid": null,
-      "tier1_emv_price": 5700,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 5700,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -789,14 +779,14 @@
     "price": {
       "current_bid": 105100.0,
       "minimum_bid": null,
-      "tier1_emv_price": 105100,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 105100,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -834,14 +824,14 @@
     "price": {
       "current_bid": 10700.0,
       "minimum_bid": null,
-      "tier1_emv_price": 10700,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 10700,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -879,14 +869,14 @@
     "price": {
       "current_bid": 202.5,
       "minimum_bid": null,
-      "tier1_emv_price": 200,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 200,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -924,14 +914,14 @@
     "price": {
       "current_bid": 200.0,
       "minimum_bid": null,
-      "tier1_emv_price": 200,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 200,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -969,14 +959,14 @@
     "price": {
       "current_bid": 200.0,
       "minimum_bid": null,
-      "tier1_emv_price": 200,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 200,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1014,14 +1004,14 @@
     "price": {
       "current_bid": 202.5,
       "minimum_bid": null,
-      "tier1_emv_price": 200,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 200,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1059,14 +1049,14 @@
     "price": {
       "current_bid": 200.0,
       "minimum_bid": null,
-      "tier1_emv_price": 200,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 200,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1104,14 +1094,14 @@
     "price": {
       "current_bid": 200.0,
       "minimum_bid": null,
-      "tier1_emv_price": 200,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 200,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1149,14 +1139,14 @@
     "price": {
       "current_bid": 76500.0,
       "minimum_bid": null,
-      "tier1_emv_price": 76500,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 76500,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1194,14 +1184,14 @@
     "price": {
       "current_bid": 10100.0,
       "minimum_bid": null,
-      "tier1_emv_price": 10100,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 10100,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1239,14 +1229,14 @@
     "price": {
       "current_bid": 25900.0,
       "minimum_bid": null,
-      "tier1_emv_price": 25900,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 25900,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1284,14 +1274,14 @@
     "price": {
       "current_bid": 10000.0,
       "minimum_bid": null,
-      "tier1_emv_price": 10000,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 10000,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
