@@ -544,38 +544,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "John Frederick Mueller, A Single Man",
-    "mortgage_amount": 244440.0,
-    "property_address_raw": "8309 16th Ave S Bloomington",
-    "house_number": "8309",
-    "street_name": "16th",
-    "street_suffix": "Ave",
-    "street_direction": "S",
-    "city": "Bloomington",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "09/02/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4199288",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
-    "mortgagor_name": "Steven B. Law and Patricia Law, husband and wife",
-    "mortgage_amount": 190000.0,
-    "property_address_raw": "20155 County Rd Rogers",
-    "house_number": "20155",
-    "street_name": "County",
-    "street_suffix": "Rd",
-    "street_direction": "",
-    "city": "Rogers",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "09/03/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4199398",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "Alexis Aplonia Viray, an unmarried woman",
     "mortgage_amount": 135800.0,
     "property_address_raw": "3751 Penn Ave N Minneapolis",
@@ -830,22 +798,6 @@
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4194119",
     "matched_numbered_format": true,
     "matched_executed_by_format": false
-  },
-  {
-    "mortgagor_name": "Stieg Strand",
-    "mortgage_amount": 250000.0,
-    "property_address_raw": "13277 Melody Ct Eden Prairie",
-    "house_number": "13277",
-    "street_name": "Melody",
-    "street_suffix": "Ct",
-    "street_direction": "",
-    "city": "Eden Prairie",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4193207",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": true
   },
   {
     "mortgagor_name": "Schaefco Development, LLC",
