@@ -512,38 +512,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "John L Poggione, a married person",
-    "mortgage_amount": 245410.0,
-    "property_address_raw": "185 Meadow Dr Loretto",
-    "house_number": "185",
-    "street_name": "Meadow",
-    "street_suffix": "Dr",
-    "street_direction": "",
-    "city": "Loretto",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "10/09/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4199818",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
-    "mortgagor_name": "Katherine M Paulsen-Zissos and Jeffrey Paulsen, Wife and Husband, as Joint Tenants",
-    "mortgage_amount": 249945.0,
-    "property_address_raw": "9911 96th Pl N Maple Grove",
-    "house_number": "9911",
-    "street_name": "96th",
-    "street_suffix": "Pl",
-    "street_direction": "N",
-    "city": "Maple Grove",
-    "zip": null,
-    "county": null,
-    "auction_date": "10/27/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4199835",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "Alexis Aplonia Viray, an unmarried woman",
     "mortgage_amount": 135800.0,
     "property_address_raw": "3751 Penn Ave N Minneapolis",
@@ -752,22 +720,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "George W. Klus and Anne L. Klus",
-    "mortgage_amount": 200000.0,
-    "property_address_raw": "5233 Lochloy Dr Edina",
-    "house_number": "5233",
-    "street_name": "Lochloy",
-    "street_suffix": "Dr",
-    "street_direction": "",
-    "city": "Edina",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197286",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": true
-  },
-  {
     "mortgagor_name": "Metro Pointe 400 BH LLC",
     "mortgage_amount": 26600000.0,
     "property_address_raw": "400 Highway 169 S Saint Louis Park",
@@ -798,6 +750,22 @@
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4194119",
     "matched_numbered_format": true,
     "matched_executed_by_format": false
+  },
+  {
+    "mortgagor_name": "Stieg Strand",
+    "mortgage_amount": 250000.0,
+    "property_address_raw": "13277 Melody Ct Eden Prairie",
+    "house_number": "13277",
+    "street_name": "Melody",
+    "street_suffix": "Ct",
+    "street_direction": "",
+    "city": "Eden Prairie",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4193207",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true
   },
   {
     "mortgagor_name": "Schaefco Development, LLC",
