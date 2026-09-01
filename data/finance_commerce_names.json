@@ -1,5 +1,131 @@
 [
   {
+    "renter_name": "Bryce A Brannan",
+    "contents_text": "household goods, furnishings and garage essentials",
+    "facility_address_raw": "14450 James Rd., Rogers, MN 55374",
+    "facility_address_normalized": "14450 james rd rogers mn 55374",
+    "auction_date": "",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4206490",
+    "matched_unit_format": "flat_semicolon_list"
+  },
+  {
+    "renter_name": "Marilyn Nolting",
+    "contents_text": "household goods, furnishings and garage essentials",
+    "facility_address_raw": "14450 James Rd., Rogers, MN 55374",
+    "facility_address_normalized": "14450 james rd rogers mn 55374",
+    "auction_date": "",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4206490",
+    "matched_unit_format": "flat_semicolon_list"
+  },
+  {
+    "renter_name": "Liam A Benson",
+    "contents_text": "household goods, furnishings and garage essentials",
+    "facility_address_raw": "1400 Selby Ave St., Paul MN 55104",
+    "facility_address_normalized": "1400 selby ave st paul mn 55104",
+    "auction_date": "",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4206493",
+    "matched_unit_format": "flat_semicolon_list"
+  },
+  {
+    "renter_name": "Michele J Cureton",
+    "contents_text": "household goods, furnishings and garage essentials",
+    "facility_address_raw": "1400 Selby Ave St., Paul MN 55104",
+    "facility_address_normalized": "1400 selby ave st paul mn 55104",
+    "auction_date": "",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4206493",
+    "matched_unit_format": "flat_semicolon_list"
+  },
+  {
+    "renter_name": "Dominic W Selly",
+    "contents_text": "household goods, furnishings and garage essentials",
+    "facility_address_raw": "1400 Selby Ave St., Paul MN 55104",
+    "facility_address_normalized": "1400 selby ave st paul mn 55104",
+    "auction_date": "",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4206493",
+    "matched_unit_format": "flat_semicolon_list"
+  },
+  {
+    "renter_name": "Jennifer L Brown",
+    "contents_text": "household goods, furnishings and garage essentials",
+    "facility_address_raw": "1400 Selby Ave St., Paul MN 55104",
+    "facility_address_normalized": "1400 selby ave st paul mn 55104",
+    "auction_date": "",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4206493",
+    "matched_unit_format": "flat_semicolon_list"
+  },
+  {
+    "renter_name": "Nathaniel J Israel",
+    "contents_text": "household goods, furnishings and garage essentials",
+    "facility_address_raw": "1400 Selby Ave St., Paul MN 55104",
+    "facility_address_normalized": "1400 selby ave st paul mn 55104",
+    "auction_date": "",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4206493",
+    "matched_unit_format": "flat_semicolon_list"
+  },
+  {
+    "renter_name": "Robert C Fields",
+    "contents_text": "household goods, furnishings and garage essentials",
+    "facility_address_raw": "1400 Selby Ave St., Paul MN 55104",
+    "facility_address_normalized": "1400 selby ave st paul mn 55104",
+    "auction_date": "",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4206493",
+    "matched_unit_format": "flat_semicolon_list"
+  },
+  {
+    "renter_name": "Kierra A Murray",
+    "contents_text": "household goods, furnishings and garage essentials",
+    "facility_address_raw": "1400 Selby Ave St., Paul MN 55104",
+    "facility_address_normalized": "1400 selby ave st paul mn 55104",
+    "auction_date": "",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4206493",
+    "matched_unit_format": "flat_semicolon_list"
+  },
+  {
+    "renter_name": "Adrina C Jones",
+    "contents_text": "household goods, furnishings and garage essentials",
+    "facility_address_raw": "1400 Selby Ave St., Paul MN 55104",
+    "facility_address_normalized": "1400 selby ave st paul mn 55104",
+    "auction_date": "",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4206493",
+    "matched_unit_format": "flat_semicolon_list"
+  },
+  {
+    "renter_name": "Ashley J Burks",
+    "contents_text": "household goods, furnishings and garage essentials",
+    "facility_address_raw": "1400 Selby Ave St., Paul MN 55104",
+    "facility_address_normalized": "1400 selby ave st paul mn 55104",
+    "auction_date": "",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4206493",
+    "matched_unit_format": "flat_semicolon_list"
+  },
+  {
+    "renter_name": "Melvin L Anderson",
+    "contents_text": "household goods, furnishings and garage essentials",
+    "facility_address_raw": "1400 Selby Ave St., Paul MN 55104",
+    "facility_address_normalized": "1400 selby ave st paul mn 55104",
+    "auction_date": "",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4206493",
+    "matched_unit_format": "flat_semicolon_list"
+  },
+  {
+    "renter_name": "Elizabeth A Harris",
+    "contents_text": "household goods, furnishings and garage essentials",
+    "facility_address_raw": "1400 Selby Ave St., Paul MN 55104",
+    "facility_address_normalized": "1400 selby ave st paul mn 55104",
+    "auction_date": "",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4206493",
+    "matched_unit_format": "flat_semicolon_list"
+  },
+  {
+    "renter_name": "Aria M Sanders",
+    "contents_text": "household goods, furnishings and garage essentials",
+    "facility_address_raw": "1400 Selby Ave St., Paul MN 55104",
+    "facility_address_normalized": "1400 selby ave st paul mn 55104",
+    "auction_date": "",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4206493",
+    "matched_unit_format": "flat_semicolon_list"
+  },
+  {
     "renter_name": "Lenora Ware",
     "contents_text": "sports equip. tools luggage furniture boxes",
     "facility_address_raw": "UNKNOWN ( County)",
