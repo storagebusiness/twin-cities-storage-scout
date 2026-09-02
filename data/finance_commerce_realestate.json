@@ -528,6 +528,38 @@
     "matched_executed_by_format": false
   },
   {
+    "mortgagor_name": "Darin M. Sogge and Brittney A. Sogge, Husband and Wife as Joint Tenants",
+    "mortgage_amount": 296300.0,
+    "property_address_raw": "3817 Marigold Ct N Brooklyn Park",
+    "house_number": "3817",
+    "street_name": "Marigold",
+    "street_suffix": "Ct",
+    "street_direction": "N",
+    "city": "Brooklyn Park",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/11/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4198889",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
+    "mortgagor_name": "Anne T. Kegley, an unmarried person",
+    "mortgage_amount": 141024.0,
+    "property_address_raw": "9016 Old Cedar Ave S Bloomington",
+    "house_number": "9016",
+    "street_name": "Old Cedar",
+    "street_suffix": "Ave",
+    "street_direction": "S",
+    "city": "Bloomington",
+    "zip": null,
+    "county": null,
+    "auction_date": "09/23/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4198892",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "Alexis Aplonia Viray, an unmarried woman",
     "mortgage_amount": 135800.0,
     "property_address_raw": "3751 Penn Ave N Minneapolis",
@@ -717,6 +749,22 @@
     "auction_date": null,
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4202138",
     "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
+    "mortgagor_name": "W K Brown, L.L.C., a Minnesota limited liability company",
+    "mortgage_amount": 3100000.0,
+    "property_address_raw": "2590 Freeway Blvd Brooklyn Center",
+    "house_number": "2590",
+    "street_name": "Freeway",
+    "street_suffix": "Blvd",
+    "street_direction": "",
+    "city": "Brooklyn Center",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4201206",
+    "matched_numbered_format": true,
     "matched_executed_by_format": false
   },
   {

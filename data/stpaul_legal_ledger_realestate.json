@@ -408,23 +408,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Jason J. Vavra and Jan Arford, husband and wife, as joint tenants",
-    "mortgage_amount": 417000.0,
-    "property_address_raw": "5970 Hobe Ln W White Bear Lake",
-    "house_number": "5970",
-    "street_name": "Hobe",
-    "street_suffix": "Ln",
-    "street_direction": "W",
-    "city": "White Bear Lake",
-    "zip": null,
-    "county": "Ramsey",
-    "auction_date": null,
-    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4199621",
-    "source": "stpaul_legal_ledger",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "TNT Properties and Investments LLC",
     "mortgage_amount": 186000.0,
     "property_address_raw": "2200 English St N Maplewood",
