@@ -496,22 +496,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Dawn Maxwell, as Single Person",
-    "mortgage_amount": 185762.0,
-    "property_address_raw": "7301 W 101st St Minneapolis",
-    "house_number": "7301",
-    "street_name": "101st",
-    "street_suffix": "St",
-    "street_direction": "W",
-    "city": "Minneapolis",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "09/18/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4201191",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "Darin M. Sogge and Brittney A. Sogge, Husband and Wife as Joint Tenants",
     "mortgage_amount": 296300.0,
     "property_address_raw": "3817 Marigold Ct N Brooklyn Park",
@@ -704,22 +688,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Richard C Heimerl and Jill A Heimerl, married to each other",
-    "mortgage_amount": 350000.0,
-    "property_address_raw": "11519 Fetterly Rd W Minnetonka",
-    "house_number": "11519",
-    "street_name": "Fetterly",
-    "street_suffix": "Rd",
-    "street_direction": "W",
-    "city": "Minnetonka",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4209937",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": true
-  },
-  {
     "mortgagor_name": "Kelliann H. Woods, a single woman",
     "mortgage_amount": 221306.0,
     "property_address_raw": "3815 N 27th Ave Robbinsdale",
@@ -736,18 +704,18 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Michael J. Hadler, spouse of Stacey Renee Hey and Stacey Renee Hey, spouse of Michael J. Hadler",
-    "mortgage_amount": 517500.0,
-    "property_address_raw": "1509 Linner Rd Minnetonka",
-    "house_number": "1509",
-    "street_name": "Linner",
+    "mortgagor_name": "Richard C Heimerl and Jill A Heimerl, married to each other",
+    "mortgage_amount": 350000.0,
+    "property_address_raw": "11519 Fetterly Rd W Minnetonka",
+    "house_number": "11519",
+    "street_name": "Fetterly",
     "street_suffix": "Rd",
-    "street_direction": "",
+    "street_direction": "W",
     "city": "Minnetonka",
     "zip": null,
     "county": "Hennepin",
     "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4204941",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4209937",
     "matched_numbered_format": false,
     "matched_executed_by_format": true
   },
@@ -765,22 +733,6 @@
     "auction_date": null,
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4202138",
     "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
-    "mortgagor_name": "W K Brown, L.L.C., a Minnesota limited liability company",
-    "mortgage_amount": 3100000.0,
-    "property_address_raw": "2590 Freeway Blvd Brooklyn Center",
-    "house_number": "2590",
-    "street_name": "Freeway",
-    "street_suffix": "Blvd",
-    "street_direction": "",
-    "city": "Brooklyn Center",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4201206",
-    "matched_numbered_format": true,
     "matched_executed_by_format": false
   },
   {
@@ -860,6 +812,22 @@
     "county": "Hennepin",
     "auction_date": null,
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4193224",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true
+  },
+  {
+    "mortgagor_name": "Day Block Holdings, LLC",
+    "mortgage_amount": 2679558.6,
+    "property_address_raw": "1101 Washington Ave S Minneapolis",
+    "house_number": "1101",
+    "street_name": "Washington",
+    "street_suffix": "Ave",
+    "street_direction": "S",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4192449",
     "matched_numbered_format": false,
     "matched_executed_by_format": true
   }
