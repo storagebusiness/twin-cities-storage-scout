@@ -1,5 +1,32 @@
 [
   {
+    "renter_name": "George Wozniak",
+    "contents_text": "Boxes, miscellaneous pieces of furniture, household goods",
+    "facility_address_raw": "2060 7th St W, St Paul MN, 55116",
+    "facility_address_normalized": "2060 7th st w st paul mn 55116",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4210132",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "William Ray",
+    "contents_text": "Boxes, furniture, misc. household goods\r\nUnit # 2844 - Alicia Gibbs: Luggage and storage containers",
+    "facility_address_raw": "2060 7th St W, St Paul MN, 55116",
+    "facility_address_normalized": "2060 7th st w st paul mn 55116",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4210132",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Michael Kienlen",
+    "contents_text": "Furniture, musical instruments and equipment, chairs, misc. household goods",
+    "facility_address_raw": "2060 7th St W, St Paul MN, 55116",
+    "facility_address_normalized": "2060 7th st w st paul mn 55116",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4210132",
+    "source": "stpaul_legal_ledger"
+  },
+  {
     "renter_name": "Jameka Kelly",
     "contents_text": "snowblower luggage furniture boxes",
     "facility_address_raw": "UNKNOWN (Ramsey County)",
