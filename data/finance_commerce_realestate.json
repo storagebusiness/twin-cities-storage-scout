@@ -1,5 +1,21 @@
 [
   {
+    "mortgagor_name": "Lavonte Henderson",
+    "mortgage_amount": 199399.0,
+    "property_address_raw": "1344 Brookdale Dr Minneapolis",
+    "house_number": "1344",
+    "street_name": "Brookdale",
+    "street_suffix": "Dr",
+    "street_direction": "",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": null,
+    "auction_date": "10/21/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4211759",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "Hershale Avae Love, a single person",
     "mortgage_amount": 224950.0,
     "property_address_raw": "7543 62nd Ct N Brooklyn Park",
