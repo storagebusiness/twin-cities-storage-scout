@@ -1,5 +1,21 @@
 [
   {
+    "mortgagor_name": "Robert Probach, A Single Man, As Sole Ownership",
+    "mortgage_amount": 312000.0,
+    "property_address_raw": "5450 Three Points Blvd Mound",
+    "house_number": "5450",
+    "street_name": "Three Points",
+    "street_suffix": "Blvd",
+    "street_direction": "",
+    "city": "Mound",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "10/26/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4212289",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "Lavonte Henderson",
     "mortgage_amount": 199399.0,
     "property_address_raw": "1344 Brookdale Dr Minneapolis",
@@ -512,38 +528,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Moliza R Dennis, a single person, and Vera Dixon, a married woman",
-    "mortgage_amount": 209142.0,
-    "property_address_raw": "7037 Perry Ave N Brooklyn Center",
-    "house_number": "7037",
-    "street_name": "Perry",
-    "street_suffix": "Ave",
-    "street_direction": "N",
-    "city": "Brooklyn Center",
-    "zip": null,
-    "county": null,
-    "auction_date": "09/24/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4202806",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
-    "mortgagor_name": "Diane J. Archie, a single person",
-    "mortgage_amount": 95000.0,
-    "property_address_raw": "2519 14th Ave S Minneapolis",
-    "house_number": "2519",
-    "street_name": "14th",
-    "street_suffix": "Ave",
-    "street_direction": "S",
-    "city": "Minneapolis",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "09/24/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4202813",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "Dawn Maxwell, as Single Person",
     "mortgage_amount": 185762.0,
     "property_address_raw": "7301 W 101st St Minneapolis",
@@ -972,22 +956,6 @@
     "county": "Hennepin",
     "auction_date": null,
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4193224",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": true
-  },
-  {
-    "mortgagor_name": "Day Block Holdings, LLC",
-    "mortgage_amount": 2679558.6,
-    "property_address_raw": "1101 Washington Ave S Minneapolis",
-    "house_number": "1101",
-    "street_name": "Washington",
-    "street_suffix": "Ave",
-    "street_direction": "S",
-    "city": "Minneapolis",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4192449",
     "matched_numbered_format": false,
     "matched_executed_by_format": true
   }
