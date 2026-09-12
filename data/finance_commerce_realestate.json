@@ -1,5 +1,21 @@
 [
   {
+    "mortgagor_name": "Thomas R. O`Brien and Sharon L. O`Brien, husband and wife",
+    "mortgage_amount": 225000.0,
+    "property_address_raw": "1304 Flag Ave S St. Louis Park",
+    "house_number": "1304",
+    "street_name": "Flag Ave S",
+    "street_suffix": "St",
+    "street_direction": "",
+    "city": ". Louis Park",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "10/13/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4212777",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "Robert Probach, A Single Man, As Sole Ownership",
     "mortgage_amount": 312000.0,
     "property_address_raw": "5450 Three Points Blvd Mound",
@@ -512,22 +528,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Thu-Nhan Thi Nguyen, A single Woman",
-    "mortgage_amount": 560000.0,
-    "property_address_raw": "4146 Trail Ridge Ln Minnetonka",
-    "house_number": "4146",
-    "street_name": "Trail Ridge",
-    "street_suffix": "Ln",
-    "street_direction": "",
-    "city": "Minnetonka",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "10/09/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4203177",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "Dawn Maxwell, as Single Person",
     "mortgage_amount": 185762.0,
     "property_address_raw": "7301 W 101st St Minneapolis",
@@ -736,36 +736,20 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Juan Jose Gonzalez and Gabriela Gonzalez Husband and Wife",
-    "mortgage_amount": 22196.0,
-    "property_address_raw": "6364 Juneau Ln N Maple Grove",
-    "house_number": "6364",
-    "street_name": "Juneau",
-    "street_suffix": "Ln",
+    "mortgagor_name": "Caroll E. Alvarez Cardona, AKA Caroll E. Alvarez and Giessi O. Munoz Hernandez, wife and husband",
+    "mortgage_amount": 150000.0,
+    "property_address_raw": "3850 Girard Ave N Minneapolis",
+    "house_number": "3850",
+    "street_name": "Girard",
+    "street_suffix": "Ave",
     "street_direction": "N",
-    "city": "Maple Grove",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "08/24/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4192824",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
-    "mortgagor_name": "Vicki R Schraber, a single woman",
-    "mortgage_amount": 157930.0,
-    "property_address_raw": "19 South 1st St Minneapolis",
-    "house_number": "19",
-    "street_name": "1st",
-    "street_suffix": "St",
-    "street_direction": "S",
     "city": "Minneapolis",
     "zip": null,
-    "county": null,
-    "auction_date": "08/24/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4192831",
+    "county": "the",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4212792",
     "matched_numbered_format": false,
-    "matched_executed_by_format": false
+    "matched_executed_by_format": true
   },
   {
     "mortgagor_name": "Metro Pointe 400 BH LLC",

@@ -644,14 +644,14 @@
     "price": {
       "current_bid": 5500.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 5500,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 5500,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -689,14 +689,14 @@
     "price": {
       "current_bid": 4500.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 4500,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 4500,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -734,14 +734,14 @@
     "price": {
       "current_bid": 5700.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 5700,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 5700,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -779,14 +779,14 @@
     "price": {
       "current_bid": 105100.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 105100,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 105100,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -824,14 +824,14 @@
     "price": {
       "current_bid": 10700.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 10700,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 10700,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -869,14 +869,14 @@
     "price": {
       "current_bid": 305.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 200,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 200,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -914,14 +914,14 @@
     "price": {
       "current_bid": 220.5,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 200,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 200,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -959,14 +959,14 @@
     "price": {
       "current_bid": 212.5,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 200,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 200,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1004,14 +1004,14 @@
     "price": {
       "current_bid": 405.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 200,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 200,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1049,14 +1049,14 @@
     "price": {
       "current_bid": 330.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 200,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 200,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1094,14 +1094,14 @@
     "price": {
       "current_bid": 400.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 200,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 200,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1139,14 +1139,14 @@
     "price": {
       "current_bid": 76500.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 76500,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 76500,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1184,14 +1184,14 @@
     "price": {
       "current_bid": 10100.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 10100,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 10100,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1229,14 +1229,14 @@
     "price": {
       "current_bid": 25900.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 25900,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 25900,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1274,14 +1274,14 @@
     "price": {
       "current_bid": 10000.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 10000,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 10000,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1495,7 +1495,7 @@
     },
     "raw_source_data": {
       "title": "Wright County Tax Forfeiture Auction - #112-012-003080 City of Montrose",
-      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number:\u00a0112-012-003080 Property Type:\u00a0RESIDENTIAL SINGLE UNIT Acres: 0.19 Condition: UNKNOWN General Description:\u00a0SECT-35 TWP-119 RANGE-026 HAVEN & WRIGHT'S ADDN LOT-008 BLOCK-00C E1/2 OF N1/2 OF LT8 BLK C CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidder, if said person or entity is delinquent on real or personal property taxes in Wright County. If you are interested in purchasing tax forfeited property on public auction, you must pay all of your delinquent taxes prior to purchasing or bidding. DISCLAIMERS Withdrawal "
+      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number:\u00a0112-012-003080 Property Type:\u00a0RESIDENTIAL SINGLE UNIT Acres: 0.19 Condition: UNKNOWN General Description:\u00a0SECT-35 TWP-119 RANGE-026 HAVEN & WRIGHT'S ADDN LOT-008 BLOCK-00C E1/2 OF N1/2 OF LT8 BLK C Comments: Check with the City of Montrose regarding delinquent utility assessments in the amount of $671.09 + $41.48 every month on the 26th if unpaid that may be reinstated, and for any other certified, pending, or future assessments. CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidder, if said person or entity is del"
     }
   },
   {
@@ -1983,7 +1983,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2028,7 +2028,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2073,7 +2073,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2118,7 +2118,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2163,7 +2163,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2208,7 +2208,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2253,7 +2253,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2298,7 +2298,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2343,7 +2343,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2388,7 +2388,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2433,7 +2433,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2478,7 +2478,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2523,7 +2523,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2568,7 +2568,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2613,7 +2613,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2658,7 +2658,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2703,7 +2703,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2748,7 +2748,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2793,7 +2793,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2838,7 +2838,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2883,7 +2883,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2928,7 +2928,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2973,7 +2973,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "lookup_status": "matched_but_no_emv_value"
     },
     "buildable": true,
     "buildability_notes": [],
