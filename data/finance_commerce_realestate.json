@@ -496,38 +496,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Juan P Nieves, an unmarried man",
-    "mortgage_amount": 180713.0,
-    "property_address_raw": "3743 Queen Ave N,  Minneapolis",
-    "house_number": "3743",
-    "street_name": "Queen",
-    "street_suffix": "Ave",
-    "street_direction": "N",
-    "city": "Minneapolis",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "11/10/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4203596",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
-    "mortgagor_name": "Thomas R. O`Brien and Sharon L. O`Brien, husband and wife",
-    "mortgage_amount": 225000.0,
-    "property_address_raw": "1304 Flag Ave S Minneapolis",
-    "house_number": "1304",
-    "street_name": "Flag",
-    "street_suffix": "Ave",
-    "street_direction": "S",
-    "city": "Minneapolis",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "09/11/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4203677",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "Dawn Maxwell, as Single Person",
     "mortgage_amount": 185762.0,
     "property_address_raw": "7301 W 101st St Minneapolis",
@@ -910,37 +878,5 @@
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4194119",
     "matched_numbered_format": true,
     "matched_executed_by_format": false
-  },
-  {
-    "mortgagor_name": "Stieg Strand",
-    "mortgage_amount": 250000.0,
-    "property_address_raw": "13277 Melody Ct Eden Prairie",
-    "house_number": "13277",
-    "street_name": "Melody",
-    "street_suffix": "Ct",
-    "street_direction": "",
-    "city": "Eden Prairie",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4193207",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": true
-  },
-  {
-    "mortgagor_name": "Schaefco Development, LLC",
-    "mortgage_amount": 600000.0,
-    "property_address_raw": "25300 Park Ln Shorewood",
-    "house_number": "25300",
-    "street_name": "Park",
-    "street_suffix": "Ln",
-    "street_direction": "",
-    "city": "Shorewood",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4193224",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": true
   }
 ]
