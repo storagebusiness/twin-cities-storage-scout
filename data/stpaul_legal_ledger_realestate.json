@@ -1,5 +1,22 @@
 [
   {
+    "mortgagor_name": "Jarome Watson, a single person",
+    "mortgage_amount": 221961.0,
+    "property_address_raw": "1353 5th St E Saint Paul",
+    "house_number": "1353",
+    "street_name": "5th",
+    "street_suffix": "St",
+    "street_direction": "E",
+    "city": "Saint Paul",
+    "zip": null,
+    "county": null,
+    "auction_date": "11/30/2026",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4211564",
+    "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "Christopher W Bergstrom and Grace C Bergstrom, Husband and Wife",
     "mortgage_amount": 211460.0,
     "property_address_raw": "2513 15th Ave E North St Paul",
@@ -131,6 +148,23 @@
     "county": "Ramsey",
     "auction_date": "11/03/2026",
     "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4206507",
+    "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
+    "mortgagor_name": "Monica H. Lee, a single person",
+    "mortgage_amount": 144000.0,
+    "property_address_raw": "330 Arlington Ave E Saint Paul",
+    "house_number": "330",
+    "street_name": "Arlington",
+    "street_suffix": "Ave",
+    "street_direction": "E",
+    "city": "Saint Paul",
+    "zip": null,
+    "county": "Ramsey",
+    "auction_date": "09/23/2026",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4202285",
     "source": "stpaul_legal_ledger",
     "matched_numbered_format": false,
     "matched_executed_by_format": false
