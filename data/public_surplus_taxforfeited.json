@@ -111,7 +111,7 @@
     "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
-      "current_bid": 1413.0,
+      "current_bid": 1525.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -464,7 +464,7 @@
     "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
-      "current_bid": 1900.0,
+      "current_bid": 1950.0,
       "minimum_bid": 445.76,
       "tier1_emv_price": 900.0,
       "tier2_minimum_price": 445.76,
@@ -509,7 +509,7 @@
     "date_closes": "Sep 16, 2026 11:00 AM MDT",
     "status": "open",
     "price": {
-      "current_bid": 1300.0,
+      "current_bid": 1350.0,
       "minimum_bid": 413.41,
       "tier1_emv_price": 600.0,
       "tier2_minimum_price": 413.41,
@@ -912,7 +912,7 @@
     "date_closes": "Sep 17, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 405.0,
+      "current_bid": 435.0,
       "minimum_bid": null,
       "tier1_emv_price": 200,
       "tier2_minimum_price": null,
@@ -2984,51 +2984,6 @@
     "raw_source_data": {
       "title": "Koochiching County Tax-Forfeiture Tract 22 (PID 95-001-04040)",
       "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description City of Littlefork AUDITOR'S PLAT 8-REVISED Lot 4; Block 4 (909 2nd Avenue) This parcel contains a house and a garage with the below mentioned encroachment issue with the garage. Parcel Number: 95-001-04040 **Important Note to Potential Bidders; the garage on this parcel encroaches onto a neighboring parcel.\u00a0 Potential bidders are encouraged to seek possible solutions to this encroachment prior to bidding on this tract** Starting Bid Price:\u00a0$17,710.00 Bidding for the first auction period on this tract will open on Monday,\u00a0October 12, 2026 at 8:00 A.M. CST and will close on Tuesday, November 10, 2026 at 10:00 A.M. CST. If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlef"
-    }
-  },
-  {
-    "id": "publicsurplus-4083193",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Mahnomen",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "06-018-0810",
-    "coordinates": {
-      "lat": 47.328387,
-      "lng": -95.811089,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4083193",
-    "date_listed": null,
-    "date_closes": "Nov 12, 2026 09:00 AM MST",
-    "status": "open",
-    "price": {
-      "current_bid": 4000.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
-    },
-    "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Mahnomen County Tax-Forfeiture (PID 06-018-0810)",
-      "description_text": "Description Parcel Number: 06-018-0810 Property Type: Residential Lot Size (Acres): .34 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description Commencing at the Southwest Corner of the Southwest Quarter of the Northeast Quarter (SW\u00bcNE\u00bc), Section Eighteen (18), Township One Hundred Forty Six (146) North, Range Forty (40) West of the Fifth Principal Meridian, thence in a Westerly direction along the quarter section line of Section 18 a distance of approximately 820 feet, more or less, to a point being the point of beginning; thence in a Northerly direction a distance of 150 feet; thence in a Westerly direction a distance of 100 feet; thence in a Southerly direction a distance of 150 feet to a point of intersection with the quarter section line of Section 18; thence in an Easterly direction along the course of the quarter line of Section 18 a distance of 100 feet to the point of beginning, and there terminating. The above described parcel of property also includes a roadway easement from the Southwest Corner of the above described parcel of property, thence in a Westerly direction across the grantor's adjoining property to a point of intersection with a Heier Township road. This easement is intended to give the grantees a means of ingress and egress to the above described parcel of property. Parcel Number: 06-018-0810 Starting Bid Price:\u00a0$4,000.00 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023.\u00a0 The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-"
     }
   }
 ]
