@@ -1,5 +1,21 @@
 [
   {
+    "mortgagor_name": "Gabriela E Gallegos Camacho, An Unmarried Woman",
+    "mortgage_amount": 182000.0,
+    "property_address_raw": "2524 Bloomington Ave Minneapolis",
+    "house_number": "2524",
+    "street_name": "Bloomington",
+    "street_suffix": "Ave",
+    "street_direction": "",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": "11/13/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4214021",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "Arturo J Leal Islas Jr, A Single Person",
     "mortgage_amount": 266076.0,
     "property_address_raw": "9832 Penn Ave S Bloomington",
