@@ -1,680 +1,5 @@
 [
   {
-    "id": "publicsurplus-4051569",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "06.0396.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4051569",
-    "date_listed": "Aug 19, 2026 07:00 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 5500.0,
-      "minimum_bid": null,
-      "tier1_emv_price": 5500,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 5500,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 06.0396.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 06.0396.000 Location :\u00a0Town of Cushing - Enchanted Lakes 1st Addition Legal : LOT 019 BLOCK 012 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4051585",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "08.0537.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4051585",
-    "date_listed": "Aug 19, 2026 07:00 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 4500.0,
-      "minimum_bid": null,
-      "tier1_emv_price": 4500,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 4500,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 08.0537.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 08.0537.000 Location :\u00a0Town of Cushing - Enchanted Lakes Golf Course Addition Legal : LOT 030 BLOCK 002 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4051593",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "06.0439.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4051593",
-    "date_listed": "Aug 19, 2026 07:00 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 5700.0,
-      "minimum_bid": null,
-      "tier1_emv_price": 5700,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 5700,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 06.0439.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 06.0396.000 Location :\u00a0Town of Cushing - Enchanted Lakes 1st Addition Legal : LOT 012 BLOCK 014 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4052371",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "29.2095.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052371",
-    "date_listed": "Aug 19, 2026 07:14 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 105100.0,
-      "minimum_bid": null,
-      "tier1_emv_price": 105100,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 105100,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2095.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 29.2095.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 10th Addition Legal : LOT 133 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4052378",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "29.2096.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052378",
-    "date_listed": "Aug 19, 2026 07:16 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 10700.0,
-      "minimum_bid": null,
-      "tier1_emv_price": 10700,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 10700,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2096.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 29.2096.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 10th Addition Legal : LOT 134 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4052381",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "29.2470.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052381",
-    "date_listed": "Aug 19, 2026 07:19 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 504.99,
-      "minimum_bid": null,
-      "tier1_emv_price": 200,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 200,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2470.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 29.2470.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 11th Addition Legal : LOT 002 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4052383",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "29.2472.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052383",
-    "date_listed": "Aug 19, 2026 07:20 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 435.0,
-      "minimum_bid": null,
-      "tier1_emv_price": 200,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 200,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2472.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 29.2472.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 11th Addition Legal : LOT 004 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4052388",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "29.2474.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052388",
-    "date_listed": "Aug 19, 2026 07:22 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 504.99,
-      "minimum_bid": null,
-      "tier1_emv_price": 200,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 200,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2474.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 29.2474.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 11th Addition Legal : LOT 006 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4052390",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "29.2480.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052390",
-    "date_listed": "Aug 19, 2026 07:24 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 410.0,
-      "minimum_bid": null,
-      "tier1_emv_price": 200,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 200,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2480.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 24.2480.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 11th Addition Legal : LOT 012 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4052391",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "29.2481.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052391",
-    "date_listed": "Aug 19, 2026 07:25 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 860.0,
-      "minimum_bid": null,
-      "tier1_emv_price": 200,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 200,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2481.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 24.2481.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 11th Addition Legal : LOT 013 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4052392",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "29.2482.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052392",
-    "date_listed": "Aug 19, 2026 07:26 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 504.99,
-      "minimum_bid": null,
-      "tier1_emv_price": 200,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 200,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 29.2482.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 24.2482.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 11th Addition Legal : LOT 014 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4052398",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "48.1850.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052398",
-    "date_listed": "Aug 19, 2026 07:29 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 76500.0,
-      "minimum_bid": null,
-      "tier1_emv_price": 76500,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 76500,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 48.1850.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 48.1850.000 Location :\u00a0City of Little Falls - Berg's Addition Legal :\u00a0Lot 001 and 002 Block 011 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4052400",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "48.1851.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052400",
-    "date_listed": "Aug 19, 2026 07:31 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 10100.0,
-      "minimum_bid": null,
-      "tier1_emv_price": 10100,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 10100,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 48.1851.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 48.1851.000 Location :\u00a0City of Little Falls - Berg's Addition Legal :\u00a0Lot 003 Block 011 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4052404",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "48.2902.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052404",
-    "date_listed": "Aug 19, 2026 07:32 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 25900.0,
-      "minimum_bid": null,
-      "tier1_emv_price": 25900,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 25900,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 48.2902.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 48.2902.000 Location :\u00a0City of Little Falls - North Bluff Addition Legal :\u00a0Lot 009 Block 003 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4054908",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "26.0411.003",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4054908",
-    "date_listed": "Aug 19, 2026 07:00 AM MDT",
-    "date_closes": "Sep 17, 2026 01:00 PM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 10000.0,
-      "minimum_bid": null,
-      "tier1_emv_price": 10000,
-      "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
-    },
-    "assessed_value": {
-      "emv_total": 10000,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 26.0411.003",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 26.0411.003 Location :\u00a0Town of Richardson Legal :\u00a0Section 28 Township 042 Range 028, E 200 FT OF N 1089 FT OF W1/2 OF SE1/4 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. *THIS PARCEL IS TORENS AND ADDITIONAL RECORDING FEES MAY APPLY \u2013 CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE WITH ANY QUESTIONS 320-632-0146. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
     "id": "publicsurplus-4064459",
     "source": "public_surplus",
     "state": "MN",
@@ -1329,6 +654,321 @@
     "raw_source_data": {
       "title": "Sibley County Tax Forfeiture Parcel 36-0032-000",
       "description_text": "Description Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY SIBLEY COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND. SIBLEY COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENT(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Sibley County Online Land Sales: Standard Disclaimer and Sibley County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. General Description Location: City of New Auburn Parcel: 36-0032-000 Legal: Lot 7, Block 9, Original City of New Auburn Size: 66' Feet x 123' Feet Estimated Market Value: $6,500.00 Special Assessments After Forfeiture: $0.00 Special Assessments Before Forfeiture: $1,491.65 PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Deed: State Deed will be given after full payment is made. A state deed is a quitclaim deed which has the characteristics of a patent from the State of Minnesota. Full Payment: Full Payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: Any lands offered for sale may be subject to unpaid assessments against the property. Before purchasing, any prospective buyer should consult the city or township clerk and county, in respect to any unpaid assessments "
+    }
+  },
+  {
+    "id": "publicsurplus-4089572",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Morrison",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "06.0396.000",
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4089572",
+    "date_listed": null,
+    "date_closes": "Oct 5, 2026 01:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 180.0,
+      "minimum_bid": null,
+      "tier1_emv_price": 5500,
+      "tier2_minimum_price": null,
+      "price_basis": "self_contained_dual_tier"
+    },
+    "assessed_value": {
+      "emv_total": 5500,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Morrison County Tax Forfeiture Parcel 06.0396.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 06.0396.000 Location :\u00a0Town of Cushing - Enchanted Lakes 1st Addition Legal : LOT 019 BLOCK 012 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
+    }
+  },
+  {
+    "id": "publicsurplus-4089576",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Morrison",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "29.2095.000",
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4089576",
+    "date_listed": null,
+    "date_closes": "Oct 5, 2026 01:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 3645.0,
+      "minimum_bid": null,
+      "tier1_emv_price": 105100,
+      "tier2_minimum_price": null,
+      "price_basis": "self_contained_dual_tier"
+    },
+    "assessed_value": {
+      "emv_total": 105100,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Morrison County Tax Forfeiture Parcel 29.2095.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 29.2095.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 10th Addition Legal : LOT 133 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
+    }
+  },
+  {
+    "id": "publicsurplus-4089577",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Morrison",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "29.2096.000",
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4089577",
+    "date_listed": null,
+    "date_closes": "Oct 5, 2026 01:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 310.0,
+      "minimum_bid": null,
+      "tier1_emv_price": 10700,
+      "tier2_minimum_price": null,
+      "price_basis": "self_contained_dual_tier"
+    },
+    "assessed_value": {
+      "emv_total": 10700,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Morrison County Tax Forfeiture Parcel 29.2096.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 29.2096.000 Location :\u00a0Town of Scandia Valley - Shamineau Park 10th Addition Legal : LOT 134 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
+    }
+  },
+  {
+    "id": "publicsurplus-4089578",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Morrison",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "48.1850.000",
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4089578",
+    "date_listed": null,
+    "date_closes": "Oct 5, 2026 01:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 660.0,
+      "minimum_bid": null,
+      "tier1_emv_price": 76500,
+      "tier2_minimum_price": null,
+      "price_basis": "self_contained_dual_tier"
+    },
+    "assessed_value": {
+      "emv_total": 76500,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Morrison County Tax Forfeiture Parcel 48.1850.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 48.1850.000 Location :\u00a0City of Little Falls - Berg's Addition Legal :\u00a0Lot 001 and 002 Block 011 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
+    }
+  },
+  {
+    "id": "publicsurplus-4089580",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Morrison",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "48.1851.000",
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4089580",
+    "date_listed": null,
+    "date_closes": "Oct 5, 2026 01:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 225.0,
+      "minimum_bid": null,
+      "tier1_emv_price": 10100,
+      "tier2_minimum_price": null,
+      "price_basis": "self_contained_dual_tier"
+    },
+    "assessed_value": {
+      "emv_total": 10100,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Morrison County Tax Forfeiture Parcel 48.1851.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 48.1851.000 Location :\u00a0City of Little Falls - Berg's Addition Legal :\u00a0Lot 003 Block 011 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
+    }
+  },
+  {
+    "id": "publicsurplus-4089583",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Morrison",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "48.2902.000",
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4089583",
+    "date_listed": null,
+    "date_closes": "Oct 5, 2026 01:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 2975.0,
+      "minimum_bid": null,
+      "tier1_emv_price": 25900,
+      "tier2_minimum_price": null,
+      "price_basis": "self_contained_dual_tier"
+    },
+    "assessed_value": {
+      "emv_total": 25900,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Morrison County Tax Forfeiture Parcel 48.2902.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 48.2902.000 Location :\u00a0City of Little Falls - North Bluff Addition Legal :\u00a0Lot 009 Block 003 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
+    }
+  },
+  {
+    "id": "publicsurplus-4089587",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Morrison",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "26.0411.003",
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4089587",
+    "date_listed": null,
+    "date_closes": "Oct 5, 2026 01:00 PM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 395.0,
+      "minimum_bid": null,
+      "tier1_emv_price": 10000,
+      "tier2_minimum_price": null,
+      "price_basis": "self_contained_dual_tier"
+    },
+    "assessed_value": {
+      "emv_total": 10000,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Morrison County Tax Forfeiture Parcel 26.0411.003",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 26.0411.003 Location :\u00a0Town of Richardson Legal :\u00a0Section 28 Township 042 Range 028, E 200 FT OF N 1089 FT OF W1/2 OF SE1/4 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. *THIS PARCEL IS TORENS AND ADDITIONAL RECORDING FEES MAY APPLY \u2013 CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE WITH ANY QUESTIONS 320-632-0146. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {
@@ -2364,6 +2004,456 @@
     "raw_source_data": {
       "title": "Koochiching County Tax-Forfeiture Tract 22 (PID 95-001-04040)",
       "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description City of Littlefork AUDITOR'S PLAT 8-REVISED Lot 4; Block 4 (909 2nd Avenue) This parcel contains a house and a garage with the below mentioned encroachment issue with the garage. Parcel Number: 95-001-04040 **Important Note to Potential Bidders; the garage on this parcel encroaches onto a neighboring parcel.\u00a0 Potential bidders are encouraged to seek possible solutions to this encroachment prior to bidding on this tract** Starting Bid Price:\u00a0$17,710.00 Bidding for the first auction period on this tract will open on Monday,\u00a0October 12, 2026 at 8:00 A.M. CST and will close on Tuesday, November 10, 2026 at 10:00 A.M. CST. If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlef"
+    }
+  },
+  {
+    "id": "publicsurplus-4076085",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Mahnomen",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "07-002-0500",
+    "coordinates": {
+      "lat": 47.328387,
+      "lng": -95.811089,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076085",
+    "date_listed": null,
+    "date_closes": "Nov 12, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 159200.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Mahnomen County Tax-Forfeiture (PID 07-002-0500)",
+      "description_text": "Description Parcel Number: 07-002-0500 Property Type: Agriculture Lot Size (Acres): 76.86 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description W\u00bdSW\u00bc less: A parcel of land in the West Half of the Southwest Quarter (W\u00bdSW\u00bc), Section Two (2), Township One Hundred Forty-six (146), Range Thirty-nine (39) West of the 5th P.M., described as follows: beginning at the Southwest corner of the W\u00bdSW\u00bc, Sec. 2, Twp. 146, R. 39 W., then East along the South boundary of said SW\u00bd a distance of 305 feet to the point of beginning of the parcel herein described; then continuing along the South boundary fine of said SW\u00bc a distance of 335 feet to a point; then at a right angle North and parallel to the West boundary line of the SW\u00bc a distance of 408 feet to a point; then at a right angle West and parallel to the South boundary line of the SW\u00bc a distance of 335 feet to a point; then at a right angle South and parallel to the West boundary line of the SW\u00bc a distance of 408 feet, more or less, to the point of beginning. Parcel Number: 07-002-0500 Starting Bid Price:\u00a0$159,200.00 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023.\u00a0 The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-improved properties shall be offered at appraised value without restrictions and improved properties shall be offered at appraised value for a period of 30 days only to persons who intend to own and occupy the property as a residence or who intend to use the property for non-commercial personal"
+    }
+  },
+  {
+    "id": "publicsurplus-4076086",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Mahnomen",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "10-003-0215",
+    "coordinates": {
+      "lat": 47.328387,
+      "lng": -95.811089,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076086",
+    "date_listed": null,
+    "date_closes": "Nov 12, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 4000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Mahnomen County Tax-Forfeiture (PID 10-003-0215)",
+      "description_text": "Description Parcel Number: 10-003-0215 Property Type: Rural Vacant Land Lot Size (Acres): 10.00 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description S 330' OF NE4 SW4; Parcel Number: 10-003-0215 Starting Bid Price:\u00a0$4,000.00 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023.\u00a0 The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-improved properties shall be offered at appraised value without restrictions and improved properties shall be offered at appraised value for a period of 30 days only to persons who intend to own and occupy the property as a residence or who intend to use the property for non-commercial personal use.\u00a0 All remaining improved and non-improved properties not sold during the initial auction period will then be offered at appraised value in the second auction period without restrictions.\u00a0\u00a0 The first auction period shall commence on Tuesday, October 13, 2026 at 10:00 A.M. CST and conclude on Thursday, November 12, 2026 at 10:00 A.M. CST. If necessary, the second auction period shall commence on Monday, November 16, 2026 at 10:00 A.M. CST, and conclude on Monday November 30, 2026, as provided by the terms of the sale. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Mahnomen County Online Land Sales: Standard Disclaimer and the Mahnomen "
+    }
+  },
+  {
+    "id": "publicsurplus-4076087",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Mahnomen",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "16-021-0400",
+    "coordinates": {
+      "lat": 47.328387,
+      "lng": -95.811089,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076087",
+    "date_listed": null,
+    "date_closes": "Nov 12, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 1800.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Mahnomen County Tax-Forfeiture (PID 16-021-0400)",
+      "description_text": "Description Parcel Number: 16-021-0400 Property Type: Residential Lot Size (Acres): 3.00 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description Beginning at a point Forty (40) rods North of the Southeast Corner of the Southwest Quarter of the Southwest Quarter (SW\u00bcSW\u00bc) of Section Twenty-one (21), Township One Hundred Forty-four (144) North of Range Thirty-nine (39) West of the-5th P.M,, running thence Twelve (12) rods North, thence forty (40) rods West; thence Twelve (12) rods South; and thence Forty (40) rods East to the place of beginning, containing Three (3) acres. Parcel Number: 16-021-0400 Starting Bid Price:\u00a0$1,800.00 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023,\u00a0 The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-improved properties shall be offered at appraised value without restrictions and improved properties shall be offered at appraised value for a period of 30 days only to persons who intend to own and occupy the property as a residence or who intend to use the property for non-commercial personal use.\u00a0 All remaining improved and non-improved properties not sold during the initial auction period will then be offered at appraised value in the second auction period without restrictions.\u00a0\u00a0 The first auction period shall commence on Tuesday, October 13, 2026 at 10:00 A.M. CST and conclude on Thursday, November 12, 2026 at 10:00 A.M. CST. If necessary, the second auction period shall commence on Monday, November 16, 2026 at 10:00 A."
+    }
+  },
+  {
+    "id": "publicsurplus-4076088",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Mahnomen",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "16-021-0800",
+    "coordinates": {
+      "lat": 47.328387,
+      "lng": -95.811089,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076088",
+    "date_listed": null,
+    "date_closes": "Nov 12, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 1700.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Mahnomen County Tax-Forfeiture (PID 16-021-0800)",
+      "description_text": "Description Parcel Number: 16-021-0800 Property Type: Residential Lot Size (Acres): 2.00 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description A tract in Section Twenty One (21), Township One Hundred Forty Four (144), Range Thirty Nine (39) North described as follows: Beginning at a point 22 rods south and 18 rods east of the Northwest Corner of Southwest Quarter of Southwest Quarter (SW\u00bcSW\u00bc), Section 21, Township 144 North, Range Thirty Nine (39) West, thence 16 rods south, thence 20 rods east, thence north 16 rods and thence 20 rods west to the point of beginning, containing two acres, more or less. Parcel Number: 16-021-0800 Starting Bid Price:\u00a0$1,700.00 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023. \u00a0The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-improved properties shall be offered at appraised value without restrictions and improved properties shall be offered at appraised value for a period of 30 days only to persons who intend to own and occupy the property as a residence or who intend to use the property for non-commercial personal use.\u00a0 All remaining improved and non-improved properties not sold during the initial auction period will then be offered at appraised value in the second auction period without restrictions.\u00a0\u00a0 The first auction period shall commence on Tuesday, October 13, 2026 at 10:00 A.M. CST and conclude on Thursday, November 12, 2026 at 10:00 A.M. CST. If necessary, the second auction period shall commence on Mon"
+    }
+  },
+  {
+    "id": "publicsurplus-4076089",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Mahnomen",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "16-028-2710",
+    "coordinates": {
+      "lat": 47.328387,
+      "lng": -95.811089,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076089",
+    "date_listed": null,
+    "date_closes": "Nov 12, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 3160.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Mahnomen County Tax-Forfeiture (PID 16-028-2710)",
+      "description_text": "Description Parcel Number: 16-028-2710 Property Type: Residential Lot Size (Acres): .24 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description Commencing at a point 33 feet South and 485 feet West of the Northeast corner of the Northeast Quarter of the Northwest Quarter (NE\u00bc NW\u00bc) of Section Twenty-eight (28), Township One Hundred Forty-four (144) North of Range Thirty-nine (39) West of the Fifth Principal Meridian in Minnesota; thence South 104.5 feet; thence West 100 feet; thence North 104.5 feet; thence East 100 feet, to the place of beginning, making a piece of ground 104.5 feet North and South and 100 feet East and West. Parcel Number: 16-028-2710 Starting Bid Price:\u00a0$3,160.00 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023. \u00a0The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-improved properties shall be offered at appraised value without restrictions and improved properties shall be offered at appraised value for a period of 30 days only to persons who intend to own and occupy the property as a residence or who intend to use the property for non-commercial personal use.\u00a0 All remaining improved and non-improved properties not sold during the initial auction period will then be offered at appraised value in the second auction period without restrictions.\u00a0\u00a0 The first auction period shall commence on Tuesday, October 13, 2026 at 10:00 A.M. CST and conclude on Thursday, November 12, 2026 at 10:00 A.M. CST. If necessary, the second auction perio"
+    }
+  },
+  {
+    "id": "publicsurplus-4076090",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Mahnomen",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "18-100-0220",
+    "coordinates": {
+      "lat": 47.328387,
+      "lng": -95.811089,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076090",
+    "date_listed": null,
+    "date_closes": "Nov 12, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 3500.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Mahnomen County Tax-Forfeiture (PID 18-100-0220)",
+      "description_text": "Description Parcel Number: 18-100-0220 Property Type: Vacant Commercial Lot Lot Size (Acres): .19 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description Lot 001 Block 003 Original Townsite, S 20' Lot 1-2-3; lot 4-5 Parcel Number: 18-100-0220 Starting Bid Price:\u00a0$3,500.00 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023. \u00a0The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-improved properties shall be offered at appraised value without restrictions and improved properties shall be offered at appraised value for a period of 30 days only to persons who intend to own and occupy the property as a residence or who intend to use the property for non-commercial personal use.\u00a0 All remaining improved and non-improved properties not sold during the initial auction period will then be offered at appraised value in the second auction period without restrictions.\u00a0\u00a0 The first auction period shall commence on Tuesday, October 13, 2026 at 10:00 A.M. CST and conclude on Thursday, November 12, 2026 at 10:00 A.M. CST. If necessary, the second auction period shall commence on Monday, November 16, 2026 at 10:00 A.M. CST, and conclude on Monday November 30, 2026, as provided by the terms of the sale. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Mahnomen County Online Land"
+    }
+  },
+  {
+    "id": "publicsurplus-4076091",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Mahnomen",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "19-024-0730",
+    "coordinates": {
+      "lat": 47.328387,
+      "lng": -95.811089,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076091",
+    "date_listed": null,
+    "date_closes": "Nov 12, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 1815.64,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Mahnomen County Tax-Forfeiture (PID 19-024-0730)",
+      "description_text": "Description Parcel Number: 19-024-0730 Property Type: Residential Lot Size (Acres): .37 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description Part of the East Half of the Northeast Quarter, (E\u00bdNE\u00bc), Section Twenty-four (24), Township One Hundred Forty- three (143), North of Range Forty-two (42) West of the Fifth Principal described as follows: Beginning at a point 187 feet due East of the center of the intersection of Third Street and First Avenue of the City of Waubun, Minnesota; thence north a distance of 225 feet; thence East a distance of 70 feet; thence South a distance of 225 feet; thence West to the point of beginning. Parcel Number: 19-024-0730 Starting Bid Price:\u00a0$1,815.64 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023. \u00a0The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-improved properties shall be offered at appraised value without restrictions and improved properties shall be offered at appraised value for a period of 30 days only to persons who intend to own and occupy the property as a residence or who intend to use the property for non-commercial personal use.\u00a0 All remaining improved and non-improved properties not sold during the initial auction period will then be offered at appraised value in the second auction period without restrictions.\u00a0\u00a0 The first auction period shall commence on Tuesday, October 13, 2026 at 10:00 A.M. CST and conclude on Thursday, November 12, 2026 at 10:00 A.M. CST. If necessary, the second auction per"
+    }
+  },
+  {
+    "id": "publicsurplus-4076092",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Mahnomen",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "19-300-0020",
+    "coordinates": {
+      "lat": 47.328387,
+      "lng": -95.811089,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076092",
+    "date_listed": null,
+    "date_closes": "Nov 12, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 18000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Mahnomen County Tax-Forfeiture (PID 19-300-0020)",
+      "description_text": "Description Parcel Number: 19-300-0020 Property Type: Residential Lot Size (Acres): .32 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description Lots 5 and 6, Block 15, Second Addition to the Village of Waubun, according to the certified Plat thereof on file and of record in the office of the County Recorder in and for Mahnomen County, Minnesota. Parcel Number: 19-300-0020 Starting Bid Price:\u00a0$18,000.00 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023. \u00a0The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-improved properties shall be offered at appraised value without restrictions and improved properties shall be offered at appraised value for a period of 30 days only to persons who intend to own and occupy the property as a residence or who intend to use the property for non-commercial personal use.\u00a0 All remaining improved and non-improved properties not sold during the initial auction period will then be offered at appraised value in the second auction period without restrictions.\u00a0\u00a0 The first auction period shall commence on Tuesday, October 13, 2026 at 10:00 A.M. CST and conclude on Thursday, November 12, 2026 at 10:00 A.M. CST. If necessary, the second auction period shall commence on Monday, November 16, 2026 at 10:00 A.M. CST, and conclude on Monday November 30, 2026, as provided by the terms of the sale. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and "
+    }
+  },
+  {
+    "id": "publicsurplus-4076093",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Mahnomen",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "19-400-0130",
+    "coordinates": {
+      "lat": 47.328387,
+      "lng": -95.811089,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076093",
+    "date_listed": null,
+    "date_closes": "Nov 12, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 1545.4,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Mahnomen County Tax-Forfeiture (PID 19-400-0130)",
+      "description_text": "Description Parcel Number: 19-400-0130 Property Type: Residential Vacant Lot Lot Size (Acres): .16 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description Lot 11, Block 20, Third Addition, Village of Waubun Parcel Number: 19-400-0130 Starting Bid Price:\u00a0$1,545.40 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023. \u00a0The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-improved properties shall be offered at appraised value without restrictions and improved properties shall be offered at appraised value for a period of 30 days only to persons who intend to own and occupy the property as a residence or who intend to use the property for non-commercial personal use.\u00a0 All remaining improved and non-improved properties not sold during the initial auction period will then be offered at appraised value in the second auction period without restrictions.\u00a0\u00a0 The first auction period shall commence on Tuesday, October 13, 2026 at 10:00 A.M. CST and conclude on Thursday, November 12, 2026 at 10:00 A.M. CST. If necessary, the second auction period shall commence on Monday, November 16, 2026 at 10:00 A.M. CST, and conclude on Monday November 30, 2026, as provided by the terms of the sale. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Mahnomen County Online Land Sales: S"
+    }
+  },
+  {
+    "id": "publicsurplus-4087772",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Mahnomen",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "06-018-0810",
+    "coordinates": {
+      "lat": 47.328387,
+      "lng": -95.811089,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4087772",
+    "date_listed": null,
+    "date_closes": "Nov 12, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 4000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Mahnomen County Tax-Forfeiture (PID 06-018-0810)",
+      "description_text": "Description Parcel Number: 06-018-0810 Property Type: Residential Lot Size (Acres): .34 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description Commencing at the Southwest Corner of the Southwest Quarter of the Northeast Quarter (SW\u00bcNE\u00bc), Section Eighteen (18), Township One Hundred Forty Six (146) North, Range Forty (40) West of the Fifth Principal Meridian, thence in a Westerly direction along the quarter section line of Section 18 a distance of approximately 820 feet, more or less, to a point being the point of beginning; thence in a Northerly direction a distance of 150 feet; thence in a Westerly direction a distance of 100 feet; thence in a Southerly direction a distance of 150 feet to a point of intersection with the quarter section line of Section 18; thence in an Easterly direction along the course of the quarter line of Section 18 a distance of 100 feet to the point of beginning, and there terminating. The above described parcel of property also includes a roadway easement from the Southwest Corner of the above described parcel of property, thence in a Westerly direction across the grantor's adjoining property to a point of intersection with a Heier Township road. This easement is intended to give the grantees a means of ingress and egress to the above described parcel of property. Parcel Number: 06-018-0810 Starting Bid Price:\u00a0$4,000.00 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023.\u00a0 The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-"
     }
   }
 ]
