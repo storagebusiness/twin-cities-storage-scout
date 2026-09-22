@@ -289,6 +289,23 @@
     "matched_executed_by_format": false
   },
   {
+    "mortgagor_name": "Melody Ann Rose",
+    "mortgage_amount": 36000.0,
+    "property_address_raw": "1374 Searle St Saint Paul",
+    "house_number": "1374",
+    "street_name": "Searle",
+    "street_suffix": "St",
+    "street_direction": "",
+    "city": "Saint Paul",
+    "zip": null,
+    "county": "Ramsey",
+    "auction_date": null,
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4204348",
+    "source": "stpaul_legal_ledger",
+    "matched_numbered_format": true,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "Jason J. Vavra and Jan Arford, husband and wife, as joint tenants",
     "mortgage_amount": 417000.0,
     "property_address_raw": "5970 Hobe Ln W White Bear Lake",
