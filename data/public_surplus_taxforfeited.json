@@ -73,7 +73,7 @@
     "date_closes": "Sep 27, 2026 08:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 124900.0,
+      "current_bid": 131100.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -679,7 +679,7 @@
     "date_closes": "Oct 5, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 499.99,
+      "current_bid": 504.99,
       "minimum_bid": null,
       "tier1_emv_price": 5500,
       "tier2_minimum_price": null,
@@ -814,7 +814,7 @@
     "date_closes": "Oct 5, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 910.0,
+      "current_bid": 1050.0,
       "minimum_bid": null,
       "tier1_emv_price": 76500,
       "tier2_minimum_price": null,
@@ -2457,10 +2457,10 @@
     }
   },
   {
-    "id": "publicsurplus-4093699",
+    "id": "publicsurplus-4093345",
     "source": "public_surplus",
     "state": "MN",
-    "county": "Mahnomen",
+    "county": "Morrison",
     "listing_category": "tax_forfeited_land",
     "listing_type": {
       "owner": "state",
@@ -2468,27 +2468,27 @@
       "notes": "Phase not extractable from category listing page."
     },
     "address": null,
-    "parcel_id": "19-024-0620",
+    "parcel_id": "47.0277.000",
     "coordinates": {
-      "lat": 47.328387,
-      "lng": -95.811089,
+      "lat": 46.020484,
+      "lng": -94.266619,
       "precision": "county_centroid"
     },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4093699",
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4093345",
     "date_listed": null,
-    "date_closes": "Dec 3, 2026 09:00 AM MST",
+    "date_closes": "Nov 19, 2026 01:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 39500.0,
+      "current_bid": 22400.0,
       "minimum_bid": null,
-      "tier1_emv_price": null,
+      "tier1_emv_price": 22400,
       "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
+      "price_basis": "self_contained_dual_tier"
     },
     "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
+      "emv_total": 22400,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2497,8 +2497,53 @@
       "census_tract": null
     },
     "raw_source_data": {
-      "title": "Mahnomen County Tax-Forfeiture (PID 19-024-0620)",
-      "description_text": "Description Parcel Number: 19-024-0620 Property Type: Residential Lot Size (Acres): .38 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description Beginning at a point 433 feet East and 33 feet South of the Center of Section 24, Township 143 North, Range 42 West of the Fifth Principal Meridian; thence due South 145 feet, more or less, thence due East 140 feet, more or less, thence due South 118 feet, more or less, thence due West 140 feet, more or less, thence due North 118 feet to the point of beginning; being part of the NW1/4 SE1/4. Parcel Number: 19-024-0620 Starting Bid Price:\u00a0$39,500.00 The parcel of land that is contained herein shall be sold to the highest bidder at public sale.\u00a0\u00a0The sale will be governed by the provisions of Minnesota Statute 282.005.\u00a0 The starting bid price listed above is equal to the estimated market value.\u00a0 The initial public auction sale is set to commence at 10:00 a.m. Tuesday, November 3, 2026, and end at 10:00 a.m. Thursday, December 3, 2026, on the www.publicsurplus.com website.\u00a0 Any parcel not sold at the initial public auction sale may be offered at a minimum bid auction.\u00a0 The minimum bid auction price is the sum of delinquent taxes, special assessments, penalties, interest and costs assigned to the parcel.\u00a0 This may be more than or less than, the initial sale price.\u00a0 The minimum bid auction if needed, will commence at 10:00 a.m. Monday, December 7, 2026, and end at 10:00 a.m. Monday, December 21, 2026.\u00a0 The minimum bid for this parcel has been calculated as $4,226.95 per Minnesota Statute \u00a7282.005 Subd.4.(b). Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Mahnomen County Online Land Sales: Standard Disclaime"
+      "title": "Morrison County Tax Forfeiture Parcel 47.0277.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 47.0277.000 Location : City of Upsala Legal : LOT 012 BLOCK 004 NELSON'S FIRST ADD State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
+    }
+  },
+  {
+    "id": "publicsurplus-4093348",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Morrison",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "47.0278.000",
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4093348",
+    "date_listed": null,
+    "date_closes": "Nov 19, 2026 01:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 11700.0,
+      "minimum_bid": null,
+      "tier1_emv_price": 11700,
+      "tier2_minimum_price": null,
+      "price_basis": "self_contained_dual_tier"
+    },
+    "assessed_value": {
+      "emv_total": 11700,
+      "source": "mn_statewide_parcel_mngeo",
+      "lookup_status": "matched"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Morrison County Tax Forfeiture Parcel 47.0278.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 47.0278.000 Location : City of Upsala Legal : LOT 013 BLOCK 004 NELSON'S FIRST ADD State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   }
 ]
