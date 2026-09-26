@@ -73,7 +73,7 @@
     "date_closes": "Sep 27, 2026 08:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 131100.0,
+      "current_bid": 150600.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -379,7 +379,7 @@
     "date_closes": "Sep 27, 2026 08:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 100.0,
+      "current_bid": 152.5,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -769,7 +769,7 @@
     "date_closes": "Oct 5, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 310.0,
+      "current_bid": 810.0,
       "minimum_bid": null,
       "tier1_emv_price": 10700,
       "tier2_minimum_price": null,
