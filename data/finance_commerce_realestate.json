@@ -432,22 +432,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Roderick L. Gove and Donna M. Gove, husband and wife, as joint tenants",
-    "mortgage_amount": 80000.0,
-    "property_address_raw": "10405 Bass Lake Rd Plymouth",
-    "house_number": "10405",
-    "street_name": "Bass Lake",
-    "street_suffix": "Rd",
-    "street_direction": "",
-    "city": "Plymouth",
-    "zip": null,
-    "county": null,
-    "auction_date": "10/14/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4207855",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "Frangena A. Johnson-Nnamani and Mike Nnamani, Wife and Husband and Alberta Johnson, Single, as joint tenants",
     "mortgage_amount": 293250.0,
     "property_address_raw": "3200 Columbus Ave S Minneapolis",
@@ -720,22 +704,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Jason Paul Strandberg AKA Jason Strandberg and Dung Strandberg, Married To Each Other",
-    "mortgage_amount": 548250.0,
-    "property_address_raw": "14604 Woodhaven Rd Minnetonka",
-    "house_number": "14604",
-    "street_name": "Woodhaven",
-    "street_suffix": "Rd",
-    "street_direction": "",
-    "city": "Minnetonka",
-    "zip": null,
-    "county": null,
-    "auction_date": "09/08/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197227",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "and between Sullivan Family Holdings 917 LLC",
     "mortgage_amount": 1160000.0,
     "property_address_raw": "917 \u2013 5th St N Minneapolis",
@@ -894,21 +862,5 @@
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4201206",
     "matched_numbered_format": true,
     "matched_executed_by_format": false
-  },
-  {
-    "mortgagor_name": "George W. Klus and Anne L. Klus",
-    "mortgage_amount": 200000.0,
-    "property_address_raw": "5233 Lochloy Dr Edina",
-    "house_number": "5233",
-    "street_name": "Lochloy",
-    "street_suffix": "Dr",
-    "street_direction": "",
-    "city": "Edina",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4197286",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": true
   }
 ]
