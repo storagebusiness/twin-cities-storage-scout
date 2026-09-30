@@ -255,6 +255,23 @@
     "matched_executed_by_format": false
   },
   {
+    "mortgagor_name": "Melody Ann Rose",
+    "mortgage_amount": 36000.0,
+    "property_address_raw": "1374 Searle St Saint Paul",
+    "house_number": "1374",
+    "street_name": "Searle",
+    "street_suffix": "St",
+    "street_direction": "",
+    "city": "Saint Paul",
+    "zip": null,
+    "county": "Ramsey",
+    "auction_date": null,
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4216471",
+    "source": "stpaul_legal_ledger",
+    "matched_numbered_format": true,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "and between Hmongtown 2, LLC",
     "mortgage_amount": 3298750.0,
     "property_address_raw": "3001 White Bear Ave N, Saint Paul",
