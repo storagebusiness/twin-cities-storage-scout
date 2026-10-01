@@ -1,50 +1,5 @@
 [
   {
-    "id": "publicsurplus-4049480",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Sibley",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "36-0032-000",
-    "coordinates": {
-      "lat": 44.575734,
-      "lng": -94.230123,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4049480",
-    "date_listed": "Sep 1, 2026 07:00 AM MDT",
-    "date_closes": "Oct 1, 2026 09:00 AM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 6500.0,
-      "minimum_bid": null,
-      "tier1_emv_price": 6500.0,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
-    },
-    "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Sibley County Tax Forfeiture Parcel 36-0032-000",
-      "description_text": "Description Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY SIBLEY COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND. SIBLEY COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENT(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Sibley County Online Land Sales: Standard Disclaimer and Sibley County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. General Description Location: City of New Auburn Parcel: 36-0032-000 Legal: Lot 7, Block 9, Original City of New Auburn Size: 66' Feet x 123' Feet Estimated Market Value: $6,500.00 Special Assessments After Forfeiture: $0.00 Special Assessments Before Forfeiture: $1,491.65 PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Deed: State Deed will be given after full payment is made. A state deed is a quitclaim deed which has the characteristics of a patent from the State of Minnesota. Full Payment: Full Payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: Any lands offered for sale may be subject to unpaid assessments against the property. Before purchasing, any prospective buyer should consult the city or township clerk and county, in respect to any unpaid assessments "
-    }
-  },
-  {
     "id": "publicsurplus-4089572",
     "source": "public_surplus",
     "state": "MN",
@@ -67,7 +22,7 @@
     "date_closes": "Oct 5, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 504.99,
+      "current_bid": 610.0,
       "minimum_bid": null,
       "tier1_emv_price": 5500,
       "tier2_minimum_price": null,
@@ -112,7 +67,7 @@
     "date_closes": "Oct 5, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 4650.0,
+      "current_bid": 8100.0,
       "minimum_bid": null,
       "tier1_emv_price": 105100,
       "tier2_minimum_price": null,
@@ -157,7 +112,7 @@
     "date_closes": "Oct 5, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 1025.0,
+      "current_bid": 1225.0,
       "minimum_bid": null,
       "tier1_emv_price": 10700,
       "tier2_minimum_price": null,
@@ -202,7 +157,7 @@
     "date_closes": "Oct 5, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 4250.0,
+      "current_bid": 5600.0,
       "minimum_bid": null,
       "tier1_emv_price": 76500,
       "tier2_minimum_price": null,
@@ -247,7 +202,7 @@
     "date_closes": "Oct 5, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 10125.0,
+      "current_bid": 10325.0,
       "minimum_bid": null,
       "tier1_emv_price": 25900,
       "tier2_minimum_price": null,
@@ -312,6 +267,51 @@
     "raw_source_data": {
       "title": "Morrison County Tax Forfeiture Parcel 26.0411.003",
       "description_text": "Description Condition: UNKNOWN Parcel Number : 26.0411.003 Location :\u00a0Town of Richardson Legal :\u00a0Section 28 Township 042 Range 028, E 200 FT OF N 1089 FT OF W1/2 OF SE1/4 State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. *THIS PARCEL IS TORENS AND ADDITIONAL RECORDING FEES MAY APPLY \u2013 CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE WITH ANY QUESTIONS 320-632-0146. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
+    }
+  },
+  {
+    "id": "publicsurplus-4098706",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Sibley",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "36-0032-000",
+    "coordinates": {
+      "lat": 44.575734,
+      "lng": -94.230123,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4098706",
+    "date_listed": "Oct 1, 2026 09:04 AM MDT",
+    "date_closes": "Oct 8, 2026 09:00 AM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 2706.59,
+      "minimum_bid": null,
+      "tier1_emv_price": 6500.0,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Sibley County Tax Forfeiture Parcel 36-0032-000",
+      "description_text": "Description Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY SIBLEY COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND. SIBLEY COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENT(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Sibley County Online Land Sales: Standard Disclaimer and Sibley County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. General Description Location: City of New Auburn Parcel: 36-0032-000 Legal: Lot 7, Block 9, Original City of New Auburn Size: 66' Feet x 123' Feet Estimated Market Value: $6,500.00 Special Assessments After Forfeiture: $0.00 Special Assessments Before Forfeiture: $1,491.65 PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Deed: State Deed will be given after full payment is made. A state deed is a quitclaim deed which has the characteristics of a patent from the State of Minnesota. Full Payment: Full Payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: Any lands offered for sale may be subject to unpaid assessments against the property. Before purchasing, any prospective buyer should consult the city or township clerk and county, in respect to any unpaid assessments "
     }
   },
   {
@@ -1797,6 +1797,96 @@
     "raw_source_data": {
       "title": "Mahnomen County Tax-Forfeiture (PID 06-018-0810)",
       "description_text": "Description Parcel Number: 06-018-0810 Property Type: Residential Lot Size (Acres): .34 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description Commencing at the Southwest Corner of the Southwest Quarter of the Northeast Quarter (SW\u00bcNE\u00bc), Section Eighteen (18), Township One Hundred Forty Six (146) North, Range Forty (40) West of the Fifth Principal Meridian, thence in a Westerly direction along the quarter section line of Section 18 a distance of approximately 820 feet, more or less, to a point being the point of beginning; thence in a Northerly direction a distance of 150 feet; thence in a Westerly direction a distance of 100 feet; thence in a Southerly direction a distance of 150 feet to a point of intersection with the quarter section line of Section 18; thence in an Easterly direction along the course of the quarter line of Section 18 a distance of 100 feet to the point of beginning, and there terminating. The above described parcel of property also includes a roadway easement from the Southwest Corner of the above described parcel of property, thence in a Westerly direction across the grantor's adjoining property to a point of intersection with a Heier Township road. This easement is intended to give the grantees a means of ingress and egress to the above described parcel of property. Parcel Number: 06-018-0810 Starting Bid Price:\u00a0$4,000.00 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023.\u00a0 The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-"
+    }
+  },
+  {
+    "id": "publicsurplus-4035060",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Scott",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 44.651811,
+      "lng": -93.533733,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4035060",
+    "date_listed": null,
+    "date_closes": "Nov 12, 2026 03:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 100.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Scott County #010130090 Tax Forfeited Land Sale",
+      "description_text": "Description Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY SCOTT COUNTY General Description Vacant Land-Belle Plaine Township PLAT: PRAIRIEHILLS SECOND Outlot B SCOTT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Parcel Number: 010130090 Initial Price (EMV): $100 If no buyer is willing to pay the initial price after 30 days, the price of this property will be changed to the minimum bid price and reoffered at auction again for an additional 11 days. The minimum bid auction will open on November 13, 2026, at 10:00 AM and close on November 24, 2026, at 4:00 PM on Public Surplus. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Scott County Property and Taxation Services Department Online Land Sales: Standard Disclaimer and the Scott County Property and Taxation Services Department Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state-mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Recording Fee $46.00 or as set by the Scott County Land Records Department. $5.00 Conservation fee. $50.00 Well certificate (if applicable). Deed Fee $25.00 Deed Tax $1.65 for sales plus buyer premium up to $3,000, or .0033 times the base sale price plus buyer premium for sales over $3,000. Buyer Premium 5% of total sale price of la"
+    }
+  },
+  {
+    "id": "publicsurplus-4052049",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Scott",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 44.651811,
+      "lng": -93.533733,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052049",
+    "date_listed": null,
+    "date_closes": "Nov 12, 2026 03:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 2700.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Scott County #111120150 Tax Forfeited Land Sale",
+      "description_text": "Description Parcel Number: 111120150 Property Type: Vacant land Lot Size (Acres): .14 Condition: SEE DESCRIPTION Description Item Code: 111120150 STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY SCOTT COUNTY General Description Vacant Land-Spring Lake Township SCOTT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. PLAT: Hickory Hollow Outlot E Initial Price (EMV): $2,700 If no buyer is willing to pay the initial price after 30 days, the price of this property will be changed to the minimum bid price and reoffered at auction again for an additional 30 days. The minimum bid auction will open on Nov 13, 2026, at 10:00 AM and close on Nov 24, 2026, at 4:00 PM on Public Surplus. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Scott County Property and Taxation Services Department Online Land Sales: Standard Disclaimer and the Scott County Property and Taxation Services Department Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state-mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Recording Fee $46.00 or as set by the Scott County Land Records Department. $5.00 Conservation fee. $50.00 Well certificate (if applicable). Deed Fee $25.00 Deed Tax $1.65 for sales plus buyer premium up to $3,000, or .0033 times the base sale price plus buyer premi"
     }
   },
   {
