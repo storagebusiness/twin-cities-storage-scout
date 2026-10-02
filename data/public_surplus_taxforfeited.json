@@ -22,7 +22,7 @@
     "date_closes": "Oct 5, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 610.0,
+      "current_bid": 711.0,
       "minimum_bid": null,
       "tier1_emv_price": 5500,
       "tier2_minimum_price": null,
@@ -67,7 +67,7 @@
     "date_closes": "Oct 5, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 8100.0,
+      "current_bid": 8300.0,
       "minimum_bid": null,
       "tier1_emv_price": 105100,
       "tier2_minimum_price": null,
@@ -157,7 +157,7 @@
     "date_closes": "Oct 5, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 5600.0,
+      "current_bid": 6300.0,
       "minimum_bid": null,
       "tier1_emv_price": 76500,
       "tier2_minimum_price": null,
@@ -247,7 +247,7 @@
     "date_closes": "Oct 5, 2026 01:00 PM MDT",
     "status": "open",
     "price": {
-      "current_bid": 810.0,
+      "current_bid": 2025.0,
       "minimum_bid": null,
       "tier1_emv_price": 10000,
       "tier2_minimum_price": null,
@@ -357,6 +357,411 @@
     "raw_source_data": {
       "title": "Lac qui Parle County Tax Forfeiture Sale - Parcel 48-0073-000",
       "description_text": "Description Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY LAC QUI PARLE COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND. LAC QUI PARLE COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENT(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Lac qui Parle County Online Land Sales: Standard Disclaimer and Lac qui Parle County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. General Description Location: City of Boyd Parcel: 48-0073-000 Legal: Lot 19 Blk B Estimated Market Value: $2500.00 PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full Payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: Any lands offered for sale may be subject to unpaid assessments against the property. Before purchasing, any prospective buyer should consult the city or township clerk and county, in respect to any unpaid assessments that may exist. Any assessments against the property for public improvements after the property forfeited to the state shall be assessed against the property and paid for at the time of purchase, pursuant to Minnesota Statutes, 282.01, Subd. 3. Any municipality or other public authority is au"
+    }
+  },
+  {
+    "id": "publicsurplus-4080364",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "17-0084-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4080364",
+    "date_listed": "Oct 1, 2026 02:00 PM MDT",
+    "date_closes": "Nov 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 1.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 17-0084-000",
+      "description_text": "Description Parcel Number: 17-0084-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: Six Mile Grove Township Parcel: 17-0084-000 Address: Legal: SECT-12 TWP-121 RANG-40 LOT 8 PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If listed on sale listing as certified, assessments must be paid in full at the time of sale.\u00a0 Check with the city or township clerk and county for any additional assessments that existed prior to forfeiture, which may be re-assessed by the municipality. Recording Fee: $46.00 or as set by the Swift County Recorder.\u00a0 If there is a well on the property, it is an additional $54.00 for well disclosure. Deed Fee: $25.00 Deed Tax: 0.0033 multiplied by the purchase price or $1.65 minimum, whichever i"
+    }
+  },
+  {
+    "id": "publicsurplus-4080371",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "23-0913-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4080371",
+    "date_listed": "Oct 1, 2026 02:00 PM MDT",
+    "date_closes": "Nov 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 800.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 23-0913-000",
+      "description_text": "Description Parcel Number: 23-0913-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: City of Benson Parcel: 23-0913-000 Address: 703 15th St S, Benson, MN 56215 Legal: SOUTHSIDE ADDITION Lot 9\u00a0Block 7 PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If listed on sale listing as certified, assessments must be paid in full at the time of sale.\u00a0 Check with the city or township clerk and county for any additional assessments that existed prior to forfeiture, which may be re-assessed by the municipality. Recording Fee: $46.00 or as set by the Swift County Recorder.\u00a0 If there is a well on the property, it is an additional $54.00 for well disclosure. Deed Fee: $25.00 Deed Tax: 0.0033 multiplied by the purchase price or "
+    }
+  },
+  {
+    "id": "publicsurplus-4095371",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "22-0814-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4095371",
+    "date_listed": "Oct 1, 2026 02:00 PM MDT",
+    "date_closes": "Nov 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 3200.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 22-0814-000",
+      "description_text": "Description Parcel Number: 22-0814-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: City of Appleton Parcel: 22-0814-000 Address: 130 E Schlieman Ave Legal:\u00a0beginning at a point 170 feet due east of the northeast corner of Lot 9, in block 17, robinson\u2019s 4 th addition to appleton, mn; thence due south 132 feet; thence east 50 feet; thence north 132 feet; thence west 50 feet to the place of beginning, being a part of the east half of the SW1/4 of section 14 township 120 range 43, swift county, minnesota. PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If listed on sale listing as certified, assessments must be paid in full at the time of sale.\u00a0 Check with the city or township clerk and county for any additional a"
+    }
+  },
+  {
+    "id": "publicsurplus-4095402",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "22-0942-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4095402",
+    "date_listed": "Oct 1, 2026 02:00 PM MDT",
+    "date_closes": "Nov 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 74700.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 22-0942-000",
+      "description_text": "Description Parcel Number: 22-0942-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: City of Appleton Parcel: 22-0942-000 Address: 434 S Munsterman St Legal:\u00a0THAT PART OF THE N1/2 NW1/4 OF SECTION 23, TOWNSHIP 120 NORTH, RANGE 43 WEST, DESCRIBED AS FOLLOWS:\u00a0 BEGINNING AT A POINT 293 FEET SOUTH OF A POINT 33 FEET EAST OF THE NORTHWEST CORNER OF SECTION 23, TOWNSHIP 120 NORTH, RANGE 43 WEST; THENCE RUNNING SOUTH 50 FEET; THENCE RUNNING EAST AT RIGHT ANGLES TO SAID LAST DESCRIBED LINE 160 FEET; THENCE RUNNING NORTH AT RIGHT ANGLES TO SAID LAST DESCRIBED LINE 50 FEET; THENCE RUNNING WEST AT RIGHT ANGLES TO SAID LAST DESCRIBED LINE 160 FEET TO THE POINT OF BEGINNING PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If "
+    }
+  },
+  {
+    "id": "publicsurplus-4095408",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "22-0465-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4095408",
+    "date_listed": "Oct 1, 2026 02:00 PM MDT",
+    "date_closes": "Nov 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 3400.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 22-0465-000",
+      "description_text": "Description Parcel Number: 22-0465-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: City of Appleton Parcel: 22-0465-000 Address: 228 E Rooney Ave Legal:\u00a0LOT FOUR (4) AND THE EAST HALF (e1/2) OF LOT THREE (3), BLOCK EIGHT (8), SEVERANCE'S SECOND ADDITION, CITY OF APPLETON PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If listed on sale listing as certified, assessments must be paid in full at the time of sale.\u00a0 Check with the city or township clerk and county for any additional assessments that existed prior to forfeiture, which may be re-assessed by the municipality. Recording Fee: $46.00 or as set by the Swift County Recorder.\u00a0 If there is a well on the property, it is an additional $54.00 for well disclosur"
+    }
+  },
+  {
+    "id": "publicsurplus-4095416",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "22-0320-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4095416",
+    "date_listed": "Oct 1, 2026 02:00 PM MDT",
+    "date_closes": "Nov 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 30100.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 22-0320-000",
+      "description_text": "Description Parcel Number: 22-0320-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: City of Appleton Parcel: 22-0320-000 Address: 346 W Sorenson Ave Legal:\u00a0LOT TEN (10), BLOCK SEVEN (7), RAILROAD ADDITION TO VILLAGE OF APPLETON PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If listed on sale listing as certified, assessments must be paid in full at the time of sale.\u00a0 Check with the city or township clerk and county for any additional assessments that existed prior to forfeiture, which may be re-assessed by the municipality. Recording Fee: $46.00 or as set by the Swift County Recorder.\u00a0 If there is a well on the property, it is an additional $54.00 for well disclosure. Deed Fee: $25.00 Deed Tax: 0.0033 multipli"
+    }
+  },
+  {
+    "id": "publicsurplus-4095427",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "28-0005-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4095427",
+    "date_listed": "Oct 1, 2026 02:00 PM MDT",
+    "date_closes": "Nov 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 102000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 28-0005-000",
+      "description_text": "Description Parcel Number: 28-0005-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: City of Kerkhoven Parcel: 28-0005-000 Address: 304 North 8th ST Legal:\u00a0LOTS 8 AND 9, BLOCK 1, TOWN (NOW CITY) OF KERKHOVEN PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If listed on sale listing as certified, assessments must be paid in full at the time of sale.\u00a0 Check with the city or township clerk and county for any additional assessments that existed prior to forfeiture, which may be re-assessed by the municipality. Recording Fee: $46.00 or as set by the Swift County Recorder.\u00a0 If there is a well on the property, it is an additional $54.00 for well disclosure. Deed Fee: $25.00 Deed Tax: 0.0033 multiplied by the purchase pr"
+    }
+  },
+  {
+    "id": "publicsurplus-4095482",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "26-0104-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4095482",
+    "date_listed": "Oct 1, 2026 02:00 PM MDT",
+    "date_closes": "Nov 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 148500.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 26-0104-000",
+      "description_text": "Description Parcel Number: 26-0104-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: City of DeGraff Parcel: 26-0104-000 Address: 401 3rd St S Legal: LOT ONE(1), TWO (2), THREE (3), AND FOUR (4), IN BLOCK SIXTY-EIGHT (68), FIRST ADDITION TO THE CITY OF DEGRAFF PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If listed on sale listing as certified, assessments must be paid in full at the time of sale.\u00a0 Check with the city or township clerk and county for any additional assessments that existed prior to forfeiture, which may be re-assessed by the municipality. Recording Fee: $46.00 or as set by the Swift County Recorder.\u00a0 If there is a well on the property, it is an additional $54.00 for well disclosure. Deed Fee: "
+    }
+  },
+  {
+    "id": "publicsurplus-4095486",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "26-0047-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4095486",
+    "date_listed": "Oct 1, 2026 02:00 PM MDT",
+    "date_closes": "Nov 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 16800.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 26-0047-000",
+      "description_text": "Description Parcel Number: 26-0047-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: City of DeGraff Parcel: 26-0047-000 Address: 204 5th St S Legal: LOTS FIFTEEN (15) AND SIXTEEN (16), BLOCK FIFTEEN (15), ORIGINAL TOWNSITE OF THE CITY OF DEGRAFF PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If listed on sale listing as certified, assessments must be paid in full at the time of sale.\u00a0 Check with the city or township clerk and county for any additional assessments that existed prior to forfeiture, which may be re-assessed by the municipality. Recording Fee: $46.00 or as set by the Swift County Recorder.\u00a0 If there is a well on the property, it is an additional $54.00 for well disclosure. Deed Fee: $25.00 Deed Ta"
     }
   },
   {
