@@ -90,6 +90,129 @@
     }
   },
   {
+    "id": "publicsurplus-4096279",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": null,
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "010-2190-00360",
+    "coordinates": null,
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4096279",
+    "date_listed": "Oct 7, 2026 08:25 AM MDT",
+    "date_closes": "Oct 21, 2026 10:00 AM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 197900.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "NEW FORFEITURE Tract 1: City of Duluth, Parcel 010-2190-00360, B22260012",
+      "description_text": "Description Condition: UNKNOWN MINNESOTA TAX-FORFEITED NEW FORFEITURE SALE ALL SALES MUST BE PAID IN FULL. STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY ST. LOUIS COUNTY Tax-Forfeited New Forfeiture Sale: This sale is governed by Minnesota Statute 282.005. All sales must be paid in full. Minnesota statute requires that all new forfeitures be offered at public auction unless they are repurchased or withheld by the Department of Natural Resources (DNR). Properties are first offered at the initial price, which is the estimated market value (EMV). Initial Price: $197,900.00 At this auction, we cannot accept less than the initial price - bidding will start at the initial price. If no buyer is willing to pay the initial price, the price for the property will be reduced to the minimum bid and reoffered at auction. Minimum Bid: $30,502.89 The initial price auction will open on October 7th and close on October 21st at 11:00 a.m. CDT on Public Surplus. Remember: Your bid is the same as a contract - Please only bid on property you are serious about buying. A winning bid constitutes a legally binding contract. St. Louis County reserves the right to block/ban bidders who refuse to pay for land purchased. GENERAL DESCRIPTION: This property is\u00a0being sold \u201c AS IS \u201d.\u00a0It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Location:\u00a0164 West Ideal Street, Duluth Parcel:\u00a0010-2190-00360 Acreage: +/- 0.28 City/Township:\u00a0CITY OF DULUTH Legal:\u00a0Lots 4 AND 5, Block 6, HIGHLAND GARDENS 2ND DIVISION DULUTH Note: Click on image above to visit the County Land Explorer Comments: This approximately 0.28 of an acre parcel has a 1+ story structure with a detached garage. Condition of structures and utilities is unknown. Zoning is R-1 (Residen"
+    }
+  },
+  {
+    "id": "publicsurplus-4096297",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": null,
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "100-0077-00520",
+    "coordinates": null,
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4096297",
+    "date_listed": "Oct 7, 2026 08:25 AM MDT",
+    "date_closes": "Oct 21, 2026 10:00 AM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 18500.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "NEW FORFEITURE Tract 2: City of Aurora, Parcel 100-0077-00520, B22260045",
+      "description_text": "Description Condition: UNKNOWN MINNESOTA TAX-FORFEITED NEW FORFEITURE SALE ALL SALES MUST BE PAID IN FULL. STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY ST. LOUIS COUNTY Tax-Forfeited New Forfeiture Sale: This sale is governed by Minnesota Statute 282.005. All sales must be paid in full. Minnesota statute requires that all new forfeitures be offered at public auction unless they are repurchased or withheld by the Department of Natural Resources (DNR). Properties are first offered at the initial price, which is the estimated market value (EMV). Initial Price: $18,500.00 At this auction, we cannot accept less than the initial price - bidding will start at the initial price. If no buyer is willing to pay the initial price, the price for the property will be reduced to the minimum bid and reoffered at auction. Minimum Bid: $8,937.79 The initial price auction will open on October 7th and close on October 21st at 11:00 a.m. CDT on Public Surplus. Remember: Your bid is the same as a contract - Please only bid on property you are serious about buying. A winning bid constitutes a legally binding contract. St. Louis County reserves the right to block/ban bidders who refuse to pay for land purchased. GENERAL DESCRIPTION: This property is\u00a0being sold \u201c AS IS \u201d.\u00a0It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Location:\u00a0408 South 2nd Street East, Aurora Parcel:\u00a0100-0077-00520 Acreage: +/- 0.16 City/Township:\u00a0CITY OF AURORA Legal:\u00a0Lot 3, Block 3, ZUPONCIC ACRES 1ST ADD TO AURORA Note: Click on image above to visit the County Land Explorer Comments: This +/- 58' x 120.06' parcel is a nonconforming lot of record and includes a mobile home with multiple sheds. Condition of structures and utilities is unknown. Zoning is R"
+    }
+  },
+  {
+    "id": "publicsurplus-4096302",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": null,
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "125-0010-01570",
+    "coordinates": null,
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4096302",
+    "date_listed": "Oct 7, 2026 08:25 AM MDT",
+    "date_closes": "Oct 21, 2026 10:00 AM MDT",
+    "status": "open",
+    "price": {
+      "current_bid": 47000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "NEW FORFEITURE Tract 3: City of Floodwood, Parcel 125-0010-01570, B22260046",
+      "description_text": "Description Condition: UNKNOWN MINNESOTA TAX-FORFEITED NEW FORFEITURE SALE ALL SALES MUST BE PAID IN FULL. STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY ST. LOUIS COUNTY Tax-Forfeited New Forfeiture Sale: This sale is governed by Minnesota Statute 282.005. All sales must be paid in full. Minnesota statute requires that all new forfeitures be offered at public auction unless they are repurchased or withheld by the Department of Natural Resources (DNR). Properties are first offered at the initial price, which is the estimated market value (EMV). Initial Price: $47,000.00 At this auction, we cannot accept less than the initial price - bidding will start at the initial price. If no buyer is willing to pay the initial price, the price for the property will be reduced to the minimum bid and reoffered at auction. Minimum Bid: $7,732.60 The initial price auction will open on October 7th and close on October 21st at 11:00 a.m. CDT on Public Surplus. Remember: Your bid is the same as a contract - Please only bid on property you are serious about buying. A winning bid constitutes a legally binding contract. St. Louis County reserves the right to block/ban bidders who refuse to pay for land purchased. GENERAL DESCRIPTION: This property is\u00a0being sold \u201c AS IS \u201d.\u00a0It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Location:\u00a0106 4th Avenue East, Floodwood Parcel:\u00a0125-0010-01570 Acreage: +/- 0.14 City/Township:\u00a0CITY OF FLOODWOOD Legal:\u00a0Lot 6, Block 11, FLOODWOOD Note: Click on image above to visit the County Land Explorer Comments: This approximately 0.14 of an acre parcel includes a 1 story structure and detached garage. Condition of structures and utilities is unknown. Zoning is R-2 (Low Density Residential). Contact the"
+    }
+  },
+  {
     "id": "publicsurplus-4080364",
     "source": "public_surplus",
     "state": "MN",
@@ -112,7 +235,7 @@
     "date_closes": "Nov 2, 2026 02:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 1.75,
+      "current_bid": 20.5,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
