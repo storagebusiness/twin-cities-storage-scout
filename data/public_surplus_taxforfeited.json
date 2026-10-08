@@ -1,50 +1,5 @@
 [
   {
-    "id": "publicsurplus-4098706",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Sibley",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "36-0032-000",
-    "coordinates": {
-      "lat": 44.575734,
-      "lng": -94.230123,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4098706",
-    "date_listed": "Oct 1, 2026 09:04 AM MDT",
-    "date_closes": "Oct 8, 2026 09:00 AM MDT",
-    "status": "open",
-    "price": {
-      "current_bid": 2706.59,
-      "minimum_bid": null,
-      "tier1_emv_price": 6500.0,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
-    },
-    "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Sibley County Tax Forfeiture Parcel 36-0032-000",
-      "description_text": "Description Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY SIBLEY COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND. SIBLEY COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENT(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Sibley County Online Land Sales: Standard Disclaimer and Sibley County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. General Description Location: City of New Auburn Parcel: 36-0032-000 Legal: Lot 7, Block 9, Original City of New Auburn Size: 66' Feet x 123' Feet Estimated Market Value: $6,500.00 Special Assessments After Forfeiture: $0.00 Special Assessments Before Forfeiture: $1,491.65 PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Deed: State Deed will be given after full payment is made. A state deed is a quitclaim deed which has the characteristics of a patent from the State of Minnesota. Full Payment: Full Payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: Any lands offered for sale may be subject to unpaid assessments against the property. Before purchasing, any prospective buyer should consult the city or township clerk and county, in respect to any unpaid assessments "
-    }
-  },
-  {
     "id": "publicsurplus-4075726",
     "source": "public_surplus",
     "state": "MN",
@@ -76,7 +31,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -235,7 +190,7 @@
     "date_closes": "Nov 2, 2026 02:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 20.5,
+      "current_bid": 26.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -649,7 +604,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -694,7 +649,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -739,7 +694,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -784,7 +739,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -829,7 +784,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -874,7 +829,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -919,7 +874,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -964,7 +919,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1009,7 +964,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1054,7 +1009,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1099,7 +1054,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1144,7 +1099,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1189,7 +1144,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1234,7 +1189,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1279,7 +1234,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1324,7 +1279,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1369,7 +1324,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1414,7 +1369,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1459,7 +1414,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1504,7 +1459,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1549,7 +1504,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -1594,7 +1549,7 @@
     "assessed_value": {
       "emv_total": null,
       "source": "mn_pending",
-      "lookup_status": "matched_but_no_emv_value"
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2172,14 +2127,14 @@
     "price": {
       "current_bid": 22400.0,
       "minimum_bid": null,
-      "tier1_emv_price": 22400,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 22400,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -2217,14 +2172,14 @@
     "price": {
       "current_bid": 11700.0,
       "minimum_bid": null,
-      "tier1_emv_price": 11700,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 11700,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
     },
     "buildable": true,
     "buildability_notes": [],
