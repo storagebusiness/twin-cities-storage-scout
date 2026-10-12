@@ -1,5 +1,22 @@
 [
   {
+    "mortgagor_name": "Four Musketeers LLC, a Minnesota limited liability company",
+    "mortgage_amount": 700000.0,
+    "property_address_raw": "2437 Sunset Ct Little Canada",
+    "house_number": "2437",
+    "street_name": "Sunset",
+    "street_suffix": "Ct",
+    "street_direction": "",
+    "city": "Little Canada",
+    "zip": null,
+    "county": "Ramsey",
+    "auction_date": "11/24/2026",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=real_estate&detail=4220337",
+    "source": "stpaul_legal_ledger",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "Travon Baldwin, unmarried man",
     "mortgage_amount": 235000.0,
     "property_address_raw": "930 Hawthorne Ave E Saint Paul",
