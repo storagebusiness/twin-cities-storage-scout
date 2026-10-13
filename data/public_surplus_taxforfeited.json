@@ -190,7 +190,7 @@
     "date_closes": "Nov 2, 2026 02:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 800.0,
+      "current_bid": 810.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -1536,7 +1536,7 @@
       "precision": "county_centroid"
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076085",
-    "date_listed": null,
+    "date_listed": "Oct 13, 2026 09:00 AM MDT",
     "date_closes": "Nov 12, 2026 09:00 AM MST",
     "status": "open",
     "price": {
@@ -1581,7 +1581,7 @@
       "precision": "county_centroid"
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076086",
-    "date_listed": null,
+    "date_listed": "Oct 13, 2026 09:00 AM MDT",
     "date_closes": "Nov 12, 2026 09:00 AM MST",
     "status": "open",
     "price": {
@@ -1626,7 +1626,7 @@
       "precision": "county_centroid"
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076087",
-    "date_listed": null,
+    "date_listed": "Oct 13, 2026 09:00 AM MDT",
     "date_closes": "Nov 12, 2026 09:00 AM MST",
     "status": "open",
     "price": {
@@ -1671,7 +1671,7 @@
       "precision": "county_centroid"
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076088",
-    "date_listed": null,
+    "date_listed": "Oct 13, 2026 09:00 AM MDT",
     "date_closes": "Nov 12, 2026 09:00 AM MST",
     "status": "open",
     "price": {
@@ -1716,7 +1716,7 @@
       "precision": "county_centroid"
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076089",
-    "date_listed": null,
+    "date_listed": "Oct 13, 2026 09:00 AM MDT",
     "date_closes": "Nov 12, 2026 09:00 AM MST",
     "status": "open",
     "price": {
@@ -1761,7 +1761,7 @@
       "precision": "county_centroid"
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076090",
-    "date_listed": null,
+    "date_listed": "Oct 13, 2026 09:00 AM MDT",
     "date_closes": "Nov 12, 2026 09:00 AM MST",
     "status": "open",
     "price": {
@@ -1806,7 +1806,7 @@
       "precision": "county_centroid"
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076091",
-    "date_listed": null,
+    "date_listed": "Oct 13, 2026 09:00 AM MDT",
     "date_closes": "Nov 12, 2026 09:00 AM MST",
     "status": "open",
     "price": {
@@ -1851,7 +1851,7 @@
       "precision": "county_centroid"
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076092",
-    "date_listed": null,
+    "date_listed": "Oct 13, 2026 09:00 AM MDT",
     "date_closes": "Nov 12, 2026 09:00 AM MST",
     "status": "open",
     "price": {
@@ -1896,7 +1896,7 @@
       "precision": "county_centroid"
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4076093",
-    "date_listed": null,
+    "date_listed": "Oct 13, 2026 09:00 AM MDT",
     "date_closes": "Nov 12, 2026 09:00 AM MST",
     "status": "open",
     "price": {
@@ -1941,7 +1941,7 @@
       "precision": "county_centroid"
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4087772",
-    "date_listed": null,
+    "date_listed": "Oct 13, 2026 09:00 AM MDT",
     "date_closes": "Nov 12, 2026 09:00 AM MST",
     "status": "open",
     "price": {
@@ -1986,7 +1986,7 @@
       "precision": "county_centroid"
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4035060",
-    "date_listed": null,
+    "date_listed": "Oct 13, 2026 09:00 AM MDT",
     "date_closes": "Nov 12, 2026 03:00 PM MST",
     "status": "open",
     "price": {
@@ -2031,7 +2031,7 @@
       "precision": "county_centroid"
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052049",
-    "date_listed": null,
+    "date_listed": "Oct 13, 2026 09:00 AM MDT",
     "date_closes": "Nov 12, 2026 03:00 PM MST",
     "status": "open",
     "price": {
@@ -2055,6 +2055,96 @@
     "raw_source_data": {
       "title": "Scott County #111120150 Tax Forfeited Land Sale",
       "description_text": "Description Parcel Number: 111120150 Property Type: Vacant land Lot Size (Acres): .14 Condition: SEE DESCRIPTION Description Item Code: 111120150 STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY SCOTT COUNTY General Description Vacant Land-Spring Lake Township SCOTT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. PLAT: Hickory Hollow Outlot E Initial Price (EMV): $2,700 If no buyer is willing to pay the initial price after 30 days, the price of this property will be changed to the minimum bid price and reoffered at auction again for an additional 30 days. The minimum bid auction will open on Nov 13, 2026, at 10:00 AM and close on Nov 24, 2026, at 4:00 PM on Public Surplus. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Scott County Property and Taxation Services Department Online Land Sales: Standard Disclaimer and the Scott County Property and Taxation Services Department Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state-mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Recording Fee $46.00 or as set by the Scott County Land Records Department. $5.00 Conservation fee. $50.00 Well certificate (if applicable). Deed Fee $25.00 Deed Tax $1.65 for sales plus buyer premium up to $3,000, or .0033 times the base sale price plus buyer premi"
+    }
+  },
+  {
+    "id": "publicsurplus-4105090",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Wadena",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 46.586985,
+      "lng": -94.988608,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4105090",
+    "date_listed": "Oct 13, 2026 07:00 AM MDT",
+    "date_closes": "Nov 13, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 2800.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Wadena County Real Estate Tax Forfeiture Parcel # 03.003.1030",
+      "description_text": "Description Condition: UNKNOWN Wadena County Tax Forfeited Property ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND. WADENA COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENT(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Wadena County Online Land Sales: Standard Disclaimer and Wadena County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. General Description: Location: Bullard Township Parcel: 03.003.1030 Legal: SEC 3 TWP 135 R 33 - APPROX 22.96 AC - GOVERNMENT LOT 1*EXCEPT THE EAST 20 ACRES Address: Assessed Value: 81,400 PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full Payment of the total sale value. Assessments: Any lands offered for sale may be subject to unpaid assessments against the property. Before purchasing, any prospective buyer should consult the city or township clerk and county, in respect to any unpaid assessments that may exist. Recording Fee: $46.00 or as set by the Wadena County Recorder. Deed Tax: 0.0033 times the purchase price or $1.65 minimum, whichever is greater. Administration Fee: $100.00 State Assurance Fee: 3% of Purchase Price State Deed Fee: $25.00 *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. WADENA COUNTY AUDITOR-TREASURER WILL CALCULATE AND E-MAIL THE WILLING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. PAYMENT REQUIREMENTS Payment must be made by Cash, Cashier's Check, or Money Order made payable"
+    }
+  },
+  {
+    "id": "publicsurplus-4105120",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Wadena",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 46.586985,
+      "lng": -94.988608,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4105120",
+    "date_listed": "Oct 13, 2026 07:00 AM MDT",
+    "date_closes": "Nov 13, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 2700.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Wadena County Real Estate Tax Forfeiture Parcel # 17.630.0060",
+      "description_text": "Description Condition: SEE DESCRIPTION Wadena County Tax Forfeited Property ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND. WADENA COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENT(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Wadena County Online Land Sales: Standard Disclaimer and Wadena County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. General Description: Location: City of Menahga Parcel: 17.630.0060 Legal: ODLANDS PINE ACRES 5TH - LOT 6 BLOCK 1 Address: 720 Fern Ave SE - Menahga Assessed Value: 34,700 PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full Payment of the total sale value. Assessments: Any lands offered for sale may be subject to unpaid assessments against the property. Before purchasing, any prospective buyer should consult the city or township clerk and county, in respect to any unpaid assessments that may exist. Recording Fee: $46.00 or as set by the Wadena County Recorder. Deed Tax: 0.0033 times the purchase price or $1.65 minimum, whichever is greater. Administration Fee: $100.00 State Assurance Fee: 3% of Purchase Price State Deed Fee: $25.00 *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. WADENA COUNTY AUDITOR-TREASURER WILL CALCULATE AND E-MAIL THE WILLING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. PAYMENT REQUIREMENTS Payment must be made by Cash, Cashier's Check, or Money Order made payable to Waden"
     }
   },
   {
