@@ -1047,310 +1047,121 @@
     "matched_unit_format": "flat_semicolon_list"
   },
   {
-    "renter_name": "Ryan Jackson",
-    "contents_text": "air compressor bicylce fishing equip. tools",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
+    "renter_name": "Yia Vang",
+    "contents_text": "computer equip. furniture boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
     "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
   },
   {
-    "renter_name": "Shannon Gibson",
-    "contents_text": "sewing machine fishing equip. television",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
+    "renter_name": "Josiah Vang",
+    "contents_text": "computer equip. furniture boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
     "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
   },
   {
-    "renter_name": "Scheryell Smith",
-    "contents_text": "bicycle ladder furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Shyla Brown",
-    "contents_text": "camping equip. fishing equip. ladder tools",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Gerald Davis",
-    "contents_text": "BBQ grill stereo equip. ladder leaf blower",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Valentina Zaragoza",
-    "contents_text": "sewing machine stereo equip. camping equip.",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Fowsia Abdi",
+    "renter_name": "Andrew Wakooli",
     "contents_text": "luggage furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
     "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
   },
   {
-    "renter_name": "Tahawna Woodard",
-    "contents_text": "furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
+    "renter_name": "Carol Meyer",
+    "contents_text": "television stereo equip. furniture boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
     "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
   },
   {
-    "renter_name": "Paige Elder",
-    "contents_text": "auto parts power tools luggage furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
+    "renter_name": "Kane Aljets",
+    "contents_text": "television stereo equip. furniture boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
     "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
   },
   {
-    "renter_name": "Samuel Elder",
-    "contents_text": "auto parts power tools luggage furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
+    "renter_name": "Danoald Tobritzhofer",
+    "contents_text": "vacuum cleaner luggage boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
     "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
   },
   {
-    "renter_name": "Demetria Smith",
-    "contents_text": "computer equip. stereo equip. furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
+    "renter_name": "Cortny Rousseau",
+    "contents_text": "vacuum cleaner luggage boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
     "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
   },
   {
-    "renter_name": "Daron Woodard",
-    "contents_text": "luggage tools boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
+    "renter_name": "Jean Foster",
+    "contents_text": "space heater luggage boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
     "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
   },
   {
-    "renter_name": "Matthew D Runnels",
-    "contents_text": "furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Margarita A Alatriz Romero",
-    "contents_text": "furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Latara Martin",
-    "contents_text": "boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Donte Martin",
-    "contents_text": "boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Demetria Smith",
-    "contents_text": "televisions luggage furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Chalice Ticker",
-    "contents_text": "television furniture boxes(Published in Finance and Commerce",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Luther Tucker",
-    "contents_text": "television furniture boxes(Published in Finance and Commerce",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211941",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Bettie Smith",
-    "contents_text": "auto parts stereo equip. furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Lenora Ware",
-    "contents_text": "exercise equip. fishing equip. safe sports equip.",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Curtis Adams",
-    "contents_text": "exercise equip. fishing equip. safe sports equip.",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Lenora Ware",
-    "contents_text": "camping equip. furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Curtis Adams",
-    "contents_text": "camping equip. furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Arayia S Hickman",
-    "contents_text": "furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Herman Bastert",
-    "contents_text": "exerciseg equip. power tools",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Samuel Bergevin",
+    "renter_name": "Malissa Trent",
     "contents_text": "luggage furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
     "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223299",
+    "source": "stpaul_legal_ledger"
   },
   {
-    "renter_name": "Alexandra Hanks",
-    "contents_text": "hydraulic jack sports equip. luggage furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
+    "renter_name": "Lendell Williams",
+    "contents_text": "luggage boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
     "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223299",
+    "source": "stpaul_legal_ledger"
   },
   {
-    "renter_name": "Roshanda D Jack",
-    "contents_text": "power tools furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
+    "renter_name": "Mary Acon",
+    "contents_text": "luggage boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
     "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223299",
+    "source": "stpaul_legal_ledger"
   },
   {
-    "renter_name": "Daisy Epps",
-    "contents_text": "auto parts furniture boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
+    "renter_name": "Ezrah Iverson",
+    "contents_text": "bicycle camping equip. golf clubs luggage",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
     "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223299",
+    "source": "stpaul_legal_ledger"
   },
   {
-    "renter_name": "Renea Senander",
-    "contents_text": "tools boxes",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
+    "renter_name": "Jennifer Iverson",
+    "contents_text": "bicycle camping equip. golf clubs luggage",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
     "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Andrew Russell",
-    "contents_text": "furniture",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Allen Russell",
-    "contents_text": "furniture",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
-  },
-  {
-    "renter_name": "Debrah Lauritson",
-    "contents_text": "Boxes(Published in Finance and Commerce",
-    "facility_address_raw": "UNKNOWN ( County)",
-    "facility_address_normalized": "unknown ( county)",
-    "auction_date": "",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=personal_property&detail=4211947",
-    "matched_unit_format": "block_newline"
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223299",
+    "source": "stpaul_legal_ledger"
   },
   {
     "renter_name": "David Nyaosi",

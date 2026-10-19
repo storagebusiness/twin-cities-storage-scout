@@ -1,5 +1,122 @@
 [
   {
+    "renter_name": "Yia Vang",
+    "contents_text": "computer equip. furniture boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Josiah Vang",
+    "contents_text": "computer equip. furniture boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Andrew Wakooli",
+    "contents_text": "luggage furniture boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Carol Meyer",
+    "contents_text": "television stereo equip. furniture boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Kane Aljets",
+    "contents_text": "television stereo equip. furniture boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Danoald Tobritzhofer",
+    "contents_text": "vacuum cleaner luggage boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Cortny Rousseau",
+    "contents_text": "vacuum cleaner luggage boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Jean Foster",
+    "contents_text": "space heater luggage boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223294",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Malissa Trent",
+    "contents_text": "luggage furniture boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223299",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Lendell Williams",
+    "contents_text": "luggage boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223299",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Mary Acon",
+    "contents_text": "luggage boxes",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223299",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Ezrah Iverson",
+    "contents_text": "bicycle camping equip. golf clubs luggage",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223299",
+    "source": "stpaul_legal_ledger"
+  },
+  {
+    "renter_name": "Jennifer Iverson",
+    "contents_text": "bicycle camping equip. golf clubs luggage",
+    "facility_address_raw": "UNKNOWN (Ramsey County)",
+    "facility_address_normalized": "unknown (ramsey county)",
+    "auction_date": "",
+    "source_url": "https://minnlawyer.com/public-notice/search-detail?indexgroup=personal_property&detail=4223299",
+    "source": "stpaul_legal_ledger"
+  },
+  {
     "renter_name": "David Nyaosi",
     "contents_text": "tool box furniture",
     "facility_address_raw": "UNKNOWN (Ramsey County)",
