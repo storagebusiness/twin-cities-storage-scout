@@ -67,7 +67,7 @@
     "date_closes": "Nov 2, 2026 02:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 2550.0,
+      "current_bid": 3750.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -3956,7 +3956,7 @@
     "date_closes": "Nov 4, 2026 10:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 10100.0,
+      "current_bid": 16200.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
