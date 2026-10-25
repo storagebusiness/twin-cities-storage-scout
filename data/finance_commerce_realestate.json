@@ -208,22 +208,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Clifton J Rennie Jr, a single person, and John C Rennie Sr, a single person, and Landon Rennie, a single person",
-    "mortgage_amount": 359000.0,
-    "property_address_raw": "3356 Park Ave Minneapolis",
-    "house_number": "3356",
-    "street_name": "Park",
-    "street_suffix": "Ave",
-    "street_direction": "",
-    "city": "Minneapolis",
-    "zip": null,
-    "county": null,
-    "auction_date": "11/19/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4219726",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "Angela Hogan, a single woman",
     "mortgage_amount": 135000.0,
     "property_address_raw": "2754 Queen Ave N Minneapolis",
@@ -268,6 +252,22 @@
     "county": null,
     "auction_date": "11/19/2026",
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4219723",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
+    "mortgagor_name": "Clifton J Rennie Jr, a single person, and John C Rennie Sr, a single person, and Landon Rennie, a single person",
+    "mortgage_amount": 359000.0,
+    "property_address_raw": "3356 Park Ave Minneapolis",
+    "house_number": "3356",
+    "street_name": "Park",
+    "street_suffix": "Ave",
+    "street_direction": "",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": null,
+    "auction_date": "11/19/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4219726",
     "matched_numbered_format": false,
     "matched_executed_by_format": false
   },
