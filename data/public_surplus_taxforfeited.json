@@ -67,7 +67,7 @@
     "date_closes": "Nov 2, 2026 02:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 3750.0,
+      "current_bid": 3850.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -3997,7 +3997,7 @@
     "date_closes": "Nov 4, 2026 10:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 1950.0,
+      "current_bid": 2025.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -4771,7 +4771,7 @@
     "date_closes": "Nov 4, 2026 10:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 54300.0,
+      "current_bid": 55300.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -4865,7 +4865,7 @@
     "date_closes": "Nov 4, 2026 10:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 65000.0,
+      "current_bid": 66300.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -6013,53 +6013,6 @@
     "raw_source_data": {
       "title": "Tract 132: UNORGANIZED 55 15, Parcel 662-0020-00260, C22260169",
       "description_text": "Description Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY ST. LOUIS COUNTY This property is\u00a0being sold \u201c AS IS \u201d.\u00a0It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument, or document shall in no way relieve any bidder from any obligation in respect to their bid. Remember: Your bid is the same as a contract - Please only bid on property you are serious about buying. A winning bid constitutes a legally binding contract. St. Louis County reserves the right to block/ban bidders who refuse to pay for land purchased. GENERAL DESCRIPTION: Location:\u00a0East across road from 4979 Comstock Lake Road, Cotton Parcel:\u00a0662-0020-00260 Acreage: +/-\u00a00.34 City/Township:\u00a0UNORGANIZED 55 15 Legal:\u00a0LOT 23 A, VESSELS PLAT OF COMSTOCK LAKE 55 15 Note: Click on image above to visit the County Land Explorer Comments:\u00a0This approximately 0.34 of an acre parcel is a nonconforming lot of record, with about 120 feet of frontage on Tower Creek, and is crossed by a powerline. Zoning is RES-7 (Residential). Contact St. Louis County Planning and Zoning for permitted uses and zoning questions. This parcel is predominately wetland and may not be suitable for development. Check with the St. Louis County Auditor for any certified, pending, or future assessments that may be reinstated. Recording fee $46.00 (T#322191). PAYMENT: At the time of this auction's closing, each bidder will be presumed to have inspected the site and to have read and to be thoroughly familiar with any and all plans, contract documents (including any addenda), and documents attached to this auction listing. Costs Subject to Bid Up - The following fees are based on your final bid and will be added to the total sale price : Buyer Premium of 3.5% State Assurance Fee of 3% Deed Tax is 0.33% of the Final Bid, Assessments, and Buyer Premium Please n"
-    }
-  },
-  {
-    "id": "publicsurplus-4095252",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": null,
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "676-0010-01920",
-    "coordinates": null,
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4095252",
-    "date_listed": "Oct 21, 2026 09:20 AM MDT",
-    "date_closes": "Nov 4, 2026 10:00 AM MST",
-    "status": "open",
-    "price": {
-      "current_bid": 62300.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
-    },
-    "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
-    },
-    "buildable": false,
-    "buildability_notes": [
-      {
-        "phrase": "wetlands",
-        "category": "wetlands",
-        "matched_from": "listing_description"
-      }
-    ],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Tract 133: UNORGANIZED 56 16, Parcel 676-0010-01920, C22260171",
-      "description_text": "Description Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY ST. LOUIS COUNTY This property is\u00a0being sold \u201c AS IS \u201d.\u00a0It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument, or document shall in no way relieve any bidder from any obligation in respect to their bid. Remember: Your bid is the same as a contract - Please only bid on property you are serious about buying. A winning bid constitutes a legally binding contract. St. Louis County reserves the right to block/ban bidders who refuse to pay for land purchased. GENERAL DESCRIPTION: Location:\u00a0East of 3179 Little Lake Road, Makinen Parcel:\u00a0676-0010-01920 Acreage: +/-\u00a040 City/Township:\u00a0UNORGANIZED 56 16 Legal:\u00a0NE 1/4 OF SE 1/4, Sec 11 Twp 56N Rge 16W Note: Click on image above to visit the County Land Explorer Comments:\u00a0This parcel is approximately 40 acres. Zoning is RES-5 (Residential). Contact St. Louis County Planning and Zoning for permitted uses and zoning questions. The parcel contains wetlands that may impact development and access plans. Check with the St. Louis County Auditor for any certified, pending, or future assessments that may be reinstated. Recording fee $46.00 (Abstract). Base Timber Value: $9,925.00. Timber must be paid in full at the time of sale. Please note: The timber value increases the same percentage as the sale bid up.\u00a0The timber value of this tract is approximately 15.93% of the price. PAYMENT: At the time of this auction's closing, each bidder will be presumed to have inspected the site and to have read and to be thoroughly familiar with any and all plans, contract documents (including any addenda), and documents attached to this auction listing. Costs Subject to Bid Up - The following fees are based on your final bid and will be added to the total sale price : Buyer Premium of 3.5% State Assuranc"
     }
   },
   {
@@ -9729,7 +9682,7 @@
     "date_closes": "Nov 13, 2026 02:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 3050.0,
+      "current_bid": 5000.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
