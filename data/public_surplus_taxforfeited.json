@@ -3997,7 +3997,7 @@
     "date_closes": "Nov 4, 2026 10:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 4550.0,
+      "current_bid": 5000.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -5993,7 +5993,7 @@
     "date_closes": "Nov 4, 2026 10:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 400.0,
+      "current_bid": 410.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -7010,7 +7010,7 @@
     },
     "raw_source_data": {
       "title": "Wright County Tax Forfeiture Auction - #217-065-000010 Township of Southside",
-      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number: 217-065-000010 Property Type: LAND ONLY Acres: 6.25 Condition: UNKNOWN General Description:\u00a0SECT-04 TWP-121 RANGE-028 BARTLETT'S MILLPOND NORTH VLGS OUTLOT A CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidder, if said person or entity is delinquent on real or personal property taxes in Wright County. If you are interested in purchasing tax forfeited property on public auction, you must pay all of your delinquent taxes prior to purchasing or bidding. DISCLAIMERS Withdrawal The right to withdraw or add any parcels"
+      "description_text": "Description Condition: SEE DESCRIPTION Parcel Number: 217-065-000010 Property Type: LAND ONLY Acres: 6.25 Condition: UNKNOWN General Description:\u00a0SECT-04 TWP-121 RANGE-028 BARTLETT'S MILLPOND NORTH VLGS OUTLOT A **Per MN DNR: The majority of the parcel is seasonally to permanently flooded wetland with what appears to be no buildable area without impacts to wetlands or public waters.** CONTRACT An award of sale is a contract between the winning bidder and Wright County, upon the terms and conditions set forth herein. Wright County may pursue all legal remedies allowed by law against any bidder who fails to make payment for a winning bid. GUARANTEE WAIVER ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES OR REPRESENTATION OF ANY KIND. Wright County MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Wright County makes no warranty, guaranty or representation of any kind, expressed or implied, as to the condition, usability, value, merchantability, authenticity, or fitness for any purpose of the property offered for sale. Buyer is not entitled to any payment for loss of profit or any other money damages, including but not limited to special, direct, indirect, or consequential damages. NO DESCRIPTION WARRANTY Wright County is not responsible for any omissions or errors in description of items being offered for sale. It shall be the bidder's responsibility to inspect and satisfy him or herself as to the details and conditions of the item offered before entering a bid. The Agency does not attest to the authenticity of any item. CONSIDERATION OF BID Wright County reserves the right to reject all bids and to withdraw from sale any of the properties listed before a notice of award is delivered. Any person or entity, or entity controlled by such person, is a prohibited purchaser or bidder, if said person or entity is delinquent on real or personal property taxes in Wright County. If you are interested in purchasing tax"
     }
   },
   {
@@ -9682,7 +9682,7 @@
     "date_closes": "Nov 13, 2026 02:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 6100.0,
+      "current_bid": 7100.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
