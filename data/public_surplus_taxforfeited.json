@@ -4443,7 +4443,7 @@
     "date_closes": "Nov 4, 2026 10:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 29900.0,
+      "current_bid": 30100.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -5993,7 +5993,7 @@
     "date_closes": "Nov 4, 2026 10:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 410.0,
+      "current_bid": 500.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -6532,7 +6532,7 @@
     "date_closes": "Nov 4, 2026 11:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 4364.32,
+      "current_bid": 4514.32,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -10062,6 +10062,186 @@
     "raw_source_data": {
       "title": "Tax-Forfeit Land - Spring Lake Park, MN 01-30-24-42-0068",
       "description_text": "Description Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY MANAGED BY ANOKA COUNTY Address 8064 Garfield St NE, Spring Lake Park, MN 55432 Parcel ID 01-30-24-42-0068 Legal Description (for tax purposes only) LOT 26 BLK 2 SPRING LAKE ESTATES Land Type Residential Estimated Acres .30 This property is being sold \"AS IS\". The county makes no warranty that the land is buildable and is not responsible for determining property lines or boundaries. Transfer of property title shall be in the form of a State Deed, as prescribed by law, to the highest bidder. It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. Suggested resources include: GIS Mapping Application Property Information Public Research Room in the Government Center in Anoka, MN City Offices (inquiries regarding permits, building codes, zoning laws and special assessments) OBLIGATION OF BIDDER Your bid is the same as a contract - only bid on land you are serious about buying. A winning bid constitutes a legally binding contract. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. ACCEPTANCE OF TERMS AND CONDITIONS By submitting a bid, the bidder agrees that the bidder has read, fully understood, and accepted the complete Terms and Conditions of Online Initial Sales, and agrees to pay for, if the bid is accepted, by the dates and times specified. PAYMENT TERMS The buyer\u2019s premium will be visible during the bidding process and added automatically to the total bid price. All bids must be paid in full in the office of the County Auditor. Installment plans are not available. Additional Closing Costs - The following fees are not visible during the bidding process, but will be collected from the winning bidder: State Assurance Fee: 3% of the base sale price State Deed Fee: $25.00 Recording Fee: $46."
+    }
+  },
+  {
+    "id": "publicsurplus-4120442",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Fillmore",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 43.679187,
+      "lng": -92.093937,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120442",
+    "date_listed": null,
+    "date_closes": "Dec 1, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 138500.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Fillmore County (MN) EMV Tax Forfeiture Sale 02.0251.000",
+      "description_text": "Description Condition: POOR STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY FILLMORE COUNTY General Description JOHNSONS ADDITION LOT-006 BLOCK-001 LOT 6 BLK 1 JOHNSON ADD ADDRESS: 317 Locust St N, Mabel, MN 55954 Land: 6000 SQ FT\u00a0 \u00a0 \u00a0Building: 2 Story w/Attic This is a residential lot in the City of Mabel. Parcel Number: 02.0251.000 Starting Bid Price: $138,500 - Estimated Market Value Price MINIMUM PRICE SET FOR 30-DAYS *Price is subject to additional state, county and other costs as required and described in the Terms of Sale* Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
+    }
+  },
+  {
+    "id": "publicsurplus-4120443",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Fillmore",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 43.679187,
+      "lng": -92.093937,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120443",
+    "date_listed": null,
+    "date_closes": "Dec 1, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 217000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Fillmore County (MN) Tax Forfeiture Sale 05.0095.030 - Prev. Forfeiture",
+      "description_text": "Description Condition: FAIR STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY FILLMORE COUNTY General Description SECT-13 TWP-104 RANGE-008 UNPLATTED LOT 7 NW1/4 NE1/4 EX 2261 SQ FT ADDRESS: 45694 Money Creek Rd, Rushford, MN 55971 Land: 19,443 SQ FT\u00a0 \u00a0 \u00a0Building: Split Story This is a residential lot in the City of Rushford Village. Parcel Number: 05.0093.060 Starting Bid Price: $217,000 - Estimated Market Value Price MINIMUM PRICE SET FOR 30-DAYS *Price is subject to additional state, county and other costs as required and described in the Terms of Sale* Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
+    }
+  },
+  {
+    "id": "publicsurplus-4120444",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Fillmore",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 43.679187,
+      "lng": -92.093937,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120444",
+    "date_listed": null,
+    "date_closes": "Dec 1, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 60400.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Fillmore County (MN) Tax Forfeiture Sale 09.0065.000",
+      "description_text": "Description Condition: POOR STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY FILLMORE COUNTY General Description CANTON ORIGINAL PLAT LOT-108 LOTS 108 & 109 ADDRESS: 306 Main St N, Canton, MN 55923 Land: 6000 SQ FT\u00a0 \u00a0 \u00a0Building: 1.5 Story This is a residential lot in the City of Canton. Parcel Number: 09.0065.000 Starting Bid Price: $60,400- Estimated Market Value Price MINIMUM PRICE SET FOR 30-DAYS *Price is subject to additional state, county and other costs as required and described in the Terms of Sale* Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
+    }
+  },
+  {
+    "id": "publicsurplus-4120445",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Fillmore",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 43.679187,
+      "lng": -92.093937,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120445",
+    "date_listed": null,
+    "date_closes": "Dec 1, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 121300.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Fillmore County (MN) Tax Forfeiture Sale 36.0420.000",
+      "description_text": "Description Condition: FAIR STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY FILLMORE COUNTY General Description ALLENS ADDITION LOT-011 BLOCK-008 OLS ADDED TO BLK 8 LOT 11 & S27' LOT 12 ALLENS ADD ADDRESS: 410 Division Ave, Spring Valley, MN 55975 Land: 10,977 SQ FT\u00a0 \u00a0 \u00a0Building: 1.5 Story This is a residential lot in the City of Spring Valley. Parcel Number: 36.0420.000 Starting Bid Price: $121,300 - Estimated Market Value Price MINIMUM PRICE SET FOR 30-DAYS *Price is subject to additional state, county and other costs as required and described in the Terms of Sale* Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
     }
   },
   {

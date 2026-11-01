@@ -768,22 +768,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Roderick L. Gove and Donna M. Gove, husband and wife, as joint tenants",
-    "mortgage_amount": 80000.0,
-    "property_address_raw": "10405 Bass Lake Rd Plymouth",
-    "house_number": "10405",
-    "street_name": "Bass Lake",
-    "street_suffix": "Rd",
-    "street_direction": "",
-    "city": "Plymouth",
-    "zip": null,
-    "county": null,
-    "auction_date": "10/14/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4207855",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "Vernell Brazell",
     "mortgage_amount": 223100.0,
     "property_address_raw": "2519 27th Ave N Minneapolis",
@@ -940,22 +924,6 @@
     "county": "Hennepin",
     "auction_date": null,
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4218793",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
-    "mortgagor_name": "Ronald W. Bennett, an unmarried man",
-    "mortgage_amount": 307200.0,
-    "property_address_raw": "4330 Oakview Ln N Plymouth",
-    "house_number": "4330",
-    "street_name": "Oakview",
-    "street_suffix": "Ln",
-    "street_direction": "N",
-    "city": "Plymouth",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4218429",
     "matched_numbered_format": false,
     "matched_executed_by_format": false
   },
