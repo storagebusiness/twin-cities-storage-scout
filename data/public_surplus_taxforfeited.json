@@ -4038,7 +4038,7 @@
     "date_closes": "Nov 4, 2026 10:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 34300.0,
+      "current_bid": 34700.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -4226,7 +4226,7 @@
     "date_closes": "Nov 4, 2026 10:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 400.0,
+      "current_bid": 535.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -4752,7 +4752,7 @@
     "date_closes": "Nov 4, 2026 10:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 1100.0,
+      "current_bid": 1125.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -5588,7 +5588,7 @@
     "date_closes": "Nov 4, 2026 10:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 1025.0,
+      "current_bid": 1200.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -6127,7 +6127,7 @@
     "date_closes": "Nov 4, 2026 11:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 4514.32,
+      "current_bid": 4714.32,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -9232,7 +9232,7 @@
     "date_closes": "Nov 13, 2026 02:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 16600.0,
+      "current_bid": 34100.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -9858,7 +9858,7 @@
       "precision": "county_centroid"
     },
     "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4096307",
-    "date_listed": null,
+    "date_listed": "Nov 3, 2026 09:00 AM MST",
     "date_closes": "Dec 3, 2026 09:00 AM MST",
     "status": "open",
     "price": {
