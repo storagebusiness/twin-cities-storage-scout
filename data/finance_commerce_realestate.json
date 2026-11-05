@@ -864,6 +864,22 @@
     "matched_executed_by_format": false
   },
   {
+    "mortgagor_name": "Ronald W. Bennett, an unmarried man",
+    "mortgage_amount": 307200.0,
+    "property_address_raw": "4330 Oakview Ln N Plymouth",
+    "house_number": "4330",
+    "street_name": "Oakview",
+    "street_suffix": "Ln",
+    "street_direction": "N",
+    "city": "Plymouth",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4218429",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "and between Sullivan Family Holdings 917 LLC",
     "mortgage_amount": 1160000.0,
     "property_address_raw": "917 \u2013 5th St N Minneapolis",
