@@ -878,21 +878,5 @@
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4212792",
     "matched_numbered_format": false,
     "matched_executed_by_format": true
-  },
-  {
-    "mortgagor_name": "Richard C Heimerl and Jill A Heimerl, married to each other",
-    "mortgage_amount": 350000.0,
-    "property_address_raw": "11519 Fetterly Rd W Minnetonka",
-    "house_number": "11519",
-    "street_name": "Fetterly",
-    "street_suffix": "Rd",
-    "street_direction": "W",
-    "city": "Minnetonka",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4209937",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": true
   }
 ]
