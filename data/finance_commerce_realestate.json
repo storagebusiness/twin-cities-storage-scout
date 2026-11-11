@@ -320,6 +320,22 @@
     "matched_executed_by_format": false
   },
   {
+    "mortgagor_name": "Susan C. Ellis and Jeffrey K. Sundell, Wife and Husband",
+    "mortgage_amount": 490500.0,
+    "property_address_raw": "2815 Ranier Ln N Plymouth",
+    "house_number": "2815",
+    "street_name": "Ranier",
+    "street_suffix": "Ln",
+    "street_direction": "N",
+    "city": "Plymouth",
+    "zip": null,
+    "county": null,
+    "auction_date": "11/24/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4220131",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "DeAngelo Buffington, as Married Person",
     "mortgage_amount": 227950.0,
     "property_address_raw": "5204 DuPont Ave N Minneapolis",

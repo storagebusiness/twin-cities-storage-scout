@@ -112,7 +112,7 @@
     "date_closes": "Nov 12, 2026 09:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 2025.0,
+      "current_bid": 3250.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -157,7 +157,7 @@
     "date_closes": "Nov 12, 2026 09:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 2075.0,
+      "current_bid": 2550.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -472,7 +472,7 @@
     "date_closes": "Nov 12, 2026 03:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 100.0,
+      "current_bid": 112.5,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -562,7 +562,7 @@
     "date_closes": "Nov 13, 2026 02:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 50100.0,
+      "current_bid": 65100.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -607,7 +607,7 @@
     "date_closes": "Nov 13, 2026 02:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 7100.0,
+      "current_bid": 7300.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -744,14 +744,14 @@
     "price": {
       "current_bid": 22400.0,
       "minimum_bid": null,
-      "tier1_emv_price": 22400,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 22400,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
     },
     "buildable": true,
     "buildability_notes": [],
@@ -789,14 +789,14 @@
     "price": {
       "current_bid": 11700.0,
       "minimum_bid": null,
-      "tier1_emv_price": 11700,
+      "tier1_emv_price": null,
       "tier2_minimum_price": null,
-      "price_basis": "self_contained_dual_tier"
+      "price_basis": "minimum_bid_only"
     },
     "assessed_value": {
-      "emv_total": 11700,
-      "source": "mn_statewide_parcel_mngeo",
-      "lookup_status": "matched"
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
     },
     "buildable": true,
     "buildability_notes": [],
