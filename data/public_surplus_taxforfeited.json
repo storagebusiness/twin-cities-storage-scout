@@ -1,95 +1,5 @@
 [
   {
-    "id": "publicsurplus-4035060",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Scott",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": null,
-    "coordinates": {
-      "lat": 44.651811,
-      "lng": -93.533733,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4035060",
-    "date_listed": "Oct 13, 2026 09:00 AM MDT",
-    "date_closes": "Nov 12, 2026 03:00 PM MST",
-    "status": "open",
-    "price": {
-      "current_bid": 112.5,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
-    },
-    "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Scott County #010130090 Tax Forfeited Land Sale",
-      "description_text": "Description Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY SCOTT COUNTY General Description Vacant Land-Belle Plaine Township PLAT: PRAIRIEHILLS SECOND Outlot B SCOTT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. Parcel Number: 010130090 Initial Price (EMV): $100 If no buyer is willing to pay the initial price after 30 days, the price of this property will be changed to the minimum bid price and reoffered at auction again for an additional 11 days. The minimum bid auction will open on November 13, 2026, at 10:00 AM and close on November 24, 2026, at 4:00 PM on Public Surplus. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Scott County Property and Taxation Services Department Online Land Sales: Standard Disclaimer and the Scott County Property and Taxation Services Department Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state-mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Recording Fee $46.00 or as set by the Scott County Land Records Department. $5.00 Conservation fee. $50.00 Well certificate (if applicable). Deed Fee $25.00 Deed Tax $1.65 for sales plus buyer premium up to $3,000, or .0033 times the base sale price plus buyer premium for sales over $3,000. Buyer Premium 5% of total sale price of la"
-    }
-  },
-  {
-    "id": "publicsurplus-4052049",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Scott",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": null,
-    "coordinates": {
-      "lat": 44.651811,
-      "lng": -93.533733,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4052049",
-    "date_listed": "Oct 13, 2026 09:00 AM MDT",
-    "date_closes": "Nov 12, 2026 03:00 PM MST",
-    "status": "open",
-    "price": {
-      "current_bid": 2700.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
-    },
-    "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Scott County #111120150 Tax Forfeited Land Sale",
-      "description_text": "Description Parcel Number: 111120150 Property Type: Vacant land Lot Size (Acres): .14 Condition: SEE DESCRIPTION Description Item Code: 111120150 STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY SCOTT COUNTY General Description Vacant Land-Spring Lake Township SCOTT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. PLAT: Hickory Hollow Outlot E Initial Price (EMV): $2,700 If no buyer is willing to pay the initial price after 30 days, the price of this property will be changed to the minimum bid price and reoffered at auction again for an additional 30 days. The minimum bid auction will open on Nov 13, 2026, at 10:00 AM and close on Nov 24, 2026, at 4:00 PM on Public Surplus. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Scott County Property and Taxation Services Department Online Land Sales: Standard Disclaimer and the Scott County Property and Taxation Services Department Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state-mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Recording Fee $46.00 or as set by the Scott County Land Records Department. $5.00 Conservation fee. $50.00 Well certificate (if applicable). Deed Fee $25.00 Deed Tax $1.65 for sales plus buyer premium up to $3,000, or .0033 times the base sale price plus buyer premi"
-    }
-  },
-  {
     "id": "publicsurplus-4105090",
     "source": "public_surplus",
     "state": "MN",
@@ -112,7 +22,7 @@
     "date_closes": "Nov 13, 2026 02:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 65200.0,
+      "current_bid": 72600.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -157,7 +67,7 @@
     "date_closes": "Nov 13, 2026 02:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 7300.0,
+      "current_bid": 32200.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -360,6 +270,51 @@
     }
   },
   {
+    "id": "publicsurplus-4128175",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Scott",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 44.651811,
+      "lng": -93.533733,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4128175",
+    "date_listed": "Nov 13, 2026 09:00 AM MST",
+    "date_closes": "Nov 24, 2026 03:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 463.68,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Scott County #111120150 Tax Forfeited Land Sale",
+      "description_text": "Description Parcel Number: 111120150 Property Type: Vacant land Lot Size (Acres): .14 Condition: SEE DESCRIPTION Description Item Code: 111120150 STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY SCOTT COUNTY General Description Vacant Land-Spring Lake Township SCOTT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. PLAT: Hickory Hollow Outlot E Initial Price (Min Bid Sale): $463.68 The minimum bid auction will open on Nov 13, 2026, at 10:00 AM and close on Nov 24, 2026, at 4:00 PM on Public Surplus. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Scott County Property and Taxation Services Department Online Land Sales: Standard Disclaimer and the Scott County Property and Taxation Services Department Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract.\u00a0 Please note this parcel does not have public access. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state-mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Recording Fee $46.00 or as set by the Scott County Land Records Department. $5.00 Conservation fee. $50.00 Well certificate (if applicable). Deed Fee $25.00 Deed Tax $1.65 for sales plus buyer premium up to $3,000, or .0033 times the base sale price plus buyer premium for sales over $3,000. Buyer Premium 5% of total sale price of land and structures. This percentage goes to Public Surplus"
+    }
+  },
+  {
     "id": "publicsurplus-4106323",
     "source": "public_surplus",
     "state": "MN",
@@ -537,6 +492,186 @@
     "raw_source_data": {
       "title": "Tax-Forfeit Land - Spring Lake Park, MN 01-30-24-42-0068",
       "description_text": "Description Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY MANAGED BY ANOKA COUNTY Address 8064 Garfield St NE, Spring Lake Park, MN 55432 Parcel ID 01-30-24-42-0068 Legal Description (for tax purposes only) LOT 26 BLK 2 SPRING LAKE ESTATES Land Type Residential Estimated Acres .30 This property is being sold \"AS IS\". The county makes no warranty that the land is buildable and is not responsible for determining property lines or boundaries. Transfer of property title shall be in the form of a State Deed, as prescribed by law, to the highest bidder. It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. Suggested resources include: GIS Mapping Application Property Information Public Research Room in the Government Center in Anoka, MN City Offices (inquiries regarding permits, building codes, zoning laws and special assessments) OBLIGATION OF BIDDER Your bid is the same as a contract - only bid on land you are serious about buying. A winning bid constitutes a legally binding contract. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. ACCEPTANCE OF TERMS AND CONDITIONS By submitting a bid, the bidder agrees that the bidder has read, fully understood, and accepted the complete Terms and Conditions of Online Initial Sales, and agrees to pay for, if the bid is accepted, by the dates and times specified. PAYMENT TERMS The buyer\u2019s premium will be visible during the bidding process and added automatically to the total bid price. All bids must be paid in full in the office of the County Auditor. Installment plans are not available. Additional Closing Costs - The following fees are not visible during the bidding process, but will be collected from the winning bidder: State Assurance Fee: 3% of the base sale price State Deed Fee: $25.00 Recording Fee: $46."
+    }
+  },
+  {
+    "id": "publicsurplus-4128525",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Mahnomen",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "19-300-0020",
+    "coordinates": {
+      "lat": 47.328387,
+      "lng": -95.811089,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4128525",
+    "date_listed": null,
+    "date_closes": "Nov 30, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 18000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Mahnomen County Tax-Forfeiture (PID 19-300-0020)",
+      "description_text": "Description Parcel Number: 19-300-0020 Property Type: Residential Lot Size (Acres): .32 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description Lots 5 and 6, Block 15, Second Addition to the Village of Waubun, according to the certified Plat thereof on file and of record in the office of the County Recorder in and for Mahnomen County, Minnesota. Parcel Number: 19-300-0020 Starting Bid Price:\u00a0$18,000.00 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023. \u00a0The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-improved properties shall be offered at appraised value without restrictions and improved properties shall be offered at appraised value for a period of 30 days only to persons who intend to own and occupy the property as a residence or who intend to use the property for non-commercial personal use.\u00a0 All remaining improved and non-improved properties not sold during the initial auction period will then be offered at appraised value in the second auction period without restrictions. The first auction period\u00a0 commenced on Tuesday, October 13, 2026 at 10:00 A.M. CST and concluded on Thursday, November 12, 2026 at 10:00 A.M. CST. Because this parcel did not sell during the first auction period, the second auction period shall commence on Monday, November 16, 2026 at 10:00 A.M. CST, and conclude on Monday November 30, 2026, as provided by the terms of the sale.\u00a0\u00a0Any unsold properties that still exist after the second sale will be available over the coun"
+    }
+  },
+  {
+    "id": "publicsurplus-4128527",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Mahnomen",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "19-400-0130",
+    "coordinates": {
+      "lat": 47.328387,
+      "lng": -95.811089,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4128527",
+    "date_listed": null,
+    "date_closes": "Nov 30, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 1545.4,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Mahnomen County Tax-Forfeiture (PID 19-400-0130)",
+      "description_text": "Description Parcel Number: 19-400-0130 Property Type: Residential Vacant Lot Lot Size (Acres): .16 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description Lot 11, Block 20, Third Addition, Village of Waubun Parcel Number: 19-400-0130 Starting Bid Price:\u00a0$1,545.40 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023. \u00a0The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-improved properties shall be offered at appraised value without restrictions and improved properties shall be offered at appraised value for a period of 30 days only to persons who intend to own and occupy the property as a residence or who intend to use the property for non-commercial personal use.\u00a0 All remaining improved and non-improved properties not sold during the initial auction period will then be offered at appraised value in the second auction period without restrictions. The first auction period\u00a0 commenced on Tuesday, October 13, 2026 at 10:00 A.M. CST and concluded on Thursday, November 12, 2026 at 10:00 A.M. CST. Because this parcel did not sell during the first auction period, the second auction period shall commence on Monday, November 16, 2026 at 10:00 A.M. CST, and conclude on Monday November 30, 2026, as provided by the terms of the sale.\u00a0\u00a0Any unsold properties that still exist after the second sale will be available over the counter in the Mahnomen County Auditors office at the same appraised value. Obligation of Bidder At the time of auction's closing, each bidder wil"
+    }
+  },
+  {
+    "id": "publicsurplus-4128530",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Mahnomen",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "06-018-0810",
+    "coordinates": {
+      "lat": 47.328387,
+      "lng": -95.811089,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4128530",
+    "date_listed": null,
+    "date_closes": "Nov 30, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 4000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Mahnomen County Tax-Forfeiture (PID 06-018-0810)",
+      "description_text": "Description Parcel Number: 06-018-0810 Property Type: Residential Lot Size (Acres): .34 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description Commencing at the Southwest Corner of the Southwest Quarter of the Northeast Quarter (SW\u00bcNE\u00bc), Section Eighteen (18), Township One Hundred Forty Six (146) North, Range Forty (40) West of the Fifth Principal Meridian, thence in a Westerly direction along the quarter section line of Section 18 a distance of approximately 820 feet, more or less, to a point being the point of beginning; thence in a Northerly direction a distance of 150 feet; thence in a Westerly direction a distance of 100 feet; thence in a Southerly direction a distance of 150 feet to a point of intersection with the quarter section line of Section 18; thence in an Easterly direction along the course of the quarter line of Section 18 a distance of 100 feet to the point of beginning, and there terminating. The above described parcel of property also includes a roadway easement from the Southwest Corner of the above described parcel of property, thence in a Westerly direction across the grantor's adjoining property to a point of intersection with a Heier Township road. This easement is intended to give the grantees a means of ingress and egress to the above described parcel of property. Parcel Number: 06-018-0810 Starting Bid Price:\u00a0$4,000.00 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023.\u00a0 The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-"
+    }
+  },
+  {
+    "id": "publicsurplus-4129181",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Mahnomen",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "18-100-0220",
+    "coordinates": {
+      "lat": 47.328387,
+      "lng": -95.811089,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4129181",
+    "date_listed": null,
+    "date_closes": "Nov 30, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 3500.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Mahnomen County Tax-Forfeiture (PID 18-100-0220)",
+      "description_text": "Description Parcel Number: 18-100-0220 Property Type: Vacant Commercial Lot Lot Size (Acres): .19 Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION Description STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY MAHNOMEN COUNTY General Description Lot 001 Block 003 Original Townsite, S 20' Lot 1-2-3; lot 4-5 Parcel Number: 18-100-0220 Starting Bid Price:\u00a0$3,500.00 The parcel included in this auction is a settlement period parcel.\u00a0 Settlement period parcels are those that forfeited between June 23, 2016 and December 31, 2023. \u00a0The sale will be governed by the provisions of Minnesota Laws 2024, Chapter 113, section 1, as amended by Minnesota Laws 2024, Chapter 127, article 70, section 10.\u00a0 All listed improved and non-improved properties will be offered for sale to the highest bidder at online auction in two auction periods.\u00a0 In the first auction period, non-improved properties shall be offered at appraised value without restrictions and improved properties shall be offered at appraised value for a period of 30 days only to persons who intend to own and occupy the property as a residence or who intend to use the property for non-commercial personal use.\u00a0 All remaining improved and non-improved properties not sold during the initial auction period will then be offered at appraised value in the second auction period without restrictions.\u00a0\u00a0 The first auction period shall commence on Tuesday, October 13, 2026 at 10:00 A.M. CST and conclude on Thursday, November 12, 2026 at 10:00 A.M. CST. If necessary, the second auction period shall commence on Monday, November 16, 2026 at 10:00 A.M. CST, and conclude on Monday November 30, 2026, as provided by the terms of the sale. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Mahnomen County Online Land"
     }
   },
   {
@@ -1144,7 +1279,7 @@
     "date_closes": "Dec 9, 2026 03:30 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 1225.0,
+      "current_bid": 2025.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
