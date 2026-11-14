@@ -752,38 +752,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Hershale Avae Love, a single person",
-    "mortgage_amount": 224950.0,
-    "property_address_raw": "7543 62nd Ct N Brooklyn Park",
-    "house_number": "7543",
-    "street_name": "62nd",
-    "street_suffix": "Ct",
-    "street_direction": "N",
-    "city": "Brooklyn Park",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "10/23/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4211373",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
-    "mortgagor_name": "Keflejesus Tesemma and Tameka Tesemma spouses married to each other",
-    "mortgage_amount": 202400.0,
-    "property_address_raw": "4851 Aldrich Ave N Minneapolis",
-    "house_number": "4851",
-    "street_name": "Aldrich",
-    "street_suffix": "Ave",
-    "street_direction": "N",
-    "city": "Minneapolis",
-    "zip": null,
-    "county": null,
-    "auction_date": "10/23/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4211379",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "and among KEBA PROPERTIES LLC",
     "mortgage_amount": 1200000.0,
     "property_address_raw": "3601 \u2013 4th Ave S Minneapolis",
