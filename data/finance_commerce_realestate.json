@@ -720,22 +720,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Robert Probach, A Single Man, As Sole Ownership",
-    "mortgage_amount": 312000.0,
-    "property_address_raw": "5450 Three Points Blvd Mound",
-    "house_number": "5450",
-    "street_name": "Three Points",
-    "street_suffix": "Blvd",
-    "street_direction": "",
-    "city": "Mound",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "10/26/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4212289",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "and among KEBA PROPERTIES LLC",
     "mortgage_amount": 1200000.0,
     "property_address_raw": "3601 \u2013 4th Ave S Minneapolis",
@@ -894,22 +878,6 @@
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4224271",
     "matched_numbered_format": false,
     "matched_executed_by_format": false
-  },
-  {
-    "mortgagor_name": "Peters Properties III LLC",
-    "mortgage_amount": 1310000.0,
-    "property_address_raw": "9100 Grand Ave S Bloomington",
-    "house_number": "9100",
-    "street_name": "Grand",
-    "street_suffix": "Ave",
-    "street_direction": "S",
-    "city": "Bloomington",
-    "zip": null,
-    "county": "the",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4223115",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": true
   },
   {
     "mortgagor_name": "Ronald W. Bennett, an unmarried man",
