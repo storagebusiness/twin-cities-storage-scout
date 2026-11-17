@@ -495,6 +495,51 @@
     }
   },
   {
+    "id": "publicsurplus-4130074",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Lake",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": null,
+    "coordinates": {
+      "lat": 47.517111,
+      "lng": -91.411704,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4130074",
+    "date_listed": "Nov 17, 2026 09:00 AM MST",
+    "date_closes": "Nov 30, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 9216.39,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "2026 Forfeiture Minimum Bid Sale: 22-7510-28320",
+      "description_text": "Description Parcel Number: 22-7510-28320 Property Type: Residential Lot Size (Acres): +/- 0.22 Zoning: Municipal Condition: UNKNOWN Condition: UNKNOWN MINNESOTA TAX-FORFEITED NEW FORFEITURE SALE ALL SALES MUST BE PAID IN FULL. STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY LAKE COUNTY Tax-Forfeited New Forfeiture Sale: This sale is governed by Minnesota Statute 282.005. All sales must be paid in full. Minnesota statute requires that all new forfeitures be offered at public auction unless they are repurchased or withheld by the Department of Natural Resources (DNR). Properties are first offered at the initial price, which is the estimated market value (EMV). Initial Price: $120,900.00 At this auction, we cannot accept less than the initial price - bidding will start at the initial price. If no buyer is willing to pay the initial price, the price for the property will be reduced to the minimum bid and reoffered at auction. Minimum Bid: $9,216.39 The initial price auction will open on October 16th and close on November 16th at 10:00 a.m. CDT on Public Surplus. Remember: Your bid is the same as a contract - Please only bid on property you are serious about buying. A winning bid constitutes a legally binding contract. Lake County reserves the right to block/ban bidders who refuse to pay for land purchased. GENERAL DESCRIPTION: This property is\u00a0being sold \u201c AS IS \u201d.\u00a0It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Location:\u00a0139 EDISON BLVD, SILVER BAY MN Parcel:\u00a022-7510-28320 Acreage: +/- 0.22 City/Township:\u00a0CITY OF SILVER BAY Legal:\u00a0Lot 32, BLOCK 28, SILVER BAY Comments: This approximately 0.22 of an acre parcel includes a 1 story structure and detached garage. Condition of structures and utilities is unknown"
+    }
+  },
+  {
     "id": "publicsurplus-4120442",
     "source": "public_surplus",
     "state": "MN",
@@ -672,6 +717,276 @@
     "raw_source_data": {
       "title": "Fillmore County (MN) Tax Forfeiture Sale 36.0420.000",
       "description_text": "Description Condition: FAIR STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY FILLMORE COUNTY General Description ALLENS ADDITION LOT-011 BLOCK-008 OLS ADDED TO BLK 8 LOT 11 & S27' LOT 12 ALLENS ADD ADDRESS: 410 Division Ave, Spring Valley, MN 55975 Land: 10,977 SQ FT\u00a0 \u00a0 \u00a0Building: 1.5 Story This is a residential lot in the City of Spring Valley. Parcel Number: 36.0420.000 Starting Bid Price: $121,300 - Estimated Market Value Price MINIMUM PRICE SET FOR 30-DAYS *Price is subject to additional state, county and other costs as required and described in the Terms of Sale* Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
+    }
+  },
+  {
+    "id": "publicsurplus-4127324",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "22-0814-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4127324",
+    "date_listed": "Nov 17, 2026 02:00 PM MST",
+    "date_closes": "Dec 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 3200.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 22-0814-000",
+      "description_text": "Description Parcel Number: 22-0814-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: City of Appleton Parcel: 22-0814-000 Address: 130 E Schlieman Ave Legal:\u00a0beginning at a point 170 feet due east of the northeast corner of Lot 9, in block 17, robinson\u2019s 4 th addition to appleton, mn; thence due south 132 feet; thence east 50 feet; thence north 132 feet; thence west 50 feet to the place of beginning, being a part of the east half of the SW1/4 of section 14 township 120 range 43, swift county, minnesota. PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If listed on sale listing as certified, assessments must be paid in full at the time of sale.\u00a0 Check with the city or township clerk and county for any additional a"
+    }
+  },
+  {
+    "id": "publicsurplus-4127329",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "22-0942-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4127329",
+    "date_listed": "Nov 17, 2026 02:00 PM MST",
+    "date_closes": "Dec 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 15000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 22-0942-000",
+      "description_text": "Description Parcel Number: 22-0942-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: City of Appleton Parcel: 22-0942-000 Address: 434 S Munsterman St Legal:\u00a0THAT PART OF THE N1/2 NW1/4 OF SECTION 23, TOWNSHIP 120 NORTH, RANGE 43 WEST, DESCRIBED AS FOLLOWS:\u00a0 BEGINNING AT A POINT 293 FEET SOUTH OF A POINT 33 FEET EAST OF THE NORTHWEST CORNER OF SECTION 23, TOWNSHIP 120 NORTH, RANGE 43 WEST; THENCE RUNNING SOUTH 50 FEET; THENCE RUNNING EAST AT RIGHT ANGLES TO SAID LAST DESCRIBED LINE 160 FEET; THENCE RUNNING NORTH AT RIGHT ANGLES TO SAID LAST DESCRIBED LINE 50 FEET; THENCE RUNNING WEST AT RIGHT ANGLES TO SAID LAST DESCRIBED LINE 160 FEET TO THE POINT OF BEGINNING PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If "
+    }
+  },
+  {
+    "id": "publicsurplus-4127337",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "22-0320-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4127337",
+    "date_listed": "Nov 17, 2026 02:00 PM MST",
+    "date_closes": "Dec 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 8150.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 22-0320-000",
+      "description_text": "Description Parcel Number: 22-0320-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: City of Appleton Parcel: 22-0320-000 Address: 346 W Sorenson Ave Legal:\u00a0LOT TEN (10), BLOCK SEVEN (7), RAILROAD ADDITION TO VILLAGE OF APPLETON PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If listed on sale listing as certified, assessments must be paid in full at the time of sale.\u00a0 Check with the city or township clerk and county for any additional assessments that existed prior to forfeiture, which may be re-assessed by the municipality. Recording Fee: $46.00 or as set by the Swift County Recorder.\u00a0 If there is a well on the property, it is an additional $54.00 for well disclosure. Deed Fee: $25.00 Deed Tax: 0.0033 multipli"
+    }
+  },
+  {
+    "id": "publicsurplus-4127340",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "28-0005-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4127340",
+    "date_listed": "Nov 17, 2026 02:00 PM MST",
+    "date_closes": "Dec 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 10000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 28-0005-000",
+      "description_text": "Description Parcel Number: 28-0005-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: City of Kerkhoven Parcel: 28-0005-000 Address: 304 North 8th ST Legal:\u00a0LOTS 8 AND 9, BLOCK 1, TOWN (NOW CITY) OF KERKHOVEN PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If listed on sale listing as certified, assessments must be paid in full at the time of sale.\u00a0 Check with the city or township clerk and county for any additional assessments that existed prior to forfeiture, which may be re-assessed by the municipality. Recording Fee: $46.00 or as set by the Swift County Recorder.\u00a0 If there is a well on the property, it is an additional $54.00 for well disclosure. Deed Fee: $25.00 Deed Tax: 0.0033 multiplied by the purchase pr"
+    }
+  },
+  {
+    "id": "publicsurplus-4127344",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "26-0104-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4127344",
+    "date_listed": "Nov 17, 2026 02:00 PM MST",
+    "date_closes": "Dec 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 25000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 26-0104-000",
+      "description_text": "Description Parcel Number: 26-0104-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: City of DeGraff Parcel: 26-0104-000 Address: 401 3rd St S Legal: LOT ONE(1), TWO (2), THREE (3), AND FOUR (4), IN BLOCK SIXTY-EIGHT (68), FIRST ADDITION TO THE CITY OF DEGRAFF PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If listed on sale listing as certified, assessments must be paid in full at the time of sale.\u00a0 Check with the city or township clerk and county for any additional assessments that existed prior to forfeiture, which may be re-assessed by the municipality. Recording Fee: $46.00 or as set by the Swift County Recorder.\u00a0 If there is a well on the property, it is an additional $54.00 for well disclosure. Deed Fee: "
+    }
+  },
+  {
+    "id": "publicsurplus-4127345",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Swift",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "26-0047-000",
+    "coordinates": {
+      "lat": 45.27581,
+      "lng": -95.690124,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4127345",
+    "date_listed": "Nov 17, 2026 02:00 PM MST",
+    "date_closes": "Dec 2, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 3575.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Swift County Tax Forfeiture Auction Parcel 26-0047-000",
+      "description_text": "Description Parcel Number: 26-0047-000 Condition: SEE DESCRIPTION STATE OF MINNESTOA TAX-FORFETED PROPERTY, MANAGED BY SWIFT COUNTY ALL LAND SALES ARE SOLD AS IS, WITHOUT WARRANTIES, GUARANTEES (EXPRESS OR IMPLIED) OR REPRESENTATION OF ANY KIND.\u00a0 SWIFT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. HOWEVER, ALL LAND SALES ARE STILL SUBJECT TO ANY/ALL EXISTING EASEMENTS(S) OF RECORD AND RIGHT(S)-OF-WAY. OBLIGATION OF BIDDER At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Swift County Online Land Sales: Standard Disclaimer and Swift County Terms and Conditions.\u00a0 The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid.\u00a0 A winning bid by a qualified buyer constitutes a legally binding contract. GENERAL DESCRIPTION Location: City of DeGraff Parcel: 26-0047-000 Address: 204 5th St S Legal: LOTS FIFTEEN (15) AND SIXTEEN (16), BLOCK FIFTEEN (15), ORIGINAL TOWNSITE OF THE CITY OF DEGRAFF PAYMENT TERMS \u2013 AMOUNT(S) DUE UPON SALE Full Payment: Full payment of the total sale value. State Assurance Fee: 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments: If listed on sale listing as certified, assessments must be paid in full at the time of sale.\u00a0 Check with the city or township clerk and county for any additional assessments that existed prior to forfeiture, which may be re-assessed by the municipality. Recording Fee: $46.00 or as set by the Swift County Recorder.\u00a0 If there is a well on the property, it is an additional $54.00 for well disclosure. Deed Fee: $25.00 Deed Ta"
     }
   },
   {
@@ -1119,6 +1434,771 @@
     "raw_source_data": {
       "title": "Clay County Tax Forfeiture Parcel# 58.610.0360",
       "description_text": "Description Parcel Number: 58.610.0360 Property Type: RESIDENTIAL Lot Size (Acres): 18,621 SQ FT Building Size (Sq Feet): N/A Zoning: Contact Jurisdiction Condition: SEE DESCRIPTION LOT 1 BLOCK 2 PRAIRIE SUN ADDITION CITY OF MOORHEAD THIS IS A VACANT LOT. PARCEL #: 58.610.0360 Starting Bid Price: $400.00 Bidding for the first auction period on this tract will open on Monday, November 9,2026 at 8:00 A.M. CST and will close on Wednesday, December 9th,2026, at 4:30 P.M. CST. If unsold in the first auction period, this tract will be offered again in a second auction period starting Monday, December 14,2026 at 8:00 A.M. CST and will close on Sunday, December 27, 2026, at 4:30 P.M.\u00a0 CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Clay County Online Land Sales: Standard Disclaimer and the Clay County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of Barnesville, Comstock, Dilworth, Felton, Georgetown, Glyndon, Hawley, Hitterdal, Moorhead, Sabin and Ulen are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assesse"
+    }
+  },
+  {
+    "id": "publicsurplus-4120529",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "50-072-00110",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120529",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 5118.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 1 (PID 50-072-00110)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description Government Lot 1, North of Highway, less the West 417.4 feet of the East 450 feet, Section 32, Township 160 North, Range 25 West (This whole parcel is encumbered by a Minnesota Department of Transportation Highway Easement) Parcel Number: 50-072-00110 Starting Bid Price:\u00a0$5,118.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026 at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the "
+    }
+  },
+  {
+    "id": "publicsurplus-4120531",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "21-060-02030",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120531",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 295.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 2 (PID 21-060-02030)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF LIBERTY ADDITION OF INTERNATIONAL FALLS Lot 3; Block 2 (No developed access to this parcel) Parcel Number: 21-060-02030 Starting Bid Price:\u00a0$295.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase.\u00a0 Any municipality or other public "
+    }
+  },
+  {
+    "id": "publicsurplus-4120538",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "92-007-66060",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120538",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 26950.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 4 (PID 92-007-66060)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF INTERNATIONAL FALLS Lots 6 and 7; Block 66 (413 8th Street) This parcel contains a house, garage, and small shed. Parcel Number: 92-007-66060 Starting Bid Price:\u00a0$26,950.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase.\u00a0 Any muni"
+    }
+  },
+  {
+    "id": "publicsurplus-4120539",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "92-007-71200",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120539",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 3059.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 5 (PID 92-007-71200)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF INTERNATIONAL FALLS West 18 1/2 feet of Lot 20 and East 1/2 Lot 21; Block 71 (516 9th Street) This is a vacant lot. Parcel Number: 92-007-71200 Starting Bid Price:\u00a0$3,059.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase.\u00a0 Any mun"
+    }
+  },
+  {
+    "id": "publicsurplus-4120540",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "92-007-72180",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120540",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 3710.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 6 (PID 92-007-72180)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF INTERNATIONAL FALLS Lot 18 and East 1/2 Lot 19; Block 72 This is a vacant lot.\u00a0 House was previously razed. (512 8th Street) Parcel Number: 92-007-72180 Starting Bid Price:\u00a0$3,710.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase."
+    }
+  },
+  {
+    "id": "publicsurplus-4120541",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "92-007-73190",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120541",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 3570.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 7 (PID 92-007-73190)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF INTERNATIONAL FALLS Lot 19 and the East 1/2 of Lot 20; Block 73 (612 8th Street) This is a vacant lot. Parcel Number: 92-007-73190 Starting Bid Price:\u00a0$3,570.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase.\u00a0 Any municipality or "
+    }
+  },
+  {
+    "id": "publicsurplus-4120542",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "92-007-74200",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120542",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 18700.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 8 (PID 92-007-74200)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF INTERNATIONAL FALLS Lot 20 and the East 10 feet of Lot 21; Block 74 (616 9th Street) This parcel contains a house and garage. Parcel Number: 92-007-74200 Starting Bid Price:\u00a0$18,700.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchas"
+    }
+  },
+  {
+    "id": "publicsurplus-4120543",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "92-007-79190",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120543",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 18265.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 9 (PID 92-007-79190)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF INTERNATIONAL FALLS The West 1/4 of Lot 18, all of Lot 19, and the East 1/2 of Lot 20; Block 79 (714 9th Street) This parcel contains a house and garage. Parcel Number: 92-007-79190 Starting Bid Price:\u00a0$18,265.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and"
+    }
+  },
+  {
+    "id": "publicsurplus-4120549",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "92-007-81110",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120549",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 2870.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 11 (PID 92-007-81110)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF INTERNATIONAL FALLS The East 1/2 of Lot 11 and All of Lot 12; Block 81 (801 7th Street) This is a vacant lot.\u00a0 Buildings were previously razed. Parcel Number: 92-007-81110 Starting Bid Price:\u00a0$2,870.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at th"
+    }
+  },
+  {
+    "id": "publicsurplus-4120550",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "92-007-82090",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120550",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 490.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 12 (PID 92-007-82090)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF INTERNATIONAL FALLS Lot 9; Block 82 (807 8th Street) This is a vacant lot. Parcel Number: 92-007-82090 Starting Bid Price:\u00a0$490.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase.\u00a0 Any municipality or other public authority is auth"
+    }
+  },
+  {
+    "id": "publicsurplus-4120552",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "92-015-06130",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120552",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 5460.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 14 (PID 92-015-06130)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF HADLER'S ADDITION TO INTERNATIONAL FALLS Lots 13 and 14; Block 6 (306 14th Street West) This is a vacant lot. Parcel Number: 92-015-06130 Starting Bid Price:\u00a0$5,460.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase.\u00a0 Any municipal"
+    }
+  },
+  {
+    "id": "publicsurplus-4120553",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "92-014-06130",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120553",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 4060.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 15 (PID 92-014-06130)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF CARSON & LUPIES FIRST ADDITION TO INTERNATIONAL FALLS Lots 13 and 14; Block 6 (1221 1st Avenue East) This is a vacant lot. Parcel Number: 92-014-06130 Starting Bid Price:\u00a0$4,060.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase.\u00a0 "
+    }
+  },
+  {
+    "id": "publicsurplus-4120554",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "92-109-07150",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120554",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 3990.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 16 (PID 92-109-07150)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF FRANSON'S ADDITION TO KOOCHICHING Lots 15 and 16; Block 7 (1632 1st Avenue East) This is a vacant lot.\u00a0 Buildings were previously razed. Parcel Number: 92-109-07150 Starting Bid Price:\u00a0$3,990.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time "
+    }
+  },
+  {
+    "id": "publicsurplus-4120557",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "92-129-12070",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120557",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 6230.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 18 (PID 92-129-12070)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF WALLACE ADDITION TO KOOCHICHING Lots 7, 8, and 9; Block 12 (1718 4th Avenue West) This is a vacant lot.\u00a0 Buildings were previously razed. Parcel Number: 92-129-12070 Starting Bid Price:\u00a0$6,230.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time"
+    }
+  },
+  {
+    "id": "publicsurplus-4120558",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "92-120-09220",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120558",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 25940.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 19 (PID 92-120-09220)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF HOLLERS ADDITION TO KOOCHICHING Lots 22, 23, and 24; Block 9 (1719 2nd Avenue East) This parcel contains a house and garage. Parcel Number: 92-120-09220 Starting Bid Price:\u00a0$25,940.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be assessed against the property and paid at the time of purchase"
+    }
+  },
+  {
+    "id": "publicsurplus-4120561",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "91-012-02200",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120561",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 140.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 21 (PID 91-012-02200)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description PLAT OF ROBINSONS & SWEDBACKS ADDITION TO BIG FALLS The North 10 feet of Lot 20; Block 2 (this a small 10 foot wide strip adjacent to the 400 Block of Bigfork Avenue North) This is a vacant lot. Parcel Number: 91-012-02200 Starting Bid Price:\u00a0$140.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 Land purchased within the East Koochiching Sewer District should contact that office for the same.\u00a0 Any new assessments against the property for public improvements after the property forfeited shall be ass"
+    }
+  },
+  {
+    "id": "publicsurplus-4120562",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Koochiching",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "95-001-04040",
+    "coordinates": {
+      "lat": 48.245374,
+      "lng": -93.782896,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4120562",
+    "date_listed": "Nov 17, 2026 07:00 AM MST",
+    "date_closes": "Dec 16, 2026 09:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 17710.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Koochiching County Tax-Forfeiture Tract 22 (PID 95-001-04040)",
+      "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description City of Littlefork AUDITOR'S PLAT 8-REVISED Lot 4; Block 4 (909 2nd Avenue) This parcel contains a house and a garage with the below mentioned encroachment issue with the garage. Parcel Number: 95-001-04040 **Important Note to Potential Bidders; the garage on this parcel encroaches onto a neighboring parcel.\u00a0 Potential bidders are encouraged to seek possible solutions to this encroachment prior to bidding on this tract** Starting Bid Price:\u00a0$17,710.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 L"
     }
   }
 ]

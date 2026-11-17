@@ -1,5 +1,21 @@
 [
   {
+    "mortgagor_name": "Jaime Rolando Sanchez Miranda, single man",
+    "mortgage_amount": 172000.0,
+    "property_address_raw": "1007 65th Ave N Brooklyn Center",
+    "house_number": "1007",
+    "street_name": "65th",
+    "street_suffix": "Ave",
+    "street_direction": "N",
+    "city": "Brooklyn Center",
+    "zip": null,
+    "county": null,
+    "auction_date": "12/18/2026",
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4232245",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "DeAngelo Buffington, as Married Person",
     "mortgage_amount": 227950.0,
     "property_address_raw": "5204 DuPont Ave N Minneapolis",
@@ -384,22 +400,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Gabriela E Gallegos Camacho, An Unmarried Woman",
-    "mortgage_amount": 182000.0,
-    "property_address_raw": "2524 Bloomington Ave Minneapolis",
-    "house_number": "2524",
-    "street_name": "Bloomington",
-    "street_suffix": "Ave",
-    "street_direction": "",
-    "city": "Minneapolis",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": "12/14/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4223451",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "Susan C. Ellis and Jeffrey K. Sundell, Wife and Husband",
     "mortgage_amount": 490500.0,
     "property_address_raw": "2815 Ranier Ln N Plymouth",
@@ -720,6 +720,22 @@
     "matched_executed_by_format": false
   },
   {
+    "mortgagor_name": "Mark Peterson and Mary Ann Slipka, spouses married to each other",
+    "mortgage_amount": 278500.0,
+    "property_address_raw": "3831 Glenhurst Ave S St. Louis Park",
+    "house_number": "3831",
+    "street_name": "Glenhurst Ave S",
+    "street_suffix": "St",
+    "street_direction": "",
+    "city": ". Louis Park",
+    "zip": null,
+    "county": "Hennepin",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4232339",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": true
+  },
+  {
     "mortgagor_name": "and among KEBA PROPERTIES LLC",
     "mortgage_amount": 1200000.0,
     "property_address_raw": "3601 \u2013 4th Ave S Minneapolis",
@@ -908,22 +924,6 @@
     "county": "Hennepin",
     "auction_date": null,
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4216829",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": true
-  },
-  {
-    "mortgagor_name": "Caroll E. Alvarez Cardona, AKA Caroll E. Alvarez and Giessi O. Munoz Hernandez, wife and husband",
-    "mortgage_amount": 150000.0,
-    "property_address_raw": "3850 Girard Ave N Minneapolis",
-    "house_number": "3850",
-    "street_name": "Girard",
-    "street_suffix": "Ave",
-    "street_direction": "N",
-    "city": "Minneapolis",
-    "zip": null,
-    "county": "the",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4212792",
     "matched_numbered_format": false,
     "matched_executed_by_format": true
   }
