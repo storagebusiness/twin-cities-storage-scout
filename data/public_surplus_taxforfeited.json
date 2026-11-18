@@ -1414,7 +1414,7 @@
     "date_closes": "Dec 9, 2026 03:30 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 2025.0,
+      "current_bid": 3150.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
