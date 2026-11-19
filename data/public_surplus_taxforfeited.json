@@ -1,95 +1,5 @@
 [
   {
-    "id": "publicsurplus-4093345",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "47.0277.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4093345",
-    "date_listed": "Oct 21, 2026 07:00 AM MDT",
-    "date_closes": "Nov 19, 2026 01:00 PM MST",
-    "status": "open",
-    "price": {
-      "current_bid": 22400.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
-    },
-    "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "no_match"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 47.0277.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 47.0277.000 Location : City of Upsala Legal : LOT 012 BLOCK 004 NELSON'S FIRST ADD State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
-    "id": "publicsurplus-4093348",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Morrison",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": "47.0278.000",
-    "coordinates": {
-      "lat": 46.020484,
-      "lng": -94.266619,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4093348",
-    "date_listed": "Oct 21, 2026 07:00 AM MDT",
-    "date_closes": "Nov 19, 2026 01:00 PM MST",
-    "status": "open",
-    "price": {
-      "current_bid": 11700.0,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
-    },
-    "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "no_match"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Morrison County Tax Forfeiture Parcel 47.0278.000",
-      "description_text": "Description Condition: UNKNOWN Parcel Number : 47.0278.000 Location : City of Upsala Legal : LOT 013 BLOCK 004 NELSON'S FIRST ADD State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
-    }
-  },
-  {
     "id": "publicsurplus-4128175",
     "source": "public_surplus",
     "state": "MN",
@@ -877,7 +787,7 @@
     "date_closes": "Dec 2, 2026 02:00 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 10000.0,
+      "current_bid": 10100.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
