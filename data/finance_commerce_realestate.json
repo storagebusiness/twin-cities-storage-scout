@@ -672,22 +672,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Arturo J Leal Islas Jr, A Single Person",
-    "mortgage_amount": 266076.0,
-    "property_address_raw": "9832 Penn Ave S Bloomington",
-    "house_number": "9832",
-    "street_name": "Penn",
-    "street_suffix": "Ave",
-    "street_direction": "S",
-    "city": "Bloomington",
-    "zip": null,
-    "county": null,
-    "auction_date": "10/30/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4213555",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "Brian R. Dale",
     "mortgage_amount": 220000.0,
     "property_address_raw": "5038 Beard Ave S Minneapolis",
@@ -862,22 +846,6 @@
     "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4225162",
     "matched_numbered_format": false,
     "matched_executed_by_format": true
-  },
-  {
-    "mortgagor_name": "Matthew Ernst, a single person",
-    "mortgage_amount": 289000.0,
-    "property_address_raw": "3100 Salem Ave S St Louis Park",
-    "house_number": "3100",
-    "street_name": "Salem Ave S",
-    "street_suffix": "St",
-    "street_direction": "",
-    "city": "Louis Park",
-    "zip": null,
-    "county": "Hennepin",
-    "auction_date": null,
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4224271",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
   },
   {
     "mortgagor_name": "Peters Properties III LLC",
