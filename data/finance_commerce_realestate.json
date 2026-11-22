@@ -400,22 +400,6 @@
     "matched_executed_by_format": false
   },
   {
-    "mortgagor_name": "Gary Hancock and Pamela Anne Hancock, Husband and Wife",
-    "mortgage_amount": 251250.0,
-    "property_address_raw": "19025 Pheasant Cir Eden Prairie",
-    "house_number": "19025",
-    "street_name": "Pheasant",
-    "street_suffix": "Cir",
-    "street_direction": "",
-    "city": "Eden Prairie",
-    "zip": null,
-    "county": null,
-    "auction_date": "11/23/2026",
-    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4224679",
-    "matched_numbered_format": false,
-    "matched_executed_by_format": false
-  },
-  {
     "mortgagor_name": "Susan C. Ellis and Jeffrey K. Sundell, Wife and Husband",
     "mortgage_amount": 490500.0,
     "property_address_raw": "2815 Ranier Ln N Plymouth",
