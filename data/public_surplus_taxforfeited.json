@@ -945,6 +945,174 @@
     }
   },
   {
+    "id": "publicsurplus-4135050",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": null,
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "010-2190-00360",
+    "coordinates": null,
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4135050",
+    "date_listed": "Nov 23, 2026 09:36 AM MST",
+    "date_closes": "Dec 3, 2026 10:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 30502.89,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "NEW FORFEITURE Tract 1: City of Duluth, Parcel 010-2190-00360, B22260012",
+      "description_text": "Description Condition: UNKNOWN MINNESOTA TAX-FORFEITED NEW FORFEITURE SALE ALL SALES MUST BE PAID IN FULL. STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY ST. LOUIS COUNTY Tax-Forfeited New Forfeiture Sale: This sale is governed by Minnesota Statute 282.005. All sales must be paid in full. Minnesota statute requires that all new forfeitures be offered at public auction unless they are repurchased or withheld by the Department of Natural Resources (DNR). Properties are first offered at the initial price, which is the estimated market value (EMV). Initial Price: $197,900.00 At this auction, we cannot accept less than the initial price - bidding will start at the initial price. If no buyer is willing to pay the initial price, the price for the property will be reduced to the minimum bid and reoffered at auction. Minimum Bid: $30,502.89 The minimum bid auction will open on November 23rd and close on December 3rd at 11:00 a.m. CST on Public Surplus. Remember: Your bid is the same as a contract - Please only bid on property you are serious about buying. A winning bid constitutes a legally binding contract. St. Louis County reserves the right to block/ban bidders who refuse to pay for land purchased. GENERAL DESCRIPTION: This property is\u00a0being sold \u201c AS IS \u201d.\u00a0It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Location:\u00a0164 West Ideal Street, Duluth Parcel:\u00a0010-2190-00360 Acreage: +/- 0.28 City/Township:\u00a0CITY OF DULUTH Legal:\u00a0Lots 4 AND 5, Block 6, HIGHLAND GARDENS 2ND DIVISION DULUTH Note: Click on image above to visit the County Land Explorer Comments: This approximately 0.28 of an acre parcel has a 1+ story structure with a detached garage. Condition of structures and utilities is unknown. Zoning is R-1 (Residen"
+    }
+  },
+  {
+    "id": "publicsurplus-4135051",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": null,
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "100-0077-00520",
+    "coordinates": null,
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4135051",
+    "date_listed": "Nov 23, 2026 09:36 AM MST",
+    "date_closes": "Dec 3, 2026 10:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 8937.79,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "NEW FORFEITURE Tract 2: City of Aurora, Parcel 100-0077-00520, B22260045",
+      "description_text": "Description Condition: UNKNOWN MINNESOTA TAX-FORFEITED NEW FORFEITURE SALE ALL SALES MUST BE PAID IN FULL. STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY ST. LOUIS COUNTY Tax-Forfeited New Forfeiture Sale: This sale is governed by Minnesota Statute 282.005. All sales must be paid in full. Minnesota statute requires that all new forfeitures be offered at public auction unless they are repurchased or withheld by the Department of Natural Resources (DNR). Properties are first offered at the initial price, which is the estimated market value (EMV). Initial Price: $18,500.00 At this auction, we cannot accept less than the initial price - bidding will start at the initial price. If no buyer is willing to pay the initial price, the price for the property will be reduced to the minimum bid and reoffered at auction. Minimum Bid: $8,937.79 The minimum bid auction will open on November 23rd and close on December 3rd at 11:00 a.m. CST on Public Surplus. Remember: Your bid is the same as a contract - Please only bid on property you are serious about buying. A winning bid constitutes a legally binding contract. St. Louis County reserves the right to block/ban bidders who refuse to pay for land purchased. GENERAL DESCRIPTION: This property is\u00a0being sold \u201c AS IS \u201d.\u00a0It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Location:\u00a0408 South 2nd Street East, Aurora Parcel:\u00a0100-0077-00520 Acreage: +/- 0.16 City/Township:\u00a0CITY OF AURORA Legal:\u00a0Lot 3, Block 3, ZUPONCIC ACRES 1ST ADD TO AURORA Note: Click on image above to visit the County Land Explorer Comments: This +/- 58' x 120.06' parcel is a nonconforming lot of record and includes a mobile home with multiple sheds. Condition of structures and utilities is unknown. Zoning is R"
+    }
+  },
+  {
+    "id": "publicsurplus-4135053",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": null,
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "125-0010-01570",
+    "coordinates": null,
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4135053",
+    "date_listed": "Nov 23, 2026 09:36 AM MST",
+    "date_closes": "Dec 3, 2026 10:00 AM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 7732.6,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "not_yet_attempted"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "NEW FORFEITURE Tract 3: City of Floodwood, Parcel 125-0010-01570, B22260046",
+      "description_text": "Description Condition: UNKNOWN MINNESOTA TAX-FORFEITED NEW FORFEITURE SALE ALL SALES MUST BE PAID IN FULL. STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY ST. LOUIS COUNTY Tax-Forfeited New Forfeiture Sale: This sale is governed by Minnesota Statute 282.005. All sales must be paid in full. Minnesota statute requires that all new forfeitures be offered at public auction unless they are repurchased or withheld by the Department of Natural Resources (DNR). Properties are first offered at the initial price, which is the estimated market value (EMV). Initial Price: $47,000.00 At this auction, we cannot accept less than the initial price - bidding will start at the initial price. If no buyer is willing to pay the initial price, the price for the property will be reduced to the minimum bid and reoffered at auction. Minimum Bid: $7,732.60 The minimum bid auction will open on November 23rd and close on December 3rd at 11:00 a.m. CST on Public Surplus. Remember: Your bid is the same as a contract - Please only bid on property you are serious about buying. A winning bid constitutes a legally binding contract. St. Louis County reserves the right to block/ban bidders who refuse to pay for land purchased. GENERAL DESCRIPTION: This property is\u00a0being sold \u201c AS IS \u201d.\u00a0It is the bidder's responsibility to research the site, documents, and permitted uses and zoning regulations prior to bidding. The failure or omission of any bidder to inspect the site or examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. Location:\u00a0106 4th Avenue East, Floodwood Parcel:\u00a0125-0010-01570 Acreage: +/- 0.14 City/Township:\u00a0CITY OF FLOODWOOD Legal:\u00a0Lot 6, Block 11, FLOODWOOD Note: Click on image above to visit the County Land Explorer Comments: This approximately 0.14 of an acre parcel includes a 1 story structure and detached garage. Condition of structures and utilities is unknown. Zoning is R-2 (Low Density Residential). Contact the"
+    }
+  },
+  {
+    "id": "publicsurplus-4134877",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Morrison",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "47.0277.000",
+    "coordinates": {
+      "lat": 46.020484,
+      "lng": -94.266619,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4134877",
+    "date_listed": "Nov 23, 2026 06:43 AM MST",
+    "date_closes": "Dec 7, 2026 01:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 6755.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Morrison County Tax Forfeiture Parcel 47.0277.000",
+      "description_text": "Description Condition: UNKNOWN Parcel Number : 47.0277.000 Location : City of Upsala Legal : LOT 012 BLOCK 004 NELSON'S FIRST ADD State Deed Application Fee : $25.00 Recording Fee : $92.00, as set by the County Recorder, for the recording of the state deed and the Auditor\u2019s Certificate of Purchase of Tax Forfeited Land. If there is a well on the property, it is an additional $50.00 for well disclosure. Deed Tax : 0.0033 times the purchase price or $1.65 minimum, whichever is greater State Assurance Fee : 3% of total sale price of land and structures. This percentage is state mandated and goes into the State\u2019s General Fund. Buyer Premium : 5% of total sale price of land and structures. This percentage goes to Public Surplus as a Buyer\u2019s Fee. *CONTACT THE MORRISON COUNTY RECORDER\u2019S OFFICE OR A TITLE COMPANY FOR ANY LIEN/TITLE RELATED QUESTIONS. *DO NOT PAY FROM THE PUBLIC SURPLUS WINNING NOTIFICATION. THE MORRISON COUNTY AUDITOR/TREASURER DEPARTMENT WILL CALCULATE AND EMAIL THE WINNING BIDDER A NOTICE OF AWARD INCLUDING THE FINAL AMOUNT DUE. *SPECIAL ASSESSMENTS CANCELLED AT TIME OF FORFEITURE MAY BE REASSESSED BY THE MUNICIPALITY. CONTACT THE CITY OF UPSALA FOR MORE INFORMATION. Pictures Computer Translation: [\n\t\t\t\tHide | Show ] Loading..."
+    }
+  },
+  {
     "id": "publicsurplus-4111168",
     "source": "public_surplus",
     "state": "MN",
@@ -1324,7 +1492,7 @@
     "date_closes": "Dec 9, 2026 03:30 PM MST",
     "status": "open",
     "price": {
-      "current_bid": 10588.0,
+      "current_bid": 12100.0,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
@@ -2109,6 +2277,996 @@
     "raw_source_data": {
       "title": "Koochiching County Tax-Forfeiture Tract 22 (PID 95-001-04040)",
       "description_text": "Description Condition: UNKNOWN Condition: SEE DESCRIPTION STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY KOOCHICHING COUNTY General Description City of Littlefork AUDITOR'S PLAT 8-REVISED Lot 4; Block 4 (909 2nd Avenue) This parcel contains a house and a garage with the below mentioned encroachment issue with the garage. Parcel Number: 95-001-04040 **Important Note to Potential Bidders; the garage on this parcel encroaches onto a neighboring parcel.\u00a0 Potential bidders are encouraged to seek possible solutions to this encroachment prior to bidding on this tract** Starting Bid Price:\u00a0$17,710.00 If unsold in the first auction period, this tract will be offered again in a second auction period starting Tuesday, November 17, 2026 at 8:00 A.M CST and close on Wednesday, December 16, 2026\u00a0at 10:00 A.M. CST. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Koochiching County Online Land Sales: Standard Disclaimer and the Koochiching County Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Assessments Purchasers of land within the city limits of the City of International Falls, Ranier, Littlefork, Big Falls, Mizpah, and Northome are encouraged to contact the City Clerk of the respective city regarding any unpaid special assessments and payment arrangements.\u00a0 L"
+    }
+  },
+  {
+    "id": "publicsurplus-4126332",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "37-00360-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126332",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 4500.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 37-00360-00",
+      "description_text": "Description Parcel Number: 37-00360-00 Condition: UNKNOWN Legal Description: ORIGINAL PLAT W2 OF LOTS 14, 15, 18 & 19 BLK 4 Property Address: 225 4th Ave, 56285 Estimated Market Value (2026): $4,500 Starting Bid: $4,500 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording Fee: $46.00 or as set b"
+    }
+  },
+  {
+    "id": "publicsurplus-4126360",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "37-00246-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126360",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 1700.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 37-00246-00",
+      "description_text": "Description Parcel Number: 37-00246-00 Condition: UNKNOWN Legal Description: ORIGINAL PLAT S 15\u2032 OF E 55\u2032 OF LOT 18 & ALL OF LOT 19 BLK 2 Property Address: 243 2 nd Ave N, 56285 Estimated Market Value (2026): $1,700.00 Starting Bid: $1,700.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording "
+    }
+  },
+  {
+    "id": "publicsurplus-4126364",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "33-02650-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126364",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 5000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 33-02650-00",
+      "description_text": "Description Parcel Number: 33-02650-00 Condition: UNKNOWN Legal Description: SMITH & BRAITHWAIT\u2019S ADD LOTS 34 & 35 BLK 2 Property Address: 210 DuPont Ave NE, 55342 Estimated Market Value (2026): $ 5,000.00 Starting Bid: $ 5,000.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording Fee: $46.00 "
+    }
+  },
+  {
+    "id": "publicsurplus-4126384",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "33-01200-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126384",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 10000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 33-01200-00",
+      "description_text": "Description Parcel Number: 33-01200-00 Condition: UNKNOWN Legal Description: ORIGINAL PLAT LOTS 3 & 6 BLK 16 Property Address: 411 3 rd Street W, 55342 Estimated Market Value (2026): $ 10,000.00 Starting Bid: $ 10,000.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording Fee: $46.00 or as set "
+    }
+  },
+  {
+    "id": "publicsurplus-4126396",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "33-00470-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126396",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 23800.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 33-00470-00",
+      "description_text": "Description Parcel Number: 33-00470-00 Condition: UNKNOWN Legal Description: ORIGINAL PLAT LOT 3 BLK 1 Property Address: 121 3 rd Street E, 55342 Estimated Market Value (2026): $ 23,800.00 Starting Bid: $ 23,800.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording Fee: $46.00 or as set by the"
+    }
+  },
+  {
+    "id": "publicsurplus-4126429",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "32-00312-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126429",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 5400.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 32-00312-00",
+      "description_text": "Description Parcel Number: 32-00312-00 Condition: UNKNOWN Legal Description: URBAN S 52.43\u2032 OF E 150\u2032 OF LOT 1 OF LOT B OF E2 OF SE4 2 112 34 Property Address: 164 1 st Street N, 55333 Estimated Market Value (2026): $ 5,400.00 Starting Bid: $ 5,400.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. R"
+    }
+  },
+  {
+    "id": "publicsurplus-4126437",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "31-004200-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126437",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 31800.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 31-004200-00",
+      "description_text": "Description Parcel Number: 31-004200-00 Condition: UNKNOWN Legal Description: FAIRFAX RAILROAD LOTS ALL OF LOTS 20, 21 & 22 & E 73.15\u2019 OF LOT 19 (1.70 AC) Property Address: 55332 Estimated Market Value (2026): $ 31,800.00 Starting Bid: $ 31,800.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recor"
+    }
+  },
+  {
+    "id": "publicsurplus-4126443",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "31-01875-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126443",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 16900.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 31-01875-00",
+      "description_text": "Description Parcel Number: 31-01875-00 Condition: UNKNOWN Legal Description: BROWN\u2019S ADD LOT 1 BLK 7 Property Address: 103 2 nd Ave NW, 55332 Estimated Market Value (2026): $ 16,900.00 Starting Bid: $ 16,900.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording Fee: $46.00 or as set by the Cou"
+    }
+  },
+  {
+    "id": "publicsurplus-4126446",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "31-00940-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126446",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 1200.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 31-00940-00",
+      "description_text": "Description Parcel Number: 31-00940-00 Condition: UNKNOWN Legal Description: MARY WELSH\u2019S ADD TO BLK 4 N2 OF LOT 16 BLK 4 Property Address: 55332 Estimated Market Value (2026): $ 1,200.00 Starting Bid: $1,200.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording Fee: $46.00 or as set by the Co"
+    }
+  },
+  {
+    "id": "publicsurplus-4126448",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "31-00820-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126448",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 3100.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 31-00820-00",
+      "description_text": "Description Parcel Number: 31-00820-00 Condition: UNKNOWN Legal Description: ORIGINAL PLAT LOT 9 BLK 3 Property Address: 121 Park Street S, 55332 Estimated Market Value (2026): $ 3,100.00 Starting Bid: $ 3,100.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording Fee: $46.00 or as set by the C"
+    }
+  },
+  {
+    "id": "publicsurplus-4126450",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "31-00550-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126450",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 33600.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 31-00550-00",
+      "description_text": "Description Parcel Number: 31-00550-00 Condition: UNKNOWN Legal Description: URBAN PT OF LOT B OF NE4 OF SW4 & PT OF SE4 OF SW4 -EX .032 AC TRACT- 08-112-32 Property Address: 300 10 th Ave SE, 55332 Estimated Market Value (2026): $ 33,600.00 Starting Bid: $ 33,600.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the"
+    }
+  },
+  {
+    "id": "publicsurplus-4126452",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "29-00890-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126452",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 38800.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 29-00890-00",
+      "description_text": "Description Parcel Number: 29-00890-00 Condition: UNKNOWN Legal Description: RIEBE\u2019S & DRACHE\u2019S 1ST ADD E 100\u2032 OF N 130\u2032 OF S 34 RDS 9\u2032 OF LOT 12 *SEE SURVEY* Property Address: 406 Main Street S, 55314 Estimated Market Value (2026): $ 38,800.00 Starting Bid: $ 38,800.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at "
+    }
+  },
+  {
+    "id": "publicsurplus-4126454",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "28-02475-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126454",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 7500.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 28-02475-00",
+      "description_text": "Description Parcel Number: 28-02475-00 Condition: UNKNOWN Legal Description: POSELEY\u2019S ADD LOTS 19, 20 & 21 BLK 1 Property Address: 1060 Hwy Ave, 55310 Estimated Market Value (2026): $7,500 Starting Bid: $ 7,500 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording Fee: $46.00 or as set by the Co"
+    }
+  },
+  {
+    "id": "publicsurplus-4126455",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "28-02340-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126455",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 53000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 28-02340-00",
+      "description_text": "Description Parcel Number: 28-02340-00 Condition: UNKNOWN Legal Description: SHAW\u2019S ADD LOTS 1 & 2 BLK 6 Property Address: 511 6 th Street S, 55310 Estimated Market Value (2026): $ 53,000.00 Starting Bid: $ 53,000.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording Fee: $46.00 or as set by t"
+    }
+  },
+  {
+    "id": "publicsurplus-4126458",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "28-02125-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126458",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 2000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 28-02125-00",
+      "description_text": "Description Parcel Number: 28-02125-00 Condition: UNKNOWN Legal Description: MCMAHON\u2019S PARK ADD LOT 16 BLK 1 Property Address: 860 Hwy Ave, 55310 Estimated Market Value (2026): $ 2,000 .00 Starting Bid: $ 2,000 .00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording Fee: $46.00 or as set by the"
+    }
+  },
+  {
+    "id": "publicsurplus-4126463",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "28-01550-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126463",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 44000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 28-01550-00",
+      "description_text": "Description Parcel Number: 28-01550-00 Condition: UNKNOWN Legal Description: RAILWAY ADD LOT 6 & S 17\u2032 OF LOT 5 BLK 5 Property Address: 151 6 th Street S, 55310 Estimated Market Value (2026): $ 44,000 .00 Starting Bid: $ 44,000 .00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording Fee: $46.00"
+    }
+  },
+  {
+    "id": "publicsurplus-4126466",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "28-01505-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4126466",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 17400.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 28-01505-00",
+      "description_text": "Description Parcel Number: 28-01505-00 Condition: UNKNOWN Legal Description: RAILWAY ADD LOT 14 & E 80\u2032 OF LOT 13 BLK 4 Property Address: 610 Ash Ave, 55310 Estimated Market Value (2026): $ 17,400 .00 Starting Bid: $ 17,400 .00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording Fee: $46.00 or "
+    }
+  },
+  {
+    "id": "publicsurplus-4127200",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "28-01486-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4127200",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 5000.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 28-01486-00",
+      "description_text": "Description Parcel Number: 28-01486-00 Condition: UNKNOWN Legal Description: RAILWAY ADD LOT 15 BLK 4 Property Address: 55310 Estimated Market Value (2026): $ 5,000.00 Starting Bid: $ 5,000.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording Fee: $46.00 or as set by the County Recorder. If t"
+    }
+  },
+  {
+    "id": "publicsurplus-4127201",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "28-00672-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4127201",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 8500.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 28-00672-00",
+      "description_text": "Description Parcel Number: 28-00672-00 Condition: UNKNOWN Legal Description: BLK-35 ORIGINAL PLAT E 70\u2032 OF LOTS 2 & 3 BLK 35 Property Address: 55310 Estimated Market Value (2026): $ 8,500.00 Starting Bid: $ 8,500.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recording Fee: $46.00 or as set by th"
+    }
+  },
+  {
+    "id": "publicsurplus-4127202",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "14-00402-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4127202",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 16500.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 14-00402-00",
+      "description_text": "Description Parcel Number: 14-00402-00 Condition: UNKNOWN Legal Description: SECT-25 TWP-115 RANGE-32 E2 OF SE4 N OF HWY 212 & S OF RR -EX E 300\u2032- Property Address: Hector Township Estimated Market Value (2026): $ 16,500 .00 Starting Bid: $ 16,500 .00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. R"
+    }
+  },
+  {
+    "id": "publicsurplus-4127204",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "03-02820-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4127204",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 34400.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 03-02820-00",
+      "description_text": "Description Parcel Number: 03-02820-00 Condition: UNKNOWN Legal Description: SECT-32 TWP-113 RANGE-34 LOT 11 BLK 1 VALLEY VIEW ESTATES Property Address: 35131 650 th Ave, 56270 Estimated Market Value (2026): $ 34,400.00 Starting Bid: $ 34,400.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of sale. Recordi"
+    }
+  },
+  {
+    "id": "publicsurplus-4127206",
+    "source": "public_surplus",
+    "state": "MN",
+    "county": "Renville",
+    "listing_category": "tax_forfeited_land",
+    "listing_type": {
+      "owner": "state",
+      "phase": "unknown",
+      "notes": "Phase not extractable from category listing page."
+    },
+    "address": null,
+    "parcel_id": "03-02819-00",
+    "coordinates": {
+      "lat": 44.723697,
+      "lng": -94.955616,
+      "precision": "county_centroid"
+    },
+    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4127206",
+    "date_listed": "Nov 23, 2026 07:00 AM MST",
+    "date_closes": "Dec 23, 2026 02:00 PM MST",
+    "status": "open",
+    "price": {
+      "current_bid": 500.0,
+      "minimum_bid": null,
+      "tier1_emv_price": null,
+      "tier2_minimum_price": null,
+      "price_basis": "minimum_bid_only"
+    },
+    "assessed_value": {
+      "emv_total": null,
+      "source": "mn_pending",
+      "lookup_status": "no_match"
+    },
+    "buildable": true,
+    "buildability_notes": [],
+    "area_wealth": {
+      "census_acs_median_income": null,
+      "census_tract": null
+    },
+    "raw_source_data": {
+      "title": "Renville County Tax Forfeiture Parcel 03-02819-00",
+      "description_text": "Description Parcel Number: 03-02819-00 Condition: UNKNOWN Legal Description: SECT-32 TWP-113 RANGE-34 LOT-10 BLK-1 E 50\u2032 OF LOT 10 BLK 1 VALLEY VIEW ESTATES Property Address: Birch Cooley Township Estimated Market Value (2026): $ 500.00 Starting Bid: $ 500.00 Buyer Premium A Buyer Premium of 5% will be added to the final sale price, with a $1 minimum charge per auction, to collect payment. The premium will be visible during the bidding process and included in the required payment. The County collects the Buyer Premium with the winning bidder's payment and pays it to PublicSurplus.com. The Buyer Premium is not part of the sale price used to calculate the State Assurance Fee or the deed tax. Payment Payment Process The auction closes, and PublicSurplus.com emails the winning bidder a winning notification. The Renville County Auditor-Treasurer's office emails the winning bidder a Notice of Award that includes the final amount due. Only this Notice of Award starts the payment period. Please respond promptly so the transaction can be completed in a timely manner. The winning bidder submits payment in full to the Renville County Auditor-Treasurer within ten (10) business days of the date of the Notice of Award. If payment is not received within ten (10) business days, the County may cancel the award, sell to the next highest bidder, or repost the auction. Do not pay from the PublicSurplus.com winning notification. Amounts Due The final amount due is the winning bid plus the Buyer Premium and the fees listed below. The Auditor-Treasurer's office calculates the total and includes it in the Notice of Award. Fees are collected with the winning bidder's payment. Additional fees may include: State Assurance Fee: 3% of total sale price of land, timber, and structures. Assessments: Check with the city/town clerk for any additional assessments the Auditor-Treasurer's office is not aware of. If listed in the sale listing as certified, assessments must be paid in full at the time of"
     }
   }
 ]
