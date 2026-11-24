@@ -576,6 +576,22 @@
     "matched_executed_by_format": false
   },
   {
+    "mortgagor_name": "Hotel Bloomington 3200 E 81ST, LLC\r\n3. Original",
+    "mortgage_amount": 22113000.0,
+    "property_address_raw": "3200 E 81st St Minneapolis",
+    "house_number": "3200",
+    "street_name": "81st",
+    "street_suffix": "St",
+    "street_direction": "E",
+    "city": "Minneapolis",
+    "zip": null,
+    "county": "the",
+    "auction_date": null,
+    "source_url": "https://finance-commerce.com/public-notice/search-detail?indexgroup=real_estate&detail=4234220",
+    "matched_numbered_format": false,
+    "matched_executed_by_format": false
+  },
+  {
     "mortgagor_name": "Bayside Partners, LLC",
     "mortgage_amount": 400000.0,
     "property_address_raw": "20365 Excelsior Blvd Shorewood",

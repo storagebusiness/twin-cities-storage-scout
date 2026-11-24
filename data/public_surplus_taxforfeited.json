@@ -1,50 +1,5 @@
 [
   {
-    "id": "publicsurplus-4128175",
-    "source": "public_surplus",
-    "state": "MN",
-    "county": "Scott",
-    "listing_category": "tax_forfeited_land",
-    "listing_type": {
-      "owner": "state",
-      "phase": "unknown",
-      "notes": "Phase not extractable from category listing page."
-    },
-    "address": null,
-    "parcel_id": null,
-    "coordinates": {
-      "lat": 44.651811,
-      "lng": -93.533733,
-      "precision": "county_centroid"
-    },
-    "listing_url": "https://www.publicsurplus.com/sms/all,mn/auction/view?auc=4128175",
-    "date_listed": "Nov 13, 2026 09:00 AM MST",
-    "date_closes": "Nov 24, 2026 03:00 PM MST",
-    "status": "open",
-    "price": {
-      "current_bid": 463.68,
-      "minimum_bid": null,
-      "tier1_emv_price": null,
-      "tier2_minimum_price": null,
-      "price_basis": "minimum_bid_only"
-    },
-    "assessed_value": {
-      "emv_total": null,
-      "source": "mn_pending",
-      "lookup_status": "not_yet_attempted"
-    },
-    "buildable": true,
-    "buildability_notes": [],
-    "area_wealth": {
-      "census_acs_median_income": null,
-      "census_tract": null
-    },
-    "raw_source_data": {
-      "title": "Scott County #111120150 Tax Forfeited Land Sale",
-      "description_text": "Description Parcel Number: 111120150 Property Type: Vacant land Lot Size (Acres): .14 Condition: SEE DESCRIPTION Description Item Code: 111120150 STATE OF MINNESOTA TAX-FORFEITED PROPERTY, MANAGED BY SCOTT COUNTY General Description Vacant Land-Spring Lake Township SCOTT COUNTY MAKES NO REPRESENTATIONS, WARRANTIES, OR GUARANTEES WITH RESPECT TO ACCESS TO STATE TAX FORFEITED LANDS SOLD. PLAT: Hickory Hollow Outlot E Initial Price (Min Bid Sale): $463.68 The minimum bid auction will open on Nov 13, 2026, at 10:00 AM and close on Nov 24, 2026, at 4:00 PM on Public Surplus. Obligation of Bidder At the time of auction's closing, each bidder will be presumed to have read and to be thoroughly familiar with any and all plans, contract documents and documents attached to the auction listing, including but not limited to Scott County Property and Taxation Services Department Online Land Sales: Standard Disclaimer and the Scott County Property and Taxation Services Department Terms and Conditions. The failure or omission of any bidder to examine any form, instrument or document shall in no way relieve any bidder from any obligation in respect to their bid. A winning bid by a qualified buyer constitutes a legally binding contract.\u00a0 Please note this parcel does not have public access. Payment Terms - Amount(s) Due Upon Sale Full Payment Full Payment of the total sale value. State Assurance Fee 3% of total sale price of land and structures. This percentage is state-mandated and goes into the State's General Fund to cover losses in the event that the state has to defend its right to forfeit land. Recording Fee $46.00 or as set by the Scott County Land Records Department. $5.00 Conservation fee. $50.00 Well certificate (if applicable). Deed Fee $25.00 Deed Tax $1.65 for sales plus buyer premium up to $3,000, or .0033 times the base sale price plus buyer premium for sales over $3,000. Buyer Premium 5% of total sale price of land and structures. This percentage goes to Public Surplus"
-    }
-  },
-  {
     "id": "publicsurplus-4106323",
     "source": "public_surplus",
     "state": "MN",
@@ -963,7 +918,7 @@
     "date_closes": "Dec 3, 2026 10:00 AM MST",
     "status": "open",
     "price": {
-      "current_bid": 30502.89,
+      "current_bid": 30602.89,
       "minimum_bid": null,
       "tier1_emv_price": null,
       "tier2_minimum_price": null,
